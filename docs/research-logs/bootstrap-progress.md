@@ -64,6 +64,16 @@ The three original baseline files and the three immutable Stage 1 deliverables r
 
 Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/400a1665735ca030e359c3e68217494cc3611631` and `git/trees/400a1665735ca030e359c3e68217494cc3611631?recursive=1`. This subsequent progress-only commit records the observed evidence. Historical validators must be run against their stage snapshots rather than later trees containing new stages. Remaining Stage 2 blockers: none.
 
+## Stage 3: Define Question, Evidence, Claim and Provenance Model
+
+Content acceptance: PASS. Remote publication verification is required before progression.
+
+The [complete information model](2026-09-10-stage-03-question-evidence-claim-model.md) contains all six required output responsibilities and all 35 listed object-field concerns. It defines source-quality dimensions, provenance, uncertainty, temporal validity and a traceability contract without a mandatory universal schema. It retains the accepted Stage 1–2 boundaries.
+
+The [worked trace and synthetic design challenges](2026-09-10-stage-03-traceability-examples.json) distinguish an actual source-metadata observation from twelve explicitly synthetic semantic counterexamples. The [executed verification](2026-09-10-stage-03-verification.json) and [reproducible check](2026-09-10-stage-03-verification.py) record eleven passing document/model checks and eight negative controls that detected their intended defects. These are not installed-skill or empirical research-quality benchmarks.
+
+No Stage 3 content blocker remains. The completed-stage commit, parent and all five intended paths must be read back before its publication receipt is recorded and Stage 4 starts.
+
 ## Remaining stages
 
-Stages 3-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 3 is next and must begin by re-reading the original specification on `main` and the accepted Stage 1-2 outputs on `feat/bootstrap`.
+Stages 4–22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 4 must begin by re-reading the original specification on `main` and accepted Stage 1–3 outputs on `feat/bootstrap`, after the Stage 3 publication gate passes.

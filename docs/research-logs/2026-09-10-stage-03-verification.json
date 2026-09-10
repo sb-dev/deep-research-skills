@@ -1,0 +1,299 @@
+{
+  "stage": 3,
+  "parent_revision": "5edbff2f7859c27c2a9689a30ada55972c0c83fd",
+  "generated_at": "2026-09-10T06:36:22.125558+00:00",
+  "mode": "Local stage outputs plus separately inspected remote parent inventory; not a clone.",
+  "scope": "Document/model checks only; manual semantic review in the stage log; no agent benchmark.",
+  "checks": [
+    {
+      "check": "six required output responsibilities",
+      "result": "PASS",
+      "evidence": [
+        [
+          "1",
+          "Research information model"
+        ],
+        [
+          "2",
+          "Provenance rules"
+        ],
+        [
+          "3",
+          "Source-quality dimensions"
+        ],
+        [
+          "4",
+          "Uncertainty model"
+        ],
+        [
+          "5",
+          "Temporal-validity rules"
+        ],
+        [
+          "6",
+          "Evidence-to-claim traceability contract"
+        ]
+      ]
+    },
+    {
+      "check": "all 35 original field concerns",
+      "result": "PASS",
+      "evidence": {
+        "BR": [
+          "BR01",
+          "BR02",
+          "BR03",
+          "BR04",
+          "BR05",
+          "BR06",
+          "BR07",
+          "BR08",
+          "BR09",
+          "BR10"
+        ],
+        "SR": [
+          "SR01",
+          "SR02",
+          "SR03",
+          "SR04",
+          "SR05",
+          "SR06",
+          "SR07",
+          "SR08",
+          "SR09",
+          "SR10",
+          "SR11",
+          "SR12"
+        ],
+        "EI": [
+          "EI01",
+          "EI02",
+          "EI03",
+          "EI04",
+          "EI05",
+          "EI06"
+        ],
+        "CL": [
+          "CL01",
+          "CL02",
+          "CL03",
+          "CL04",
+          "CL05",
+          "CL06",
+          "CL07"
+        ]
+      }
+    },
+    {
+      "check": "nine original source-quality dimensions",
+      "result": "PASS",
+      "evidence": [
+        "SQ01",
+        "SQ02",
+        "SQ03",
+        "SQ04",
+        "SQ05",
+        "SQ06",
+        "SQ07",
+        "SQ08",
+        "SQ09"
+      ]
+    },
+    {
+      "check": "twelve conformance entries present",
+      "result": "PASS",
+      "evidence": [
+        [
+          "R01",
+          "PASS"
+        ],
+        [
+          "R02",
+          "PASS"
+        ],
+        [
+          "R03",
+          "PASS"
+        ],
+        [
+          "R04",
+          "PASS"
+        ],
+        [
+          "R05",
+          "PASS"
+        ],
+        [
+          "R06",
+          "PASS"
+        ],
+        [
+          "R07",
+          "PASS"
+        ],
+        [
+          "R08",
+          "PASS"
+        ],
+        [
+          "R09",
+          "PASS"
+        ],
+        [
+          "R10",
+          "PASS"
+        ],
+        [
+          "R11",
+          "PASS"
+        ],
+        [
+          "R12",
+          "PASS"
+        ]
+      ]
+    },
+    {
+      "check": "twelve explicitly synthetic semantic challenges",
+      "result": "PASS",
+      "evidence": [
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05",
+        "X06",
+        "X07",
+        "X08",
+        "X09",
+        "X10",
+        "X11",
+        "X12"
+      ]
+    },
+    {
+      "check": "actual trace structural closure and context",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "compact and structured actual attribution agree",
+      "result": "PASS",
+      "evidence": {
+        "claim_id": "C-NOTE",
+        "claim_text": "The inspected PROV Model Primer identifies itself as a W3C Working Group Note dated 30 April 2013."
+      }
+    },
+    {
+      "check": "relative links resolve locally or in inspected parent",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "no unrelated local production surfaces",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "Markdown table column consistency",
+      "result": "PASS",
+      "evidence": {
+        "tables": 15,
+        "bad_lines": []
+      }
+    },
+    {
+      "check": "explicit capability and maturity scope disclosure",
+      "result": "PASS",
+      "evidence": "Explicit scope and maturity disclaimer inspected."
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "remove a required source-field concern",
+      "expected_failure": "all 35 original field concerns",
+      "actual_failures": [
+        "all 35 original field concerns"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "reference absent evidence",
+      "expected_failure": "claim-evidence-reference",
+      "actual_failures": [
+        "claim-evidence-reference"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "duplicate evidence identity",
+      "expected_failure": "duplicate-or-missing-id",
+      "actual_failures": [
+        "duplicate-or-missing-id"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "remove exact support locator",
+      "expected_failure": "evidence-locator",
+      "actual_failures": [
+        "evidence-locator"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "introduce circular premise",
+      "expected_failure": "claim-cycle",
+      "actual_failures": [
+        "claim-cycle"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "assert unsupported result",
+      "expected_failure": "unsupported-assertion",
+      "actual_failures": [
+        "unsupported-assertion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "erase required qualification",
+      "expected_failure": "lost-qualification",
+      "actual_failures": [
+        "lost-qualification"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "treat a future effective date as operative",
+      "expected_failure": "future-operative-state",
+      "actual_failures": [
+        "future-operative-state"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "content_blobs": {
+    "2026-09-10-stage-03-question-evidence-claim-model.md": "40742d179b7282a38368fd299e2a6bf3ceb6bb7a",
+    "2026-09-10-stage-03-traceability-examples.json": "b053738dd1f0a71ed8bbd1a5c25b0d9d61d0004e",
+    "2026-09-10-stage-03-verification.py": "8494eceab8b0156798df8257b68028c107cee707"
+  },
+  "parent_file_inventory": {
+    "README.md": "bf998f74284b23bdc844b46182ec637b67391948",
+    "docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md": "8ff62c92bada2861ece3684a9e73a83da75d9d94",
+    "docs/research-logs/2026-09-10-stage-01-project-goal-and-boundary.md": "5ed2d242400486be81d0acc3f371c4564873012e",
+    "docs/research-logs/2026-09-10-stage-01-verification.json": "8516b3234363346d06062883d31aad6cd6e9da3d",
+    "docs/research-logs/2026-09-10-stage-01-verification.py": "777146e7273db7f05043b0f8b70db3429975677f",
+    "docs/research-logs/2026-09-10-stage-02-failure-taxonomy.md": "16aa77d950935a5199c9b6afc23fcd038400517d",
+    "docs/research-logs/2026-09-10-stage-02-glossary.md": "bdc1811164f03e57af50ad7f12a51412d18ebb07",
+    "docs/research-logs/2026-09-10-stage-02-method-comparison.md": "14c6f42fc11f1107bb7d76ce110f8168ca29b145",
+    "docs/research-logs/2026-09-10-stage-02-professional-practice.md": "563450cc30e4e600accfc06b4a20f052e52cc3e9",
+    "docs/research-logs/2026-09-10-stage-02-quality-dimensions.md": "b8d48bb81a08b11efb99663a1b75eb41aa393aff",
+    "docs/research-logs/2026-09-10-stage-02-sources.md": "f40ef29dc15b221ba655e153e27dbfd98e6d9672",
+    "docs/research-logs/2026-09-10-stage-02-verification.json": "71cf02b1fb6db94b997edfc6d555f712c7ce7983",
+    "docs/research-logs/2026-09-10-stage-02-verification.py": "0eb7810d4d9912e7565e9cc0a9bb5ea5cb94a73d",
+    "docs/research-logs/README.md": "e3b4e986caea3914fdf0f1ee67de407fafc53f0c",
+    "docs/research-logs/bootstrap-progress.md": "33031b22dd130f30c95d0919a1578dc251806664"
+  }
+}

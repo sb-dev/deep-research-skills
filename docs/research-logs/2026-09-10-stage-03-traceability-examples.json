@@ -1,0 +1,235 @@
+{
+  "format": "stage-03-design-checks-v1",
+  "scope": "Worked design records, not a mandatory consumer schema, agent output or implemented research benchmark.",
+  "actual_trace_kind": "Observed source metadata from the Stage 3 N1 web inspection.",
+  "actual_trace": {
+    "brief": {
+      "objective": "Classify the publication identity of the inspected PROV Model Primer.",
+      "downstream_use": "Correct source classification in the Stage 3 design log; no implementation conformance decision.",
+      "scope": "The named official document header.",
+      "out_of_scope": "Other PROV documents, deployment, and implementation conformance.",
+      "questions": [
+        {
+          "id": "Q-NOTE",
+          "text": "What publication status and date does the inspected header state?",
+          "required": true
+        }
+      ],
+      "freshness": "Inspect on 2026-09-10; report the document’s stated historical publication identity.",
+      "source_restrictions": "Official W3C page only; no private data or paid operations.",
+      "quality_threshold": "Direct header inspection, faithful attribution and explicit scope.",
+      "effort_constraints": "Bounded source-metadata check; no paid or specialist operation.",
+      "output_form": "One attributed finding with an inspectable support chain."
+    },
+    "sources": [
+      {
+        "id": "S-PROV",
+        "title": "PROV Model Primer",
+        "type": "official technical note",
+        "reference": "https://www.w3.org/TR/prov-primer/",
+        "publisher": "W3C",
+        "publication_date": "2013-04-30",
+        "retrieved_at": "2026-09-10",
+        "retrieval_precision": "day",
+        "access_scope": "header and named prose sections",
+        "primary_relationship": "Primary for the document’s own publication label.",
+        "methodology": "Not applicable to this source-metadata claim.",
+        "selection": "included",
+        "exclusion_reason": "Not applicable.",
+        "quality_observations": "Direct official header; no empirical truth or implementation-conformance inference.",
+        "limitations": "Not an inspection of all linked specifications or an implementation."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E-NOTE",
+        "source_id": "S-PROV",
+        "locator": "Header immediately below the document title",
+        "direct_support": "Working Group Note 30 April 2013",
+        "extraction_kind": "quotation",
+        "question_ids": [
+          "Q-NOTE"
+        ],
+        "contrary_evidence_ids": [],
+        "confidence_notes": "Visible source text; attribution only, not independent empirical confirmation."
+      }
+    ],
+    "claims": [
+      {
+        "id": "C-NOTE",
+        "question_ids": [
+          "Q-NOTE"
+        ],
+        "text": "The inspected PROV Model Primer identifies itself as a W3C Working Group Note dated 30 April 2013.",
+        "type": "source-statement",
+        "supporting_evidence_ids": [
+          "E-NOTE"
+        ],
+        "contrary_evidence_ids": [],
+        "contrary_search_scope": "None observed in the bounded header check; no wider search claimed.",
+        "premise_claim_ids": [],
+        "inference_level": "direct attribution",
+        "temporal_validity": {
+          "mode": "historical-document-identity",
+          "checked_on": "2026-09-10",
+          "stated_publication_date": "2013-04-30"
+        },
+        "confidence_rationale": "Explicit official document header supports this limited attribution, not other documents or implementations.",
+        "support_status": "supported",
+        "review_status": "checked",
+        "material": true
+      }
+    ],
+    "report": {
+      "findings": [
+        {
+          "claim_id": "C-NOTE",
+          "asserted": true,
+          "text": "The inspected PROV Model Primer identifies itself as a W3C Working Group Note dated 30 April 2013."
+        }
+      ],
+      "limitations": [
+        "This classification does not establish conformance of any implementation."
+      ],
+      "recommendations": []
+    }
+  },
+  "synthetic_challenges": [
+    {
+      "id": "X01",
+      "kind": "synthetic design counterexample",
+      "name": "Repeated reports",
+      "premise": "Three sources repeat one measurement.",
+      "expected_semantics": "Retain source identities and one relevant origin; no three-measurement corroboration.",
+      "rules": [
+        "P08",
+        "T06"
+      ]
+    },
+    {
+      "id": "X02",
+      "kind": "synthetic design counterexample",
+      "name": "Independent event accounts",
+      "premise": "Two distinct observations concern the same event.",
+      "expected_semantics": "Shared event does not force shared evidential origin.",
+      "rules": [
+        "SR07",
+        "SQ06"
+      ]
+    },
+    {
+      "id": "X03",
+      "kind": "synthetic design counterexample",
+      "name": "Snippet versus body",
+      "premise": "The full text adds a decisive limitation absent from a snippet.",
+      "expected_semantics": "Identify actual access and preserve the limitation in the claim.",
+      "rules": [
+        "P01",
+        "P04",
+        "T07"
+      ]
+    },
+    {
+      "id": "X04",
+      "kind": "synthetic design counterexample",
+      "name": "Local correction",
+      "premise": "One extraction changes; an unrelated historical fact does not.",
+      "expected_semantics": "Revise affected evidence, claim and dependants; preserve the unrelated chain.",
+      "rules": [
+        "P06",
+        "T10"
+      ]
+    },
+    {
+      "id": "X05",
+      "kind": "synthetic design counterexample",
+      "name": "Future effective change",
+      "premise": "An announcement inspected 2026-09-10 becomes operative 2026-10-01.",
+      "expected_semantics": "Separate current announcement from future operative state.",
+      "rules": [
+        "CL06",
+        "T07"
+      ]
+    },
+    {
+      "id": "X06",
+      "kind": "synthetic design counterexample",
+      "name": "Unavailable original",
+      "premise": "Only a secondary account of the original result can be read.",
+      "expected_semantics": "Attribute the secondary account; retain the access gap; no unseen extraction.",
+      "rules": [
+        "P01",
+        "T03"
+      ]
+    },
+    {
+      "id": "X07",
+      "kind": "synthetic design counterexample",
+      "name": "Calculated estimate",
+      "premise": "A filtered table produces a derived value.",
+      "expected_semantics": "Retain version, selection, units, operation and output; label calculated data.",
+      "rules": [
+        "P05",
+        "CL05"
+      ]
+    },
+    {
+      "id": "X08",
+      "kind": "synthetic design counterexample",
+      "name": "Null and adverse results",
+      "premise": "An eligible result weakens the preferred answer.",
+      "expected_semantics": "Preserve it and distinguish it from missing evidence.",
+      "rules": [
+        "EI05",
+        "CL04",
+        "T05"
+      ]
+    },
+    {
+      "id": "X09",
+      "kind": "synthetic design counterexample",
+      "name": "Recommendation leap",
+      "premise": "Supported technical facts are followed by an instruction to deploy.",
+      "expected_semantics": "Separate action, value assumptions and decision authority from facts.",
+      "rules": [
+        "CL02",
+        "T06",
+        "T09"
+      ]
+    },
+    {
+      "id": "X10",
+      "kind": "synthetic design counterexample",
+      "name": "Private evidence",
+      "premise": "A public reader cannot inspect a restricted source.",
+      "expected_semantics": "Disclose the access limitation without leaking protected contents or metadata.",
+      "rules": [
+        "P10",
+        "T09",
+        "T12"
+      ]
+    },
+    {
+      "id": "X11",
+      "kind": "synthetic design counterexample",
+      "name": "Inference cycle",
+      "premise": "A relies on B; B only restates A.",
+      "expected_semantics": "The cycle does not ground a claim in inspected evidence.",
+      "rules": [
+        "T02",
+        "T06"
+      ]
+    },
+    {
+      "id": "X12",
+      "kind": "synthetic design counterexample",
+      "name": "False precision",
+      "premise": "Day-level evidence is assigned an invented second-level time and probability.",
+      "expected_semantics": "Retain actual precision and explain uncertainty without invented numbers.",
+      "rules": [
+        "SR06",
+        "CL07"
+      ]
+    }
+  ]
+}
