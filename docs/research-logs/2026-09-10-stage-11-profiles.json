@@ -1,0 +1,241 @@
+{
+  "profiles": [
+    {
+      "format_version": 1,
+      "core_contract": "stage-10-2026-09-10",
+      "version": "0.0.1",
+      "status": "design profile; source-backed procedural demonstration; not installed",
+      "activation": "explicit selection by the consuming project only",
+      "precedence": [
+        "explicit research instructions",
+        "approved / locked research decisions",
+        "selected Extension Pack",
+        "core Deep Research defaults"
+      ],
+      "preserved": [
+        "question and consumer authority",
+        "permitted source and processor boundary",
+        "evidence/claim separation",
+        "bounded effort and outstanding liabilities",
+        "qualified uncertainty",
+        "verified evidence and revision history",
+        "required independent or human review"
+      ],
+      "affected_skills": [
+        "deep-research",
+        "research-evaluate"
+      ],
+      "authoring_skill": "research-extension-pack-creator",
+      "authoring_command": "create-pack",
+      "composition": "one selected profile per investigation; distinct subinvestigations may use different profiles with explicit handoffs",
+      "external_execution": "optional existing authorised tools only; no automatic install, network call or job",
+      "pack_root_rules": [
+        "relative paths resolve inside the selected pack root",
+        "reject absolute paths, traversal and external symlinks",
+        "no load-time scripts",
+        "do not include private project evidence"
+      ],
+      "comparison_protocol": "2026-09-10-stage-11-comparison-protocol.md",
+      "id": "scholarly-evidence",
+      "purpose": "Research a bounded scholarly question with explicit work/report/version units and method-specific appraisal.",
+      "method_sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "dimensions": {
+        "source ecology": "Use appropriate scholarly identifiers, author/publisher originals and available status records; a supplied-paper task need not search every database.",
+        "search strategy": "Expand terms and citation paths only within the brief; record search coverage and distinguish a focused check from systematic conduct.",
+        "inclusion / exclusion rules": "Declare eligibility by question and study/design; retain eligible adverse/null findings and separate unavailable full text from exclusion.",
+        "source appraisal": "Appraise the actual design, metrics and transfer limits. Do not apply clinical risk-of-bias tools indiscriminately to computing benchmarks.",
+        "research methods": "Link reports/versions to the underlying work or study and reconcile changed populations/configurations before synthesis.",
+        "synthesis structure": "Present question-to-finding support with unit linkage, method limits and unresolved applicability separately.",
+        "quality criteria": "Check support, status, report linkage, appropriate counting, uncertainty and claims about completeness; no universal score.",
+        "reporting conventions": "Use exact work/version locators and identify the review type actually performed. Reporting checklists cannot certify unperformed conduct."
+      },
+      "effects": [
+        {
+          "command": "plan",
+          "change": "Specify scholarly units, eligibility and an appropriate appraisal method before retrieval.",
+          "observable": "Plan states which report/study/version is counted and which inference is authorised."
+        },
+        {
+          "command": "discover",
+          "change": "Resolve relevant scholarly identities and status within the allowed corpus.",
+          "observable": "Search/selection record differentiates candidate, eligible, unavailable and superseded representation."
+        },
+        {
+          "command": "extract-evidence",
+          "change": "Capture method, task/population, measure, units and locators needed for the finding.",
+          "observable": "No abstract-only record supplies unseen methods."
+        },
+        {
+          "command": "analyse-evidence",
+          "change": "Link multiple reports and revisions before counting or comparing; appraise threshold transfer.",
+          "observable": "A revised paper cannot become another independent experiment."
+        },
+        {
+          "command": "synthesise",
+          "change": "Expose design limits and study/report structure; keep implications conditional.",
+          "observable": "A benchmark threshold is not rendered as universal application acceptance."
+        },
+        {
+          "command": "refresh",
+          "change": "Check the relevant correction/revision and repair affected claims without silently repointing historical evidence.",
+          "observable": "Unchanged prior findings retain their basis."
+        },
+        {
+          "command": "audit",
+          "change": "Add report-linkage, status-boundary and method-transfer checks to applicable core dimensions.",
+          "observable": "Bibliographic validity and substantive support receive separate verdicts."
+        }
+      ],
+      "not_for": [
+        "automatic systematic-review certification",
+        "clinical or professional advice",
+        "unperformed dual screening",
+        "generalised calibrated model accuracy"
+      ],
+      "showcase": {
+        "task_id": "SCH",
+        "premise": "A team needs evidence about advertised long-context capacity, not a model purchasing recommendation.",
+        "constraints": "RULER author sources only; no model execution or exhaustive-review claim.",
+        "prompt_location": "2026-09-10-stage-11-comparison-protocol.md#sch-core-plus-pack",
+        "output_location": "2026-09-10-stage-11-comparisons.md#sch-pack",
+        "expected_change": "Version-linked unit counting and design-specific threshold applicability, with preserved core findings."
+      },
+      "evaluation": [
+        "requested activation",
+        "unrequested non-activation",
+        "same-work revision linkage",
+        "adverse evidence eligibility",
+        "abstract-only access boundary",
+        "threshold transfer",
+        "explicit/locked precedence",
+        "scoped refresh preservation"
+      ]
+    },
+    {
+      "format_version": 1,
+      "core_contract": "stage-10-2026-09-10",
+      "version": "0.0.1",
+      "status": "design profile; source-backed procedural demonstration; not installed",
+      "activation": "explicit selection by the consuming project only",
+      "precedence": [
+        "explicit research instructions",
+        "approved / locked research decisions",
+        "selected Extension Pack",
+        "core Deep Research defaults"
+      ],
+      "preserved": [
+        "question and consumer authority",
+        "permitted source and processor boundary",
+        "evidence/claim separation",
+        "bounded effort and outstanding liabilities",
+        "qualified uncertainty",
+        "verified evidence and revision history",
+        "required independent or human review"
+      ],
+      "affected_skills": [
+        "deep-research",
+        "research-evaluate"
+      ],
+      "authoring_skill": "research-extension-pack-creator",
+      "authoring_command": "create-pack",
+      "composition": "one selected profile per investigation; distinct subinvestigations may use different profiles with explicit handoffs",
+      "external_execution": "optional existing authorised tools only; no automatic install, network call or job",
+      "pack_root_rules": [
+        "relative paths resolve inside the selected pack root",
+        "reject absolute paths, traversal and external symlinks",
+        "no load-time scripts",
+        "do not include private project evidence"
+      ],
+      "comparison_protocol": "2026-09-10-stage-11-comparison-protocol.md",
+      "id": "open-source-ecosystem",
+      "purpose": "Assess open-source adoption evidence using revision, licence, code, package, maintenance and actually executed validation as distinct evidence.",
+      "method_sources": [
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "dimensions": {
+        "source ecology": "Use repository files, commits, release and issue records when relevant; distinguish maintainer statements from code and execution evidence.",
+        "search strategy": "Resolve immutable revisions and source paths first; bound any history/issues sample and never imply exhaustive maintenance review.",
+        "inclusion / exclusion rules": "Choose projects against the stated need and licences; popularity is a discovery signal, not suitability or exclusion evidence.",
+        "source appraisal": "Assess ownership, actual maintenance evidence, licence scope and test relevance separately; a green check does not cover all runtime paths.",
+        "research methods": "Compare README, package and deployment facts at the same revision; classify static observations versus executed smoke/failure tests.",
+        "synthesis structure": "Return a revision-bound suitability assessment with environment requirements, evidence kinds, missing tests and bounded adoption conditions.",
+        "quality criteria": "Check code-to-claim traceability, maintenance inference, dependency boundaries and truthful installation/failure status.",
+        "reporting conventions": "Cite file/ref/line or immutable item; label documented, inspected, executed and unknown rather than promoting stars or badges to assurance."
+      },
+      "effects": [
+        {
+          "command": "plan",
+          "change": "Set task-fit criteria, pinned revision, allowed repository evidence and execution authority.",
+          "observable": "Static-only work cannot acquire install/run authority."
+        },
+        {
+          "command": "discover",
+          "change": "Inspect native repository evidence and relevant history/issue samples at declared bounds.",
+          "observable": "Collection completeness and sampling limits remain explicit."
+        },
+        {
+          "command": "extract-evidence",
+          "change": "Capture source path/ref/locator and evidence kind, including exact setup and licence scope.",
+          "observable": "README, package declarations and observed execution remain distinct."
+        },
+        {
+          "command": "analyse-evidence",
+          "change": "Reconcile configuration differences and bind code risks to specific missing tests.",
+          "observable": "A suspicious branch is recorded as a static finding, not a measured failure rate."
+        },
+        {
+          "command": "synthesise",
+          "change": "Present evidence-qualified reuse conditions rather than a universal repository ranking.",
+          "observable": "Transitive rights, environment and runtime gaps remain visible."
+        },
+        {
+          "command": "refresh",
+          "change": "Compare changed revision/files and only reopen affected claims and validations.",
+          "observable": "A documentation change does not erase unrelated source checks."
+        },
+        {
+          "command": "audit",
+          "change": "Check revision identity, licence scope, maintenance/sample inference and static-versus-executed wording.",
+          "observable": "An unexecuted installation cannot pass as operational readiness."
+        }
+      ],
+      "not_for": [
+        "security certification",
+        "licence/legal advice",
+        "unrequested code changes",
+        "automatic dependencies or cloud deployment",
+        "popularity-based approval"
+      ],
+      "showcase": {
+        "task_id": "OSS",
+        "premise": "A team considers an existing research engine instead of building one.",
+        "constraints": "Pinned source set and static assessment only; no installation, code change, payment or deployment.",
+        "prompt_location": "2026-09-10-stage-11-comparison-protocol.md#oss-core-plus-pack",
+        "output_location": "2026-09-10-stage-11-comparisons.md#oss-pack",
+        "expected_change": "Cross-file environment reconciliation and evidence-to-test conditions, retaining all known baseline cautions."
+      },
+      "evaluation": [
+        "requested activation",
+        "unrequested non-activation",
+        "immutable revision",
+        "licence scope",
+        "documented/inspected/executed separation",
+        "maintenance sample limits",
+        "explicit/locked precedence",
+        "targeted repair"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "stage": 11,
+  "checked_at": "2026-09-10T18:38:07.353746+00:00",
+  "kind": "design-document, source-backed output integrity and synthetic policy verification; no installed/provider test",
+  "parent": "27b2714b306cab0362e69af21deddd2d3106c6f7",
+  "accepted_remote_input_blobs": {
+    "2026-09-07-deep-research-skills-new-project-bootstrap-process.md": "8ff62c92bada2861ece3684a9e73a83da75d9d94",
+    "2026-09-10-stage-10-core-skills.md": "4e2dddcd703c5aca8c4d396fcfac71144d5ca811",
+    "2026-09-10-stage-10-command-contracts.md": "cadc18a61efcafb21f55f6cfb870b8c4f230cdcb"
+  },
+  "checks": {
+    "six complete output responsibilities": "PASS",
+    "seven candidate dispositions": "PASS",
+    "two selected profiles": "PASS",
+    "all eight dimensions": "PASS",
+    "operational command effects": "PASS",
+    "precedence and core preservation": "PASS",
+    "authoring contract twelve steps": "PASS",
+    "evaluation sixteen cases": "PASS",
+    "four complete condition prompts": "PASS",
+    "all actual output conditions": "PASS",
+    "baseline does not hide known findings": "PASS",
+    "scholarly observable consequences": "PASS",
+    "repository observable consequences": "PASS",
+    "no fabricated runtime or independent trial": "PASS",
+    "source identifier closure": "PASS",
+    "precise pinned repository": "PASS",
+    "design versus installation status": "PASS",
+    "local document and accepted-input link closure": "PASS",
+    "all profile showcase references": "PASS",
+    "substantive recorded review": "PASS",
+    "validation preserves submitted files": "PASS"
+  },
+  "policy_cases": [
+    {
+      "case": "unrequested",
+      "observed": "CORE",
+      "expected": "CORE",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "scholarly requested",
+      "observed": "scholarly-evidence",
+      "expected": "scholarly-evidence",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "repository requested",
+      "observed": "open-source-ecosystem",
+      "expected": "open-source-ecosystem",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "unknown selection",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "incompatible",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "two selections",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "explicit field",
+      "observed": "local",
+      "expected": "local",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "locked field",
+      "observed": "approved",
+      "expected": "approved",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "pack default",
+      "observed": "pack",
+      "expected": "pack",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "core default",
+      "observed": "core",
+      "expected": "core",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "ambiguous lock conflict",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "authorised reopening",
+      "observed": "new",
+      "expected": "new",
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "false remains explicit",
+      "observed": false,
+      "expected": false,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "valid local path",
+      "observed": true,
+      "expected": true,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "parent traversal",
+      "observed": false,
+      "expected": false,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "absolute path",
+      "observed": false,
+      "expected": false,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "windows absolute",
+      "observed": false,
+      "expected": false,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    },
+    {
+      "case": "URL is not bundled entry",
+      "observed": false,
+      "expected": false,
+      "result": "PASS",
+      "kind": "synthetic design policy"
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "missing output section",
+      "detected_by": [
+        "six complete output responsibilities"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing family",
+      "detected_by": [
+        "seven candidate dispositions"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing dimension",
+      "detected_by": [
+        "all eight dimensions"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unknown command",
+      "detected_by": [
+        "operational command effects"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "wrong precedence",
+      "detected_by": [
+        "precedence and core preservation"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing authoring step",
+      "detected_by": [
+        "authoring contract twelve steps"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing evaluation case",
+      "detected_by": [
+        "evaluation sixteen cases"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing exact prompt",
+      "detected_by": [
+        "four complete condition prompts"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "baseline suppressed source fact",
+      "detected_by": [
+        "baseline does not hide known findings"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "baseline suppressed code warning",
+      "detected_by": [
+        "baseline does not hide known findings"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "no actual scholarly consequence",
+      "detected_by": [
+        "scholarly observable consequences"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unresolved source",
+      "detected_by": [
+        "source identifier closure"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "false installed status",
+      "detected_by": [
+        "design versus installation status"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "escaping showcase path",
+      "detected_by": [
+        "all profile showcase references"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "broken local reference",
+      "detected_by": [
+        "local document and accepted-input link closure"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "output_sha256": {
+    "SCH core": "3ceae95e3a16eeb6d8f8f8484e75c683fc3ce21fd804d352e060b77dd65de8a2",
+    "SCH pack": "508273f1c64d314dd90d39dba83cbc3220c255622dbd0997b8826c2670a6d2d7",
+    "OSS core": "bf55a7745bad74779587ddee6dba29a0e10d3f0c73716a54b78a8b7d7e7a116c",
+    "OSS pack": "fce6a13bf44336919b63cd0baf171944266cbad6f787861ed7c7c11fa7b15472"
+  },
+  "files": {
+    "2026-09-10-stage-11-sources.md": {
+      "bytes": 9674,
+      "git_blob": "02e7a84edf38379abb8d04241ac5f95ac881eb20",
+      "sha256": "d9e87e3f49a3e96e3b88b59ae5ef27abb61be9941c1cbc523df57670fde0be93"
+    },
+    "2026-09-10-stage-11-comparisons.md": {
+      "bytes": 12989,
+      "git_blob": "3713732a876a89deb68bd1771bc266d7134b843b",
+      "sha256": "5c32767b875a2bd7cdb8c80c09f5250e730b56d8859459c932042cac58decb4f"
+    },
+    "2026-09-10-stage-11-comparison-protocol.md": {
+      "bytes": 8329,
+      "git_blob": "3fddf515e2b89d79cab903f35b377c624d02a79d",
+      "sha256": "9abe5ad36b930311e5bc7e6cc9941a0e40e14173b972fd1753062e8aaa76c11f"
+    },
+    "2026-09-10-stage-11-profiles.json": {
+      "bytes": 12467,
+      "git_blob": "f0d757d70aad7aed3e17375b7b9230cd42bdd7eb",
+      "sha256": "9f5cac184949fd7b11ebd33d39dedc2859ff888e69b6c88c2aca026ea4436af2"
+    },
+    "2026-09-10-stage-11-extension-packs.md": {
+      "bytes": 30747,
+      "git_blob": "6ae1e22c46b9108781d5009d8fb3f98b73ca62b9",
+      "sha256": "77fcf76b15e170c52f98484d46d97abda3499b679d7c8400c3ff31aff376fb92"
+    },
+    "2026-09-10-stage-11-verification.py": {
+      "bytes": 12807,
+      "git_blob": "bf6334d45f958eae5ec66de51e33bd2b9a8eecb8",
+      "sha256": "dd58a382342e1270ff6c9742bcea13a249decdfde6367eca5259ee6fa9cd4cbb"
+    }
+  },
+  "result": "PASS"
+}
