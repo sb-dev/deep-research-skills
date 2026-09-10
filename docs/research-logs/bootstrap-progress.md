@@ -36,6 +36,14 @@ Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/2f
 
 No skill count, production scaffold or implemented research capability has been claimed. Remaining Stage 1 blockers: none.
 
+## Stage 2: Research Professional Deep Research Practice
+
+Content acceptance: PASS. Remote publication must be verified before progression.
+
+The [professional-practice log](2026-09-10-stage-02-professional-practice.md) links all five required outputs and records discovery, source limitations, answers to the seven questions and conformance. The method comparison covers nine traditions and all seventeen dimensions in each. Supporting material includes the 42-item source register, 32-term glossary, 20-class draft failure taxonomy and 16 candidate quality dimensions. These are research outputs, not implemented research agents or measured quality benchmarks.
+
+[Executed checks](2026-09-10-stage-02-verification.json) and the [reproducible validator](2026-09-10-stage-02-verification.py) accompany the substantive semantic review. Thirteen documentation checks passed and all three executed negative controls detected their intended defects. Remaining Stage 2 content blockers: none. A publication receipt will record the observed commit, parent and tree verification before Stage 3.
+
 ## Remaining stages
 
-Stages 2-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 2 is next and must begin by re-reading the original specification on `main` and the accepted Stage 1 outputs on `feat/bootstrap`.
+Stages 3-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 3 must begin by re-reading the original specification on `main` and accepted Stage 1-2 outputs on `feat/bootstrap` after Stage 2 publication verification passes.

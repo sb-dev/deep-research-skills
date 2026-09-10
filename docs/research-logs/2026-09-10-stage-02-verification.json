@@ -1,0 +1,425 @@
+{
+  "stage": 2,
+  "generated_at": "2026-09-10T03:03:38.661631+00:00",
+  "basis": "Original bootstrap section 8; substantive review in professional-practice log.",
+  "parent_revision": "650207611ac2ad0e7f988df530f85317573026ae",
+  "checks": [
+    {
+      "check": "five complete output files plus source register",
+      "result": "PASS",
+      "evidence": {
+        "professional-practice": 25924,
+        "method-comparison": 29985,
+        "glossary": 5879,
+        "failure-taxonomy": 6734,
+        "quality-dimensions": 4902,
+        "sources": 21671
+      }
+    },
+    {
+      "check": "exact nine named traditions",
+      "result": "PASS",
+      "evidence": [
+        [
+          "1",
+          "Systematic and scoping reviews"
+        ],
+        [
+          "2",
+          "Research synthesis"
+        ],
+        [
+          "3",
+          "Market and competitive intelligence"
+        ],
+        [
+          "4",
+          "Technology landscape research"
+        ],
+        [
+          "5",
+          "Investigative and OSINT research"
+        ],
+        [
+          "6",
+          "Journalistic verification"
+        ],
+        [
+          "7",
+          "Analytical tradecraft"
+        ],
+        [
+          "8",
+          "Policy and decision support research"
+        ],
+        [
+          "9",
+          "Historical and archival research"
+        ]
+      ]
+    },
+    {
+      "check": "all 153 dimension cells with evidence/adaptation labels and sources",
+      "result": "PASS",
+      "evidence": {
+        "M1": 17,
+        "M2": 17,
+        "M3": 17,
+        "M4": 17,
+        "M5": 17,
+        "M6": 17,
+        "M7": 17,
+        "M8": 17,
+        "M9": 17
+      }
+    },
+    {
+      "check": "seven governing questions answered",
+      "result": "PASS",
+      "evidence": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7"
+      ]
+    },
+    {
+      "check": "42 source entries retain URL, inspected scope and access limits",
+      "result": "PASS",
+      "evidence": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42"
+      ]
+    },
+    {
+      "check": "all cited source identifiers resolve",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "declared failure-taxonomy inventory complete",
+      "result": "PASS",
+      "evidence": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ]
+    },
+    {
+      "check": "declared quality-dimensions inventory complete",
+      "result": "PASS",
+      "evidence": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09",
+        "K10",
+        "K11",
+        "K12",
+        "K13",
+        "K14",
+        "K15",
+        "K16"
+      ]
+    },
+    {
+      "check": "declared 32-term glossary complete",
+      "result": "PASS",
+      "evidence": 32
+    },
+    {
+      "check": "all fourteen semantic conformance entries recorded",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "check": "exact research-log-only Stage 2 delta",
+      "result": "PASS",
+      "evidence": {
+        "expected": [
+          "docs/research-logs/2026-09-10-stage-02-failure-taxonomy.md",
+          "docs/research-logs/2026-09-10-stage-02-glossary.md",
+          "docs/research-logs/2026-09-10-stage-02-method-comparison.md",
+          "docs/research-logs/2026-09-10-stage-02-professional-practice.md",
+          "docs/research-logs/2026-09-10-stage-02-quality-dimensions.md",
+          "docs/research-logs/2026-09-10-stage-02-sources.md",
+          "docs/research-logs/2026-09-10-stage-02-verification.json",
+          "docs/research-logs/2026-09-10-stage-02-verification.py",
+          "docs/research-logs/bootstrap-progress.md"
+        ],
+        "actual": [
+          "docs/research-logs/2026-09-10-stage-02-failure-taxonomy.md",
+          "docs/research-logs/2026-09-10-stage-02-glossary.md",
+          "docs/research-logs/2026-09-10-stage-02-method-comparison.md",
+          "docs/research-logs/2026-09-10-stage-02-professional-practice.md",
+          "docs/research-logs/2026-09-10-stage-02-quality-dimensions.md",
+          "docs/research-logs/2026-09-10-stage-02-sources.md",
+          "docs/research-logs/2026-09-10-stage-02-verification.json",
+          "docs/research-logs/2026-09-10-stage-02-verification.py",
+          "docs/research-logs/bootstrap-progress.md"
+        ]
+      }
+    },
+    {
+      "check": "relative file links resolve locally or in inspected baseline",
+      "result": "PASS",
+      "evidence": [
+        {
+          "from": "professional-practice",
+          "target": "2026-09-07-deep-research-skills-new-project-bootstrap-process.md#8-stage-2--research-professional-deep-research-practice",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-01-project-goal-and-boundary.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "bootstrap-progress.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-method-comparison.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-glossary.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-failure-taxonomy.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-quality-dimensions.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-verification.py",
+          "found": true
+        },
+        {
+          "from": "professional-practice",
+          "target": "2026-09-10-stage-02-verification.json",
+          "found": true
+        },
+        {
+          "from": "method-comparison",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "glossary",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "failure-taxonomy",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "failure-taxonomy",
+          "target": "2026-09-10-stage-02-method-comparison.md",
+          "found": true
+        },
+        {
+          "from": "quality-dimensions",
+          "target": "2026-09-10-stage-02-sources.md",
+          "found": true
+        },
+        {
+          "from": "quality-dimensions",
+          "target": "2026-09-10-stage-02-failure-taxonomy.md",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-01-project-goal-and-boundary.md",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-01-verification.json",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-01-verification.py",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-02-professional-practice.md",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-02-verification.json",
+          "found": true
+        },
+        {
+          "from": "bootstrap-progress",
+          "target": "2026-09-10-stage-02-verification.py",
+          "found": true
+        }
+      ]
+    },
+    {
+      "check": "Markdown table columns are consistent",
+      "result": "PASS",
+      "evidence": {
+        "tables": 18,
+        "errors": []
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "missing dimension",
+      "expected_failure": "all 153 dimension cells with evidence/adaptation labels and sources",
+      "actual_failures": [
+        "all 153 dimension cells with evidence/adaptation labels and sources"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unknown source",
+      "expected_failure": "all cited source identifiers resolve",
+      "actual_failures": [
+        "all cited source identifiers resolve"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "premature production file",
+      "expected_failure": "exact research-log-only Stage 2 delta",
+      "actual_failures": [
+        "exact research-log-only Stage 2 delta"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "passed": 13,
+    "failed": 0,
+    "negative_controls_passed": 3
+  },
+  "checked_file_blobs": {
+    "docs/research-logs/2026-09-10-stage-02-failure-taxonomy.md": "16aa77d950935a5199c9b6afc23fcd038400517d",
+    "docs/research-logs/2026-09-10-stage-02-glossary.md": "bdc1811164f03e57af50ad7f12a51412d18ebb07",
+    "docs/research-logs/2026-09-10-stage-02-method-comparison.md": "14c6f42fc11f1107bb7d76ce110f8168ca29b145",
+    "docs/research-logs/2026-09-10-stage-02-professional-practice.md": "563450cc30e4e600accfc06b4a20f052e52cc3e9",
+    "docs/research-logs/2026-09-10-stage-02-quality-dimensions.md": "b8d48bb81a08b11efb99663a1b75eb41aa393aff",
+    "docs/research-logs/2026-09-10-stage-02-sources.md": "f40ef29dc15b221ba655e153e27dbfd98e6d9672",
+    "docs/research-logs/2026-09-10-stage-02-verification.py": "0eb7810d4d9912e7565e9cc0a9bb5ea5cb94a73d",
+    "docs/research-logs/bootstrap-progress.md": "debcdb1b6dcfa40319ffdb7ea0c937465b82ce6d"
+  },
+  "limitations": [
+    "Document structure, inventory and reference checks are not empirical research-quality or installed-agent benchmarks.",
+    "Full source access and semantic support are assessed in the source register and manual conformance review, not proven by this script.",
+    "No container clone/network validation is claimed; known baseline links and unchanged accepted files require remote tree verification before progression. Unmounted baseline files are not counted as locally verified.",
+    "Run against this historical stage snapshot, not a later repository with subsequent stages."
+  ]
+}
