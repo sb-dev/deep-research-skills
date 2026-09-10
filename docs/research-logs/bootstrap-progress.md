@@ -136,6 +136,16 @@ The remote branch, Git commit and full recursive tree were read back on 10 Septe
 
 Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/544553a63980404189383df2a5fa78952af9a607` and `git/trees/15c4b6acbcbe40200c690ebcf235fb3c739d9fdc?recursive=1`. This progress-only receipt records observed publication integrity; it does not alter accepted content or establish empirical research performance. Remaining Stage 5 blockers: none.
 
+## Stage 6: Define Effort, Cost, Fidelity and Stopping Strategy
+
+Content acceptance: PASS. Remote publication verification is the final progression gate.
+
+The [effort and stopping strategy](2026-09-10-stage-06-effort-and-stopping.md) completes all five outputs: four justified tiers, escalation rules, stopping rules, controls for all nine cost categories and incremental-refresh policy. All eight candidate effort steps and seven stopping criteria are explicitly assessed. Four primary-source checks and their limitations are recorded separately from the project's policy decisions.
+
+The [synthetic policy cases](2026-09-10-stage-06-policy-cases.json), [verifier](2026-09-10-stage-06-verification.py) and [executed results](2026-09-10-stage-06-verification.json) record fifteen passing checks and eight negative controls. The suites include twelve decision cases, nine budget-capacity cases, four reservation-settlement cases and four refresh cases. They distinguish evidence sufficiency, limited stopping, required review, bounded authorised escalation, aggregate commitments and smallest-sufficient refresh. These are document/policy checks, not live provider performance or measured research expenditure.
+
+No current-stage design question remains unresolved. All prior stage deliverables are preserved; no Stage 7 work is included in this stage.
+
 ## Remaining stages
 
-Stages 6–22 have not started. Stage 6 is next and must read the original section 12 on `main`, the accepted Stage 1–5 constraints and this verified publication state before substantive work.
+Stages 7–22 have not started. Stage 7 may begin only after the Stage 6 remote commit, parent and intended files have been verified and its publication receipt recorded.
