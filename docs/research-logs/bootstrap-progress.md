@@ -113,6 +113,14 @@ The tree contains twenty-four files: eighteen unchanged prior files, five Stage 
 
 Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/d5320c71655caaea354eb2b3376edf4abf453f89`, `git/trees/d82ce38452ad2b90f41b9f0efd6f79ceb7350512?recursive=1`, and the verification JSON at that commit. This progress-only receipt records the observed publication evidence. Remaining Stage 4 blockers: none.
 
+## Stage 5: Map Workflow and Artifacts
+
+Content acceptance: PASS. Remote publication verification is the final progression gate.
+
+The [workflow and artifacts log](2026-09-10-stage-05-workflow-and-artifacts.md) completes all five required outputs through eight operation groups, disposition of all seventeen candidate operations, state/decision gates, six handoff contracts and thirteen repair routes. The [artifact contracts](2026-09-10-stage-05-artifact-contracts.md) cover all eleven candidate responsibilities and all eight required concerns for each, without imposing eleven physical files. Four design walkthroughs cover bounded answering, contested comparison, incremental correction and interrupted delivery.
+
+The [six synthetic contract cases](2026-09-10-stage-05-contract-cases.json), [executed checks](2026-09-10-stage-05-verification.json) and [validator](2026-09-10-stage-05-verification.py) record twelve passing checks and fourteen negative controls that detected their intended defects. These are document and synthetic design-contract checks, not research-agent or provider benchmarks. Semantic review and the original-stage conformance table are in the workflow log. No current-stage design question remains unresolved.
+
 ## Remaining stages
 
-Stages 5–22 have not started. Stage 5 is next. Its prerequisites are accepted Stage 1–4 outputs; it must begin by re-reading the original specification on `main` and the relevant accepted branch outputs.
+Stages 6–22 have not started. Stage 6 may begin only after the Stage 5 remote commit, parent and intended files have been verified and the publication receipt recorded.
