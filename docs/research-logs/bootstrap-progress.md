@@ -138,14 +138,26 @@ Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/54
 
 ## Stage 6: Define Effort, Cost, Fidelity and Stopping Strategy
 
-Content acceptance: PASS. Remote publication verification is the final progression gate.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 The [effort and stopping strategy](2026-09-10-stage-06-effort-and-stopping.md) completes all five outputs: four justified tiers, escalation rules, stopping rules, controls for all nine cost categories and incremental-refresh policy. All eight candidate effort steps and seven stopping criteria are explicitly assessed. Four primary-source checks and their limitations are recorded separately from the project's policy decisions.
 
 The [synthetic policy cases](2026-09-10-stage-06-policy-cases.json), [verifier](2026-09-10-stage-06-verification.py) and [executed results](2026-09-10-stage-06-verification.json) record fifteen passing checks and eight negative controls. The suites include twelve decision cases, nine budget-capacity cases, four reservation-settlement cases and four refresh cases. They distinguish evidence sufficiency, limited stopping, required review, bounded authorised escalation, aggregate commitments and smallest-sufficient refresh. These are document/policy checks, not live provider performance or measured research expenditure.
 
-No current-stage design question remains unresolved. All prior stage deliverables are preserved; no Stage 7 work is included in this stage.
+Completed-stage commit: `81e582d9cd864d3c5aa3e26913e3c01d36d07fe8`.
+
+On 10 September 2026, the remote branch reference, Git commit and full recursive tree were read back. The branch pointed to the completed-stage commit; its sole parent is `b31ea6243d7a6fdb0da43646d2a20a10d955e901`, and its tree is `0c4ea2c7b62695b155e6b9645a27c0a191428082`. The thirty-three-file tree contains four new Stage 6 files, the updated progress record and twenty-eight unchanged parent files. The prior blobs match the inspected parent inventory, and the following new blobs match the locally validated files:
+
+| Stage 6 file | Verified Git blob |
+|---|---|
+| `2026-09-10-stage-06-effort-and-stopping.md` | `2c0dc5220447de7643ba79934e30545f477b11a1` |
+| `2026-09-10-stage-06-policy-cases.json` | `86e500cc1674d6d732f70900a3d5735760c99615` |
+| `2026-09-10-stage-06-verification.py` | `fa06f220908a4b16c0538af10fe84844de5fe275` |
+| `2026-09-10-stage-06-verification.json` | `3b2ba6452ae673f2c624d90049cee9ef58a81800` |
+| `bootstrap-progress.md` at the completed-stage commit | `7efec8f3d1315fb89bf2014866943ae203954c53` |
+
+Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/81e582d9cd864d3c5aa3e26913e3c01d36d07fe8` and `git/trees/0c4ea2c7b62695b155e6b9645a27c0a191428082?recursive=1`. This progress-only receipt records observed publication integrity without changing stage content or claiming live research performance. Remaining Stage 6 blockers: none.
 
 ## Remaining stages
 
-Stages 7–22 have not started. Stage 7 may begin only after the Stage 6 remote commit, parent and intended files have been verified and its publication receipt recorded.
+Stages 7–22 have not started. Stage 7 is next and must read the original section 13 on `main` and the accepted Stage 1–6 outputs before substantive work.
