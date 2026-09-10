@@ -11,7 +11,7 @@ PASS: the existing main tree contains the minimal root README, research-log READ
 
 ## Stage 1: Define Project Goal and Boundary
 
-Content acceptance: PASS. Publication verification must be recorded before Stage 2 begins.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 Outputs:
 
@@ -19,8 +19,23 @@ Outputs:
 - [Executed documentation verification](2026-09-10-stage-01-verification.json).
 - [Reproducible documentation check](2026-09-10-stage-01-verification.py).
 
-No skill count, production scaffold or implemented research capability has been claimed. No Stage 1 content blocker remains.
+Completed-stage commit: `2f41255cc0fc2b0b83120e4c15af9d4221788fe7`.
+
+On 10 September 2026, the GitHub connector read back the branch reference, Git commit and complete recursive tree. The branch pointed to this commit; its sole parent was the approved baseline `80b209968b366662c01a8ded5ecb6c30bb6beb0b`; its tree was `b0c71fb83c2c05fb1e0c6998226427ece3224b41`. All four intended files existed and matched the locally validated content hashes:
+
+| Stage 1 file | Verified Git blob |
+|---|---|
+| `2026-09-10-stage-01-project-goal-and-boundary.md` | `5ed2d242400486be81d0acc3f371c4564873012e` |
+| `2026-09-10-stage-01-verification.json` | `8516b3234363346d06062883d31aad6cd6e9da3d` |
+| `2026-09-10-stage-01-verification.py` | `777146e7273db7f05043b0f8b70db3429975677f` |
+| `bootstrap-progress.md` at the completed-stage commit | `7e94dfdf049392da3e56810cfb4e1ace20bf874e` |
+
+The root README, research-log README and original bootstrap specification retained their exact baseline blobs. No unrelated file or production surface was added. The validator recorded seven passing documentation checks, and both executed negative controls failed as expected. These results are documentation verification, not installed-skill or research-behaviour benchmarks.
+
+Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/2f41255cc0fc2b0b83120e4c15af9d4221788fe7` and `git/trees/2f41255cc0fc2b0b83120e4c15af9d4221788fe7?recursive=1` for this repository. This subsequent progress-only commit records the observed publication evidence; it does not alter the accepted stage deliverables. Run the historical Stage 1 validator against its stage snapshot, not a later repository containing additional stages.
+
+No skill count, production scaffold or implemented research capability has been claimed. Remaining Stage 1 blockers: none.
 
 ## Remaining stages
 
-Stages 2-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 2 may begin only after the Stage 1 remote commit, parent and intended file blobs have been verified and this record has been updated with that evidence.
+Stages 2-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 2 is next and must begin by re-reading the original specification on `main` and the accepted Stage 1 outputs on `feat/bootstrap`.
