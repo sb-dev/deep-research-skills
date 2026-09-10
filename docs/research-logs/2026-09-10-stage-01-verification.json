@@ -1,0 +1,121 @@
+{
+  "stage": 1,
+  "generated_at": "2026-09-10T02:11:57.905710+00:00",
+  "basis": "Original bootstrap section 7; semantic review is recorded separately in the stage log.",
+  "baseline_commit": "80b209968b366662c01a8ded5ecb6c30bb6beb0b",
+  "local_baseline_files_checked": [],
+  "remote_baseline_verification_required": true,
+  "checked_log_git_blob": "5ed2d242400486be81d0acc3f371c4564873012e",
+  "checks": [
+    {
+      "check": "six required output responsibilities",
+      "result": "PASS",
+      "evidence": [
+        "1. Project charter",
+        "2. Boundary map",
+        "3. Intended user and use-case map",
+        "4. Quality definition and sufficient evidence",
+        "5. Human decision points",
+        "6. Non-goals"
+      ]
+    },
+    {
+      "check": "eight original research classes, each once",
+      "result": "PASS",
+      "evidence": [
+        "Fact finding",
+        "Landscape research",
+        "Comparative research",
+        "Case-study research",
+        "Evidence synthesis",
+        "Trend research",
+        "Source verification",
+        "Research updates / refreshes"
+      ]
+    },
+    {
+      "check": "every extracted requirement has a PASS conformance row",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "check": "all eight governing family inputs recorded",
+      "result": "PASS",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "check": "governing source and approved baseline identified",
+      "result": "PASS",
+      "evidence": "80b209968b366662c01a8ded5ecb6c30bb6beb0b"
+    },
+    {
+      "check": "relative documentation file targets resolve",
+      "result": "PASS",
+      "evidence": [
+        {
+          "target": "2026-09-07-deep-research-skills-new-project-bootstrap-process.md#7-stage-1--define-project-goal-and-boundary",
+          "path": "docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+          "exists_in_local_or_inspected_remote_tree": true
+        },
+        {
+          "target": "2026-09-10-stage-01-verification.json",
+          "path": "docs/research-logs/2026-09-10-stage-01-verification.json",
+          "exists_in_local_or_inspected_remote_tree": true
+        }
+      ]
+    },
+    {
+      "check": "exact Stage 1 repository delta, with no premature surfaces",
+      "result": "PASS",
+      "evidence": {
+        "expected": [
+          "docs/research-logs/2026-09-10-stage-01-project-goal-and-boundary.md",
+          "docs/research-logs/2026-09-10-stage-01-verification.json",
+          "docs/research-logs/2026-09-10-stage-01-verification.py",
+          "docs/research-logs/bootstrap-progress.md"
+        ],
+        "actual": [
+          "docs/research-logs/2026-09-10-stage-01-project-goal-and-boundary.md",
+          "docs/research-logs/2026-09-10-stage-01-verification.json",
+          "docs/research-logs/2026-09-10-stage-01-verification.py",
+          "docs/research-logs/bootstrap-progress.md"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0
+  },
+  "limitations": [
+    "No container clone or internet access was available; remote source inspection used the GitHub connector.",
+    "This checks documentation structure and traceability, not professional research behaviour, external installation or benchmarks.",
+    "Remote branch, parent, tree and blob verification must follow the commit; this report does not claim that later action has happened.",
+    "External link content and the original heading anchor were inspected through the connector, not network-tested by this script."
+  ]
+}
