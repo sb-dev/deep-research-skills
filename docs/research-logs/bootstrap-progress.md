@@ -160,12 +160,22 @@ Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/81
 
 ## Stage 7: Research AI Skills, Research Agents and Tools
 
-Content acceptance: PASS. Remote publication verification is the final progression gate.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 The [landscape and selection log](2026-09-10-stage-07-ai-tool-landscape.md), [complete capability matrix](2026-09-10-stage-07-capability-matrix.md) and [primary source register](2026-09-10-stage-07-sources.md) complete all five content outputs. The investigation covers all 14 categories, 35 candidates with all 15 fields (525 assessments), 36 source bundles, a role-specific shortlist, 11 integration decisions and 12 explicit gaps.
 
 Current interface, maintenance and licence conflicts are recorded rather than concealed. Provider claims, source observations and project analysis remain separate. No candidate installation, provider research run, account expenditure or benchmark score is claimed. The [validator](2026-09-10-stage-07-verification.py) and [executed results](2026-09-10-stage-07-verification.json) accompany the substantive conformance review. All 16 document checks and 10 negative controls passed in an actual local run. Earlier accepted Stage 1–6 content and receipts remain unchanged.
 
+Completed-stage commit: `3d687208088d102179b1e3ed35be8b95e1f1c8fd`. The [publication receipt](2026-09-10-stage-07-publication-receipt.md) records the verified branch, parent, six intended blobs and preservation of all 32 earlier files. Remaining Stage 7 blockers: none.
+
+## Stage 8: Choose the Execution Layer
+
+Content acceptance: PASS. Remote publication verification is the final progression gate.
+
+The [execution-layer design](2026-09-10-stage-08-execution-layer.md) completes all five required outputs. It assigns all 12 research responsibilities and 10 execution operations, chooses native-first execution with selective local tools and optional engines, and defines eligibility, result intake, fallback and local/offline boundaries. It does not require a universal provider framework or claim installed integrations.
+
+The [synthetic policy cases](2026-09-10-stage-08-policy-cases.json), [verifier](2026-09-10-stage-08-verification.py) and [executed results](2026-09-10-stage-08-verification.json) record actual design validation. All 12 checks, 25 synthetic policy cases and 9 negative controls passed in the recorded execution. These are document/policy checks, not live provider or installed-skill evaluations. No Stage 8 content question remains unresolved.
+
 ## Remaining stages
 
-Stages 8–22 have not started. Stage 8 begins only after this stage's remote commit, parent, intended file hashes and preserved prior files are verified and the receipt recorded.
+Stages 9–22 have not started. Stage 9 begins only after Stage 8 content validation, commit and remote publication verification.
