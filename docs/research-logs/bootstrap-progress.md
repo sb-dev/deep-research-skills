@@ -38,12 +38,32 @@ No skill count, production scaffold or implemented research capability has been 
 
 ## Stage 2: Research Professional Deep Research Practice
 
-Content acceptance: PASS. Remote publication must be verified before progression.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 The [professional-practice log](2026-09-10-stage-02-professional-practice.md) links all five required outputs and records discovery, source limitations, answers to the seven questions and conformance. The method comparison covers nine traditions and all seventeen dimensions in each. Supporting material includes the 42-item source register, 32-term glossary, 20-class draft failure taxonomy and 16 candidate quality dimensions. These are research outputs, not implemented research agents or measured quality benchmarks.
 
-[Executed checks](2026-09-10-stage-02-verification.json) and the [reproducible validator](2026-09-10-stage-02-verification.py) accompany the substantive semantic review. Thirteen documentation checks passed and all three executed negative controls detected their intended defects. Remaining Stage 2 content blockers: none. A publication receipt will record the observed commit, parent and tree verification before Stage 3.
+[Executed checks](2026-09-10-stage-02-verification.json) and the [reproducible validator](2026-09-10-stage-02-verification.py) accompany the substantive semantic review. Thirteen documentation checks passed and all three executed negative controls detected their intended defects.
+
+Completed-stage commit: `400a1665735ca030e359c3e68217494cc3611631`.
+
+On 10 September 2026, the GitHub connector read back the updated branch reference, commit and complete recursive tree. The branch pointed to this commit; its sole parent was the verified Stage 1 receipt `650207611ac2ad0e7f988df530f85317573026ae`; its tree was `ddda3ef920e43cd83026fcf8fff2400eb72f1a44`. All nine intended paths matched the locally validated content hashes:
+
+| Stage 2 file | Verified Git blob |
+|---|---|
+| `2026-09-10-stage-02-professional-practice.md` | `563450cc30e4e600accfc06b4a20f052e52cc3e9` |
+| `2026-09-10-stage-02-method-comparison.md` | `14c6f42fc11f1107bb7d76ce110f8168ca29b145` |
+| `2026-09-10-stage-02-sources.md` | `f40ef29dc15b221ba655e153e27dbfd98e6d9672` |
+| `2026-09-10-stage-02-glossary.md` | `bdc1811164f03e57af50ad7f12a51412d18ebb07` |
+| `2026-09-10-stage-02-failure-taxonomy.md` | `16aa77d950935a5199c9b6afc23fcd038400517d` |
+| `2026-09-10-stage-02-quality-dimensions.md` | `b8d48bb81a08b11efb99663a1b75eb41aa393aff` |
+| `2026-09-10-stage-02-verification.py` | `0eb7810d4d9912e7565e9cc0a9bb5ea5cb94a73d` |
+| `2026-09-10-stage-02-verification.json` | `71cf02b1fb6db94b997edfc6d555f712c7ce7983` |
+| `bootstrap-progress.md` at the completed-stage commit | `debcdb1b6dcfa40319ffdb7ea0c937465b82ce6d` |
+
+The three original baseline files and the three immutable Stage 1 deliverables retained their exact accepted blobs. The complete tree contained only those six files and the nine intended Stage 2 paths; no production surfaces or unrelated changes were introduced. Local checks include all 153 method-dimension cells, source-reference resolution, the required output inventories and consistent columns in eighteen Markdown tables. Remote verification establishes publication integrity, not empirical research performance.
+
+Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/400a1665735ca030e359c3e68217494cc3611631` and `git/trees/400a1665735ca030e359c3e68217494cc3611631?recursive=1`. This subsequent progress-only commit records the observed evidence. Historical validators must be run against their stage snapshots rather than later trees containing new stages. Remaining Stage 2 blockers: none.
 
 ## Remaining stages
 
-Stages 3-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 3 must begin by re-reading the original specification on `main` and accepted Stage 1-2 outputs on `feat/bootstrap` after Stage 2 publication verification passes.
+Stages 3-22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 3 is next and must begin by re-reading the original specification on `main` and the accepted Stage 1-2 outputs on `feat/bootstrap`.
