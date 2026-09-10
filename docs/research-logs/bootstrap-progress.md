@@ -4,7 +4,7 @@ Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
 Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-**Current checkpoint: Stage 10 remotely verified; Stage 11 content acceptance PASS. Verify the Stage 11 publication before Stage 12.**
+**Current checkpoint: Stage 11 complete and remotely verified. Next: Stage 12.**
 
 Repository maturity remains bootstrap workspace. Completion of design stages does not establish installed, working, benchmarked or mature capability. No merge, release, PR readiness or registry promotion is authorised by this record.
 
@@ -24,6 +24,7 @@ All rows below have content acceptance PASS and remote publication verification 
 | 8 | Execution layer | `c3118cafc41ea0b93025c197e5fab48216d3fc37` | [Stage 8 receipt](2026-09-10-stage-08-publication-receipt.md) |
 | 9 | Gaps and architecture guardrails | `4c26bfd26a87130751594f96ef8042ae68012f7f` | [Stage 9 verification and receipt](2026-09-10-stage-09-publication-receipt.md) |
 | 10 | Core skills and commands | `565996be247db7e6534900be82dbc8de1c41c254` | [Stage 10 receipt](2026-09-10-stage-10-publication-receipt.md) |
+| 11 | Extension Packs and pack authoring | `7614f2b4801c072c6e2d5f292a348faaf6d46e1b` | [Stage 11 receipt](2026-09-10-stage-11-publication-receipt.md) |
 
 The [historical progress snapshot](bootstrap-progress-through-stage-08.md) preserves all previous detailed output lists, test records and blob inventories byte-for-byte. Its stale pending-stage text is historical, not current state. The later receipts and this index govern resumption.
 
@@ -41,14 +42,14 @@ The [skill design](2026-09-10-stage-10-core-skills.md), [eleven command contract
 
 The [executed verification](2026-09-10-stage-10-verification.json) records twelve passing checks and eight detected negative controls. The [verifier](2026-09-10-stage-10-verification.py) is reproducible. Semantic review retained fixed-input read-only audits, honest producer self-checks, required qualified review, native-first execution and bounded preservation/repair. No provider or installed-agent test is claimed.
 
-## Stage 11 content acceptance
+## Stage 11 completion
 
 The [pack design](2026-09-10-stage-11-extension-packs.md), [two complete profiles](2026-09-10-stage-11-profiles.json), [comparison protocol and exact prompts](2026-09-10-stage-11-comparison-protocol.md), [four source-backed outputs and review](2026-09-10-stage-11-comparisons.md) and [source register](2026-09-10-stage-11-sources.md) complete all six output responsibilities. All seven candidate families and eight specialisation dimensions are assessed; the authoring contract covers twelve steps. The selected profiles are scholarly-evidence and open-source-ecosystem.
 
 The [executed verification](2026-09-10-stage-11-verification.json) and [verifier](2026-09-10-stage-11-verification.py) record 21 passing checks, 18 synthetic policy cases and 15 detected negative controls. Four actual in-session research outputs demonstrate bounded specialist effects without suppressing known baseline facts. Shared-context and author-reviewer limitations are explicit; no installed, isolated-agent or causal-improvement claim is made.
 
-Content acceptance: PASS. Publication must be verified by reading the branch, commit, intended file hashes and stage-only delta. No unresolved content decision remains. The removed continuation-only tip is not part of this stage's parent history, and its unavailable reported results are not reused.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS. The [receipt](2026-09-10-stage-11-publication-receipt.md) records the exact commit, sole parent, eight matching file hashes and stage-only comparison. No unresolved Stage 11 blocker remains. The removed continuation-only tip is not part of this stage's parent history, and its unavailable reported results are not reused.
 
 ## Remaining stages
 
-Stages 12–22 have not started. Stage 12 begins only after Stage 11 publication verification. Re-read the original section 18 on main and the accepted outputs; complete, verify and commit each stage separately.
+Stages 12–22 have not started. Stage 12 is next. Re-read the original section 18 on main and the accepted outputs; complete, verify and commit each stage separately.
