@@ -158,6 +158,14 @@ On 10 September 2026, the remote branch reference, Git commit and full recursive
 
 Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/81e582d9cd864d3c5aa3e26913e3c01d36d07fe8` and `git/trees/0c4ea2c7b62695b155e6b9645a27c0a191428082?recursive=1`. This progress-only receipt records observed publication integrity without changing stage content or claiming live research performance. Remaining Stage 6 blockers: none.
 
+## Stage 7: Research AI Skills, Research Agents and Tools
+
+Content acceptance: PASS. Remote publication verification is the final progression gate.
+
+The [landscape and selection log](2026-09-10-stage-07-ai-tool-landscape.md), [complete capability matrix](2026-09-10-stage-07-capability-matrix.md) and [primary source register](2026-09-10-stage-07-sources.md) complete all five content outputs. The investigation covers all 14 categories, 35 candidates with all 15 fields (525 assessments), 36 source bundles, a role-specific shortlist, 11 integration decisions and 12 explicit gaps.
+
+Current interface, maintenance and licence conflicts are recorded rather than concealed. Provider claims, source observations and project analysis remain separate. No candidate installation, provider research run, account expenditure or benchmark score is claimed. The [validator](2026-09-10-stage-07-verification.py) and [executed results](2026-09-10-stage-07-verification.json) accompany the substantive conformance review. All 16 document checks and 10 negative controls passed in an actual local run. Earlier accepted Stage 1–6 content and receipts remain unchanged.
+
 ## Remaining stages
 
-Stages 7–22 have not started. Stage 7 is next and must read the original section 13 on `main` and the accepted Stage 1–6 outputs before substantive work.
+Stages 8–22 have not started. Stage 8 begins only after this stage's remote commit, parent, intended file hashes and preserved prior files are verified and the receipt recorded.

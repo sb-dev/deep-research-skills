@@ -1,0 +1,413 @@
+{
+  "stage": 7,
+  "run_at": "2026-09-10T14:11:04.337964+00:00",
+  "parent": "18b0c365d0e845bdcdf22308606c2cfe1fa76bca",
+  "input_mode": "stage files plus connector-inspected parent inventory",
+  "verification_kind": "document structure and declared-constraint checks; semantic review recorded separately",
+  "baseline_inventory": {
+    "README.md": "bf998f74284b23bdc844b46182ec637b67391948",
+    "docs/research-logs/README.md": "e3b4e986caea3914fdf0f1ee67de407fafc53f0c",
+    "docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md": "8ff62c92bada2861ece3684a9e73a83da75d9d94",
+    "docs/research-logs/bootstrap-progress.md": "2e3c68a99f4c174f45ac4f3f367ad77127b4ef64",
+    "docs/research-logs/2026-09-10-stage-01-project-goal-and-boundary.md": "5ed2d242400486be81d0acc3f371c4564873012e",
+    "docs/research-logs/2026-09-10-stage-01-verification.json": "8516b3234363346d06062883d31aad6cd6e9da3d",
+    "docs/research-logs/2026-09-10-stage-01-verification.py": "777146e7273db7f05043b0f8b70db3429975677f",
+    "docs/research-logs/2026-09-10-stage-02-professional-practice.md": "563450cc30e4e600accfc06b4a20f052e52cc3e9",
+    "docs/research-logs/2026-09-10-stage-02-method-comparison.md": "14c6f42fc11f1107bb7d76ce110f8168ca29b145",
+    "docs/research-logs/2026-09-10-stage-02-sources.md": "f40ef29dc15b221ba655e153e27dbfd98e6d9672",
+    "docs/research-logs/2026-09-10-stage-02-glossary.md": "bdc1811164f03e57af50ad7f12a51412d18ebb07",
+    "docs/research-logs/2026-09-10-stage-02-failure-taxonomy.md": "16aa77d950935a5199c9b6afc23fcd038400517d",
+    "docs/research-logs/2026-09-10-stage-02-quality-dimensions.md": "b8d48bb81a08b11efb99663a1b75eb41aa393aff",
+    "docs/research-logs/2026-09-10-stage-02-verification.py": "0eb7810d4d9912e7565e9cc0a9bb5ea5cb94a73d",
+    "docs/research-logs/2026-09-10-stage-02-verification.json": "71cf02b1fb6db94b997edfc6d555f712c7ce7983",
+    "docs/research-logs/2026-09-10-stage-03-question-evidence-claim-model.md": "40742d179b7282a38368fd299e2a6bf3ceb6bb7a",
+    "docs/research-logs/2026-09-10-stage-03-traceability-examples.json": "b053738dd1f0a71ed8bbd1a5c25b0d9d61d0004e",
+    "docs/research-logs/2026-09-10-stage-03-verification.py": "8494eceab8b0156798df8257b68028c107cee707",
+    "docs/research-logs/2026-09-10-stage-03-verification.json": "1bf9fdb0b4ab160c5a3e66717d1d0f284ae689db",
+    "docs/research-logs/2026-09-10-stage-04-source-ecology.md": "0a26067488e180f4574df009d548cebec6a9adca",
+    "docs/research-logs/2026-09-10-stage-04-retrieval-matrix.md": "fde2bc9698b6f06c39fcd4806bd46c6ee0423bd8",
+    "docs/research-logs/2026-09-10-stage-04-sources.md": "c046151783741a6d9fd4ce5115855d3b2a30bae1",
+    "docs/research-logs/2026-09-10-stage-04-verification.py": "7ee51daa9b089160088652763742543e0e74a6f6",
+    "docs/research-logs/2026-09-10-stage-04-verification.json": "ca701d0f1d736694da32f79ac7c1a6480a4abad6",
+    "docs/research-logs/2026-09-10-stage-05-workflow-and-artifacts.md": "f19975a282ff06f952d3b097dd9457bcb9521d9f",
+    "docs/research-logs/2026-09-10-stage-05-artifact-contracts.md": "492521d9cd240f253019ea24c6fd27c463ca405e",
+    "docs/research-logs/2026-09-10-stage-05-contract-cases.json": "4ee4bf143c77c00b97acdd055e8912ff18543cd0",
+    "docs/research-logs/2026-09-10-stage-05-verification.py": "de31b1656f91ca340818b15134e5f8117d80b1a4",
+    "docs/research-logs/2026-09-10-stage-05-verification.json": "18fada12e37c0bdabb42b7507ad4f44a5d77df8a",
+    "docs/research-logs/2026-09-10-stage-06-effort-and-stopping.md": "2c0dc5220447de7643ba79934e30545f477b11a1",
+    "docs/research-logs/2026-09-10-stage-06-policy-cases.json": "86e500cc1674d6d732f70900a3d5735760c99615",
+    "docs/research-logs/2026-09-10-stage-06-verification.py": "fa06f220908a4b16c0538af10fe84844de5fe275",
+    "docs/research-logs/2026-09-10-stage-06-verification.json": "3b2ba6452ae673f2c624d90049cee9ef58a81800"
+  },
+  "checks": [
+    {
+      "check": "authority and accepted parent recorded",
+      "result": "PASS",
+      "evidence": {
+        "parent": "18b0c365d0e845bdcdf22308606c2cfe1fa76bca",
+        "spec_blob": "8ff62c92bada2861ece3684a9e73a83da75d9d94"
+      }
+    },
+    {
+      "check": "all five output responsibilities",
+      "result": "PASS",
+      "evidence": [
+        "AI/tool landscape",
+        "Shortlist and selection rationale",
+        "Capability matrix",
+        "Integration decisions",
+        "Explicit gaps"
+      ]
+    },
+    {
+      "check": "all fourteen named categories",
+      "result": "PASS",
+      "evidence": [
+        [
+          "G01",
+          "Agent Skills for research / browsing / literature review / fact checking"
+        ],
+        [
+          "G02",
+          "Provider deep-research agents"
+        ],
+        [
+          "G03",
+          "Search APIs"
+        ],
+        [
+          "G04",
+          "Browser automation"
+        ],
+        [
+          "G05",
+          "Academic search APIs"
+        ],
+        [
+          "G06",
+          "GitHub research tools"
+        ],
+        [
+          "G07",
+          "PDF / document extraction"
+        ],
+        [
+          "G08",
+          "Web extraction / crawling"
+        ],
+        [
+          "G09",
+          "Citation tooling"
+        ],
+        [
+          "G10",
+          "Reference managers"
+        ],
+        [
+          "G11",
+          "Data analysis / code sandboxes"
+        ],
+        [
+          "G12",
+          "Knowledge / note tools"
+        ],
+        [
+          "G13",
+          "MCPs and connectors"
+        ],
+        [
+          "G14",
+          "Benchmark / eval frameworks"
+        ]
+      ]
+    },
+    {
+      "check": "35 distinct candidate records",
+      "result": "PASS",
+      "evidence": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35"
+      ]
+    },
+    {
+      "check": "all 525 required field assessments",
+      "result": "PASS",
+      "evidence": {
+        "assessments": 525,
+        "invalid_candidates": []
+      }
+    },
+    {
+      "check": "decisions have allowed labels and rationale",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "candidate category coverage",
+      "result": "PASS",
+      "evidence": {
+        "covered": [
+          "G01",
+          "G02",
+          "G03",
+          "G04",
+          "G05",
+          "G06",
+          "G07",
+          "G08",
+          "G09",
+          "G10",
+          "G11",
+          "G12",
+          "G13",
+          "G14"
+        ],
+        "invalid_candidates": []
+      }
+    },
+    {
+      "check": "36 distinct source bundles with provenance",
+      "result": "PASS",
+      "evidence": {
+        "count": 36,
+        "invalid_sources": []
+      }
+    },
+    {
+      "check": "source references resolve",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "shortlist and candidate references resolve",
+      "result": "PASS",
+      "evidence": {
+        "shortlisted": [
+          "C02",
+          "C05",
+          "C08",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16",
+          "C18",
+          "C19",
+          "C20",
+          "C22",
+          "C24",
+          "C26",
+          "C30"
+        ],
+        "invalid": []
+      }
+    },
+    {
+      "check": "integration decisions and explicit gaps complete",
+      "result": "PASS",
+      "evidence": {
+        "integration_decisions": [
+          "I01",
+          "I02",
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09",
+          "I10",
+          "I11"
+        ],
+        "gaps": [
+          "X01",
+          "X02",
+          "X03",
+          "X04",
+          "X05",
+          "X06",
+          "X07",
+          "X08",
+          "X09",
+          "X10",
+          "X11",
+          "X12"
+        ]
+      }
+    },
+    {
+      "check": "known constraint distinctions retained",
+      "result": "PASS",
+      "evidence": {
+        "soft inclusion remains soft": true,
+        "ignored crawl filters remain explicit": true,
+        "proprietary skill not adopted": true,
+        "unmaintained local MCP remains explicit": true,
+        "human verification not relabelled": true,
+        "no candidate installation claimed": true
+      }
+    },
+    {
+      "check": "local documentation links resolve",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "Markdown table columns consistent",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "stage-only delta and accepted progress preserved",
+      "result": "PASS",
+      "evidence": {
+        "extra": [],
+        "modified_prior": [],
+        "missing_outputs": [],
+        "accepted_progress_prefix_preserved": true
+      }
+    },
+    {
+      "check": "content conformance and separate publication gate",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10"
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "missing category",
+      "expected_failure": "all fourteen named categories",
+      "actual_failures": [
+        "all fourteen named categories"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing field",
+      "expected_failure": "all 525 required field assessments",
+      "actual_failures": [
+        "all 525 required field assessments"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "duplicate candidate identity",
+      "expected_failure": "35 distinct candidate records",
+      "actual_failures": [
+        "35 distinct candidate records",
+        "all 525 required field assessments",
+        "shortlist and candidate references resolve",
+        "known constraint distinctions retained"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unknown source",
+      "expected_failure": "source references resolve",
+      "actual_failures": [
+        "source references resolve"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unknown decision",
+      "expected_failure": "decisions have allowed labels and rationale",
+      "actual_failures": [
+        "decisions have allowed labels and rationale"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "unknown shortlist item",
+      "expected_failure": "shortlist and candidate references resolve",
+      "actual_failures": [
+        "shortlist and candidate references resolve"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "soft filter falsely strengthened",
+      "expected_failure": "known constraint distinctions retained",
+      "actual_failures": [
+        "known constraint distinctions retained"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "broken documentation link",
+      "expected_failure": "local documentation links resolve",
+      "actual_failures": [
+        "local documentation links resolve"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "accepted progress damaged",
+      "expected_failure": "stage-only delta and accepted progress preserved",
+      "actual_failures": [
+        "stage-only delta and accepted progress preserved"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "premature production file",
+      "expected_failure": "stage-only delta and accepted progress preserved",
+      "actual_failures": [
+        "stage-only delta and accepted progress preserved"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "file_blobs": {
+    "docs/research-logs/2026-09-10-stage-07-ai-tool-landscape.md": "0cbea283340481cc164b34c6486ec20fea59eec6",
+    "docs/research-logs/2026-09-10-stage-07-capability-matrix.md": "1765ba6e27cb64f365a47fcb0668a8f60fe7545c",
+    "docs/research-logs/2026-09-10-stage-07-sources.md": "da093a424923695a4627187ba2a41b91b7c677c4",
+    "docs/research-logs/2026-09-10-stage-07-verification.py": "33fc740799ae8463d769385a43cd9ed282b70a4f",
+    "docs/research-logs/bootstrap-progress.md": "4bc9075e2cc154cc2ada2e39cca7491ffc4b6a89"
+  },
+  "result": "PASS"
+}
