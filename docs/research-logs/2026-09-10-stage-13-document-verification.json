@@ -1,0 +1,90 @@
+{
+  "stage": 13,
+  "kind": "executed document inventories and corrupted-control detection; not semantic agent quality",
+  "checked_at": "2026-09-10T20:20:09.224131+00:00",
+  "checks": {
+    "eight output sections": "PASS",
+    "ten layer rows": "PASS",
+    "sixteen quality rows": "PASS",
+    "twelve priority rows": "PASS",
+    "fifteen individual example rows": "PASS",
+    "five external families": "PASS",
+    "seven primary source entries": "PASS",
+    "two disjoint holdout contracts": "PASS",
+    "holdout prompts and sourced criteria": "PASS",
+    "two profile pairs": "PASS",
+    "behavioural differential criteria": "PASS",
+    "unexecuted agent results not invented": "PASS",
+    "six support-case responsibilities": "PASS",
+    "four-layer separate detection": "PASS",
+    "limits stated": "PASS",
+    "conformance rows": "PASS",
+    "relative link closure": "PASS"
+  },
+  "negative_controls": [
+    {
+      "mutation": "missing layer",
+      "detected": [
+        "ten layer rows"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing quality",
+      "detected": [
+        "sixteen quality rows"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing example",
+      "detected": [
+        "fifteen individual example rows"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "broken link",
+      "detected": [
+        "relative link closure"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "holdout removed",
+      "detected": [
+        "two disjoint holdout contracts"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "prompt removed",
+      "detected": [
+        "holdout prompts and sourced criteria"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "cosmetic pair",
+      "detected": [
+        "behavioural differential criteria"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "invented run",
+      "detected": [
+        "unexecuted agent results not invented"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "input_preservation": "PASS",
+  "files": {
+    "2026-09-10-stage-13-evaluation-design.md": "bb1d7365ff3ed4ef380daade3208311592a33be37a7afecc8c10e2c1b4059f95",
+    "2026-09-10-stage-13-benchmark-research.md": "e8f43348d2254f0414ab3bd657b81b8cfd1450922042c2e0c02e65f43c46673c",
+    "2026-09-10-stage-13-case-contracts.json": "00bcbc0fedca4e0a9106a6312f24a252308560968b4383197c01dd787e8fc154",
+    "2026-09-10-stage-13-fixture-check.py": "7e041e518d778e514f1de66b8ad3e02ef8cdd7ab5281dc23f9c319427780d6f8"
+  },
+  "result": "PASS"
+}

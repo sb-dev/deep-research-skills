@@ -1,0 +1,642 @@
+{
+  "stage": 13,
+  "kind": "executed synthetic design/reference-scorer checks; not agent performance",
+  "checked_at": "2026-09-10T20:20:09.865031+00:00",
+  "fixtures_sha256": "6acb37d1ffd2af1bf7f2b35f189eb4d225f725df63ba5fbeb306a470f6cf595c",
+  "priority_cases": [
+    {
+      "case": "FX01",
+      "goal": "Three syndicated articles share one original observation; do not count three origins.",
+      "good": {
+        "FX01.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "origin-count: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX01.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "origin-count: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX02",
+      "goal": "Mock snippet says supported; inspected full passage says unsupported. Preserve negation.",
+      "good": {
+        "FX02.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX02.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX03",
+      "goal": "Current official rule supersedes an old rule for the requested effective period.",
+      "good": {
+        "FX03.1": {
+          "layer": "temporal",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX03.1": {
+          "layer": "temporal",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX04",
+      "goal": "High-ranked SEO lead does not fulfil the required original-document acquisition.",
+      "good": {
+        "FX04.1": {
+          "layer": "retrieval",
+          "status": "PASS",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX04.1": {
+          "layer": "retrieval",
+          "status": "FAIL",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX05",
+      "goal": "Retraction notice makes unqualified reliance on the withdrawn finding unacceptable.",
+      "good": {
+        "FX05.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX05.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX06",
+      "goal": "Two supplementary reports describe one study and both may be retained.",
+      "good": {
+        "FX06.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX06.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX07",
+      "goal": "Only a secondary account is accessible; do not declare the paywalled original inspected.",
+      "good": {
+        "FX07.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX07.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX08",
+      "goal": "Two eligible high-quality sources disagree; preserve the unresolved dispute.",
+      "good": {
+        "FX08.1": {
+          "layer": "evidence",
+          "status": "PASS",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX08.1": {
+          "layer": "evidence",
+          "status": "FAIL",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX09",
+      "goal": "An observational association cannot become an unconditional causal guarantee.",
+      "good": {
+        "FX09.1": {
+          "layer": "synthesis",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX09.1": {
+          "layer": "synthesis",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX10",
+      "goal": "A valid source identity for an adjacent field does not entail the actual claim.",
+      "good": {
+        "FX10.1": {
+          "layer": "citations",
+          "status": "PASS",
+          "basis": "entails-field: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX10.1": {
+          "layer": "citations",
+          "status": "FAIL",
+          "basis": "entails-field: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX11",
+      "goal": "A long report answering Q1 must not omit required Q2.",
+      "good": {
+        "FX11.1": {
+          "layer": "synthesis",
+          "status": "PASS",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX11.1": {
+          "layer": "synthesis",
+          "status": "FAIL",
+          "basis": "covers: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "FX12",
+      "goal": "After evidence and review are sufficient, stop optional duplicate collection.",
+      "good": {
+        "FX12.1": {
+          "layer": "retrieval",
+          "status": "PASS",
+          "basis": "no-extra-collection: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "FX12.1": {
+          "layer": "retrieval",
+          "status": "FAIL",
+          "basis": "no-extra-collection: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    }
+  ],
+  "additional_cases": [
+    {
+      "case": "TM02",
+      "goal": "Publication precedes effective date; an announcement is not early implementation.",
+      "good": {
+        "TM02.1": {
+          "layer": "temporal",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "TM02.1": {
+          "layer": "temporal",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "TM03",
+      "goal": "A changed current-price claim does not invalidate a stable historical release claim.",
+      "good": {
+        "TM03.1": {
+          "layer": "preservation",
+          "status": "PASS",
+          "basis": "unchanged: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "TM03.1": {
+          "layer": "preservation",
+          "status": "FAIL",
+          "basis": "unchanged: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "BG01",
+      "goal": "Aggregate outstanding work and finalisation reserves constrain every resource dimension.",
+      "good": {
+        "BG01.1": {
+          "layer": "authority-budget",
+          "status": "PASS",
+          "basis": "capacity: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "BG01.1": {
+          "layer": "authority-budget",
+          "status": "FAIL",
+          "basis": "capacity: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "BG02",
+      "goal": "Low yield cannot close a known decisive unresolved evidence gap.",
+      "good": {
+        "BG02.1": {
+          "layer": "retrieval",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "BG02.1": {
+          "layer": "retrieval",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "PR01",
+      "goal": "A corrected denominator must update its dependent claim while preserving another record.",
+      "good": {
+        "PR01.1": {
+          "layer": "preservation",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "PR01.1": {
+          "layer": "preservation",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "AU01",
+      "goal": "A reported success is not independent assurance when the required reviewer did not run.",
+      "good": {
+        "AU01.1": {
+          "layer": "authority-budget",
+          "status": "PASS",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "bad": {
+        "AU01.1": {
+          "layer": "authority-budget",
+          "status": "FAIL",
+          "basis": "equal: submitted.observed against input.reference"
+        }
+      },
+      "result": "PASS"
+    }
+  ],
+  "orthogonality": [
+    {
+      "mutation": "retrieval",
+      "observed_failed_layers": [
+        "retrieval"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "evidence",
+      "observed_failed_layers": [
+        "evidence"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "citations",
+      "observed_failed_layers": [
+        "citations"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "synthesis",
+      "observed_failed_layers": [
+        "synthesis"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "package_controls": [
+    {
+      "defect": "required-metadata",
+      "input_field": "question",
+      "detected": [
+        "required-metadata"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "source-identity",
+      "input_field": "sources",
+      "detected": [
+        "source-identity"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "timestamp",
+      "input_field": "sources",
+      "detected": [
+        "timestamp"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "missing-source",
+      "input_field": "citations",
+      "detected": [
+        "missing-source"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "citation-target",
+      "input_field": "citations",
+      "detected": [
+        "citation-target"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "claim-reference",
+      "input_field": "claim_refs",
+      "detected": [
+        "claim-reference"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "self-containment",
+      "input_field": "bundled_paths",
+      "detected": [
+        "self-containment"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "self-containment",
+      "input_field": "bundled_paths",
+      "detected": [
+        "self-containment"
+      ],
+      "result": "PASS"
+    },
+    {
+      "defect": "self-containment",
+      "input_field": "bundled_paths",
+      "detected": [
+        "self-containment"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "pack_controls": [
+    {
+      "profile": "scholarly-evidence",
+      "case": "requested",
+      "observed": "scholarly-evidence",
+      "expected": "scholarly-evidence",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "not-requested",
+      "observed": "core",
+      "expected": "core",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "explicit-disabled",
+      "observed": "core",
+      "expected": "core",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "locked-conflict",
+      "observed": "BLOCKED:locked-decision",
+      "expected": "BLOCKED:locked-decision",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "explicit-reopen",
+      "observed": "scholarly-evidence",
+      "expected": "scholarly-evidence",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "incompatible",
+      "observed": "BLOCKED:unavailable-or-incompatible",
+      "expected": "BLOCKED:unavailable-or-incompatible",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "unsafe-path",
+      "observed": "BLOCKED:unsafe-package",
+      "expected": "BLOCKED:unsafe-package",
+      "result": "PASS"
+    },
+    {
+      "profile": "scholarly-evidence",
+      "case": "missing-package",
+      "observed": "BLOCKED:unavailable-or-incompatible",
+      "expected": "BLOCKED:unavailable-or-incompatible",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "requested",
+      "observed": "open-source-ecosystem",
+      "expected": "open-source-ecosystem",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "not-requested",
+      "observed": "core",
+      "expected": "core",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "explicit-disabled",
+      "observed": "core",
+      "expected": "core",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "locked-conflict",
+      "observed": "BLOCKED:locked-decision",
+      "expected": "BLOCKED:locked-decision",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "explicit-reopen",
+      "observed": "open-source-ecosystem",
+      "expected": "open-source-ecosystem",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "incompatible",
+      "observed": "BLOCKED:unavailable-or-incompatible",
+      "expected": "BLOCKED:unavailable-or-incompatible",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "unsafe-path",
+      "observed": "BLOCKED:unsafe-package",
+      "expected": "BLOCKED:unsafe-package",
+      "result": "PASS"
+    },
+    {
+      "profile": "open-source-ecosystem",
+      "case": "missing-package",
+      "observed": "BLOCKED:unavailable-or-incompatible",
+      "expected": "BLOCKED:unavailable-or-incompatible",
+      "result": "PASS"
+    }
+  ],
+  "acceptance_controls": [
+    {
+      "case": "AC01",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS"
+    },
+    {
+      "case": "AC02",
+      "observed": "BLOCKED",
+      "expected": "BLOCKED",
+      "result": "PASS"
+    },
+    {
+      "case": "AC03",
+      "observed": "FAIL",
+      "expected": "FAIL",
+      "result": "PASS"
+    },
+    {
+      "case": "AC04",
+      "observed": "FAIL",
+      "expected": "FAIL",
+      "result": "PASS"
+    },
+    {
+      "case": "AC05",
+      "observed": "FAIL",
+      "expected": "FAIL",
+      "result": "PASS"
+    },
+    {
+      "case": "AC06",
+      "observed": "PASS",
+      "expected": "PASS",
+      "result": "PASS"
+    }
+  ],
+  "scorer_mutation_controls": [
+    {
+      "disabled_failure_layer": "retrieval",
+      "exposed_by_bad_cases": 3,
+      "result": "PASS"
+    },
+    {
+      "disabled_failure_layer": "evidence",
+      "exposed_by_bad_cases": 6,
+      "result": "PASS"
+    },
+    {
+      "disabled_failure_layer": "citations",
+      "exposed_by_bad_cases": 1,
+      "result": "PASS"
+    },
+    {
+      "disabled_failure_layer": "synthesis",
+      "exposed_by_bad_cases": 2,
+      "result": "PASS"
+    }
+  ],
+  "input_preservation": "PASS",
+  "counts": {
+    "priority_cases": 12,
+    "additional_cases": 6,
+    "orthogonality": 4,
+    "package_controls": 9,
+    "pack_controls": 16,
+    "acceptance_controls": 6,
+    "scorer_mutation_controls": 4
+  },
+  "result": "PASS",
+  "checker_sha256": "7e041e518d778e514f1de66b8ad3e02ef8cdd7ab5281dc23f9c319427780d6f8"
+}

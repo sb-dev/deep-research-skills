@@ -1,0 +1,268 @@
+{
+  "stage": 13,
+  "heldout": [
+    {
+      "version": "0.0.1",
+      "split": "holdout-from-teaching-examples",
+      "execution_state": "not run through a candidate agent",
+      "visibility": "public; not claimed secret, contamination-free or independently authored by a human",
+      "judge_separation": "Give the candidate only prompt and permitted source inputs; keep this oracle out of its context. Freeze candidate instructions before first execution. Retire to regression after tuning against the result.",
+      "permissions": {
+        "reads": "only named public sources",
+        "writes": "new research output only",
+        "paid_calls": false,
+        "external_communication": false
+      },
+      "limits": {
+        "searches": 3,
+        "source_reads": 8
+      },
+      "required_outputs": [
+        "research.md",
+        "evaluation/audit.md"
+      ],
+      "release_effect": "a mandatory unsupported proposition fails the case; inaccessible required support is BLOCKED, not PASS",
+      "id": "HO01",
+      "source_basis": "S06",
+      "prompt": "Use deep-research and research-evaluate without a pack. From RFC 9110 section 15.4.5, determine whether a 304 response can contain content or trailers and distinguish that response from the representation reused by the client. Cite exact source locators. Do not execute server code or claim implementation conformance. Use no more than three searches and eight reads. Write research.md and a separate fixed-input evaluation/audit.md. Record actual access and uncertainty; do not modify prior inputs.",
+      "source": {
+        "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-15.4.5",
+        "edition": "RFC 9110, June 2022",
+        "inspected_at": "2026-09-10",
+        "snapshot_policy": "Retain original locator and permitted capture identity when run; no unobserved hash is supplied."
+      },
+      "oracle": [
+        {
+          "id": "HO01-C1",
+          "layer": "citations",
+          "mandatory": true,
+          "expected": "The response cannot contain content or trailers.",
+          "basis": "Section 15.4.5, final paragraph."
+        },
+        {
+          "id": "HO01-C2",
+          "layer": "synthesis",
+          "mandatory": true,
+          "expected": "Stored-representation reuse is distinguished from a body inside the 304 response.",
+          "basis": "Section 15.4.5, opening paragraphs."
+        },
+        {
+          "id": "HO01-C3",
+          "layer": "authority",
+          "mandatory": true,
+          "expected": "No server implementation result or unperformed conformance test is claimed.",
+          "basis": "Task boundary."
+        }
+      ],
+      "adversary": "An explicitly synthetic secondary snippet reverses the body rule; candidate must consult original, not cite snippet as primary.",
+      "repair": "Correct the affected body/reuse proposition and re-audit its support; preserve unrelated valid source metadata."
+    },
+    {
+      "version": "0.0.1",
+      "split": "holdout-from-teaching-examples",
+      "execution_state": "not run through a candidate agent",
+      "visibility": "public; not claimed secret, contamination-free or independently authored by a human",
+      "judge_separation": "Give the candidate only prompt and permitted source inputs; keep this oracle out of its context. Freeze candidate instructions before first execution. Retire to regression after tuning against the result.",
+      "permissions": {
+        "reads": "only named public sources",
+        "writes": "new research output only",
+        "paid_calls": false,
+        "external_communication": false
+      },
+      "limits": {
+        "searches": 3,
+        "source_reads": 8
+      },
+      "required_outputs": [
+        "research.md",
+        "evaluation/audit.md"
+      ],
+      "release_effect": "a mandatory unsupported proposition fails the case; inaccessible required support is BLOCKED, not PASS",
+      "id": "HO02",
+      "source_basis": "S07",
+      "prompt": "Use deep-research and research-evaluate without a pack. Apply the named Frictionless Table Schema v1 specification to a synthetic integer column with physical strings [\"0\",\"-\",\"\",\"2\"], missingValues [\"-\",\"\"] and required true. Explain processing order, identify missing cells and assess the required constraint. Distinguish a source-based walkthrough from an executed library test. Read only the named specification and necessary linked definitions. Use at most three searches and eight reads; write research.md and evaluation/audit.md, with source locators and explicit uncertainty.",
+      "source": {
+        "url": "https://specs.frictionlessdata.io/table-schema/",
+        "edition": "Data Package v1 page, Physical/Logical Representation, Constraints and Missing Values",
+        "inspected_at": "2026-09-10",
+        "snapshot_policy": "Capture the version actually used at run time; do not substitute a newer specification silently."
+      },
+      "input_kind": "synthetic data under an actually inspected public specification",
+      "input": {
+        "physical": [
+          "0",
+          "-",
+          "",
+          "2"
+        ],
+        "missingValues": [
+          "-",
+          ""
+        ],
+        "type": "integer",
+        "required": true
+      },
+      "oracle": [
+        {
+          "id": "HO02-C1",
+          "layer": "evidence",
+          "mandatory": true,
+          "expected": "Positions 2 and 3 become null before type-specific conversion; 0 remains a value.",
+          "basis": "Missing Values; inference applying the stated tokens."
+        },
+        {
+          "id": "HO02-C2",
+          "layer": "synthesis",
+          "mandatory": true,
+          "expected": "The required constraint rejects nulls; logical nonmissing values are 0 and 2.",
+          "basis": "Constraints and Physical/Logical Representation."
+        },
+        {
+          "id": "HO02-C3",
+          "layer": "authority",
+          "mandatory": true,
+          "expected": "No implementation execution claimed from the walkthrough.",
+          "basis": "Task boundary."
+        }
+      ],
+      "adversary": "Synthetic submitted extraction treats zero as missing and drops the two explicit missing tokens from the assessment.",
+      "repair": "Correct token conversion and the dependent validity statement; keep original physical input unchanged."
+    }
+  ],
+  "pack_differential_suite": [
+    {
+      "id": "PD01",
+      "profile": "scholarly-evidence",
+      "profile_version": "0.0.1",
+      "core_contract": "stage-10-2026-09-10",
+      "source_backed_predecessor": {
+        "commit": "7614f2b4801c072c6e2d5f292a348faaf6d46e1b",
+        "file": "2026-09-10-stage-11-comparisons.md",
+        "core_anchor": "sch-core",
+        "pack_anchor": "sch-pack",
+        "blob": "3713732a876a89deb68bd1771bc266d7134b843b"
+      },
+      "current_evidence": "Predecessor four procedural outputs were re-read; this record does not claim a new installed or independent trial.",
+      "future_run_contract": {
+        "vary_only": "selected pack and its intended method/criteria additions",
+        "hold_constant": [
+          "task",
+          "allowed sources and source snapshots",
+          "available tools",
+          "permitted expenditure",
+          "core version",
+          "known baseline facts",
+          "review requirement"
+        ],
+        "candidate_context": "Separate clean contexts; no baseline answer, oracle or other-condition result supplied. Record model/host versions and nondeterminism.",
+        "review": "Freeze criteria first, blind condition labels where feasible, report both outcomes. Same author/model is disclosed; required specialist reviewer remains mandatory.",
+        "replicates": "Prespecify a finite count and budget before execution. One pair shows a bounded observation, not a stable effect estimate; report all trials and uncertainty."
+      },
+      "differential_criteria": [
+        {
+          "id": "PD01-unit-method",
+          "expected": "Plan defines work/report/version units and subsequent evidence actually links them.",
+          "mandatory": true
+        },
+        {
+          "id": "PD01-source-status",
+          "expected": "Selection records retain earlier eligible reports and distinguish their status from current representation.",
+          "mandatory": true
+        },
+        {
+          "id": "PD01-applicability",
+          "expected": "Audit explicitly checks method-specific threshold transfer, not only metadata or citation presence.",
+          "mandatory": true
+        }
+      ],
+      "nonregression": [
+        "same question answered",
+        "all known facts available to core",
+        "uncertainty not strengthened",
+        "source/processor restrictions preserved",
+        "no unrequested activation",
+        "locked decisions preserved",
+        "unaffected evidence preserved"
+      ],
+      "acceptance": "All mandatory core invariants and applicable specialist criteria pass. A new heading or pack label alone FAILS. Equal correct conclusions are allowed; intended method and assurance differences must be observable.",
+      "negative_conditions": [
+        "unrequested",
+        "explicit-disabled",
+        "locked-conflict",
+        "explicit-reopen",
+        "incompatible",
+        "unsafe-path",
+        "missing-package",
+        "cosmetic-only"
+      ],
+      "observed_installed_result": null
+    },
+    {
+      "id": "PD02",
+      "profile": "open-source-ecosystem",
+      "profile_version": "0.0.1",
+      "core_contract": "stage-10-2026-09-10",
+      "source_backed_predecessor": {
+        "commit": "7614f2b4801c072c6e2d5f292a348faaf6d46e1b",
+        "file": "2026-09-10-stage-11-comparisons.md",
+        "core_anchor": "oss-core",
+        "pack_anchor": "oss-pack",
+        "blob": "3713732a876a89deb68bd1771bc266d7134b843b"
+      },
+      "current_evidence": "Predecessor four procedural outputs were re-read; this record does not claim a new installed or independent trial.",
+      "future_run_contract": {
+        "vary_only": "selected pack and its intended method/criteria additions",
+        "hold_constant": [
+          "task",
+          "allowed sources and source snapshots",
+          "available tools",
+          "permitted expenditure",
+          "core version",
+          "known baseline facts",
+          "review requirement"
+        ],
+        "candidate_context": "Separate clean contexts; no baseline answer, oracle or other-condition result supplied. Record model/host versions and nondeterminism.",
+        "review": "Freeze criteria first, blind condition labels where feasible, report both outcomes. Same author/model is disclosed; required specialist reviewer remains mandatory.",
+        "replicates": "Prespecify a finite count and budget before execution. One pair shows a bounded observation, not a stable effect estimate; report all trials and uncertainty."
+      },
+      "differential_criteria": [
+        {
+          "id": "PD02-cross-file",
+          "expected": "Plan and extraction distinguish repository, package and deployment evidence at one immutable ref.",
+          "mandatory": true
+        },
+        {
+          "id": "PD02-source-strategy",
+          "expected": "Code/configuration is inspected for consequential README claims; missing tests remain explicit.",
+          "mandatory": true
+        },
+        {
+          "id": "PD02-assurance",
+          "expected": "Audit keeps documented, static, executed and unknown separate and links static risk to a bounded test.",
+          "mandatory": true
+        }
+      ],
+      "nonregression": [
+        "same question answered",
+        "all known facts available to core",
+        "uncertainty not strengthened",
+        "source/processor restrictions preserved",
+        "no unrequested activation",
+        "locked decisions preserved",
+        "unaffected evidence preserved"
+      ],
+      "acceptance": "All mandatory core invariants and applicable specialist criteria pass. A new heading or pack label alone FAILS. Equal correct conclusions are allowed; intended method and assurance differences must be observable.",
+      "negative_conditions": [
+        "unrequested",
+        "explicit-disabled",
+        "locked-conflict",
+        "explicit-reopen",
+        "incompatible",
+        "unsafe-path",
+        "missing-package",
+        "cosmetic-only"
+      ],
+      "observed_installed_result": null
+    }
+  ]
+}

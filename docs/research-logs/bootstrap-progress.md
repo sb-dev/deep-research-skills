@@ -4,7 +4,7 @@ Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
 Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-**Current checkpoint: Stage 12 complete and remotely verified. Next: Stage 13.**
+**Current checkpoint: Stage 12 remotely verified; Stage 13 content and reference verification PASS. Remote publication verification is the next gate.**
 
 Repository maturity remains bootstrap workspace. Completion of design stages does not establish installed, working, benchmarked or mature capability. No merge, release, PR readiness or registry promotion is authorised by this record.
 
@@ -72,6 +72,16 @@ The entire published document was read in overlapping ranges. Section 18 of the 
 
 Remaining Stage 12 blockers: none. This progress-only update records the observed completion and corrects the stale index; it does not change the selected examples, claim that their research tasks ran, or restore the removed continuation checkpoint.
 
+## Stage 13 content completion
+
+Content acceptance: PASS. Remote publication is the final progression gate.
+
+The [evaluation design](2026-09-10-stage-13-evaluation-design.md) completes all eight outputs: architecture, taxonomy, quality dimensions, case format, all fifteen example mappings, pack differential suite, regression policy and release gates. The [primary benchmark investigation](2026-09-10-stage-13-benchmark-research.md) covers all five required external families. The [case contracts](2026-09-10-stage-13-case-contracts.json) contain two original disjoint-topic hold-outs and two specialist pair contracts, with agent results explicitly unmeasured.
+
+The [reference checker](2026-09-10-stage-13-fixture-check.py) and [actual execution result](2026-09-10-stage-13-verification.json) record twelve priority and six additional synthetic cases, four isolated failure-layer controls, nine packaging controls, sixteen pack-selection controls, six acceptance controls and four scorer-mutation controls. All passed their expected positive/negative behaviour and preserved input identity. The [document checker](2026-09-10-stage-13-document-check.py) and [actual document result](2026-09-10-stage-13-document-verification.json) record seventeen passing checks and eight detected corrupted controls. These are bounded reference/design checks, not live-agent, arbitrary-language entailment, independent human or clean-installation results.
+
+The original section 19 was re-read after drafting. All ten layers, twelve priority failures, three temporal situations, K01–K16 and F01–F20 mappings, fifteen examples and both selected profiles are covered. The Stage 11 source-backed pairs were re-read without relabelling their shared-session procedure as an independent installed trial. No unresolved Stage 13 content question remains.
+
 ## Remaining stages
 
-Stages 13–22 have not started. Stage 13 is next. Re-read the original section 19 on main and the accepted outputs; complete, verify and commit each stage separately.
+Stages 14–22 have not started. Stage 14 starts only after Stage 13's complete stage-scoped commit and remote verification. Use the original section 20 on main and the actual accepted files, not an obsolete local recovery record.
