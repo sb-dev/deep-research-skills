@@ -115,12 +115,27 @@ Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/d5
 
 ## Stage 5: Map Workflow and Artifacts
 
-Content acceptance: PASS. Remote publication verification is the final progression gate.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 The [workflow and artifacts log](2026-09-10-stage-05-workflow-and-artifacts.md) completes all five required outputs through eight operation groups, disposition of all seventeen candidate operations, state/decision gates, six handoff contracts and thirteen repair routes. The [artifact contracts](2026-09-10-stage-05-artifact-contracts.md) cover all eleven candidate responsibilities and all eight required concerns for each, without imposing eleven physical files. Four design walkthroughs cover bounded answering, contested comparison, incremental correction and interrupted delivery.
 
 The [six synthetic contract cases](2026-09-10-stage-05-contract-cases.json), [executed checks](2026-09-10-stage-05-verification.json) and [validator](2026-09-10-stage-05-verification.py) record twelve passing checks and fourteen negative controls that detected their intended defects. These are document and synthetic design-contract checks, not research-agent or provider benchmarks. Semantic review and the original-stage conformance table are in the workflow log. No current-stage design question remains unresolved.
 
+Completed-stage commit: `544553a63980404189383df2a5fa78952af9a607`.
+
+The remote branch, Git commit and full recursive tree were read back on 10 September 2026. The commit's sole parent is `4ad81f95f4d7a603c27d3f1ded7e9af215ccdfe7`, and its tree is `15c4b6acbcbe40200c690ebcf235fb3c739d9fdc`. The twenty-nine-file tree contains the five new Stage 5 files, the updated progress record and all twenty-three unchanged parent files. The unchanged blobs match the inspected parent inventory; the stage files match the locally validated bytes:
+
+| Stage 5 file | Verified Git blob |
+|---|---|
+| `2026-09-10-stage-05-workflow-and-artifacts.md` | `f19975a282ff06f952d3b097dd9457bcb9521d9f` |
+| `2026-09-10-stage-05-artifact-contracts.md` | `492521d9cd240f253019ea24c6fd27c463ca405e` |
+| `2026-09-10-stage-05-contract-cases.json` | `4ee4bf143c77c00b97acdd055e8912ff18543cd0` |
+| `2026-09-10-stage-05-verification.py` | `de31b1656f91ca340818b15134e5f8117d80b1a4` |
+| `2026-09-10-stage-05-verification.json` | `18fada12e37c0bdabb42b7507ad4f44a5d77df8a` |
+| `bootstrap-progress.md` at the completed-stage commit | `c2328599318be5c85b4cc1b8cef4d363b3a8ea7d` |
+
+Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/544553a63980404189383df2a5fa78952af9a607` and `git/trees/15c4b6acbcbe40200c690ebcf235fb3c739d9fdc?recursive=1`. This progress-only receipt records observed publication integrity; it does not alter accepted content or establish empirical research performance. Remaining Stage 5 blockers: none.
+
 ## Remaining stages
 
-Stages 6–22 have not started. Stage 6 may begin only after the Stage 5 remote commit, parent and intended files have been verified and the publication receipt recorded.
+Stages 6–22 have not started. Stage 6 is next and must read the original section 12 on `main`, the accepted Stage 1–5 constraints and this verified publication state before substantive work.
