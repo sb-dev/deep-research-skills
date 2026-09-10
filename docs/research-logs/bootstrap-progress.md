@@ -4,7 +4,7 @@ Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
 Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-**Current checkpoint: Stage 9 complete and remotely verified. Next: Stage 10.**
+**Current checkpoint: Stage 9 remotely verified. Stage 10 content acceptance PASS; publication verification is the next gate.**
 
 Repository maturity remains bootstrap workspace. Completion of design stages does not establish installed, working, benchmarked or mature capability. No merge, release, PR readiness or registry promotion is authorised by this record.
 
@@ -32,6 +32,14 @@ The [gap analysis](2026-09-10-stage-09-gap-analysis.md) contains all five output
 
 The [executed verification](2026-09-10-stage-09-verification.json) records eight passing document checks and five detected negative controls. The [verifier](2026-09-10-stage-09-verification.py) is reproducible. The publication receipt records the exact remote document hash, sole parent and stage-only comparison. Earlier stage content is unchanged.
 
+## Stage 10 content acceptance
+
+Content acceptance: PASS. Remote publication verification is the final progression gate.
+
+The [skill design](2026-09-10-stage-10-core-skills.md), [eleven command contracts](2026-09-10-stage-10-command-contracts.md) and [three initial SKILL.md outlines](2026-09-10-stage-10-skill-outlines.md) provide all five required outputs. They assess fourteen production candidates, ten evaluation candidates and all five design questions, with no mandatory sibling-skill dependency. Outlines remain design artefacts, not installed packages.
+
+The [executed verification](2026-09-10-stage-10-verification.json) records twelve passing checks and eight detected negative controls. The [verifier](2026-09-10-stage-10-verification.py) is reproducible. Semantic review retained fixed-input read-only audits, honest producer self-checks, required qualified review, native-first execution and bounded preservation/repair. No provider or installed-agent test is claimed.
+
 ## Remaining stages
 
-Stages 10–22 have not started. Begin Stage 10 by re-reading the original section 16 on `main` and the accepted branch inputs. Complete, verify and commit each stage separately. Check actual remote state before retrying an interrupted write; do not restart an accepted stage from an obsolete local receipt.
+Stages 11–22 have not started. Stage 11 begins only after the Stage 10 commit and intended files are remotely verified. Complete, verify and commit each stage separately. Check actual remote state before retrying an interrupted write; do not restart an accepted stage from an obsolete local receipt.

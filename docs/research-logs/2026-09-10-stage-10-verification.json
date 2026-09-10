@@ -1,0 +1,75 @@
+{
+  "stage": 10,
+  "checked_at": "2026-09-10T16:00:52.070355+00:00",
+  "verification_kind": "design-document and outline validation; no installed-agent execution",
+  "parent": "318e61cd55b736730f0830b26334d677228eecb7",
+  "checks": {
+    "five required outputs": "PASS",
+    "five design questions": "PASS",
+    "production candidate dispositions": "PASS",
+    "evaluation candidate dispositions": "PASS",
+    "eleven distinct command contracts": "PASS",
+    "all eight contract fields for each command": "PASS",
+    "command index matches contracts": "PASS",
+    "three valid initial outline frontmatters": "PASS",
+    "all eight workflow groups covered": "PASS",
+    "read-only independent review boundary": "PASS",
+    "documentation links in inspected inventory": "PASS",
+    "Markdown table structure": "PASS"
+  },
+  "negative_controls": [
+    {
+      "mutation": "missing candidate",
+      "expected_failed_check": "production candidate dispositions",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing evaluation scope",
+      "expected_failed_check": "evaluation candidate dispositions",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing question",
+      "expected_failed_check": "five design questions",
+      "result": "PASS"
+    },
+    {
+      "mutation": "wrong command name",
+      "expected_failed_check": "eleven distinct command contracts",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing contract field",
+      "expected_failed_check": "all eight contract fields for each command",
+      "result": "PASS"
+    },
+    {
+      "mutation": "invalid outline name",
+      "expected_failed_check": "three valid initial outline frontmatters",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing read-only rule",
+      "expected_failed_check": "read-only independent review boundary",
+      "result": "PASS"
+    },
+    {
+      "mutation": "broken link",
+      "expected_failed_check": "documentation links in inspected inventory",
+      "result": "PASS"
+    }
+  ],
+  "counts": {
+    "skills": 3,
+    "command_contracts": 11,
+    "production_candidates": 14,
+    "evaluation_candidates": 10,
+    "design_questions": 5
+  },
+  "file_blobs": {
+    "2026-09-10-stage-10-core-skills.md": "4e2dddcd703c5aca8c4d396fcfac71144d5ca811",
+    "2026-09-10-stage-10-command-contracts.md": "cadc18a61efcafb21f55f6cfb870b8c4f230cdcb",
+    "2026-09-10-stage-10-skill-outlines.md": "758661f90e7ddef6a2046410ab1df9296e58aefe"
+  },
+  "result": "PASS"
+}
