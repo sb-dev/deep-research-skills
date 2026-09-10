@@ -66,14 +66,28 @@ Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/40
 
 ## Stage 3: Define Question, Evidence, Claim and Provenance Model
 
-Content acceptance: PASS. Remote publication verification is required before progression.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 The [complete information model](2026-09-10-stage-03-question-evidence-claim-model.md) contains all six required output responsibilities and all 35 listed object-field concerns. It defines source-quality dimensions, provenance, uncertainty, temporal validity and a traceability contract without a mandatory universal schema. It retains the accepted Stage 1–2 boundaries.
 
 The [worked trace and synthetic design challenges](2026-09-10-stage-03-traceability-examples.json) distinguish an actual source-metadata observation from twelve explicitly synthetic semantic counterexamples. The [executed verification](2026-09-10-stage-03-verification.json) and [reproducible check](2026-09-10-stage-03-verification.py) record eleven passing document/model checks and eight negative controls that detected their intended defects. These are not installed-skill or empirical research-quality benchmarks.
 
-No Stage 3 content blocker remains. The completed-stage commit, parent and all five intended paths must be read back before its publication receipt is recorded and Stage 4 starts.
+Completed-stage commit: `2cfce4704118e3839abe8f40b869be7dee241055`.
+
+On 10 September 2026, the GitHub connector read back the branch reference, Git commit and complete recursive tree. The branch pointed to the completed-stage commit; its sole parent was `5edbff2f7859c27c2a9689a30ada55972c0c83fd`; its tree was `f3b94075d6cdcbdc6f9450812757fa9aed42d00f`. All five intended paths matched the locally checked content blobs:
+
+| Stage 3 file | Verified Git blob |
+|---|---|
+| `2026-09-10-stage-03-question-evidence-claim-model.md` | `40742d179b7282a38368fd299e2a6bf3ceb6bb7a` |
+| `2026-09-10-stage-03-traceability-examples.json` | `b053738dd1f0a71ed8bbd1a5c25b0d9d61d0004e` |
+| `2026-09-10-stage-03-verification.py` | `8494eceab8b0156798df8257b68028c107cee707` |
+| `2026-09-10-stage-03-verification.json` | `1bf9fdb0b4ab160c5a3e66717d1d0f284ae689db` |
+| `bootstrap-progress.md` at the completed-stage commit | `06681cf11f0502af484fb874b73ae81d6b9779e8` |
+
+The tree contains nineteen files: fourteen unchanged prior files, four new Stage 3 files and the updated progress record. All fourteen prior blobs match the inspected parent inventory. No production surface, unrelated change or later-stage work was introduced. Remote verification establishes publication integrity, not semantic quality; the log separately records substantive review and the executed checks.
+
+Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/2cfce4704118e3839abe8f40b869be7dee241055` and `git/trees/2cfce4704118e3839abe8f40b869be7dee241055?recursive=1`. This progress-only receipt records the observed evidence after publication; it does not alter the accepted stage deliverables. Remaining Stage 3 blockers: none.
 
 ## Remaining stages
 
-Stages 4–22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 4 must begin by re-reading the original specification on `main` and accepted Stage 1–3 outputs on `feat/bootstrap`, after the Stage 3 publication gate passes.
+Stages 4–22 have not started. Their requirements remain exactly as defined in the governing specification. Stage 4 is next and must begin by re-reading the original specification on `main` and accepted Stage 1–3 outputs on `feat/bootstrap`.
