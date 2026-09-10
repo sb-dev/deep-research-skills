@@ -1,181 +1,37 @@
 # Bootstrap Progress
 
-Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
-Approved baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.  
-Working branch: `feat/bootstrap`, created from that exact baseline on 10 September 2026.  
-Repository maturity: bootstrap workspace. No merge, release, PR readiness or registry promotion is authorised by this progress record.
+Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
+Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
+Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-## Stage 0
+**Current checkpoint: Stage 9 complete and remotely verified. Next: Stage 10.**
 
-PASS: the existing main tree contains the minimal root README, research-log README and governing bootstrap specification, with no production scaffold. The Stage 1 log records the inspected evidence. No prior bootstrap branch was used.
+Repository maturity remains bootstrap workspace. Completion of design stages does not establish installed, working, benchmarked or mature capability. No merge, release, PR readiness or registry promotion is authorised by this record.
 
-## Stage 1: Define Project Goal and Boundary
+## Accepted stages
 
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
+All rows below have content acceptance PASS and remote publication verification PASS. Stage 0's minimal workspace prerequisite passed before Stage 1.
 
-Outputs:
+| Stage | Responsibility | Completed-stage commit | Verification evidence |
+|---|---|---|---|
+| 1 | Goal and boundary | `2f41255cc0fc2b0b83120e4c15af9d4221788fe7` | Historical progress snapshot, Stage 1 |
+| 2 | Professional research practice | `400a1665735ca030e359c3e68217494cc3611631` | Historical progress snapshot, Stage 2 |
+| 3 | Question, evidence, claim and provenance | `2cfce4704118e3839abe8f40b869be7dee241055` | Historical progress snapshot, Stage 3 |
+| 4 | Source ecology and acquisition | `d5320c71655caaea354eb2b3376edf4abf453f89` | Historical progress snapshot, Stage 4 |
+| 5 | Workflow and artefacts | `544553a63980404189383df2a5fa78952af9a607` | Historical progress snapshot, Stage 5 |
+| 6 | Effort, cost, fidelity and stopping | `81e582d9cd864d3c5aa3e26913e3c01d36d07fe8` | Historical progress snapshot, Stage 6 |
+| 7 | AI/tool landscape and reuse | `3d687208088d102179b1e3ed35be8b95e1f1c8fd` | [Stage 7 receipt](2026-09-10-stage-07-publication-receipt.md) |
+| 8 | Execution layer | `c3118cafc41ea0b93025c197e5fab48216d3fc37` | [Stage 8 receipt](2026-09-10-stage-08-publication-receipt.md) |
+| 9 | Gaps and architecture guardrails | `4c26bfd26a87130751594f96ef8042ae68012f7f` | [Stage 9 verification and receipt](2026-09-10-stage-09-publication-receipt.md) |
 
-- [Complete six-part boundary design, acceptance checklist and conformance review](2026-09-10-stage-01-project-goal-and-boundary.md).
-- [Executed documentation verification](2026-09-10-stage-01-verification.json).
-- [Reproducible documentation check](2026-09-10-stage-01-verification.py).
+The [historical progress snapshot](bootstrap-progress-through-stage-08.md) preserves all previous detailed output lists, test records and blob inventories byte-for-byte. Its stale pending-stage text is historical, not current state. The later receipts and this index govern resumption.
 
-Completed-stage commit: `2f41255cc0fc2b0b83120e4c15af9d4221788fe7`.
+## Stage 9 completion
 
-On 10 September 2026, the GitHub connector read back the branch reference, Git commit and complete recursive tree. The branch pointed to this commit; its sole parent was the approved baseline `80b209968b366662c01a8ded5ecb6c30bb6beb0b`; its tree was `b0c71fb83c2c05fb1e0c6998226427ece3224b41`. All four intended files existed and matched the locally validated content hashes:
+The [gap analysis](2026-09-10-stage-09-gap-analysis.md) contains all five outputs, eight workflow mappings, thirteen focus gaps, six native responsibility directions, twelve reuse decisions, twelve deferred proposals and seven common proof requirements. No skill count or infrastructure implementation is imposed.
 
-| Stage 1 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-01-project-goal-and-boundary.md` | `5ed2d242400486be81d0acc3f371c4564873012e` |
-| `2026-09-10-stage-01-verification.json` | `8516b3234363346d06062883d31aad6cd6e9da3d` |
-| `2026-09-10-stage-01-verification.py` | `777146e7273db7f05043b0f8b70db3429975677f` |
-| `bootstrap-progress.md` at the completed-stage commit | `7e94dfdf049392da3e56810cfb4e1ace20bf874e` |
-
-The root README, research-log README and original bootstrap specification retained their exact baseline blobs. No unrelated file or production surface was added. The validator recorded seven passing documentation checks, and both executed negative controls failed as expected. These results are documentation verification, not installed-skill or research-behaviour benchmarks.
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/2f41255cc0fc2b0b83120e4c15af9d4221788fe7` and `git/trees/2f41255cc0fc2b0b83120e4c15af9d4221788fe7?recursive=1` for this repository. This subsequent progress-only commit records the observed publication evidence; it does not alter the accepted stage deliverables. Run the historical Stage 1 validator against its stage snapshot, not a later repository containing additional stages.
-
-No skill count, production scaffold or implemented research capability has been claimed. Remaining Stage 1 blockers: none.
-
-## Stage 2: Research Professional Deep Research Practice
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [professional-practice log](2026-09-10-stage-02-professional-practice.md) links all five required outputs and records discovery, source limitations, answers to the seven questions and conformance. The method comparison covers nine traditions and all seventeen dimensions in each. Supporting material includes the 42-item source register, 32-term glossary, 20-class draft failure taxonomy and 16 candidate quality dimensions. These are research outputs, not implemented research agents or measured quality benchmarks.
-
-[Executed checks](2026-09-10-stage-02-verification.json) and the [reproducible validator](2026-09-10-stage-02-verification.py) accompany the substantive semantic review. Thirteen documentation checks passed and all three executed negative controls detected their intended defects.
-
-Completed-stage commit: `400a1665735ca030e359c3e68217494cc3611631`.
-
-On 10 September 2026, the GitHub connector read back the updated branch reference, commit and complete recursive tree. The branch pointed to this commit; its sole parent was the verified Stage 1 receipt `650207611ac2ad0e7f988df530f85317573026ae`; its tree was `ddda3ef920e43cd83026fcf8fff2400eb72f1a44`. All nine intended paths matched the locally validated content hashes:
-
-| Stage 2 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-02-professional-practice.md` | `563450cc30e4e600accfc06b4a20f052e52cc3e9` |
-| `2026-09-10-stage-02-method-comparison.md` | `14c6f42fc11f1107bb7d76ce110f8168ca29b145` |
-| `2026-09-10-stage-02-sources.md` | `f40ef29dc15b221ba655e153e27dbfd98e6d9672` |
-| `2026-09-10-stage-02-glossary.md` | `bdc1811164f03e57af50ad7f12a51412d18ebb07` |
-| `2026-09-10-stage-02-failure-taxonomy.md` | `16aa77d950935a5199c9b6afc23fcd038400517d` |
-| `2026-09-10-stage-02-quality-dimensions.md` | `b8d48bb81a08b11efb99663a1b75eb41aa393aff` |
-| `2026-09-10-stage-02-verification.py` | `0eb7810d4d9912e7565e9cc0a9bb5ea5cb94a73d` |
-| `2026-09-10-stage-02-verification.json` | `71cf02b1fb6db94b997edfc6d555f712c7ce7983` |
-| `bootstrap-progress.md` at the completed-stage commit | `debcdb1b6dcfa40319ffdb7ea0c937465b82ce6d` |
-
-The three original baseline files and the three immutable Stage 1 deliverables retained their exact accepted blobs. The complete tree contained only those six files and the nine intended Stage 2 paths; no production surfaces or unrelated changes were introduced. Local checks include all 153 method-dimension cells, source-reference resolution, the required output inventories and consistent columns in eighteen Markdown tables. Remote verification establishes publication integrity, not empirical research performance.
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/400a1665735ca030e359c3e68217494cc3611631` and `git/trees/400a1665735ca030e359c3e68217494cc3611631?recursive=1`. This subsequent progress-only commit records the observed evidence. Historical validators must be run against their stage snapshots rather than later trees containing new stages. Remaining Stage 2 blockers: none.
-
-## Stage 3: Define Question, Evidence, Claim and Provenance Model
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [complete information model](2026-09-10-stage-03-question-evidence-claim-model.md) contains all six required output responsibilities and all 35 listed object-field concerns. It defines source-quality dimensions, provenance, uncertainty, temporal validity and a traceability contract without a mandatory universal schema. It retains the accepted Stage 1–2 boundaries.
-
-The [worked trace and synthetic design challenges](2026-09-10-stage-03-traceability-examples.json) distinguish an actual source-metadata observation from twelve explicitly synthetic semantic counterexamples. The [executed verification](2026-09-10-stage-03-verification.json) and [reproducible check](2026-09-10-stage-03-verification.py) record eleven passing document/model checks and eight negative controls that detected their intended defects. These are not installed-skill or empirical research-quality benchmarks.
-
-Completed-stage commit: `2cfce4704118e3839abe8f40b869be7dee241055`.
-
-On 10 September 2026, the GitHub connector read back the branch reference, Git commit and complete recursive tree. The branch pointed to the completed-stage commit; its sole parent was `5edbff2f7859c27c2a9689a30ada55972c0c83fd`; its tree was `f3b94075d6cdcbdc6f9450812757fa9aed42d00f`. All five intended paths matched the locally checked content blobs:
-
-| Stage 3 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-03-question-evidence-claim-model.md` | `40742d179b7282a38368fd299e2a6bf3ceb6bb7a` |
-| `2026-09-10-stage-03-traceability-examples.json` | `b053738dd1f0a71ed8bbd1a5c25b0d9d61d0004e` |
-| `2026-09-10-stage-03-verification.py` | `8494eceab8b0156798df8257b68028c107cee707` |
-| `2026-09-10-stage-03-verification.json` | `1bf9fdb0b4ab160c5a3e66717d1d0f284ae689db` |
-| `bootstrap-progress.md` at the completed-stage commit | `06681cf11f0502af484fb874b73ae81d6b9779e8` |
-
-The tree contains nineteen files: fourteen unchanged prior files, four new Stage 3 files and the updated progress record. All fourteen prior blobs match the inspected parent inventory. No production surface, unrelated change or later-stage work was introduced. Remote verification establishes publication integrity, not semantic quality; the log separately records substantive review and the executed checks.
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/2cfce4704118e3839abe8f40b869be7dee241055` and `git/trees/2cfce4704118e3839abe8f40b869be7dee241055?recursive=1`. This progress-only receipt records the observed evidence after publication; it does not alter the accepted stage deliverables. Remaining Stage 3 blockers: none.
-
-## Stage 4: Define Source Ecology and Acquisition Strategy
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [source ecology and acquisition strategy](2026-09-10-stage-04-source-ecology.md), [retrieval-path matrix](2026-09-10-stage-04-retrieval-matrix.md) and [source register](2026-09-10-stage-04-sources.md) contain all five required outputs, thirteen source classes, thirteen paths with twelve dimensions each, and the four named scholarly-service comparisons. The register preserves forty-three inspected-source records, including the three limited-access records.
-
-The interrupted publication was recovered from the same execution's saved Git blobs, not another branch. Each recovered document's bytes matched its saved blob; all three substantive documents are preserved byte-for-byte. The earlier validator and results were not available; the [verification script](2026-09-10-stage-04-verification.py) was reconstructed and [results](2026-09-10-stage-04-verification.json) generated by a new execution. No previous passing claim substitutes for that run. The recovery additionally reopened the official Crossref July rate announcement, OpenAlex authentication page, MCP July release and OpenAI research guide; their recorded constraints were confirmed without claiming a new execution of the providers. All sixteen checks and nine negative controls passed. These are documentation checks, not provider or installed-skill benchmarks.
-
-Completed-stage commit: `d5320c71655caaea354eb2b3376edf4abf453f89`.
-
-On 10 September 2026, the remote branch, Git commit, complete recursive tree and committed verification record were read back. The commit's sole parent is the accepted Stage 3 receipt `b1a2c31545d8814202d1bf3147aa17e979ef9f0c`; its tree is `d82ce38452ad2b90f41b9f0efd6f79ceb7350512`. All five hashes in the executed verification record match the published tree, and the verification result file itself is present:
-
-| Stage 4 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-04-source-ecology.md` | `0a26067488e180f4574df009d548cebec6a9adca` |
-| `2026-09-10-stage-04-retrieval-matrix.md` | `fde2bc9698b6f06c39fcd4806bd46c6ee0423bd8` |
-| `2026-09-10-stage-04-sources.md` | `c046151783741a6d9fd4ce5115855d3b2a30bae1` |
-| `2026-09-10-stage-04-verification.py` | `7ee51daa9b089160088652763742543e0e74a6f6` |
-| `2026-09-10-stage-04-verification.json` | `ca701d0f1d736694da32f79ac7c1a6480a4abad6` |
-| `bootstrap-progress.md` at the completed-stage commit | `27ebba170b9047f0ae83ec2c4a5838f7f17ec40b` |
-
-The tree contains twenty-four files: eighteen unchanged prior files, five Stage 4 deliverables and the updated progress record. Every unchanged file matches the baseline inventory recorded in the Stage 4 verification result. The committed result records sixteen passing checks and nine passing negative controls. These results were inspected, not claimed as newly rerun tests. No Stage 4 deliverable was rewritten during this publication verification.
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/d5320c71655caaea354eb2b3376edf4abf453f89`, `git/trees/d82ce38452ad2b90f41b9f0efd6f79ceb7350512?recursive=1`, and the verification JSON at that commit. This progress-only receipt records the observed publication evidence. Remaining Stage 4 blockers: none.
-
-## Stage 5: Map Workflow and Artifacts
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [workflow and artifacts log](2026-09-10-stage-05-workflow-and-artifacts.md) completes all five required outputs through eight operation groups, disposition of all seventeen candidate operations, state/decision gates, six handoff contracts and thirteen repair routes. The [artifact contracts](2026-09-10-stage-05-artifact-contracts.md) cover all eleven candidate responsibilities and all eight required concerns for each, without imposing eleven physical files. Four design walkthroughs cover bounded answering, contested comparison, incremental correction and interrupted delivery.
-
-The [six synthetic contract cases](2026-09-10-stage-05-contract-cases.json), [executed checks](2026-09-10-stage-05-verification.json) and [validator](2026-09-10-stage-05-verification.py) record twelve passing checks and fourteen negative controls that detected their intended defects. These are document and synthetic design-contract checks, not research-agent or provider benchmarks. Semantic review and the original-stage conformance table are in the workflow log. No current-stage design question remains unresolved.
-
-Completed-stage commit: `544553a63980404189383df2a5fa78952af9a607`.
-
-The remote branch, Git commit and full recursive tree were read back on 10 September 2026. The commit's sole parent is `4ad81f95f4d7a603c27d3f1ded7e9af215ccdfe7`, and its tree is `15c4b6acbcbe40200c690ebcf235fb3c739d9fdc`. The twenty-nine-file tree contains the five new Stage 5 files, the updated progress record and all twenty-three unchanged parent files. The unchanged blobs match the inspected parent inventory; the stage files match the locally validated bytes:
-
-| Stage 5 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-05-workflow-and-artifacts.md` | `f19975a282ff06f952d3b097dd9457bcb9521d9f` |
-| `2026-09-10-stage-05-artifact-contracts.md` | `492521d9cd240f253019ea24c6fd27c463ca405e` |
-| `2026-09-10-stage-05-contract-cases.json` | `4ee4bf143c77c00b97acdd055e8912ff18543cd0` |
-| `2026-09-10-stage-05-verification.py` | `de31b1656f91ca340818b15134e5f8117d80b1a4` |
-| `2026-09-10-stage-05-verification.json` | `18fada12e37c0bdabb42b7507ad4f44a5d77df8a` |
-| `bootstrap-progress.md` at the completed-stage commit | `c2328599318be5c85b4cc1b8cef4d363b3a8ea7d` |
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/544553a63980404189383df2a5fa78952af9a607` and `git/trees/15c4b6acbcbe40200c690ebcf235fb3c739d9fdc?recursive=1`. This progress-only receipt records observed publication integrity; it does not alter accepted content or establish empirical research performance. Remaining Stage 5 blockers: none.
-
-## Stage 6: Define Effort, Cost, Fidelity and Stopping Strategy
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [effort and stopping strategy](2026-09-10-stage-06-effort-and-stopping.md) completes all five outputs: four justified tiers, escalation rules, stopping rules, controls for all nine cost categories and incremental-refresh policy. All eight candidate effort steps and seven stopping criteria are explicitly assessed. Four primary-source checks and their limitations are recorded separately from the project's policy decisions.
-
-The [synthetic policy cases](2026-09-10-stage-06-policy-cases.json), [verifier](2026-09-10-stage-06-verification.py) and [executed results](2026-09-10-stage-06-verification.json) record fifteen passing checks and eight negative controls. The suites include twelve decision cases, nine budget-capacity cases, four reservation-settlement cases and four refresh cases. They distinguish evidence sufficiency, limited stopping, required review, bounded authorised escalation, aggregate commitments and smallest-sufficient refresh. These are document/policy checks, not live provider performance or measured research expenditure.
-
-Completed-stage commit: `81e582d9cd864d3c5aa3e26913e3c01d36d07fe8`.
-
-On 10 September 2026, the remote branch reference, Git commit and full recursive tree were read back. The branch pointed to the completed-stage commit; its sole parent is `b31ea6243d7a6fdb0da43646d2a20a10d955e901`, and its tree is `0c4ea2c7b62695b155e6b9645a27c0a191428082`. The thirty-three-file tree contains four new Stage 6 files, the updated progress record and twenty-eight unchanged parent files. The prior blobs match the inspected parent inventory, and the following new blobs match the locally validated files:
-
-| Stage 6 file | Verified Git blob |
-|---|---|
-| `2026-09-10-stage-06-effort-and-stopping.md` | `2c0dc5220447de7643ba79934e30545f477b11a1` |
-| `2026-09-10-stage-06-policy-cases.json` | `86e500cc1674d6d732f70900a3d5735760c99615` |
-| `2026-09-10-stage-06-verification.py` | `fa06f220908a4b16c0538af10fe84844de5fe275` |
-| `2026-09-10-stage-06-verification.json` | `3b2ba6452ae673f2c624d90049cee9ef58a81800` |
-| `bootstrap-progress.md` at the completed-stage commit | `7efec8f3d1315fb89bf2014866943ae203954c53` |
-
-Verification sources: GitHub GET `git/ref/heads/feat/bootstrap`, `git/commits/81e582d9cd864d3c5aa3e26913e3c01d36d07fe8` and `git/trees/0c4ea2c7b62695b155e6b9645a27c0a191428082?recursive=1`. This progress-only receipt records observed publication integrity without changing stage content or claiming live research performance. Remaining Stage 6 blockers: none.
-
-## Stage 7: Research AI Skills, Research Agents and Tools
-
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
-
-The [landscape and selection log](2026-09-10-stage-07-ai-tool-landscape.md), [complete capability matrix](2026-09-10-stage-07-capability-matrix.md) and [primary source register](2026-09-10-stage-07-sources.md) complete all five content outputs. The investigation covers all 14 categories, 35 candidates with all 15 fields (525 assessments), 36 source bundles, a role-specific shortlist, 11 integration decisions and 12 explicit gaps.
-
-Current interface, maintenance and licence conflicts are recorded rather than concealed. Provider claims, source observations and project analysis remain separate. No candidate installation, provider research run, account expenditure or benchmark score is claimed. The [validator](2026-09-10-stage-07-verification.py) and [executed results](2026-09-10-stage-07-verification.json) accompany the substantive conformance review. All 16 document checks and 10 negative controls passed in an actual local run. Earlier accepted Stage 1–6 content and receipts remain unchanged.
-
-Completed-stage commit: `3d687208088d102179b1e3ed35be8b95e1f1c8fd`. The [publication receipt](2026-09-10-stage-07-publication-receipt.md) records the verified branch, parent, six intended blobs and preservation of all 32 earlier files. Remaining Stage 7 blockers: none.
-
-## Stage 8: Choose the Execution Layer
-
-Content acceptance: PASS. Remote publication verification is the final progression gate.
-
-The [execution-layer design](2026-09-10-stage-08-execution-layer.md) completes all five required outputs. It assigns all 12 research responsibilities and 10 execution operations, chooses native-first execution with selective local tools and optional engines, and defines eligibility, result intake, fallback and local/offline boundaries. It does not require a universal provider framework or claim installed integrations.
-
-The [synthetic policy cases](2026-09-10-stage-08-policy-cases.json), [verifier](2026-09-10-stage-08-verification.py) and [executed results](2026-09-10-stage-08-verification.json) record actual design validation. All 12 checks, 25 synthetic policy cases and 9 negative controls passed in the recorded execution. These are document/policy checks, not live provider or installed-skill evaluations. No Stage 8 content question remains unresolved.
+The [executed verification](2026-09-10-stage-09-verification.json) records eight passing document checks and five detected negative controls. The [verifier](2026-09-10-stage-09-verification.py) is reproducible. The publication receipt records the exact remote document hash, sole parent and stage-only comparison. Earlier stage content is unchanged.
 
 ## Remaining stages
 
-Stages 9–22 have not started. Stage 9 begins only after Stage 8 content validation, commit and remote publication verification.
+Stages 10–22 have not started. Begin Stage 10 by re-reading the original section 16 on `main` and the accepted branch inputs. Complete, verify and commit each stage separately. Check actual remote state before retrying an interrupted write; do not restart an accepted stage from an obsolete local receipt.

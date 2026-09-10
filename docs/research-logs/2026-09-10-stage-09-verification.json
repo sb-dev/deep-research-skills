@@ -1,0 +1,45 @@
+{
+  "stage": 9,
+  "checked_at": "2026-09-10T15:42:10.376729+00:00",
+  "verification_kind": "document inventory checks; semantic review is recorded separately",
+  "source_commit": "4c26bfd26a87130751594f96ef8042ae68012f7f",
+  "source_blob": "a786c63f95dc5e44371cdb1198ecae74252af141",
+  "checks": {
+    "G inventory and wording": "PASS",
+    "D inventory and wording": "PASS",
+    "five outputs": "PASS",
+    "eight workflow groups": "PASS",
+    "all three classifications": "PASS",
+    "native reuse and proof records": "PASS",
+    "local links resolve in inspected parent": "PASS",
+    "substantive table cells": "PASS"
+  },
+  "negative_controls": [
+    {
+      "mutation": "missing gap",
+      "expected_failed_check": "G inventory and wording",
+      "result": "PASS"
+    },
+    {
+      "mutation": "wrong deferred proposal",
+      "expected_failed_check": "D inventory and wording",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing output",
+      "expected_failed_check": "five outputs",
+      "result": "PASS"
+    },
+    {
+      "mutation": "broken reference",
+      "expected_failed_check": "local links resolve in inspected parent",
+      "result": "PASS"
+    },
+    {
+      "mutation": "missing proof",
+      "expected_failed_check": "native reuse and proof records",
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS"
+}
