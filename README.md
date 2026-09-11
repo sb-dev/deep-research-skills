@@ -1,12 +1,10 @@
 # Deep Research Skills
 
-**Status:** Bootstrap design complete through the public README stage. The canonical architecture is specified, but production skill packages have not yet been scaffolded or installation-tested.
-
 **Conduct evidence-backed research, not isolated searches.**
 
 Deep Research Skills coordinates **research production**: frame the question, choose an evidence strategy, inspect original sources, preserve provenance, analyse contradictions, synthesise what the evidence supports, audit material claims, and refresh only what changed.
 
-It is designed for bounded fact-finding, comparisons, evidence synthesis, landscapes, source verification, research updates and research programmes that feed other Production Skills without taking over their decisions.
+It supports bounded fact-finding, comparisons, evidence synthesis, landscapes, source verification, research updates and research programmes that feed other Production Skills without taking over their decisions.
 
 ## Research capabilities
 
@@ -23,7 +21,23 @@ The production model covers:
 
 ## Research effort and evidence control
 
-Research is bounded by evidence quality, authority and cost — not by how many sources an agent can collect.
+Research is bounded by evidence quality, authority and cost, not by how many sources an agent can collect.
+
+```text
+research need
+→ question and decision framing
+→ source strategy
+→ bounded discovery and acquisition
+→ evidence extraction
+→ contradiction / alternative analysis
+→ targeted gap search
+→ synthesis
+→ claim / citation audit
+→ decision-ready output
+→ bounded refresh
+```
+
+The governing controls are:
 
 - **Question before retrieval.** Resolve the objective and decision context before broad search.
 - **Direct evidence before repetition.** Prefer the most direct suitable source; several reports repeating one origin are not independent corroboration.
@@ -33,14 +47,12 @@ Research is bounded by evidence quality, authority and cost — not by how many 
 - **Time is part of the evidence.** Event, publication, effective, retrieved-at and valid-as-of dates are not interchangeable.
 - **Use the cheapest adequate authorised operation.** Exact retrieval, metadata triage and targeted follow-up come before expensive broad research when they can resolve the uncertainty.
 - **Preserve verified work.** Repair the smallest responsible evidence, claim or synthesis scope rather than regenerating everything.
-- **Bound resource exposure.** Search, browser work, premium APIs, document retrieval, OCR, code execution, research engines, parallel workers and specialist review are tracked as separate resource dimensions.
-- **A cap is not sufficiency.** Hitting a budget or search limit can produce a limited result; it cannot turn incomplete evidence into a supported conclusion.
+- **Bound resource exposure.** Search, browser work, premium APIs, document retrieval, OCR, code execution, research engines, parallel workers and specialist review remain separate resource dimensions.
+- **A cap is not sufficiency.** Hitting a resource limit can produce a limited result; it cannot turn incomplete evidence into a supported conclusion.
 
-## Installation
+## Install
 
-The intended Agent Skills installation contract is defined, but the production skill directories do **not** exist yet and these commands have **not** passed local or clean external installation testing.
-
-Producer + evaluator — intended form to validate later:
+Install the producer and independent evaluator:
 
 ```bash
 npx skills add sb-dev/deep-research-skills \
@@ -49,7 +61,7 @@ npx skills add sb-dev/deep-research-skills \
   --agent claude-code
 ```
 
-Pack creator only — intended selective-install form:
+Install the Extension Pack creator independently:
 
 ```bash
 npx skills add sb-dev/deep-research-skills \
@@ -57,7 +69,7 @@ npx skills add sb-dev/deep-research-skills \
   --agent claude-code
 ```
 
-All three — intended form:
+Install all three:
 
 ```bash
 npx skills add sb-dev/deep-research-skills \
@@ -67,20 +79,23 @@ npx skills add sb-dev/deep-research-skills \
   --agent claude-code
 ```
 
-These are **specified installation contracts, not current installation instructions**. Installation becomes a product claim only after the later scaffold, local-validation and clean-consumer smoke-test stages pass.
+Inspect the available skills before installing:
+
+```bash
+npx skills add sb-dev/deep-research-skills --list
+```
 
 ## Quick start — PROV Primer publication status
 
-The selected Level 1 quick start is deliberately small, public and keyless. It demonstrates:
+Start with one bounded official-source verification. The task demonstrates the core research loop:
 
 ```text
 find
+→ inspect
 → verify
 → cite
-→ report uncertainty if necessary
+→ preserve temporal scope and uncertainty
 ```
-
-Once the `deep-research` skill is actually scaffolded and installed, the exact example prompt is:
 
 ```text
 Use the installed deep-research skill with no Extension Pack. Establish exactly what publication status and date the W3C PROV Model Primer gives itself. Begin at https://www.w3.org/TR/prov-primer/ and inspect its actual header and status section. Distinguish the Primer's own label from formal PROV Recommendations it links to. Give a supported answer with a precise locator. Do not infer implementation conformance from document status or expand into a review of all provenance standards.
@@ -90,59 +105,61 @@ Use frame, extract-evidence and synthesise only as needed. Bound discovery to 3 
 Write research/l1-01/research.md with identifiable question, source/inspection record, evidence, claim, answer, temporal scope and a clearly labelled producer self-check. Preserve uncertainty and unavailable-source limits. Do not invent source text or claim an independent review. Read any existing run before changing it and retain an identifiable prior revision. Return actual created paths and the supported answer or precise unresolved need. This is not an installation or provider benchmark.
 ```
 
-Expected research output after a real run: `research/l1-01/research.md`.
+A first research workspace should stay small:
 
-The full example contract is [L1-01 in the progressive example design](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l1-01-prov-primer-publication-status).
+```text
+research/
+└── l1-01/
+    └── research.md
+```
 
 ## Learn by researching
 
-The five levels increase **research responsibility**, not merely output length. The fifteen primary examples and their complete prompts are already specified, but they have not yet been executed through installed production skills.
+The five levels increase research responsibility rather than merely output length. Each level contains three complementary primary examples.
 
 ### Level 1 — Find and verify one bounded answer
 
-- **L1-01 — [PROV Primer publication status](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l1-01-prov-primer-publication-status)** — recover one official-source fact with an exact locator and temporal scope.
-- **L1-02 — [Python requirement claim audit](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l1-02-python-requirement-claim-audit)** — audit a frozen proposition against package, server and README evidence without rewriting it.
-- **L1-03 — [Repair-data count scope](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l1-03-repair-data-count-scope)** — distinguish the published count, unit, release date and observation period.
+- **L1-01 — PROV Primer publication status** — recover one official-source fact with an exact locator and temporal scope.
+- **L1-02 — Python requirement claim audit** — audit a frozen proposition against package, server and README evidence without rewriting it.
+- **L1-03 — Repair-data count scope** — distinguish the published count, unit, release date and observation period.
 
 ### Level 2 — Compare a small evidence set
 
-- **L2-01 — [Scholarly metadata routes](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l2-01-scholarly-metadata-routes)** — compare Crossref, OpenAlex and Semantic Scholar against explicit evidence-access criteria.
-- **L2-02 — [RULER report versions](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l2-02-ruler-report-versions)** — compare revisions of one work without counting them as independent studies.
-- **L2-03 — [Small numeric repair comparison](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l2-03-small-numeric-repair-comparison)** — produce a reproducible descriptive comparison while retaining denominators and sampling limits.
+- **L2-01 — Scholarly metadata routes** — compare Crossref, OpenAlex and Semantic Scholar against explicit evidence-access criteria.
+- **L2-02 — RULER report versions** — compare revisions of one work without counting them as independent studies.
+- **L2-03 — Small numeric repair comparison** — produce a reproducible descriptive comparison while retaining denominators and sampling limits.
 
 ### Level 3 — Produce a focused decision-ready report
 
-- **L3-01 — [Long-context research evidence](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l3-01-long-context-research-evidence)** — use the `scholarly-evidence` profile to assess what benchmark evidence does and does not justify.
-- **L3-02 — [Repair-software opportunity evidence](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l3-02-repair-software-opportunity-evidence)** — separate observed repair activity from untested market demand and willingness to pay.
-- **L3-03 — [Optional research-engine adoption](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l3-03-optional-research-engine-adoption)** — use the `open-source-ecosystem` profile to distinguish documentary capability, static inspection and tests still required.
+- **L3-01 — Long-context research evidence** — use the `scholarly-evidence` profile to assess what benchmark evidence does and does not justify.
+- **L3-02 — Repair-software opportunity evidence** — separate observed repair activity from untested market demand and willingness to pay.
+- **L3-03 — Optional research-engine adoption** — use the `open-source-ecosystem` profile to distinguish documentary capability, static inspection and tests still required.
 
 ### Level 4 — Handle contested, scaled and changing evidence
 
-- **L4-01 — [API-policy reconstruction and refresh](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l4-01-api-policy-reconstruction-and-refresh)** — reconstruct dated policy states and update only affected claims.
-- **L4-02 — [Longitudinal repair-data reconciliation](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l4-02-longitudinal-repair-data-reconciliation)** — reconcile large snapshots without double-counting or hiding schema drift.
-- **L4-03 — [Multi-repository evidence audit](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l4-03-multi-repository-evidence-audit)** — trace capability evidence across a bounded repository set and repair only the affected evidence chain.
+- **L4-01 — API-policy reconstruction and refresh** — reconstruct dated policy states and update only affected claims.
+- **L4-02 — Longitudinal repair-data reconciliation** — reconcile large snapshots without double-counting or hiding schema drift.
+- **L4-03 — Multi-repository evidence audit** — trace capability evidence across a bounded repository set and repair only the affected evidence chain.
 
 ### Level 5 — Run a research programme that feeds production
 
-- **L5-01 — [Archival-research domain programme](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l5-01-archival-research-domain-programme)** — research a new Production Skills domain before architecture and qualify whether a new Extension Pack is justified.
-- **L5-02 — [Watershed system for production](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l5-02-watershed-system-for-production)** — hand scientific mechanisms to game, world and narrative production without treating simulation as empirical proof.
-- **L5-03 — [Evidence-linked briefing opportunity](docs/research-logs/2026-09-10-stage-12-progressive-examples.md#l5-03-evidence-linked-briefing-opportunity)** — combine market, technical and editorial evidence while leaving business, engineering and publication commitments with their owners.
+- **L5-01 — Archival-research domain programme** — research a new Production Skills domain before architecture design and qualify whether a new Extension Pack is justified.
+- **L5-02 — Watershed system for production** — hand scientific mechanisms to game, world and narrative production without treating simulation as empirical proof.
+- **L5-03 — Evidence-linked briefing opportunity** — combine market, technical and editorial evidence while leaving business, engineering and publication commitments with their owners.
 
 ## Project structure grows with the research
 
-The research workspace should stay as small as the task permits. These are consumer-workspace patterns, not production directories that currently exist in this repository.
-
 **One bounded answer**  
-A compact `research.md` can hold the brief, source inspection, evidence, claim, answer and producer self-check when that remains unambiguous.
+Keep the brief, source inspection, evidence, claim, answer and producer self-check together when one compact research file remains unambiguous.
 
 **A comparison needs separate review**  
-Add a fixed-input `evaluation/audit.md` when independent evaluation is part of the task.
+Add `evaluation/audit.md` when a fixed-input independent audit is part of the work.
 
 **Evidence volume or ownership starts to scale**  
-Split source, evidence, claim and analysis records only when separate updates, access restrictions or reviewer ownership make the separation useful.
+Split source, evidence, claim and analysis records only when separate updates, access restrictions or reviewer ownership make that useful.
 
 **A calculation or refresh is material**  
-Add explicit calculation inputs/outputs or a `change-record.md` so the transformation and affected dependencies remain inspectable.
+Add explicit calculation inputs/outputs or a `change-record.md` so transformations and affected dependencies remain inspectable.
 
 **A research programme feeds other domains**  
 Add explicit handoff artefacts for the receiving production disciplines. The handoff carries evidence, uncertainty and unresolved owner decisions; it does not take over their work.
@@ -161,6 +178,8 @@ Keep the structure lean:
 
 Owns evidence-led research production from framing through discovery, extraction, claim analysis, synthesis, bounded follow-up and refresh.
 
+Use it when a task needs an evidence-producing workflow rather than one isolated lookup. It preserves source/evidence/claim distinctions, explicit authority and resource bounds, and existing verified work during repair.
+
 Commands:
 
 ```text
@@ -178,6 +197,8 @@ refresh
 
 Audits fixed research inputs and diagnoses failures without silently repairing the submission.
 
+Use it when research needs an independent pass over source quality, independence, coverage, claims, citations, freshness, contradictions, uncertainty or reproducibility. Evaluation writes a new review rather than mutating the producer's evidence.
+
 Commands:
 
 ```text
@@ -189,35 +210,24 @@ diagnose-research-failure
 
 Qualifies, designs, compares and revises reusable specialist research profiles.
 
+Use it when a recurring research context materially changes source ecology, method, eligibility, appraisal, synthesis or quality criteria. It checks the existing catalogue first and requires core-vs-pack differential evidence rather than creating cosmetic profiles.
+
 Command:
 
 ```text
 create-pack
 ```
 
-The three skills are specified as independently installable. Their production packages have not yet been scaffolded.
-
 ## Extension Packs
 
-Extension Packs specialise research behaviour without bloating the core. They may change source ecology, search strategy, eligibility, appraisal, method, synthesis, quality criteria and reporting conventions.
+Extension Packs specialise research behaviour without bloating the core. Explicit research instructions and accepted project decisions outrank pack defaults.
 
-Precedence is:
-
-```text
-explicit research instructions
-→ approved / locked research decisions
-→ selected Extension Pack
-→ core Deep Research defaults
-```
-
-The initial **design catalogue** contains:
+Initial research profiles:
 
 - **`scholarly-evidence`** — publication/report/version handling and method-specific appraisal for bounded scholarly research.
 - **`open-source-ecosystem`** — revision-bound repository evidence, licence/setup distinctions and separation of documented, statically inspected, executed and unknown capability.
 
-Both have source-backed procedural demonstrations and differential design evidence. Neither is yet a production pack bundle or clean-install-validated product.
-
-A project-specific brief is not an Extension Pack.
+A project-specific brief is not an Extension Pack. A valid pack must materially change research behaviour and remain independently testable against core-only research.
 
 ## Execution
 
@@ -228,14 +238,12 @@ Execution may use:
 - host-native web search and browsing;
 - exact GitHub/file retrieval;
 - specialist scholarly or structured-data APIs when the question requires them;
-- document/PDF parsing;
+- document and PDF parsing;
 - visual or multimodal inspection;
 - local code/statistical analysis;
 - optional hosted or self-hosted broad-research engines.
 
 The core does not require one provider, one search API, one browser, one vector database or one orchestration framework.
-
-Every executor remains below the research contract:
 
 ```text
 research question
@@ -247,11 +255,11 @@ research question
 → authorised handoff
 ```
 
-A provider report is evidence to inspect, not an automatic accepted answer.
+A provider report is evidence to inspect, not an automatically accepted answer.
 
-## Evaluation / benchmarks
+## Evaluation and benchmarks
 
-Evaluation is layered so different failure modes remain independently detectable:
+Evaluation keeps different failure modes independently detectable:
 
 1. structural integrity;
 2. retrieval behaviour;
@@ -264,15 +272,13 @@ Evaluation is layered so different failure modes remain independently detectable
 9. end-to-end progressive research;
 10. clean external installation.
 
-The Stage 13 design includes regression fixtures for duplicate-source inflation, snippet/full-source disagreement, stale versus current official sources, retractions/corrections, report/study duplication, inaccessible primary evidence, contradictory high-quality evidence, unsupported synthesis, adjacent-but-non-entailing citations, missing subquestions and wasteful continued search.
+Regression fixtures should cover duplicate-source inflation, snippet/full-source disagreement, stale versus current official sources, retractions/corrections, report/study duplication, inaccessible primary evidence, contradictory high-quality evidence, unsupported synthesis, adjacent-but-non-entailing citations, missing subquestions and wasteful continued search.
 
-Reference/design checks have been executed. Live installed-agent scores, clean installation and benchmarked-product status have **not** yet been established.
+External benchmark families such as BrowseComp, DeepResearch Bench, BrowseComp-Plus, ResearchRubrics and FINDER/DEFT can inform individual evaluation dimensions without defining the complete quality model.
 
-External benchmark work informs the architecture without defining it: BrowseComp, DeepResearch Bench, BrowseComp-Plus, ResearchRubrics and FINDER/DEFT contribute retrieval, citation, controlled-corpus, rubric and failure-diagnosis lessons.
+See [Testing and Benchmark Specification](docs/04-testing-and-benchmark-spec.md).
 
 ## Documentation
-
-### Canonical specifications
 
 - [01 — Deep Research Skills System Specification](docs/01-deep-research-skills-system-spec.md)
 - [02 — Workflows and Artifacts Specification](docs/02-deep-research-skills-workflows-and-artifacts-spec.md)
@@ -280,13 +286,6 @@ External benchmark work informs the architecture without defining it: BrowseComp
 - [04 — Testing and Benchmark Specification](docs/04-testing-and-benchmark-spec.md)
 - [05 — Customisation and Extension Packs Specification](docs/05-deep-research-skills-customisation-packs-spec.md)
 - [06 — Extension Pack Catalogue](docs/06-deep-research-skills-extension-pack-catalogue.md)
-
-### Bootstrap evidence
-
-- [Deep Research Skills bootstrap process](docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md)
-- [Progressive example design — all 15 exact prompts](docs/research-logs/2026-09-10-stage-12-progressive-examples.md)
-- [Evaluation architecture and regression fixtures](docs/research-logs/2026-09-10-stage-13-evaluation-design.md)
-- [Bootstrap progress](docs/research-logs/bootstrap-progress.md)
 
 ## Project boundary
 
@@ -307,12 +306,8 @@ Research can inform these domains. It does not inherit their authority.
 
 ## Contributing
 
-The repository is still in its bootstrap sequence. A production `CONTRIBUTING.md` will be added only when the repository scaffold is created.
-
-Until then, contributions to this branch should preserve the accepted canonical specifications, evidence/claim distinctions, stage boundaries and truthful implementation status rather than adding unvalidated production surfaces early.
+Contributions should preserve source/evidence/claim distinctions, independent evaluation boundaries, temporal validity, explicit authority and smallest-sufficient repair. Repository contribution guidance is defined in `CONTRIBUTING.md`.
 
 ## Licence
 
-A project `LICENSE` file has not yet been added because repository scaffolding is a later bootstrap stage.
-
-Do not infer project redistribution or reuse rights from the licences of referenced sources, tools or sibling repositories. Public licence wording belongs in this README only after the repository's own licence exists.
+The repository licence is declared in `LICENSE`. Source documents, datasets, models, APIs and other third-party material retain their own licences and terms.

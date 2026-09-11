@@ -1,12 +1,13 @@
 # Bootstrap Progress
 
-Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
-Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
-Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
+Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.  
+Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.  
+Historical governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
+Future-stage amendment from Stage 16 onward: [README and implementation sequence amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md).
 
-**Current checkpoint: Stage 15 complete and remotely verified. Next: Stage 16.**
+**Current checkpoint: Stage 16 complete. Next: Stage 17 Cross-Project Review.**
 
-Repository maturity remains bootstrap workspace. Public README design does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
+Repository maturity remains bootstrap workspace. README conformance does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
 
 ## Accepted stages
 
@@ -28,32 +29,49 @@ Stages 1–14 have content acceptance PASS and remote publication verification P
 | 12 | Progressive example design and coverage | `432401c2321e8cdc9edc778d382243d3ea39776e` | historical progress through Stage 13 |
 | 13 | Evaluation architecture and regression fixtures | `9d223ee2655f1c9642bc5b0e21caddfbfae3c66a` | Stage 13 receipt |
 | 14 | Six canonical specifications | `86b276f14ffeb096ca3170d3596836dac8eecdd0` | Stage 14 receipt `066d545994e8925010098d2d35b39d3389cb65af` |
+| 15 | Public README design | `18376f74db7e10b4a3a6363e8bca9c0c8e2c8977` | Stage 15 log, verifier, result and publication receipt |
+| 16 | Public README conformance repair | Stage 16 branch commit | Stage 16 log, contract, claims ledger and executed structural verifier |
 
-## Stage 15 content
+## Stage 15 historical record
 
-Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
+Stage 15 remains complete historical work and is not rewritten.
 
-The root `README.md` now defines the intended public product surface while preserving the repository's current bootstrap state. It includes:
+Its accepted design deliberately exposed current bootstrap/scaffold/install status in the root README. The [Stage 15 research log](2026-09-11-stage-15-public-readme.md), verifier, result and publication receipt remain the authoritative record of that decision and its original acceptance criteria.
 
-- research-production positioning;
-- research capabilities and evidence/effort control;
-- intended installation contracts with explicit not-yet-installable status;
-- the complete accepted `L1-01` PROV Primer quick-start prompt;
-- exactly fifteen accepted examples, three per level across five levels;
-- project-structure guidance;
-- all three skills and eleven commands;
-- both selected Extension Packs with design-only maturity;
-- execution and provider boundaries;
-- evaluation/benchmark status;
-- six canonical specification links;
-- project boundary, contributing and licence sections.
+The later Production Skills public README contract introduced a stricter separation between public product copy and bootstrap evidence. Stage 16 repairs the public surface without claiming Stage 15 was executed under the newer rule.
 
-The [Stage 15 research log](2026-09-11-stage-15-public-readme.md) records the structural comparison with `video-production-skills`, positioning and quick-start decisions, installation/maturity handling and conformance table. The [verifier](2026-09-11-stage-15-verification.py) and [executed result](2026-09-11-stage-15-verification.json) record twenty-one passing checks and four detected negative controls.
+## Stage 16 content
 
-No production skill directories, example folders, Extension Pack bundles, `CONTRIBUTING.md`, `LICENSE`, local installation or clean external installation are added or claimed in Stage 15.
+Status: COMPLETE. Structural conformance: PASS.
 
-Completed Stage 15 content head: `065ecd4762660d02d2ff4a65987634eacb2ec24d`. The cumulative comparison against the verified Stage 14 receipt `066d545994e8925010098d2d35b39d3389cb65af` contains exactly five intended paths: `README.md`, the Stage 15 research log, verifier, executed result and this progress record. The README and all Stage 15 evidence files were read back at the immutable content head and matched their validated Git blobs.
+Stage 16 adds:
 
-The executed verifier records twenty-one passing positive checks and four detected negative controls. No production skill package, example directory, Extension Pack bundle, local installation, clean external installation or benchmarked-product result is claimed.
+- a corrected product-facing root `README.md`;
+- [Deep Research README contract](2026-09-11-stage-16-public-readme-contract.md);
+- [internal public claims ledger](2026-09-11-stage-16-public-claims-ledger.md);
+- [future-stage amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md);
+- [Stage 16 execution/conformance log](2026-09-11-stage-16-public-readme-conformance-repair.md);
+- [deterministic verifier](2026-09-11-stage-16-verification.py);
+- [executed verification result](2026-09-11-stage-16-verification.json).
 
-Remaining Stage 15 blockers: none. [Stage 15 publication receipt](2026-09-11-stage-15-publication-receipt.md) records the observed remote evidence. Stage 16 is next.
+The root README no longer exposes stage numbers, bootstrap branch/maturity state, future implementation scheduling, `not-run` bookkeeping or research-log links as public example navigation. It preserves the complete L1-01 prompt, the accepted 5 × 3 example identity, all three substantive skill sections, both accepted initial research profiles and the canonical specification navigation.
+
+The verifier returned PASS and all four negative controls were detected.
+
+## Amended future sequence
+
+```text
+17 Cross-Project Review
+18 Scaffold Repository and Preserve Public README
+19 Implement and Prove Core Vertical
+20 Expand Progressive Coverage and Extension Packs
+21 Configure Skill Installation
+22 Local Validation and Public README Conformance
+23 Publish + Clean External Install Smoke Test + Claims Reconciliation
+24 Optional Pactwright Integration + Registry Promotion
+25 Review Shared-Abstraction Candidates
+```
+
+The original Stage 14 specifications remain immutable. Any old future stage numbers inside those completed specifications are interpreted through the amendment mapping rather than edited retroactively.
+
+Stage 17 is next.

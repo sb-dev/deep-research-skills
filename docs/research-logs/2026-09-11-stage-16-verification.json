@@ -1,0 +1,18 @@
+{
+  "stage": 16,
+  "title": "Public README Conformance Repair",
+  "date": "2026-09-11",
+  "result": "PASS",
+  "positive_errors": [],
+  "negative_controls": {
+    "stage leakage": true,
+    "research-log route": true,
+    "missing example": true,
+    "missing skill": true
+  },
+  "notes": [
+    "README target was checked for required section order, complete L1-01 prompt markers, 5x3 example identity, substantive skill sections, canonical specification links and prohibited bootstrap-state leakage.",
+    "Negative controls were executed against mutated README text and each mutation produced at least one validation error.",
+    "This verification is structural public-surface validation. It is not an installed-agent test, research benchmark or clean external installation."
+  ]
+}
