@@ -4,17 +4,13 @@ Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
 Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-**Current checkpoint: Stage 14 complete and remotely verified. Next: Stage 15.**
+**Current checkpoint: Stage 15 complete and remotely verified. Next: Stage 16.**
 
-Repository maturity remains bootstrap workspace. Canonical design specifications do not establish installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
+Repository maturity remains bootstrap workspace. Public README design does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
 
 ## Accepted stages
 
-Stages 1–13 have content acceptance PASS and remote publication verification PASS. Detailed historical evidence remains in:
-
-- [historical progress through Stage 8](bootstrap-progress-through-stage-08.md);
-- [historical progress through Stage 13](bootstrap-progress-through-stage-13.md);
-- Stage 7–13 publication receipts.
+Stages 1–14 have content acceptance PASS and remote publication verification PASS. Detailed historical evidence remains in historical progress snapshots and Stage 7–14 publication receipts.
 
 | Stage | Responsibility | Completed-stage commit | Verification evidence |
 |---|---|---|---|
@@ -31,26 +27,33 @@ Stages 1–13 have content acceptance PASS and remote publication verification P
 | 11 | Extension Packs and pack authoring | `7614f2b4801c072c6e2d5f292a348faaf6d46e1b` | Stage 11 receipt |
 | 12 | Progressive example design and coverage | `432401c2321e8cdc9edc778d382243d3ea39776e` | historical progress through Stage 13 |
 | 13 | Evaluation architecture and regression fixtures | `9d223ee2655f1c9642bc5b0e21caddfbfae3c66a` | Stage 13 receipt |
+| 14 | Six canonical specifications | `86b276f14ffeb096ca3170d3596836dac8eecdd0` | Stage 14 receipt `066d545994e8925010098d2d35b39d3389cb65af` |
 
-## Stage 14 completion
+## Stage 15 content
 
 Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
-Exactly six canonical specifications have been generated at the required paths:
+The root `README.md` now defines the intended public product surface while preserving the repository's current bootstrap state. It includes:
 
-- [01 system](../01-deep-research-skills-system-spec.md)
-- [02 workflows and artefacts](../02-deep-research-skills-workflows-and-artifacts-spec.md)
-- [03 repository and contracts](../03-deep-research-skills-repository-and-contracts-spec.md)
-- [04 testing and benchmark](../04-testing-and-benchmark-spec.md)
-- [05 customisation packs](../05-deep-research-skills-customisation-packs-spec.md)
-- [06 extension pack catalogue](../06-deep-research-skills-extension-pack-catalogue.md)
+- research-production positioning;
+- research capabilities and evidence/effort control;
+- intended installation contracts with explicit not-yet-installable status;
+- the complete accepted `L1-01` PROV Primer quick-start prompt;
+- exactly fifteen accepted examples, three per level across five levels;
+- project-structure guidance;
+- all three skills and eleven commands;
+- both selected Extension Packs with design-only maturity;
+- execution and provider boundaries;
+- evaluation/benchmark status;
+- six canonical specification links;
+- project boundary, contributing and licence sections.
 
-The [Stage 14 research log](2026-09-11-stage-14-canonical-specifications.md) contains the acceptance checklist, ownership synthesis and conformance table. The executed [verification result](2026-09-11-stage-14-verification.json) and [verifier](2026-09-11-stage-14-verification.py) establish file count, required responsibility coverage, inventories, link closure, maturity-claim discipline and negative-control detection.
+The [Stage 15 research log](2026-09-11-stage-15-public-readme.md) records the structural comparison with `video-production-skills`, positioning and quick-start decisions, installation/maturity handling and conformance table. The [verifier](2026-09-11-stage-15-verification.py) and [executed result](2026-09-11-stage-15-verification.json) record twenty-one passing checks and four detected negative controls.
 
-No production skill package, public README redesign, external installation or maturity promotion is included in Stage 14.
+No production skill directories, example folders, Extension Pack bundles, `CONTRIBUTING.md`, `LICENSE`, local installation or clean external installation are added or claimed in Stage 15.
 
-Completed-stage content commit: `86b276f14ffeb096ca3170d3596836dac8eecdd0`. Its sole parent is the verified Stage 13 receipt `62b65ebd5f3174c0ec63c4bfd15ac0729b44ce35`. The parent comparison contains exactly six new canonical specifications, three Stage 14 evidence files and the progress update. All six canonical files, the research log, verifier, executed result and progress record were read back at the immutable commit and matched the locally validated Git blob identities.
+Completed Stage 15 content head: `065ecd4762660d02d2ff4a65987634eacb2ec24d`. The cumulative comparison against the verified Stage 14 receipt `066d545994e8925010098d2d35b39d3389cb65af` contains exactly five intended paths: `README.md`, the Stage 15 research log, verifier, executed result and this progress record. The README and all Stage 15 evidence files were read back at the immutable content head and matched their validated Git blobs.
 
-The executed validation records thirteen passing positive checks and four detected negative controls. These are canonical-spec inventory/content/link/maturity checks, not installed-agent or clean-installation evidence.
+The executed verifier records twenty-one passing positive checks and four detected negative controls. No production skill package, example directory, Extension Pack bundle, local installation, clean external installation or benchmarked-product result is claimed.
 
-Remaining Stage 14 blockers: none. `2026-09-11-stage-14-publication-receipt.md` records the remote evidence. Stage 15 is next.
+Remaining Stage 15 blockers: none. [Stage 15 publication receipt](2026-09-11-stage-15-publication-receipt.md) records the observed remote evidence. Stage 16 is next.

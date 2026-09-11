@@ -1,0 +1,58 @@
+{
+  "stage": 15,
+  "checked_at": "2026-09-11T08:16:43.843392+00:00",
+  "kind": "public README structure, inventory, links and maturity validation; no installed-agent test",
+  "parent": "066d545994e8925010098d2d35b39d3389cb65af",
+  "readme": {
+    "sha256": "524e8e7ca0641c5b57f90321d5c3da76ce6db7c74504bf3798c9691740f4d8fd",
+    "bytes": 18936,
+    "lines": 318
+  },
+  "verifier_sha256": "fdcd22b8e1d3424707326fb2a6b0a883cd8ddec97cb76797a725a344ff1f5d65",
+  "checks": {
+    "title": "PASS",
+    "research production positioning": "PASS",
+    "all required sections": "PASS",
+    "exact fifteen examples": "PASS",
+    "level 1 exact trio": "PASS",
+    "level 2 exact trio": "PASS",
+    "level 3 exact trio": "PASS",
+    "level 4 exact trio": "PASS",
+    "level 5 exact trio": "PASS",
+    "quick start complete": "PASS",
+    "installation contract present": "PASS",
+    "installation status honest": "PASS",
+    "three skills": "PASS",
+    "eleven commands": "PASS",
+    "selected packs": "PASS",
+    "pack maturity honest": "PASS",
+    "six canonical docs": "PASS",
+    "relative link closure": "PASS",
+    "project boundary": "PASS",
+    "future scaffold files not falsely linked": "PASS",
+    "maturity honest": "PASS"
+  },
+  "negative_controls": [
+    {
+      "mutation": "remove one example",
+      "expected_failed_check": "exact fifteen examples",
+      "detected": true
+    },
+    {
+      "mutation": "remove quick-start source",
+      "expected_failed_check": "quick start complete",
+      "detected": true
+    },
+    {
+      "mutation": "false install readiness",
+      "expected_failed_check": "installation status honest",
+      "detected": true
+    },
+    {
+      "mutation": "break canonical link",
+      "expected_failed_check": "relative link closure",
+      "detected": true
+    }
+  ],
+  "result": "PASS"
+}
