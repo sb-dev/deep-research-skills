@@ -1,0 +1,111 @@
+{
+  "stage": 14,
+  "checked_at": "2026-09-11T06:35:13.243964+00:00",
+  "kind": "canonical specification inventory, ownership, link and maturity validation; no installed-agent test",
+  "parent": "62b65ebd5f3174c0ec63c4bfd15ac0729b44ce35",
+  "canonical_count_required": 6,
+  "canonical_names": [
+    "01-deep-research-skills-system-spec.md",
+    "02-deep-research-skills-workflows-and-artifacts-spec.md",
+    "03-deep-research-skills-repository-and-contracts-spec.md",
+    "04-testing-and-benchmark-spec.md",
+    "05-deep-research-skills-customisation-packs-spec.md",
+    "06-deep-research-skills-extension-pack-catalogue.md"
+  ],
+  "checks": {
+    "exact six canonical names": "PASS",
+    "required content 01-deep-research-skills-system-spec.md": "PASS",
+    "required content 02-deep-research-skills-workflows-and-artifacts-spec.md": "PASS",
+    "required content 03-deep-research-skills-repository-and-contracts-spec.md": "PASS",
+    "required content 04-testing-and-benchmark-spec.md": "PASS",
+    "required content 05-deep-research-skills-customisation-packs-spec.md": "PASS",
+    "required content 06-deep-research-skills-extension-pack-catalogue.md": "PASS",
+    "exact scholarly showcase prompt": "PASS",
+    "exact open-source showcase prompt": "PASS",
+    "relative link closure": "PASS",
+    "no false product maturity claim": "PASS",
+    "no premature production directories": "PASS",
+    "stage support files": "PASS"
+  },
+  "negative_controls": [
+    {
+      "mutation": "remove canonical spec",
+      "detected": [
+        "exact six canonical names",
+        "required content 06-deep-research-skills-extension-pack-catalogue.md",
+        "exact scholarly showcase prompt",
+        "exact open-source showcase prompt"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "remove required inventory",
+      "detected": [
+        "required content 02-deep-research-skills-workflows-and-artifacts-spec.md"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "break local link",
+      "detected": [
+        "relative link closure"
+      ],
+      "result": "PASS"
+    },
+    {
+      "mutation": "false clean install claim",
+      "detected": [
+        "no false product maturity claim"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "hashes": {
+    "docs/01-deep-research-skills-system-spec.md": {
+      "sha256": "0c178b87c37509a1a99e7d59809a3d2b64444aaa04f99eb8d1a295da3bc56692",
+      "git_blob": "8a2ada2a627e1755e9d522986363cbf6b1ea5336",
+      "bytes": 17926
+    },
+    "docs/02-deep-research-skills-workflows-and-artifacts-spec.md": {
+      "sha256": "6dbb938b20a3d53070b4fb731ebf3f4d4a1560463c8113998b08f0e0bbee1b15",
+      "git_blob": "6eb6e22a6c99d15ca5a973fa05c7862ea7f8c149",
+      "bytes": 21333
+    },
+    "docs/03-deep-research-skills-repository-and-contracts-spec.md": {
+      "sha256": "821c4a938f33a4e9c78e2471e9c3e88752d506af2500f95a13631834d4dc3fa6",
+      "git_blob": "8dacedebff7539241c6c0854e758d863c2658fd9",
+      "bytes": 15015
+    },
+    "docs/04-testing-and-benchmark-spec.md": {
+      "sha256": "864cc8c3c588273ad427e759c55e741038855714f0fbaccc9171892b97bcc465",
+      "git_blob": "bbe30b8bfbbcfd009d3a2034546b58af44ddff27",
+      "bytes": 19431
+    },
+    "docs/05-deep-research-skills-customisation-packs-spec.md": {
+      "sha256": "8c4a981407002e4b0d374b4b55578510d38dd801b7c828ee93b57ca806fd628c",
+      "git_blob": "22decdddaddc0358137b74806c27bc2ba769179e",
+      "bytes": 14060
+    },
+    "docs/06-deep-research-skills-extension-pack-catalogue.md": {
+      "sha256": "c026633f2c2e78ec168738ec3829ec768819dddfcbcb998238f41322831340d3",
+      "git_blob": "fcaf2d086d6905aae35414b4c3e3a3a3f50623d3",
+      "bytes": 16244
+    },
+    "docs/research-logs/2026-09-11-stage-14-canonical-specifications.md": {
+      "sha256": "710a9438a973686735ef7dfb25d4c54297b3dfa7abf099a9b639ef4aa2d41172",
+      "git_blob": "a6e475fd469b86b120a9508f5391e7e86ae09cb5",
+      "bytes": 9286
+    },
+    "docs/research-logs/2026-09-11-stage-14-verification.py": {
+      "sha256": "e89cb25ce32c7b9798b0e367fa95505266100835c898d3eceb43889c06126815",
+      "git_blob": "188553ae3ff0087797abf2f31aa5ce0ce0213bc1",
+      "bytes": 12433
+    },
+    "docs/research-logs/bootstrap-progress.md": {
+      "sha256": "57b0ab1ce257141e6eebfaa33aee66a0d2815b27f9fa694bdd1f07d9088ea43c",
+      "git_blob": "1f6f48695e5b421cff022114d8501e24a3edbe4b",
+      "bytes": 3915
+    }
+  },
+  "result": "PASS"
+}
