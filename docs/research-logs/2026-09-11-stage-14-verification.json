@@ -1,6 +1,6 @@
 {
   "stage": 14,
-  "checked_at": "2026-09-11T06:35:13.243964+00:00",
+  "checked_at": "2026-09-11T06:40:37.582075+00:00",
   "kind": "canonical specification inventory, ownership, link and maturity validation; no installed-agent test",
   "parent": "62b65ebd5f3174c0ec63c4bfd15ac0729b44ce35",
   "canonical_count_required": 6,
@@ -92,9 +92,9 @@
       "bytes": 16244
     },
     "docs/research-logs/2026-09-11-stage-14-canonical-specifications.md": {
-      "sha256": "710a9438a973686735ef7dfb25d4c54297b3dfa7abf099a9b639ef4aa2d41172",
-      "git_blob": "a6e475fd469b86b120a9508f5391e7e86ae09cb5",
-      "bytes": 9286
+      "sha256": "4e03fa1e3ba4295f601cd6a0cd7b623ef0c731dc8f6457ce9b6ada740a6cdb13",
+      "git_blob": "505daf1cfd0e483fa11b528e0e8c7b62d918a2d7",
+      "bytes": 9440
     },
     "docs/research-logs/2026-09-11-stage-14-verification.py": {
       "sha256": "e89cb25ce32c7b9798b0e367fa95505266100835c898d3eceb43889c06126815",
@@ -102,9 +102,9 @@
       "bytes": 12433
     },
     "docs/research-logs/bootstrap-progress.md": {
-      "sha256": "57b0ab1ce257141e6eebfaa33aee66a0d2815b27f9fa694bdd1f07d9088ea43c",
-      "git_blob": "1f6f48695e5b421cff022114d8501e24a3edbe4b",
-      "bytes": 3915
+      "sha256": "b3aec9eeb8beb46eebcd62b6fddc6120c14bf5bd19241b4f9c49d0a8be3d9ad7",
+      "git_blob": "7681315646b3fb30b11dffb38641ad7fbc458fde",
+      "bytes": 4476
     }
   },
   "result": "PASS"

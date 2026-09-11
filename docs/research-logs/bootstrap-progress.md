@@ -4,7 +4,7 @@ Repository: `sb-dev/deep-research-skills`. Working branch: `feat/bootstrap`.
 Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).
 
-**Current checkpoint: Stage 13 complete and remotely verified. Stage 14 content acceptance PASS; remote publication verification is the next gate.**
+**Current checkpoint: Stage 14 complete and remotely verified. Next: Stage 15.**
 
 Repository maturity remains bootstrap workspace. Canonical design specifications do not establish installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
 
@@ -32,9 +32,9 @@ Stages 1–13 have content acceptance PASS and remote publication verification P
 | 12 | Progressive example design and coverage | `432401c2321e8cdc9edc778d382243d3ea39776e` | historical progress through Stage 13 |
 | 13 | Evaluation architecture and regression fixtures | `9d223ee2655f1c9642bc5b0e21caddfbfae3c66a` | Stage 13 receipt |
 
-## Stage 14 content
+## Stage 14 completion
 
-Content acceptance: PASS. Remote publication verification: pending.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS.
 
 Exactly six canonical specifications have been generated at the required paths:
 
@@ -49,6 +49,8 @@ The [Stage 14 research log](2026-09-11-stage-14-canonical-specifications.md) con
 
 No production skill package, public README redesign, external installation or maturity promotion is included in Stage 14.
 
-## Next gate
+Completed-stage content commit: `86b276f14ffeb096ca3170d3596836dac8eecdd0`. Its sole parent is the verified Stage 13 receipt `62b65ebd5f3174c0ec63c4bfd15ac0729b44ce35`. The parent comparison contains exactly six new canonical specifications, three Stage 14 evidence files and the progress update. All six canonical files, the research log, verifier, executed result and progress record were read back at the immutable commit and matched the locally validated Git blob identities.
 
-Verify the Stage 14 content commit remotely, including parent, changed-file scope, all six canonical file identities, stage evidence and progress record. Only after that verification may Stage 15 begin.
+The executed validation records thirteen passing positive checks and four detected negative controls. These are canonical-spec inventory/content/link/maturity checks, not installed-agent or clean-installation evidence.
+
+Remaining Stage 14 blockers: none. `2026-09-11-stage-14-publication-receipt.md` records the remote evidence. Stage 15 is next.

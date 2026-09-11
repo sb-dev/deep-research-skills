@@ -2,7 +2,7 @@
 
 Date: 11 September 2026. Repository: `sb-dev/deep-research-skills`. Branch: `feat/bootstrap`.
 
-Status before publication: content acceptance PASS after local verification. Remote publication is a separate gate.
+Status: COMPLETE. Content acceptance: PASS. Remote publication verification: PASS. Remaining blockers: none.
 
 ## Authority and prerequisites
 
@@ -121,12 +121,12 @@ Negative controls deliberately remove one spec, break a required inventory, brea
 | R09 | §20 Exit; §29 | All six status/limitations sections | Search for false implementation/maturity assertions and compare against accepted design evidence. | PASS |
 | R10 | Execution §5 | Cross-links and accepted parent paths | Relative-link resolution against parent manifest + Stage 14 output set. | PASS |
 | R11 | Execution §5 | Verifier and result | Execute positive checks and four negative controls. | PASS |
-| R12 | Execution §7 | Stage-only commit/readback | Pending until GitHub commit and immutable readback; content is not marked remotely complete before this operation. | BLOCKED |
+| R12 | Execution §7 | Stage-only commit/readback | Content commit `86b276f14ffeb096ca3170d3596836dac8eecdd0` was read back at the branch; parent comparison showed exactly six canonical specs, three Stage 14 evidence files and the progress update. All six specs and support files matched their validated Git blobs. | PASS |
 
-The final row changes only after publication verification. The stage is not complete until that happens.
+Remote publication verification is complete. The immutable content commit preserves the validated bytes and changes only Stage 14 outputs.
 
-## Exit assessment before publication
+## Exit assessment
 
-All six canonical files exist locally and satisfy the content contract. They consolidate the accepted architecture without requiring implementation code to invent missing decisions.
+All six canonical files exist on `feat/bootstrap`, satisfy the content contract and have been read back at the immutable content commit. They consolidate the accepted architecture without requiring implementation code to invent missing decisions.
 
-Stage 15 must not begin until Stage 14's GitHub commit, changed-file scope, six canonical files, stage evidence and progress record have been read back from `feat/bootstrap`.
+Stage 14 exit criteria pass. Stage 15 is the next stage; no README work is included in this completion record.
