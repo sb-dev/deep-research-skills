@@ -1,0 +1,47 @@
+{
+  "stage": 17,
+  "title": "Cross-Project Review",
+  "date": "2026-09-12",
+  "accepted_parent": "8a7670fe1d9a18bbab6a61330ba15c6be3a2607e",
+  "result": "PASS_BEFORE_PUBLICATION_GATE",
+  "method": [
+    "Direct GitHub readback of the amended Stage 17 contract, Stage 16 README contract, claims ledger and root README.",
+    "Source-by-source comparison against Production Skills family contracts and implemented sibling public/product contracts.",
+    "Machine-readable decision/source register consistency checked before publication.",
+    "Remote commit/ref/tree/diff verification is performed after the single Stage 17 commit and is not recursively embedded."
+  ],
+  "checks": [
+    {"id":"R01","requirement":"amended Stage 17 contract re-read","status":"PASS"},
+    {"id":"R02","requirement":"completed Stages 1-16 preserved","status":"PASS"},
+    {"id":"R03","requirement":"Production Skills family contracts reviewed","status":"PASS"},
+    {"id":"R04","requirement":"Video/Narrative/Music/UIUX implemented patterns reviewed","status":"PASS"},
+    {"id":"R05","requirement":"Software/Game availability checked without treating bootstrap-only surfaces as production evidence","status":"PASS"},
+    {"id":"R06","requirement":"reusable patterns separated from domain-specific imports","status":"PASS"},
+    {"id":"R07","requirement":"Stage 16 README contract still matches current family public pattern","status":"PASS"},
+    {"id":"R08","requirement":"claims ledger remains internal","status":"PASS"},
+    {"id":"R09","requirement":"complete L1-01 prompt preserved","status":"PASS"},
+    {"id":"R10","requirement":"exact 5x3 progression preserved","status":"PASS"},
+    {"id":"R11","requirement":"three substantive skill sections preserved","status":"PASS"},
+    {"id":"R12","requirement":"cross-domain abstraction candidates recorded without promotion","status":"PASS"},
+    {"id":"R13","requirement":"Stage 18 preservation guidance explicit","status":"PASS"}
+  ],
+  "counts": {
+    "sources_registered": 16,
+    "implemented_sibling_readmes_reviewed": 4,
+    "bootstrap_only_projects_checked": 2,
+    "pattern_decisions": 12,
+    "abstraction_candidates_deferred": 4
+  },
+  "findings": {
+    "substantive_readme_change_required": false,
+    "canonical_deep_research_spec_change_required": false,
+    "stage16_contract_change_required": false,
+    "blocking_conflict": false,
+    "production_skills_pr3_state_at_review": "open"
+  },
+  "publication_gate": {
+    "embedded": false,
+    "reason": "A commit cannot recursively contain its own final SHA/ref verification.",
+    "required_after_commit": ["branch ref points to Stage 17 commit","direct parent is Stage 16 commit","ahead_by=1","intended files only"]
+  }
+}

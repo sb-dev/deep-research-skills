@@ -5,9 +5,9 @@ Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Historical governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
 Future-stage amendment from Stage 16 onward: [README and implementation sequence amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md).
 
-**Current checkpoint: Stage 16 complete. Next: Stage 17 Cross-Project Review.**
+**Current checkpoint: Stage 17 complete. Next: Stage 18 Scaffold Repository and Preserve Public README.**
 
-Repository maturity remains bootstrap workspace. README conformance does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
+Repository maturity remains bootstrap workspace. Cross-project review does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
 
 ## Accepted stages
 
@@ -30,7 +30,8 @@ Stages 1–14 have content acceptance PASS and remote publication verification P
 | 13 | Evaluation architecture and regression fixtures | `9d223ee2655f1c9642bc5b0e21caddfbfae3c66a` | Stage 13 receipt |
 | 14 | Six canonical specifications | `86b276f14ffeb096ca3170d3596836dac8eecdd0` | Stage 14 receipt `066d545994e8925010098d2d35b39d3389cb65af` |
 | 15 | Public README design | `18376f74db7e10b4a3a6363e8bca9c0c8e2c8977` | Stage 15 log, verifier, result and publication receipt |
-| 16 | Public README conformance repair | Stage 16 branch commit | Stage 16 log, contract, claims ledger and executed structural verifier |
+| 16 | Public README conformance repair | `8a7670fe1d9a18bbab6a61330ba15c6be3a2607e` | Stage 16 log, contract, claims ledger and executed structural verifier |
+| 17 | Cross-Project Review | Stage 17 branch commit | Stage 17 cross-project log, review contracts and verification |
 
 ## Stage 15 historical record
 
@@ -42,7 +43,7 @@ The later Production Skills public README contract introduced a stricter separat
 
 ## Stage 16 content
 
-Status: COMPLETE. Structural conformance: PASS.
+Status: COMPLETE. Structural conformance: PASS. Remote completion commit: `8a7670fe1d9a18bbab6a61330ba15c6be3a2607e`.
 
 Stage 16 adds:
 
@@ -54,14 +55,34 @@ Stage 16 adds:
 - [deterministic verifier](2026-09-11-stage-16-verification.py);
 - [executed verification result](2026-09-11-stage-16-verification.json).
 
-The root README no longer exposes stage numbers, bootstrap branch/maturity state, future implementation scheduling, `not-run` bookkeeping or research-log links as public example navigation. It preserves the complete L1-01 prompt, the accepted 5 × 3 example identity, all three substantive skill sections, both accepted initial research profiles and the canonical specification navigation.
+The root README no longer exposes bootstrap execution state as product copy. It preserves the complete L1-01 prompt, accepted 5 × 3 example identity, three substantive skill sections, two accepted research profiles and canonical product documentation.
 
-The verifier returned PASS and all four negative controls were detected.
+## Stage 17 content
+
+Status: COMPLETE BEFORE PUBLICATION GATE. Cross-project conformance: PASS.
+
+Stage 17:
+
+- compared Deep Research against the current Production Skills family README/project/cross-domain contracts;
+- reviewed Video, Narrative, Music and UI/UX as implemented sibling pattern evidence;
+- checked Software Engineering and Game Development availability and deliberately did not treat their bootstrap-only public surfaces as implementation evidence;
+- retained cheap-first work, preservation, smallest-sufficient repair, self-contained skills, optional coherent Extension Packs, provider-independent execution and consuming-project-owned composition;
+- rejected domain-specific creative approval/canon/locking vocabulary, Video's legacy four-example progression and publication-placeholder conventions;
+- re-verified the Stage 16 root README, claims-ledger separation, complete L1-01 prompt, exact 5 × 3 identity and substantive three-skill public surface;
+- recorded research handoff/provenance ideas as domain-owned candidates only;
+- produced an explicit Stage 18 preservation/scaffold contract.
+
+Durable evidence:
+
+- [Stage 17 cross-project review](2026-09-12-stage-17-cross-project-review.md)
+- [Stage 17 machine-readable review contracts](2026-09-12-stage-17-review-contracts.json)
+- [Stage 17 verification record](2026-09-12-stage-17-verification.json)
+
+No root README, canonical specification, Stage 16 contract or claims-ledger change was required by the cross-project review.
 
 ## Amended future sequence
 
 ```text
-17 Cross-Project Review
 18 Scaffold Repository and Preserve Public README
 19 Implement and Prove Core Vertical
 20 Expand Progressive Coverage and Extension Packs
@@ -74,4 +95,4 @@ The verifier returned PASS and all four negative controls were detected.
 
 The original Stage 14 specifications remain immutable. Any old future stage numbers inside those completed specifications are interpreted through the amendment mapping rather than edited retroactively.
 
-Stage 17 is next.
+Stage 18 is next.

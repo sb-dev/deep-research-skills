@@ -1,0 +1,73 @@
+{
+  "stage": 17,
+  "title": "Cross-Project Review",
+  "date": "2026-09-12",
+  "accepted_parent": "8a7670fe1d9a18bbab6a61330ba15c6be3a2607e",
+  "sources": [
+    {"project":"production-skills","path":"docs/bootstrap/public-readme-process.md","ref":"feat/public-readme-bootstrap-contract","blob":"dbc83ed446f5b177a5bcd6cf7623120f53932699","role":"public README process"},
+    {"project":"production-skills","path":"docs/bootstrap/public-readme-template.md","ref":"feat/public-readme-bootstrap-contract","blob":"cf5d2a81fa3cd027950af6b0c665e9cb1c7394b7","role":"public README template"},
+    {"project":"production-skills","path":"docs/specs/02-production-skills-project-contract.md","ref":"feat/public-readme-bootstrap-contract","blob":"2ea82df6e268cbb2a4191c979296012af14ce320","role":"family project contract"},
+    {"project":"production-skills","path":"docs/specs/04-cross-domain-orchestration-and-integration.md","ref":"feat/public-readme-bootstrap-contract","blob":"2be3cdecaf8e326d1c1076bb6044d60bbbe14616","role":"cross-domain contract"},
+    {"project":"video-production-skills","path":"README.md","ref":"main","blob":"878ee7df6ad8f5f7ad1e8aa62f7014844ac78724","role":"mature sibling pattern"},
+    {"project":"narrative-production-skills","path":"README.md","ref":"main","blob":"b44e73b11449994d3b45149677325e81420838c3","role":"mature sibling pattern"},
+    {"project":"music-production-skills","path":"README.md","ref":"main","blob":"b4e94d6f6350a522f73f7867b2881620f75f7934","role":"mature sibling pattern"},
+    {"project":"ui-ux-design-skills","path":"README.md","ref":"main","blob":"41e77239ccfffe9f02ac60de573014c8e28b5b22","role":"mature sibling pattern"},
+    {"project":"ui-ux-design-skills","path":"docs/05-ui-ux-design-customisation-packs-spec.md","ref":"main","blob":"a63cd081d00517b819bf8e77c335196be87613d6","role":"pack pattern"},
+    {"project":"software-engineering-skills","path":"README.md","ref":"main","blob":"e1c8629ff57115a504a3d786f47b7903195510e6","role":"availability only"},
+    {"project":"game-development-skills","path":"README.md","ref":"main","blob":"8d50f0c454cbb7dafd3d6a843d12bd9d92eca177","role":"availability only"},
+    {"project":"deep-research-skills","path":"docs/01-deep-research-skills-system-spec.md","ref":"feat/bootstrap","blob":"8a2ada2a627e1755e9d522986363cbf6b1ea5336","role":"domain system"},
+    {"project":"deep-research-skills","path":"docs/05-deep-research-skills-customisation-packs-spec.md","ref":"feat/bootstrap","blob":"22decdddaddc0358137b74806c27bc2ba769179e","role":"domain pack contract"},
+    {"project":"deep-research-skills","path":"docs/research-logs/2026-09-11-stage-16-public-readme-contract.md","ref":"feat/bootstrap","blob":"be63a999e7ec9fae7c0585985c567d934f9dfd3e","role":"README contract"},
+    {"project":"deep-research-skills","path":"docs/research-logs/2026-09-11-stage-16-public-claims-ledger.md","ref":"feat/bootstrap","blob":"cfe76b78f4d1c92413044df65e573d2dcc94e0d0","role":"claims ledger"},
+    {"project":"deep-research-skills","path":"README.md","ref":"feat/bootstrap","blob":"122dae53c254c563d7042e2d20539af3774f62c0","role":"public README"}
+  ],
+  "family_reference": {
+    "production_skills_pr": 3,
+    "state_at_review": "open",
+    "head": "da7bea1d79013de584e7d53addb7f410b6521e3f",
+    "interpretation": "compatibility reference; Deep Stage 16 local contract remains governing until final family re-check"
+  },
+  "patterns": [
+    {"id":"P17-01","name":"cheap-first uncertainty reduction","decision":"retain","deep_mapping":"cheapest adequate authorised research operation"},
+    {"id":"P17-02","name":"preserve accepted/verified work","decision":"retain","deep_mapping":"preserve verified evidence and historical research"},
+    {"id":"P17-03","name":"smallest-responsible repair","decision":"retain","deep_mapping":"bounded evidence/claim/synthesis refresh"},
+    {"id":"P17-04","name":"creative approval/canon/locking vocabulary","decision":"reject-as-domain-specific","deep_mapping":"use research evidence/review/authority semantics instead"},
+    {"id":"P17-05","name":"self-contained skills and bounded commands","decision":"retain","deep_mapping":"three independently installable skills; eleven semantic operations"},
+    {"id":"P17-06","name":"optional coherent Extension Packs","decision":"retain","deep_mapping":"explicit activation, precedence, differential evaluation"},
+    {"id":"P17-07","name":"5x3 primary public examples","decision":"retain-current-family","deep_mapping":"L1-01 through L5-03"},
+    {"id":"P17-08","name":"legacy Video 4-per-level count","decision":"reject-legacy","deep_mapping":"do not alter accepted 5x3 set"},
+    {"id":"P17-09","name":"stable public example paths","decision":"retain-at-stage18","deep_mapping":"create examples/... README surfaces then link root README"},
+    {"id":"P17-10","name":"external executors below domain semantics","decision":"retain","deep_mapping":"provider-independent research production"},
+    {"id":"P17-11","name":"consuming-project-owned composition","decision":"retain","deep_mapping":"research handoff does not inherit downstream authority"},
+    {"id":"P17-12","name":"universal runtime/provider router/graph","decision":"reject-without-evidence","deep_mapping":"keep deferred"}
+  ],
+  "readme_conformance": {
+    "product_facing": "PASS",
+    "domain_control_model": "PASS",
+    "complete_l1_prompt": "PASS",
+    "five_levels_three_each": "PASS",
+    "public_example_navigation": "PASS_WITH_STAGE16_EXCEPTION_UNTIL_STAGE18",
+    "substantive_skill_sections": "PASS",
+    "claims_ledger_internal": "PASS",
+    "bootstrap_leakage": "PASS"
+  },
+  "stage18_requirements": [
+    "preserve Stage 16 README product copy except mechanical publication changes",
+    "create stable public README surface for all 15 primary examples",
+    "mechanically link those examples from the root README",
+    "package each skill self-contained with skill-local commands/references",
+    "preserve fixed-input evaluator independence",
+    "add deterministic README conformance checks",
+    "keep external execution optional and below research semantics",
+    "do not create universal runtime/provider router/evidence database/knowledge graph/pack interpreter",
+    "link LICENSE and CONTRIBUTING only after real files exist",
+    "re-check current Production Skills family contract during Stage 22/23 before publication"
+  ],
+  "abstraction_candidates": [
+    {"name":"research evidence package","status":"domain-owned-candidate","promotion":"defer-to-stage25"},
+    {"name":"research brief handoff","status":"domain-owned-candidate","promotion":"defer-to-stage25"},
+    {"name":"valid-as-of metadata","status":"domain-owned-candidate","promotion":"defer-to-stage25"},
+    {"name":"cross-domain evidence provenance","status":"domain-owned-candidate","promotion":"defer-to-stage25"}
+  ],
+  "result": "PASS_BEFORE_PUBLICATION_GATE"
+}
