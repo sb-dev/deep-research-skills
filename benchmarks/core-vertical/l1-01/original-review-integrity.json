@@ -1,0 +1,9 @@
+{
+  "case": "EX-L1-01",
+  "original_review_integrity_recorded_at": "2026-09-12T23:20:43.985333+00:00",
+  "files": {
+    "research/l1-01/evaluation/audit.md": "b1b675a4869c6db91e194f3aa7c5a8e9634604480f34f2ad3da91376b75aea12",
+    "research/l1-01/evaluation/review.json": "bad7613bed223f4a469f2713a5baf395c6e9956759b82339072afcb61cfae50c"
+  },
+  "purpose": "Preserve the original failed audit across repair and focused re-audit."
+}

@@ -1,0 +1,15 @@
+{
+  "case": "EX-L1-01",
+  "reviewer_task": "/root/l1_01_reproducibility_audit",
+  "dispatch_tool": "collaboration.spawn_agent",
+  "fork_turns": "none",
+  "request_file": "review-request.txt",
+  "request_payload_sha256": "8bb36f11c0941e30fa0773446d41a821a3230c5808d18ed15d94fe09d61e671e",
+  "receipt_recorded_at": "2026-09-12T23:19:09.065272+00:00",
+  "review_scope": "reproducibility and revision-dependency preservation",
+  "external_source_action_allocation": 0,
+  "expected_verdict_supplied": false,
+  "output_write_boundary": "research/l1-01/evaluation/",
+  "frozen_input_manifest": "fixed-input.json",
+  "authority": "research-evaluate changed-scope re-audit and skill-creator independent forward-testing workflow"
+}

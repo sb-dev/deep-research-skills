@@ -1,0 +1,24 @@
+{
+  "case": "EX-L1-01",
+  "observed_defect": "Unlabelled normalized prompt digest in execution.json.prompt_sha256",
+  "reported_by": "/root/l1_01_fixed_audit",
+  "producer_confirmed_by": "Exact local raw-file and single-terminal-LF hash comparison",
+  "owning_layer": "execution-record provenance metadata",
+  "operation": "metadata-only revision",
+  "original_submission": "run-2026-09-12-01",
+  "repaired_submission": "run-2026-09-12-02",
+  "producer_report_revision_preserved": "run-2026-09-12-01",
+  "completed_at": "2026-09-12T23:16:44.070202+00:00",
+  "command": "python docs/research-logs/2026-09-12-stage-19-repair.py",
+  "source_actions": 0,
+  "search_queries": 0,
+  "preserved_files": {
+    "prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+    "brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+    "research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f"
+  },
+  "original_fixed_files_unchanged": true,
+  "new_execution_sha256": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+  "dependency_assessment": "No source, extraction, claim, citation or synthesis dependency changed. The new submission explicitly inherits the original acquisition and report revision.",
+  "rerun_scope": "Separate reproducibility audit of actual repaired fixed input; no source reacquisition is necessary."
+}

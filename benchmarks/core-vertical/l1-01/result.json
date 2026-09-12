@@ -1,0 +1,94 @@
+{
+  "case": "EX-L1-01",
+  "status": "PASS",
+  "accepted_submission_revision": "run-2026-09-12-02",
+  "producer_report_revision": "run-2026-09-12-01",
+  "recorded_at": "2026-09-12T23:33:29.095988+00:00",
+  "acceptance_owner": "Stage 19 executing agent",
+  "acceptance_basis": "Eight unchanged original full-audit scope findings plus the actual focused reproducibility/dependency re-audit. This assembly is not a new full semantic audit or an averaged score.",
+  "original_full_audit": {
+    "verdict": "FAIL",
+    "severity": "low",
+    "submission": "run-2026-09-12-01",
+    "path": "research/l1-01/evaluation/audit.md",
+    "historical_verdict_preserved": true
+  },
+  "focused_reaudit": {
+    "verdict": "PASS",
+    "submission": "run-2026-09-12-02",
+    "path": "revisions/run-2026-09-12-02/research/l1-01/evaluation/audit.md",
+    "new_full_source_review": false
+  },
+  "scope_evidence": [
+    {
+      "scope": "source-quality",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "source-independence",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "coverage",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "claims",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "citations",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "freshness",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "contradictions",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "uncertainty",
+      "status": "PASS",
+      "basis": "unchanged original audit finding; dependency preservation verified by focused re-audit"
+    },
+    {
+      "scope": "reproducibility",
+      "status": "PASS",
+      "basis": "focused re-audit of corrected metadata"
+    }
+  ],
+  "source_actions_by_phase": {
+    "producer": 2,
+    "original_reviewer": 3,
+    "metadata_repair": 0,
+    "focused_reviewer": 0
+  },
+  "total_external_source_actions": 5,
+  "source_action_ceiling": 8,
+  "total_search_queries": 0,
+  "query_ceiling": 3,
+  "outstanding_source_jobs": 0,
+  "new_paid_provider_runs": 0,
+  "external_communications": 0,
+  "report_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+  "resolved_producer_defects": [
+    "D1: undocumented raw-versus-normalized prompt digest semantics"
+  ],
+  "review_output_qa": "Position-based Markdown hash row mismatch corrected by reviewer before completion; actual invalid draft retained as negative control.",
+  "unresolved_questions": [],
+  "evidence_limits": [
+    "One exact-source task in ChatGPT Work Mode with source-checkout packages at 0d708a7fee2ec95effb345d10677b2c53f292155.",
+    "Separate agent review; no qualified-human, independent-model-family, installer or provider benchmark claim.",
+    "Native HTML text inspected; no original response snapshots retained.",
+    "Broader research repair, all-example execution and Extension Pack behaviour remain separate later gates."
+  ]
+}

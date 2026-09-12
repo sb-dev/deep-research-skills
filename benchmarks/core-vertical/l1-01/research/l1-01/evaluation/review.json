@@ -1,0 +1,744 @@
+{
+  "case": "EX-L1-01",
+  "review_revision": "audit-2026-09-12-01",
+  "submission_revision": "run-2026-09-12-01",
+  "fixed_at": "2026-09-12T23:05:29.743117+00:00",
+  "reviewed_at": "2026-09-12T23:15:53.275114+00:00",
+  "operation": "research-evaluate audit",
+  "overall_verdict": "FAIL",
+  "overall_severity": "low",
+  "verdict_basis": "D1 fails mandatory exact-input provenance/reconstructability. The other eight requested scopes pass. No average offsets the failure; the source-status answer itself is supported.",
+  "reviewer": {
+    "identity": "ChatGPT Work Mode / Codex agent",
+    "agent_task_id": "/root/l1_01_fixed_audit",
+    "process": "separate agent fixed-input review",
+    "producer_self_check": false,
+    "qualified_human_review": false,
+    "model_revision": "not exposed",
+    "host_version": "not exposed",
+    "tool_versions": "not exposed",
+    "independence_boundary": "Separate reviewing task and authoring responsibility; no human or organizational independence is asserted.",
+    "evidence_oracle": "Fixed raw inputs, original source passages and computed byte identities. The producer self-check was inspected only for review-label honesty, not accepted as evidence of correctness."
+  },
+  "skill": {
+    "name": "research-evaluate",
+    "path": "/workspace/scratch/b99193148918/deep-research-skills/skills/research-evaluate",
+    "repository_commit": "0d708a7fee2ec95effb345d10677b2c53f292155",
+    "git_tree": "8faf64960ff2b6d547d6c7460ff6265c31924c9f",
+    "working_tree_changes_in_skill": false,
+    "contract_version": "0.1",
+    "execution_environment": "source checkout; no clean installation claim",
+    "read_contracts": [
+      "SKILL.md",
+      "commands/audit.md",
+      "references/command-contract.md",
+      "references/evidence-contract.md",
+      "references/audit-criteria.md",
+      "references/repair-diagnosis.md"
+    ],
+    "extension_pack": null,
+    "pack_reference_not_read_reason": "No Extension Pack was selected; no pack-specific criteria apply."
+  },
+  "inputs": {
+    "consumer_workspace": "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01",
+    "manifest": "fixed-input.json",
+    "manifest_sha256": "edfb9423a41acbb5b2643265beaebe141f6af9d3e62f294fc1dca296d28c84eb",
+    "fixed_revision": "run-2026-09-12-01",
+    "files": [
+      {
+        "path": "prompt.txt",
+        "expected_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+        "before_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+        "after_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+        "verdict": "PASS"
+      },
+      {
+        "path": "brief-and-plan.md",
+        "expected_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+        "before_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+        "after_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+        "verdict": "PASS"
+      },
+      {
+        "path": "execution.json",
+        "expected_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+        "before_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+        "after_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+        "verdict": "PASS"
+      },
+      {
+        "path": "research/l1-01/research.md",
+        "expected_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+        "before_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+        "after_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+        "verdict": "PASS"
+      }
+    ],
+    "hash_checks": {
+      "before": {
+        "id": "H1",
+        "checked_at": "2026-09-12T23:10:19.889074+00:00",
+        "method": "SHA-256 of bytes read from each of the four paths in fixed-input.json; assert exact dictionary equality",
+        "verdict": "PASS"
+      },
+      "after_review": {
+        "id": "H2",
+        "checked_at": "2026-09-12T23:15:53.275114+00:00",
+        "method": "Same four raw-byte SHA-256 calculations after source and local provenance assessment; all equal manifest values",
+        "verdict": "PASS"
+      }
+    },
+    "record_locators": {
+      "P1": "prompt.txt",
+      "B1": "brief-and-plan.md",
+      "X1": "execution.json",
+      "R1": "research/l1-01/research.md",
+      "F1": "fixed-input.json"
+    },
+    "excluded_materials": "No other research logs, example design files, expected answers or prior conversation conclusions were used."
+  },
+  "source_observations": [
+    {
+      "id": "O1",
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "locator": "Header immediately below title; This version; native text lines 0-3",
+      "assessment": "Supports submitted E1/C1. Declared edition URL: http://www.w3.org/TR/2013/NOTE-prov-primer-20130430/.",
+      "action_id": "SA1"
+    },
+    {
+      "id": "O2",
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "locator": "Status of This Document; PROV Family of Documents; Please Send Comments, first paragraph; native text lines 26-49",
+      "assessment": "Supports submitted E2/C2 and confirms the link relationship to S2.",
+      "action_id": "SA1"
+    },
+    {
+      "id": "O3",
+      "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "locator": "Header immediately below title; Status of This Document; Endorsed By W3C; Please Send Comments; native text lines 0-3 and 41-64",
+      "assessment": "Supports submitted E3/C2.",
+      "action_id": "SA3"
+    },
+    {
+      "id": "O4",
+      "urls": [
+        "https://www.w3.org/TR/prov-primer/",
+        "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
+      ],
+      "locator": "Primer Status of This Document and publication caveat, lines 28 and 50; PROV-DM Status of This Document, line 43",
+      "assessment": "The report carries the relevant historic-edition and possible-replacement limitation. No contradictory category was found in the inspected passages.",
+      "action_ids": [
+        "SA1",
+        "SA3"
+      ]
+    }
+  ],
+  "source_tool_calls": [
+    {
+      "call_id": "SC1",
+      "tool": "functions.exec -> tools.web__run",
+      "arguments": {
+        "open": [
+          {
+            "ref_id": "https://www.w3.org/TR/prov-primer/"
+          },
+          {
+            "ref_id": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "external_source_actions": 2,
+      "search_queries": 0,
+      "date": "2026-09-12",
+      "outcomes": [
+        {
+          "action_id": "SA1",
+          "url": "https://www.w3.org/TR/prov-primer/",
+          "outcome": "PASS",
+          "access": "Native HTML-derived text returned. Reviewer assessed the header, declared edition and Status of This Document passages.",
+          "inspected_line_locators": [
+            "0-3",
+            "26-50"
+          ],
+          "supports": [
+            "O1",
+            "O2",
+            "O4"
+          ]
+        },
+        {
+          "action_id": "SA2",
+          "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+          "outcome": "BLOCKED",
+          "access": "Tool returned the correct title/URL and text/html identity, but no body lines for this second batched result. This action did not count as header/status verification.",
+          "follow_up": "SA3"
+        }
+      ]
+    },
+    {
+      "call_id": "SC2",
+      "tool": "functions.exec -> tools.web__run",
+      "arguments": {
+        "open": [
+          {
+            "ref_id": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+            "lineno": 0
+          }
+        ],
+        "response_length": "long"
+      },
+      "external_source_actions": 1,
+      "search_queries": 0,
+      "date": "2026-09-12",
+      "outcomes": [
+        {
+          "action_id": "SA3",
+          "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+          "outcome": "PASS",
+          "access": "Native HTML-derived text exposed the relevant header and status passages; the display limitation in SA2 was resolved.",
+          "inspected_line_locators": [
+            "0-3",
+            "41-64"
+          ],
+          "supports": [
+            "O3",
+            "O4"
+          ]
+        }
+      ]
+    }
+  ],
+  "resource_use": {
+    "reviewer_source_action_allocation": 3,
+    "reviewer_external_source_actions": 3,
+    "reviewer_native_web_calls": 2,
+    "reviewer_distinct_source_urls": 2,
+    "reviewer_search_queries": 0,
+    "reviewer_remaining_source_action_allocation": 0,
+    "task_source_action_ceiling": 8,
+    "task_search_query_ceiling": 3,
+    "producer_source_actions_recorded": 2,
+    "producer_search_queries_recorded": 0,
+    "combined_recorded_producer_plus_actual_review_source_actions": 5,
+    "combined_recorded_producer_plus_actual_review_search_queries": 0,
+    "task_ceiling_remaining_on_these_records": 3,
+    "reserved_repair_actions_in_brief": 2,
+    "counting_rule": "Each requested URL open counts once, including the body-less batched result and its reopen. Queries would also count as source actions. Local filesystem/git/hash operations do not consume this allocation.",
+    "outstanding_source_jobs": 0,
+    "new_paid_provider_runs": 0,
+    "purchases": 0,
+    "external_communications": 0,
+    "external_time_precision": "day only; exact source-call timestamps were not exposed"
+  },
+  "requested_scopes": [
+    {
+      "id": "source-quality",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L03"
+      ],
+      "criteria": [
+        "K03",
+        "K05",
+        "K07"
+      ],
+      "evidence": [
+        "O1",
+        "O2",
+        "O3",
+        "R1:17-20"
+      ],
+      "reason": "The inspected publisher originals directly establish their own document labels. Text extraction and section locators are proportionate to this narrowly specified question; no empirical quality appraisal is required.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "source-independence",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L03"
+      ],
+      "criteria": [
+        "K04",
+        "K06"
+      ],
+      "evidence": [
+        "O2",
+        "O3",
+        "R1:20"
+      ],
+      "reason": "The submission identifies shared publisher/family origin and does not count two labels as independent confirmation of performance. Separate documents answer separate identity propositions; independent empirical corroboration is not required.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "coverage",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L02",
+        "L05"
+      ],
+      "criteria": [
+        "K01",
+        "K02",
+        "K14"
+      ],
+      "evidence": [
+        "P1:1-5",
+        "B1:7-17",
+        "R1:7-11,17-38",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "The exact requested document, its required sections and a linked comparison were covered. The output avoids a standards survey and any implementation conclusion. Recorded collection boundaries support the narrow stopping rule; no global recall claim is made.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "claims",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L04",
+        "L05"
+      ],
+      "criteria": [
+        "K07",
+        "K09"
+      ],
+      "evidence": [
+        "R1:11,26-30",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "C1 and C2 follow from the independently inspected source passages, including the date normalization in E1/E3. The distinction is local to document identity and imports no implementation premise.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "citations",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L01",
+        "L04"
+      ],
+      "criteria": [
+        "K03",
+        "K07",
+        "K13"
+      ],
+      "evidence": [
+        "R1:11,17-18,26-28",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "S1/S2 and E1-E3 resolve internally; the external targets and section descriptions locate the propositions. Structural resolution was assessed separately from original-source entailment. The dated Primer URL was observed as the declared edition, not separately fetched.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "freshness",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L03",
+        "L07"
+      ],
+      "criteria": [
+        "K11"
+      ],
+      "evidence": [
+        "R1:34",
+        "O1",
+        "O3",
+        "O4"
+      ],
+      "reason": "The report separates publication and retrieval dates and confines its answer to the inspected edition. The requested historical self-label needs no broad currentness or supersession investigation.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "contradictions",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L03",
+        "L05"
+      ],
+      "criteria": [
+        "K08"
+      ],
+      "evidence": [
+        "R1:27,30,34",
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ],
+      "reason": "The relevant header and status sections agree. The apparent difference between linked categories is correctly assigned to different documents. The absence statement is limited to inspected passages. The records contain a separate digest inconsistency, handled under reproducibility.",
+      "smallest_repair": "None for source contradictions; apply D1 for the input-record inconsistency."
+    },
+    {
+      "id": "uncertainty",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L05"
+      ],
+      "criteria": [
+        "K10",
+        "K12"
+      ],
+      "evidence": [
+        "R1:20,30,34,40-51",
+        "O4"
+      ],
+      "reason": "Historical scope, actual representation, omitted broad searches and lack of retained originals remain explicit. No unsupported confidence number, conformance assurance or independent-human-review claim appears. The producer PASS table was not used as evidence of support.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "reproducibility",
+      "verdict": "FAIL",
+      "severity": "low",
+      "layers": [
+        "L01",
+        "L06"
+      ],
+      "criteria": [
+        "K13"
+      ],
+      "evidence": [
+        "D1",
+        "X1:11",
+        "F1:files.prompt.txt",
+        "H1",
+        "H2"
+      ],
+      "reason": "execution.json labels a digest prompt_sha256 without identifying that it matches bytes.rstrip(), while the fixed prompt file has a different exact-byte digest. This undocumented normalization makes the input identity record inconsistent. Source paths and the report digest are otherwise reconstructable.",
+      "smallest_repair": "D1: producer A10/W04 metadata revision; record the exact raw-file digest and explicitly label any retained normalized-text digest. Preserve the fixed submission and this review, freeze the corrected revision, then re-audit identity/provenance only unless substantive inputs change."
+    }
+  ],
+  "domain_criteria": [
+    {
+      "id": "K01",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "P1:1",
+        "R1:7-11"
+      ],
+      "reason": "Question and intended-use boundary match.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K02",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "X1:36-74",
+        "R1:34-38"
+      ],
+      "reason": "Actual recorded source boundary is stated without a web-completeness claim.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K03",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:17-20,34",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "Source representations and locators are recoverable; exact historic response bytes were not retained.",
+      "smallest_repair": "None for this exact-label task."
+    },
+    {
+      "id": "K04",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:17-20",
+        "O2",
+        "O3"
+      ],
+      "reason": "Distinct document identities and shared family are preserved.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K05",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "P1:1",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "Direct original-document inspection fits a self-status observation.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K06",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:20"
+      ],
+      "reason": "No false independent support count; separate-origin corroboration is unnecessary for this proposition.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K07",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:26-28",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "E1-E3 preserve the source labels, date and document scope.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K08",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:30,34",
+        "O4"
+      ],
+      "reason": "Inspected status caveats are compatible with the bounded answer; no eligible contrary passage was discarded.",
+      "smallest_repair": "None within the inspected boundary."
+    },
+    {
+      "id": "K09",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:11,27-30",
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "reason": "The modest category distinction follows without an unsupported conformance inference.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K10",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:20,30,34"
+      ],
+      "reason": "Access and temporal limitations survive into the report.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K11",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:34",
+        "O1",
+        "O3",
+        "O4"
+      ],
+      "reason": "Publication, retrieval and edition applicability are not substituted.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K12",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "R1:40-51",
+        "H1",
+        "H2",
+        "reviewer/process"
+      ],
+      "reason": "The producer check is labelled; this is a separate agent review of exact fixed bytes. No human or install certification is claimed.",
+      "smallest_repair": "None; no qualified-human gate applies to the requested observation."
+    },
+    {
+      "id": "K13",
+      "verdict": "FAIL",
+      "severity": "low",
+      "evidence": [
+        "D1",
+        "X1:11",
+        "F1:files.prompt.txt",
+        "H1",
+        "H2"
+      ],
+      "reason": "An exact input digest and an undocumented normalized-text digest disagree.",
+      "smallest_repair": "D1: A10/W04 metadata correction in a new revision, followed by L01/K13 recheck."
+    },
+    {
+      "id": "K14",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "B1:15-17",
+        "X1:36-74",
+        "source_actions"
+      ],
+      "reason": "The producer records two actions; this reviewer used three, all necessary to expose the checked passages, with zero queries. No capacity was treated as proof of sufficiency.",
+      "smallest_repair": "None."
+    },
+    {
+      "id": "K15",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "P1:3",
+        "B1:15",
+        "X1:36-41",
+        "reviewer/process"
+      ],
+      "reason": "Observed review uses authorised local/native-web tools; no paid run, purchase or external communication was made. Historical producer non-acquisition conduct is not independently replayed.",
+      "smallest_repair": "None on available evidence."
+    },
+    {
+      "id": "K16",
+      "verdict": "PASS",
+      "severity": "none",
+      "evidence": [
+        "H1",
+        "H2",
+        "D1"
+      ],
+      "reason": "Inputs remain fixed and the recommendation isolates the provenance repair while preserving verified source findings.",
+      "smallest_repair": "Perform D1 only in a separately authorised changed revision; no repair was executed here."
+    }
+  ],
+  "structural_semantic_separation": {
+    "fixed_file_hash_integrity": "PASS",
+    "report_reference_integrity": "PASS",
+    "citation_target_access": "PASS after SA3",
+    "citation_entailment": "PASS",
+    "execution_prompt_identity": "FAIL (D1)",
+    "report_output_digest": "PASS: execution.json producer_output_sha256 equals fixed report bytes"
+  },
+  "not_applicable": [
+    {
+      "criterion": "L08 Extension Pack evaluation",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "P1:1",
+        "X1:8",
+        "R1:3"
+      ],
+      "reason": "The request explicitly selects no Extension Pack.",
+      "smallest_repair": "None."
+    },
+    {
+      "criterion": "L10 clean-install/host-discovery evaluation",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "P1:5",
+        "X1:7",
+        "R1:3"
+      ],
+      "reason": "This is source-checkout execution and the prompt excludes an installation/provider benchmark.",
+      "smallest_repair": "None; no install claim is permitted."
+    },
+    {
+      "criterion": "Full L09 multi-example or product-benchmark acceptance",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "P1:1-5",
+        "fixed audit task boundary"
+      ],
+      "reason": "Only this one fixed submitted research case was audited.",
+      "smallest_repair": "None within this task."
+    },
+    {
+      "criterion": "Qualified human/specialist approval",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "P1:1-5"
+      ],
+      "reason": "No such gate is required for this direct document-label observation. This review does not supply professional approval.",
+      "smallest_repair": "None."
+    }
+  ],
+  "defects": [
+    {
+      "id": "D1",
+      "verdict": "FAIL",
+      "severity": "low",
+      "criterion_ids": [
+        "reproducibility",
+        "K13",
+        "L01 exact input identity"
+      ],
+      "exact_location": "execution.json:11 (prompt_sha256)",
+      "recorded_value": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab",
+      "actual_fixed_prompt_file_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+      "demonstrated_transform": {
+        "expression": "sha256(Path(\"prompt.txt\").read_bytes().rstrip()).hexdigest()",
+        "result": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab"
+      },
+      "diagnosis": "Undocumented normalization in input-identity metadata. The equality after stripping explains the mismatch without evidence of a materially different prompt. The fixed-input manifest itself is correct.",
+      "failure_class": "F13 identity/preservation confusion, limited to raw-versus-normalized digest semantics",
+      "owning_layer": "Producer A10 material provenance; W04 identity/representation metadata",
+      "smallest_repair": "Create a new execution/submission revision with the raw-file digest 767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9 in the exact-file identity field; retain the previous value only in an explicitly labelled normalized-text field with the bytes.rstrip() transformation. Preserve this fixed revision and its review.",
+      "preserve": [
+        "All four reviewed input files as historical fixed records",
+        "Verified E1-E3/C1-C2 source findings",
+        "The supported answer wording"
+      ],
+      "dependent_scope": [
+        "Input identity metadata",
+        "New fixed revision/manifest identity",
+        "L01/K13 and reproducibility re-review"
+      ],
+      "new_source_acquisition_required": false,
+      "repair_executed": false,
+      "completion_check": "Recompute raw hashes for the new fixed revision and verify every digest is either exact-file identity or explicitly names its normalization. Re-review only dependent scope unless substantive content changes."
+    }
+  ],
+  "assessed_scopes": [
+    "source-quality",
+    "source-independence",
+    "coverage",
+    "claims",
+    "citations",
+    "freshness",
+    "contradictions",
+    "uncertainty",
+    "reproducibility"
+  ],
+  "omitted_requested_scopes": [],
+  "limitations": [
+    "Original HTML text was inspected through the native web representation; no browser render, source-body snapshot or source-content hash was retained.",
+    "The declared dated Primer link was observed on S1 but not separately opened; both cited source URLs were opened successfully.",
+    "No broad supersession, standards-family, implementation-conformance, global web-recall or errata investigation was requested or performed.",
+    "Producer source operations are recoverably documented in the fixed execution record; the reviewer independently checked the live originals, not the producer historical response bytes or full host transcript.",
+    "The first batched PROV-DM action exposed only identity metadata; its passage inspection required the charged third action.",
+    "No model/host/tool build version was exposed. This is a separate agent review, not qualified human review or clean-install verification.",
+    "The prompt digest issue is demonstrated locally; no conclusion of substantive prompt tampering or different instructions follows from it."
+  ],
+  "local_review_operations": [
+    "Checked applicable ancestor AGENTS.md paths; none were present.",
+    "Read only the named research-evaluate skill/contracts and the five permitted consumer records.",
+    "Read git HEAD, last skill commit, skill tree object and skill working-tree status; no skill mutation detected.",
+    "Computed the four raw-file hashes before and after review; computed manifest/report identities and the bytes.rstrip() diagnostic without modifying files.",
+    "Checked the two output paths did not exist before creating them.",
+    "Created only audit.md and review.json beneath the authorised evaluation directory; no commit, GitHub state change, delegation or submission repair."
+  ],
+  "outputs": [
+    "research/l1-01/evaluation/audit.md",
+    "research/l1-01/evaluation/review.json"
+  ],
+  "next_permitted_operation": "Producer metadata-only repair of D1 in a preserved new submission revision, then separate fixed-input re-audit of affected identity/provenance scope."
+}

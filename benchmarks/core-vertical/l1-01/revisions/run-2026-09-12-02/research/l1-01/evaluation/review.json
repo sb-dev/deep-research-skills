@@ -1,0 +1,924 @@
+{
+  "case": "EX-L1-01",
+  "review_revision": "audit-2026-09-12-02-reproducibility",
+  "submission_revision": "run-2026-09-12-02",
+  "producer_output_revision": "run-2026-09-12-01",
+  "fixed_at": "2026-09-12T23:16:44.070202+00:00",
+  "reviewed_at": "2026-09-12T23:28:36.726680+00:00",
+  "operation": "research-evaluate audit",
+  "focused_verdict": "PASS",
+  "severity": "none",
+  "verdict_scope": "Reproducibility, input identity, digest semantics, revision attribution, acquisition inheritance, fixed-byte preservation and dependency impact only.",
+  "verdict_basis": "Actual fixed bytes resolve the prior undocumented prompt-digest defect. The material report/support dependencies are unchanged. Every requested local criterion passes; no full semantic source review is asserted.",
+  "whole_report_acceptance_claimed": false,
+  "full_semantic_review_performed": false,
+  "whole_report_verdict": null,
+  "reviewer": {
+    "identity": "ChatGPT Work Mode / Codex agent",
+    "agent_task_id": "/root/l1_01_reproducibility_audit",
+    "parent_task_id": "/root",
+    "process": "separate agent focused fixed-input audit",
+    "producer_self_check": false,
+    "qualified_human_review": false,
+    "independence_boundary": "Separate reviewer task and authoring responsibility. No human, organizational or model-instance independence is asserted.",
+    "model_revision": "not exposed",
+    "host_version": "not exposed",
+    "tool_build_versions": "not exposed",
+    "python_runtime": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux",
+    "evidence_oracle": "Actual local fixed bytes and execution records; prior review used only as identified historical assessment and dependency record. No author verdict, repair implementation, expected outcome or parent conclusion was used."
+  },
+  "skill": {
+    "name": "research-evaluate",
+    "path": "/workspace/scratch/b99193148918/deep-research-skills/skills/research-evaluate",
+    "contract_version": "0.1",
+    "repository_commit": "0d708a7fee2ec95effb345d10677b2c53f292155",
+    "last_skill_commit": "0d708a7fee2ec95effb345d10677b2c53f292155",
+    "git_tree": "8faf64960ff2b6d547d6c7460ff6265c31924c9f",
+    "working_tree_changes_in_skill_observed": false,
+    "execution_environment": "source checkout; no clean-install/host-discovery claim",
+    "read_contracts": [
+      "SKILL.md",
+      "commands/audit.md",
+      "references/audit-criteria.md",
+      "references/command-contract.md",
+      "references/evidence-contract.md",
+      "references/pack-evaluation.md",
+      "references/repair-diagnosis.md"
+    ],
+    "read_contract_sha256": {
+      "SKILL.md": "00da2c829f8f81ba8190a48ac3b00ef881acae4120251ef7c376e3e0356790de",
+      "commands/audit.md": "9502581219b6db02231f04a082e9c55d3b474a679e7ee3d090bc4899bddc2ca0",
+      "references/audit-criteria.md": "cde16b1fff7db55551786290ceb501dd9cea68426f0181a2a7cd5dc498d25001",
+      "references/command-contract.md": "177f174fd471cf868e133d0af3560c6d7a852a485f7eeeb5565f2e7675a1923b",
+      "references/evidence-contract.md": "4f0ee9b2fd33d854253a2708de35921a1b7dfcb386c871b2d9510cad1cd4c36c",
+      "references/pack-evaluation.md": "0d4ba02f56ca84d9b529cc9dc7d8af4eadc55941668e6ce4212ebc4b657525b3",
+      "references/repair-diagnosis.md": "0d483127cacec6a016f3d0c52429e72af9c86a730dc4c4dd35f43ad3c82fd0aa"
+    },
+    "extension_pack": null
+  },
+  "scope": {
+    "assessed": [
+      "reproducibility"
+    ],
+    "focused_checks": [
+      "Fixed input identity and prior review binding",
+      "Exact-file prompt and report digest semantics",
+      "Transformed prompt digest and bounded normalization",
+      "Submission, producer-output and repair revision attribution",
+      "Acquisition inheritance and cumulative resource attribution",
+      "Material delta and preservation of unaffected support",
+      "Effect on the actual previous review",
+      "Audit write boundary and fixed-byte preservation"
+    ],
+    "unassessed_scopes": [
+      "source-quality",
+      "source-independence",
+      "coverage",
+      "claims",
+      "citations",
+      "freshness",
+      "contradictions",
+      "uncertainty"
+    ],
+    "omitted_requested_criteria": [],
+    "prior_semantic_assessments_rechecked": false,
+    "source_action_allocation": 0,
+    "source_access_used": "None; local read/hash/diff only.",
+    "excluded_materials": [
+      "Other research logs",
+      "Example designs",
+      "Parent conclusions",
+      "Repair implementation",
+      "Expected outcomes",
+      "Unrelated repository files"
+    ]
+  },
+  "fixed_inputs": {
+    "before_checked_at": "2026-09-12T23:19:00.635310+00:00",
+    "after_review_checked_at": "2026-09-12T23:21:38.851394+00:00",
+    "algorithm": "SHA-256 over exact file bytes; no normalization for file identities.",
+    "submissions": [
+      {
+        "base": "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01",
+        "submission_revision": "run-2026-09-12-01",
+        "manifest": {
+          "path": "fixed-input.json",
+          "before_sha256": "edfb9423a41acbb5b2643265beaebe141f6af9d3e62f294fc1dca296d28c84eb",
+          "after_sha256": "edfb9423a41acbb5b2643265beaebe141f6af9d3e62f294fc1dca296d28c84eb",
+          "verdict": "PASS"
+        },
+        "files": [
+          {
+            "path": "brief-and-plan.md",
+            "bytes": 2148,
+            "expected_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "before_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "after_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "verdict": "PASS"
+          },
+          {
+            "path": "execution.json",
+            "bytes": 2874,
+            "expected_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+            "before_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+            "after_sha256": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+            "verdict": "PASS"
+          },
+          {
+            "path": "prompt.txt",
+            "bytes": 1417,
+            "expected_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "before_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "after_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "verdict": "PASS"
+          },
+          {
+            "path": "research/l1-01/research.md",
+            "bytes": 4669,
+            "expected_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "before_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "after_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "verdict": "PASS"
+          }
+        ]
+      },
+      {
+        "base": "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02",
+        "submission_revision": "run-2026-09-12-02",
+        "manifest": {
+          "path": "fixed-input.json",
+          "before_sha256": "1f88589f649d4dda55669313c4b571e6ede4b54ab044835662ae4938d946d182",
+          "after_sha256": "1f88589f649d4dda55669313c4b571e6ede4b54ab044835662ae4938d946d182",
+          "verdict": "PASS"
+        },
+        "files": [
+          {
+            "path": "brief-and-plan.md",
+            "bytes": 2148,
+            "expected_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "before_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "after_sha256": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+            "verdict": "PASS"
+          },
+          {
+            "path": "execution.json",
+            "bytes": 3647,
+            "expected_sha256": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+            "before_sha256": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+            "after_sha256": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+            "verdict": "PASS"
+          },
+          {
+            "path": "prompt.txt",
+            "bytes": 1417,
+            "expected_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "before_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "after_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+            "verdict": "PASS"
+          },
+          {
+            "path": "research/l1-01/research.md",
+            "bytes": 4669,
+            "expected_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "before_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "after_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+            "verdict": "PASS"
+          }
+        ]
+      }
+    ]
+  },
+  "prior_review": {
+    "base": "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01",
+    "review_revision": "audit-2026-09-12-01",
+    "submission_revision": "run-2026-09-12-01",
+    "overall_verdict": "FAIL",
+    "overall_severity": "low",
+    "agent_task_id": "/root/l1_01_fixed_audit",
+    "reviewed_at": "2026-09-12T23:15:53.275114+00:00",
+    "files": [
+      {
+        "path": "research/l1-01/evaluation/audit.md",
+        "before_sha256": "b1b675a4869c6db91e194f3aa7c5a8e9634604480f34f2ad3da91376b75aea12",
+        "after_sha256": "b1b675a4869c6db91e194f3aa7c5a8e9634604480f34f2ad3da91376b75aea12",
+        "verdict": "PASS"
+      },
+      {
+        "path": "research/l1-01/evaluation/review.json",
+        "before_sha256": "bad7613bed223f4a469f2713a5baf395c6e9956759b82339072afcb61cfae50c",
+        "after_sha256": "bad7613bed223f4a469f2713a5baf395c6e9956759b82339072afcb61cfae50c",
+        "verdict": "PASS"
+      }
+    ],
+    "input_binding_checks": {
+      "all_recorded_file_hashes_match_actual": true,
+      "manifest_digest_matches": true,
+      "prior_assessed_scopes": [
+        {
+          "id": "source-quality",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "source-independence",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "coverage",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "claims",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "citations",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "freshness",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "contradictions",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "uncertainty",
+          "severity": "none",
+          "verdict": "PASS"
+        },
+        {
+          "id": "reproducibility",
+          "severity": "low",
+          "verdict": "FAIL"
+        }
+      ],
+      "prior_overall_verdict": "FAIL",
+      "prior_review_revision": "audit-2026-09-12-01",
+      "submission_revision_matches": true
+    },
+    "review_status": "Historical review preserved; not rewritten or relabelled."
+  },
+  "evidence": [
+    {
+      "id": "H-BEFORE",
+      "locator": "Both fixed-input.json manifests and their four listed files; prior audit.md/review.json; seven read skill files",
+      "observation": "Raw-byte SHA-256 capture at 2026-09-12T23:19:00.635310+00:00. Every listed input matched its manifest. New audit output paths did not exist."
+    },
+    {
+      "id": "H-AFTER",
+      "locator": "Same paths as H-BEFORE",
+      "observation": "Recomputed at 2026-09-12T23:21:38.851394+00:00. All eight fixed file hashes match both manifests; both manifest bytes, both prior review files and all seven read skill files equal their before identities. A field-wise comparison found no differing values."
+    },
+    {
+      "id": "E-DELTA",
+      "locator": "Old/new prompt.txt, brief-and-plan.md, execution.json, fixed-input.json, research/l1-01/research.md",
+      "observation": "Byte comparison: prompt, brief and report identical. Parsed exhaustive execution diff: two modified keys and six added keys, no removals; all other twenty keys unchanged. Exact delta is recorded below."
+    },
+    {
+      "id": "E-DIGEST",
+      "locator": "New execution.json#/prompt_sha256, #/prompt_sha256_basis, #/accepted_prompt_text_sha256, #/accepted_prompt_text_sha256_basis; both prompt.txt files",
+      "observation": "Prompt is 1417 bytes, ends in hexadecimal 2e0a (period, LF), has exactly one terminal LF and no CRLF. SHA-256 of all bytes equals 767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9. Removing exactly the terminal LF yields 1416 bytes and db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab. On this file only, the one-LF result also equals bytes.rstrip()."
+    },
+    {
+      "id": "E-REVISION",
+      "locator": "New fixed-input.json#/submission_revision, #/producer_output_revision; new execution.json#/revision, #/producer_output_revision, #/repair; research.md opening revision paragraph",
+      "observation": "Submission and execution identify run-2026-09-12-02. Both explicit producer_output_revision fields and the unchanged report heading identify run-2026-09-12-01. The repair time equals the new freeze time, while original producer start/completion times remain unchanged."
+    },
+    {
+      "id": "E-INHERIT",
+      "locator": "Old/new execution.json#/actual_acquisition, #/tool_calls, #/bounds, #/started_at, #/producer_completed_at, #/source_limitations; new #/acquisition_inherited_from_revision and #/repair",
+      "observation": "Acquisition record, two source operations, timestamps, bounds and limitations are identical; new metadata explicitly inherits acquisition from run-2026-09-12-01 and records zero repair source actions/queries and no producer rerun. The two copied operations are not two new acquisitions."
+    },
+    {
+      "id": "E-PRIOR",
+      "locator": "Prior research/l1-01/evaluation/audit.md, D1 and all-nine-scopes table; prior review.json#/inputs, #/requested_scopes, #/domain_criteria, #/defects, #/resource_use, #/limitations",
+      "observation": "Actual prior review audit-2026-09-12-01 targets the verified old fixed manifest/file identities. It records overall FAIL, low severity, only for undocumented prompt normalization (reproducibility/K13, D1). The other eight scopes PASS. Its three source actions in two web calls and its source-inspection limitations remain historical review records."
+    }
+  ],
+  "delta": {
+    "cross_revision_bytes": {
+      "brief-and-plan.md": true,
+      "execution.json": false,
+      "fixed-input.json": false,
+      "prompt.txt": true,
+      "research/l1-01/research.md": true
+    },
+    "execution_top_level_delta": [
+      {
+        "change": "added",
+        "key": "accepted_prompt_text_sha256",
+        "new": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab"
+      },
+      {
+        "change": "added",
+        "key": "accepted_prompt_text_sha256_basis",
+        "new": "Remove exactly one terminal LF from prompt.txt; no other normalization. This identifies the accepted prompt text."
+      },
+      {
+        "change": "added",
+        "key": "acquisition_inherited_from_revision",
+        "new": "run-2026-09-12-01"
+      },
+      {
+        "change": "added",
+        "key": "producer_output_revision",
+        "new": "run-2026-09-12-01"
+      },
+      {
+        "change": "modified",
+        "key": "prompt_sha256",
+        "new": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+        "old": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab"
+      },
+      {
+        "change": "added",
+        "key": "prompt_sha256_basis",
+        "new": "Exact prompt.txt file bytes, including its terminal LF."
+      },
+      {
+        "change": "added",
+        "key": "repair",
+        "new": {
+          "completed_at": "2026-09-12T23:16:44.070202+00:00",
+          "operation": "execution-record provenance metadata repair",
+          "owner": "run execution metadata; no skill, source, report or expected outcome change",
+          "producer_operation_rerun": false,
+          "search_queries": 0,
+          "source_actions": 0
+        }
+      },
+      {
+        "change": "modified",
+        "key": "revision",
+        "new": "run-2026-09-12-02",
+        "old": "run-2026-09-12-01"
+      }
+    ],
+    "execution_unchanged_keys": [
+      "case",
+      "character",
+      "producer_skill",
+      "producer_skill_revision",
+      "activation",
+      "extension_pack",
+      "producer",
+      "model_revision",
+      "started_at",
+      "output",
+      "bounds",
+      "pre_collection_state",
+      "review",
+      "producer_completed_at",
+      "producer_operations",
+      "actual_acquisition",
+      "tool_calls",
+      "producer_output_sha256",
+      "producer_failures",
+      "source_limitations"
+    ],
+    "manifest_delta": [
+      {
+        "key": "files",
+        "new": {
+          "brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+          "execution.json": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+          "prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+          "research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f"
+        },
+        "old": {
+          "brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+          "execution.json": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+          "prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+          "research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f"
+        }
+      },
+      {
+        "key": "fixed_at",
+        "new": "2026-09-12T23:16:44.070202+00:00",
+        "old": "2026-09-12T23:05:29.743117+00:00"
+      },
+      {
+        "key": "producer_output_revision",
+        "new": "run-2026-09-12-01",
+        "old": null
+      },
+      {
+        "key": "review_scope",
+        "new": "reproducibility; preservation and dependency impact of metadata-only revision",
+        "old": null
+      },
+      {
+        "key": "review_source_action_allocation",
+        "new": 0,
+        "old": 3
+      },
+      {
+        "key": "submission_revision",
+        "new": "run-2026-09-12-02",
+        "old": "run-2026-09-12-01"
+      }
+    ],
+    "prompt_digest_computation": {
+      "ends_in_CRLF": false,
+      "exactly_one_terminal_LF": true,
+      "last_byte_hex": "0a",
+      "one_LF_transform_equals_rstrip_on_these_bytes": true,
+      "penultimate_byte_hex": "2e",
+      "raw_equals_new_prompt_sha256": true,
+      "raw_length": 1417,
+      "raw_sha256": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+      "remove_one_terminal_LF_length": 1416,
+      "remove_one_terminal_LF_sha256": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab",
+      "rstrip_sha256": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab",
+      "terminal_bytes_hex": "616c6c6174696f6e206f722070726f76696465722062656e63686d61726b2e0a",
+      "transformed_equals_new_accepted_prompt_text_sha256": true,
+      "transformed_equals_old_prompt_sha256": true
+    },
+    "classification": "Metadata-only for the actual inspected submission delta.",
+    "historical_algorithm_limit": "Equality with one-terminal-LF removal and rstrip() demonstrates compatible byte transformations; it cannot prove the original generating code or user-acceptance event."
+  },
+  "criteria": [
+    {
+      "id": "R01",
+      "criterion": "Fixed input identity and prior review binding",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L01"
+      ],
+      "domain_criteria": [
+        "K13"
+      ],
+      "evidence": [
+        "H-BEFORE",
+        "H-AFTER",
+        "E-PRIOR"
+      ],
+      "reason": "Both fixed manifests match every listed input before and after assessment. The prior review's recorded manifest and expected/before/after file hashes bind the actual old submission; the new execution digest belongs only to the new manifest.",
+      "owning_layer": "A10 material provenance / W04; A11 exact review target / W07",
+      "smallest_repair": "None required."
+    },
+    {
+      "id": "R02",
+      "criterion": "Exact-file prompt and report digest semantics",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L01"
+      ],
+      "domain_criteria": [
+        "K03",
+        "K13"
+      ],
+      "evidence": [
+        "E-DIGEST",
+        "H-BEFORE",
+        "H-AFTER"
+      ],
+      "reason": "New prompt_sha256 explicitly names exact prompt.txt bytes including LF and reproduces the raw digest. producer_output_sha256 in both executions equals the same actual report bytes. Neither hash is treated as proof of source truth or a historical acceptance event.",
+      "owning_layer": "A10 material provenance / W04",
+      "smallest_repair": "None required; the raw-digest component of prior D1 is resolved in the new execution record."
+    },
+    {
+      "id": "R03",
+      "criterion": "Transformed prompt digest and bounded normalization",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L01",
+        "L06"
+      ],
+      "domain_criteria": [
+        "K03",
+        "K13"
+      ],
+      "evidence": [
+        "E-DIGEST",
+        "E-PRIOR"
+      ],
+      "reason": "The retained old digest is separately labelled accepted_prompt_text_sha256 with an exact one-terminal-LF transformation and no other normalization. That transformation reproduces its value. The prior review's demonstrated rstrip() produces identical bytes here; the repair need not copy that broader expression to be valid. The check does not establish which algorithm or acceptance event historically generated the old value.",
+      "owning_layer": "A10 transformation provenance / W04",
+      "smallest_repair": "None required; the undocumented-normalization component of prior D1 is resolved."
+    },
+    {
+      "id": "R04",
+      "criterion": "Submission, producer-output and repair revision attribution",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L01",
+        "L06"
+      ],
+      "domain_criteria": [
+        "K12",
+        "K13",
+        "K16"
+      ],
+      "evidence": [
+        "E-REVISION",
+        "E-DELTA"
+      ],
+      "reason": "The package/metadata revision is 02; the unchanged producer report is explicitly revision 01. The old report heading and historical brief are retained in that role, not presented as a new producer run. A distinct repair operation/time and unchanged original producer times make continuity inspectable.",
+      "owning_layer": "A10 revision provenance / W04; A11 revision-bound review / W07",
+      "smallest_repair": "None required."
+    },
+    {
+      "id": "R05",
+      "criterion": "Acquisition inheritance and cumulative resource attribution",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L06"
+      ],
+      "domain_criteria": [
+        "K03",
+        "K14",
+        "K15",
+        "K16"
+      ],
+      "evidence": [
+        "E-INHERIT",
+        "E-PRIOR",
+        "E-REVISION"
+      ],
+      "reason": "Explicit inheritance and unchanged acquisition entries support reuse of the recorded producer acquisition, not a replay. Records total 2 producer actions + 3 prior-review actions + 0 reported repair actions + 0 actual focused-review actions = 5 of 8; all query counts are zero. The new review allocation is zero despite the historical brief's old reserve. No budget is reset or copied action double-counted.",
+      "owning_layer": "A02 effort record and A10 operation provenance / W02-W04; A11 reviewer accounting / W07",
+      "smallest_repair": "None required. Historical producer/repair activity and earlier review calls remain reported records, not newly observed events."
+    },
+    {
+      "id": "R06",
+      "criterion": "Material delta and preservation of unaffected support",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L06"
+      ],
+      "domain_criteria": [
+        "K13",
+        "K16"
+      ],
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "H-AFTER"
+      ],
+      "reason": "The entire prompt, brief and report are byte-identical, so the question, S1/S2 representations/locators, E1-E3 extractions, C1/C2 propositions, answer, temporal limits and producer self-check have no content delta. The exhaustive execution/manifest differences are identity, attribution, repair and focused-review metadata only.",
+      "owning_layer": "A10 continuity / W04; A05-A09 dependent content / W05-W07",
+      "smallest_repair": "None required. No changed source-dependent proposition or premise creates a fresh acquisition need."
+    },
+    {
+      "id": "R07",
+      "criterion": "Effect on the actual previous review",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L06"
+      ],
+      "domain_criteria": [
+        "K12",
+        "K13",
+        "K16"
+      ],
+      "evidence": [
+        "E-PRIOR",
+        "E-DIGEST",
+        "E-DELTA",
+        "E-REVISION"
+      ],
+      "reason": "Prior D1/reproducibility/K13 is affected and has been checked anew on the new bytes. The eight other historical scope results have unchanged dependencies and may be retained with their original reviewer/time/access limits. The prior overall FAIL and old execution binding remain historical; this focused PASS is not a new full semantic review or whole-report acceptance.",
+      "owning_layer": "A11 evaluation/dependency decisions / W07",
+      "smallest_repair": "None required. Preserve both reviews; reference the prior semantic assessment plus this focused assessment without relabelling either scope."
+    },
+    {
+      "id": "R08",
+      "criterion": "Audit write boundary and fixed-byte preservation",
+      "verdict": "PASS",
+      "severity": "none",
+      "layers": [
+        "L06"
+      ],
+      "domain_criteria": [
+        "K15",
+        "K16"
+      ],
+      "evidence": [
+        "H-BEFORE",
+        "H-AFTER"
+      ],
+      "reason": "Both submissions, manifests, prior reviews and the read skill files retain their exact captured identities. Only two previously absent audit output paths are created. No input, expected outcome, prior review, skill, repair implementation or GitHub state was modified; no delegation or external acquisition occurred.",
+      "owning_layer": "A11 evaluator write boundary / W07",
+      "smallest_repair": "None required."
+    }
+  ],
+  "prior_review_dependency_impact": [
+    {
+      "prior_criterion": "source-quality",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "source-independence",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "coverage",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "claims",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "citations",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "freshness",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "contradictions",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "uncertainty",
+      "prior_verdict": "PASS",
+      "current_semantic_verdict": null,
+      "dependency_disposition": "Unchanged dependencies; retain the earlier assessment as historical support only.",
+      "evidence": [
+        "E-DELTA",
+        "E-INHERIT",
+        "E-PRIOR"
+      ],
+      "limit": "No new source check, broader coverage, temporal advance, or new qualified/human review."
+    },
+    {
+      "prior_criterion": "reproducibility / K13 / D1",
+      "prior_verdict": "FAIL",
+      "current_focused_verdict": "PASS",
+      "dependency_disposition": "Changed identity/normalization metadata was checked anew; defect resolved only in revision 02.",
+      "evidence": [
+        "E-DIGEST",
+        "E-REVISION"
+      ],
+      "limit": "The original revision and original FAIL remain unchanged."
+    },
+    {
+      "prior_criterion": "L01 fixed binding / K12 exact-revision review",
+      "prior_verdict": "PASS",
+      "dependency_disposition": "Old review binds old execution/manifest, not the new ones. This audit separately binds both and assesses the new metadata only.",
+      "evidence": [
+        "H-BEFORE",
+        "H-AFTER",
+        "E-PRIOR"
+      ]
+    },
+    {
+      "prior_criterion": "K14 / K15 resource and authority accounting",
+      "prior_verdict": "PASS",
+      "dependency_disposition": "Prior reviewer use remains three historical source actions. New reviewer use is zero. Copied producer acquisition is charged once, with no reset.",
+      "evidence": [
+        "E-INHERIT",
+        "E-PRIOR"
+      ]
+    },
+    {
+      "prior_criterion": "K16 preservation/continuity",
+      "prior_verdict": "PASS",
+      "current_focused_verdict": "PASS",
+      "dependency_disposition": "Rechecked from actual unchanged old/new files and prior review hashes.",
+      "evidence": [
+        "H-BEFORE",
+        "H-AFTER",
+        "E-DELTA"
+      ]
+    },
+    {
+      "prior_criterion": "Prior overall verdict",
+      "prior_verdict": "FAIL",
+      "current_whole_report_verdict": null,
+      "dependency_disposition": "Historical overall FAIL cannot serve as the new fixed-revision verdict, and this focused PASS cannot be promoted to new whole-report acceptance."
+    }
+  ],
+  "resolved_prior_defects": [
+    {
+      "id": "prior:D1",
+      "prior_severity": "low",
+      "prior_verdict": "FAIL",
+      "current_focused_verdict": "PASS",
+      "location_before": "Old execution.json#/prompt_sha256",
+      "locations_after": [
+        "New execution.json#/prompt_sha256",
+        "New execution.json#/prompt_sha256_basis",
+        "New execution.json#/accepted_prompt_text_sha256",
+        "New execution.json#/accepted_prompt_text_sha256_basis"
+      ],
+      "failure_class": "F13 identity/preservation confusion, limited to digest semantics",
+      "owning_layer": "Producer A10 material provenance / W04 identity and transformation metadata; A11 dependent re-review / W07",
+      "actual_change": "New execution metadata supplies the exact raw-file digest and an explicitly named, independently reproduced text transform. Historical input/report/review bytes are preserved.",
+      "repair_executed_by_this_reviewer": false,
+      "repair_required_now": false,
+      "source_acquisition_required_by_actual_delta": false
+    }
+  ],
+  "new_defects": [],
+  "not_applicable": [
+    {
+      "criterion": "L08 Extension Pack evaluation",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "Both execution.json#/extension_pack",
+        "prompt.txt opening paragraph"
+      ],
+      "reason": "No Extension Pack is selected.",
+      "owning_layer": "A01/A02 selected method",
+      "smallest_repair": "None."
+    },
+    {
+      "criterion": "L10 clean-install or provider benchmark",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "prompt.txt final sentence",
+        "Both execution.json#/activation"
+      ],
+      "reason": "The run explicitly excludes that benchmark and records source-checkout activation.",
+      "owning_layer": "External installation evaluation",
+      "smallest_repair": "None; no installation certification supplied."
+    },
+    {
+      "criterion": "Whole-suite L09 acceptance",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "Current focused audit task"
+      ],
+      "reason": "Only one fixed submission's local provenance delta is in scope.",
+      "owning_layer": "Benchmark aggregation",
+      "smallest_repair": "None within this task."
+    },
+    {
+      "criterion": "Qualified human/specialist approval",
+      "verdict": "NOT APPLICABLE",
+      "severity": "none",
+      "evidence": [
+        "prompt.txt requested bounded document-label observation"
+      ],
+      "reason": "No such gate is specified for the requested observation or metadata audit. This is an agent review.",
+      "owning_layer": "Required review authority",
+      "smallest_repair": "None."
+    }
+  ],
+  "preservation": {
+    "verdict": "PASS",
+    "before_checked_at": "2026-09-12T23:19:00.635310+00:00",
+    "after_review_checked_at": "2026-09-12T23:21:38.851394+00:00",
+    "both_manifests_verified_before_and_after": true,
+    "all_eight_fixed_files_match": true,
+    "both_manifest_bytes_unchanged": true,
+    "prior_audit_and_review_unchanged": true,
+    "seven_read_skill_files_unchanged": true,
+    "protected_file_count": 19,
+    "new_output_paths_preexisting": {
+      "research/l1-01/evaluation/audit.md": false,
+      "research/l1-01/evaluation/review.json": false
+    },
+    "only_new_a11_outputs_written": true,
+    "submitted_records_modified": false,
+    "prior_reviews_modified": false,
+    "expected_outcomes_read_or_modified": false,
+    "skills_modified": false,
+    "github_state_modified": false,
+    "final_output_checked_at": "2026-09-12T23:28:36.726680+00:00",
+    "post_output_manifest_and_protected_file_check": "PASS",
+    "markdown_identity_table_and_json_path_mapping_check": "PASS"
+  },
+  "resource_use": {
+    "reviewer_source_action_allocation": 0,
+    "reviewer_external_source_actions": 0,
+    "reviewer_web_calls": 0,
+    "reviewer_search_queries": 0,
+    "reviewer_remaining_source_action_allocation": 0,
+    "producer_source_actions_recorded": 2,
+    "prior_reviewer_source_actions_recorded": 3,
+    "repair_source_actions_recorded": 0,
+    "combined_source_actions_on_permitted_records": 5,
+    "task_source_action_ceiling": 8,
+    "combined_search_queries_on_permitted_records": 0,
+    "task_search_query_ceiling": 3,
+    "remaining_task_ceiling_arithmetic": 3,
+    "remaining_capacity_authorizes_source_use_in_this_audit": false,
+    "reserved_repair_actions_in_historical_brief": 2,
+    "outstanding_source_jobs_this_reviewer": 0,
+    "outstanding_source_jobs_on_permitted_records": 0,
+    "new_paid_provider_runs": 0,
+    "purchases": 0,
+    "external_communications": 0,
+    "delegated_subtasks": 0,
+    "counting_rule": "Producer entries are inherited once, not new revision-02 source actions. Prior reviewer operations remain historical. Local filesystem/hash/diff/Git-read/output operations consume no source-action allocation.",
+    "runtime_limits": "Zero source actions and local provenance-only scope. No additional local CPU, token, operation-count or wall-clock cap was specified/exposed. Actual model/host/tool build versions are not exposed."
+  },
+  "actual_tool_use": {
+    "orchestration": "functions.exec",
+    "local_tool": "tools.exec_command",
+    "output_writer": "tools.apply_patch for initial creation; tools.exec_command/Python for final audit-artifact correction only",
+    "source_tools": [],
+    "local_operations": [
+      "pwd; existence/read checks for applicable AGENTS.md paths (none present)",
+      "cat/sed reads of the seven research-evaluate skill/contracts, both five-file fixed packages and the prior two-file audit",
+      "Read-only git rev-parse HEAD, last skill commit, skill tree and git status restricted to skills/research-evaluate",
+      "Python 3.12.14 stdlib pathlib/json/hashlib: exact file hashes before/after, byte equality, exhaustive parsed-key deltas, raw/one-LF/rstrip digest comparison and prior-review input bindings",
+      "JavaScript field-wise snapshot comparison after a noncanonical serialized-object comparator raised an assertion; no field or hash difference was found",
+      "Creation of only the two previously absent evaluation outputs; final local JSON/preservation validation",
+      "Final output QA rebuilt the Markdown identity table by filename, checked every displayed SHA-256 against actual paths and both manifests, and preserved the already-correct JSON mappings."
+    ],
+    "local_check_issue": {
+      "result": "RESOLVED",
+      "description": "The first after-review check compared serialized whole-object strings and raised an equality assertion. Immediate field-wise comparison of both saved snapshots found zero value differences; every file matched both manifests. This was a comparison representation issue, not a file-preservation failure."
+    },
+    "output_qa_issue": {
+      "result": "RESOLVED",
+      "description": "Before finalization, local inspection confirmed three Markdown identity-table rows had hashes associated with the wrong filenames because a positional array was used after key ordering changed. The table was rebuilt from explicit filenames and actual file hashes. The JSON per-path mappings were already correct. All five displayed rows and all JSON fixed-input mappings were checked against both actual manifests. Only the two new audit outputs were edited; the submission verdict is unaffected."
+    }
+  },
+  "limitations": [
+    "This is a focused local provenance/dependency audit, not a new full semantic source review.",
+    "No external source was fetched. Historical semantic findings and source-action outcomes are attributed to the actual prior review.",
+    "The submission and prior audit retain no original-source snapshots or response-body hashes; exact historic source response bytes and full host transcripts cannot be reproduced from these records.",
+    "Hashes and recorded inheritance establish the inspected byte relationships, not truth, rights, source-event authenticity or the historical acceptance of a prompt.",
+    "The one-LF derivation precisely identifies current normalized text; it does not prove the old producer's generating algorithm.",
+    "The original historical edition/retrieval boundary is unchanged. No currentness, broad supersession or implementation-conformance conclusion is added.",
+    "Git commit/tree identify the read skill checkout; no installation/host discovery benchmark, model build identification or qualified-human review was performed."
+  ],
+  "unresolved_need": "None for the requested focused scope. No source-dependent fact or premise changed, so the actual delta creates no fresh source-check requirement. A request for a new full semantic/currentness review would need an explicitly expanded scope and source allocation.",
+  "next_permitted_operation": "Retain the old submission/review and this new focused review. Consumers may reference the old semantic findings together with this resolved provenance assessment while preserving the different target revisions and scopes.",
+  "outputs": [
+    "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/audit.md",
+    "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/review.json"
+  ]
+}

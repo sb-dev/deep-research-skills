@@ -1,0 +1,81 @@
+{
+  "case": "EX-L1-01",
+  "revision": "run-2026-09-12-01",
+  "character": "real-source live inspection",
+  "producer_skill": "deep-research",
+  "producer_skill_revision": "0d708a7fee2ec95effb345d10677b2c53f292155",
+  "activation": "Explicit read/application of the source-checkout SKILL.md and local command/reference contracts in ChatGPT Work Mode; no installer or host-discovery claim.",
+  "extension_pack": null,
+  "producer": "ChatGPT Work Mode / Codex root agent",
+  "model_revision": "not exposed",
+  "prompt_sha256": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab",
+  "started_at": "2026-09-12T23:03:38.842268+00:00",
+  "output": "research/l1-01/research.md",
+  "bounds": {
+    "search_queries": 3,
+    "external_source_reads_actions": 8,
+    "producer_source_action_allocation": 3,
+    "independent_review_reserve": 3,
+    "repair_reserve": 2,
+    "new_paid_runs": 0,
+    "external_communication": 0
+  },
+  "pre_collection_state": {
+    "search_queries_used": 0,
+    "external_source_reads_used": 0,
+    "outstanding_source_jobs": 0
+  },
+  "review": "Separate fixed-input research-evaluate operation; freeze producer bytes before review.",
+  "producer_completed_at": "2026-09-12T23:05:29.742540+00:00",
+  "producer_operations": [
+    "frame",
+    "extract-evidence",
+    "analyse-evidence",
+    "synthesise"
+  ],
+  "actual_acquisition": {
+    "search_queries": 0,
+    "source_actions": 2,
+    "outstanding_source_jobs": 0,
+    "new_paid_runs": 0,
+    "external_communications": 0
+  },
+  "tool_calls": [
+    {
+      "order": 1,
+      "tool": "functions.exec -> web.run",
+      "operation": "open",
+      "arguments": {
+        "open": [
+          {
+            "ref_id": "https://www.w3.org/TR/prov-primer/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result": "Original HTML text returned; header and status passages inspected.",
+      "source": "S1",
+      "observed_declared_version": "http://www.w3.org/TR/2013/NOTE-prov-primer-20130430/",
+      "inspected_locator": "title-adjacent header; Status of This Document family list and publication paragraph"
+    },
+    {
+      "order": 2,
+      "tool": "functions.exec -> web.run",
+      "operation": "click",
+      "arguments": {
+        "parent_url": "https://www.w3.org/TR/prov-primer/",
+        "link_id_in_native_result": 24,
+        "response_length": "short"
+      },
+      "result": "Original linked PROV-DM edition returned; own header/status inspected.",
+      "source": "S2",
+      "resolved_url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
+    }
+  ],
+  "producer_output_sha256": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+  "producer_failures": [],
+  "source_limitations": [
+    "Native HTML-text inspection only; no original-page snapshots retained.",
+    "No broad supersession or implementation-conformance audit."
+  ]
+}

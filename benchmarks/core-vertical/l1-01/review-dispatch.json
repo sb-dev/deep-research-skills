@@ -1,0 +1,15 @@
+{
+  "case": "EX-L1-01",
+  "reviewer_task": "/root/l1_01_fixed_audit",
+  "dispatch_tool": "collaboration.spawn_agent",
+  "fork_turns": "none",
+  "request_file": "review-request.txt",
+  "request_payload_sha256": "d6424c7e550533c56a56334109ed8488421b755ebc1c5434ee5059ea8f0cdfc0",
+  "receipt_recorded_at": "2026-09-12T23:11:52.848156+00:00",
+  "review_scope": "all nine audit dimensions",
+  "external_source_action_allocation": 3,
+  "expected_answer_or_prior_conclusions_supplied": false,
+  "output_write_boundary": "research/l1-01/evaluation/",
+  "frozen_input_manifest": "fixed-input.json",
+  "authority": "research-evaluate fixed-input review and skill-creator independent forward-testing workflow"
+}

@@ -1,0 +1,16 @@
+{
+  "case": "EX-L1-01",
+  "submission_revision": "run-2026-09-12-02",
+  "producer_output_revision": "run-2026-09-12-01",
+  "fixed_at": "2026-09-12T23:16:44.070202+00:00",
+  "files": {
+    "prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+    "brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+    "execution.json": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+    "research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f"
+  },
+  "review_output": "research/l1-01/evaluation/audit.md",
+  "review_metadata_output": "research/l1-01/evaluation/review.json",
+  "review_source_action_allocation": 0,
+  "review_scope": "reproducibility; preservation and dependency impact of metadata-only revision"
+}

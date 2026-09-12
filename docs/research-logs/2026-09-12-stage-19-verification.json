@@ -1,0 +1,155 @@
+{
+  "stage": 19,
+  "result": "PASS",
+  "verified_at": "2026-09-12T23:33:29.274170+00:00",
+  "accepted_parent": "0d708a7fee2ec95effb345d10677b2c53f292155",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "host": "ChatGPT Work Mode / Codex",
+    "model_revision": "not exposed"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tests/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"checks\": {\n    \"readme\": [],\n    \"examples\": [],\n    \"packages\": [],\n    \"history\": [],\n    \"surfaces\": []\n  },\n  \"counts\": {\n    \"primary_examples\": 15,\n    \"skills\": 3,\n    \"commands\": 11,\n    \"preserved_files\": 95\n  },\n  \"scope\": \"Deterministic repository conformance; excludes research quality, execution and installation.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "docs/research-logs/2026-09-12-stage-19-verification.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"errors\": [],\n  \"fixed_submission_count\": 2,\n  \"fixed_file_identities_checked\": 8,\n  \"historical_review_identities_checked\": 2,\n  \"accepted_public_prompt_identity_checked\": true,\n  \"historical_negative_control\": {\n    \"result\": \"DETECTED\",\n    \"observed_defects\": [\n      \"execution prompt_sha256 does not identify raw prompt.txt bytes\"\n    ]\n  },\n  \"observed_review_table_negative_control\": {\n    \"result\": \"DETECTED\",\n    \"observed_defects\": [\n      \"review table identity mismatch: prompt.txt\",\n      \"review table identity mismatch: brief-and-plan.md\",\n      \"review table identity mismatch: execution.json\"\n    ]\n  },\n  \"final_review_table_checked_by_filename\": true,\n  \"repaired_raw_prompt_identity\": \"PASS\",\n  \"preserved_between_revisions\": [\n    \"prompt.txt\",\n    \"brief-and-plan.md\",\n    \"research/l1-01/research.md\"\n  ],\n  \"root_readme_unchanged\": true,\n  \"markdown_files_checked\": 10,\n  \"scope\": \"Artifact integrity, actual historical provenance defect, preservation and local navigation only; semantic support comes from the separate actual audits.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "executed_behaviour": {
+    "case": "EX-L1-01",
+    "source_checkout_skill_revision": "0d708a7fee2ec95effb345d10677b2c53f292155",
+    "source_action_counts": {
+      "producer": 2,
+      "original_reviewer": 3,
+      "metadata_repair": 0,
+      "focused_reviewer": 0
+    },
+    "total_source_actions": 5,
+    "source_action_ceiling": 8,
+    "total_queries": 0,
+    "query_ceiling": 3,
+    "original_full_audit_verdict": "FAIL",
+    "original_audit_scope_results": {
+      "source-quality": "PASS",
+      "source-independence": "PASS",
+      "coverage": "PASS",
+      "claims": "PASS",
+      "citations": "PASS",
+      "freshness": "PASS",
+      "contradictions": "PASS",
+      "uncertainty": "PASS",
+      "reproducibility": "FAIL"
+    },
+    "repair": "Actual provenance-metadata revision with unchanged report/brief/prompt and preserved original audit",
+    "focused_reaudit_verdict": "PASS",
+    "combined_revision_bound_acceptance": "PASS",
+    "semantic_evidence": "benchmarks/core-vertical/l1-01/result.json and its actual referenced audits"
+  },
+  "negative_controls": [
+    "Actual original undocumented prompt normalization detected",
+    "Actual unpublished draft table mislabelling detected in all three affected rows"
+  ],
+  "bookkeeping_failures": [
+    {
+      "operation": "Initial result assembly",
+      "observation": "Assertion treated the reviewer\u2019s text-valued unresolved_need field as a boolean; it was an explicit no-unresolved-need statement. No output was written before that assertion.",
+      "repair": "Read the actual review field, verified empty new_defects and all focused criteria PASS, and retained the exact recorded scope limitation."
+    }
+  ],
+  "changed_paths": [
+    "benchmarks/core-vertical/l1-01/README.md",
+    "benchmarks/core-vertical/l1-01/brief-and-plan.md",
+    "benchmarks/core-vertical/l1-01/execution.json",
+    "benchmarks/core-vertical/l1-01/fixed-input.json",
+    "benchmarks/core-vertical/l1-01/fixtures/audit-table-before-qa.md",
+    "benchmarks/core-vertical/l1-01/original-review-integrity.json",
+    "benchmarks/core-vertical/l1-01/prompt.txt",
+    "benchmarks/core-vertical/l1-01/repair.json",
+    "benchmarks/core-vertical/l1-01/research/l1-01/evaluation/audit.md",
+    "benchmarks/core-vertical/l1-01/research/l1-01/evaluation/review.json",
+    "benchmarks/core-vertical/l1-01/research/l1-01/research.md",
+    "benchmarks/core-vertical/l1-01/result.json",
+    "benchmarks/core-vertical/l1-01/review-dispatch.json",
+    "benchmarks/core-vertical/l1-01/review-request.txt",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/brief-and-plan.md",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/execution.json",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/fixed-input.json",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/prompt.txt",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/audit.md",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/review.json",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/research.md",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/review-dispatch.json",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/review-request.txt",
+    "docs/research-logs/2026-09-12-stage-18-publication-receipt.json",
+    "docs/research-logs/2026-09-12-stage-19-core-vertical.md",
+    "docs/research-logs/2026-09-12-stage-19-public-claims-ledger.md",
+    "docs/research-logs/2026-09-12-stage-19-repair.py",
+    "docs/research-logs/2026-09-12-stage-19-verification.json",
+    "docs/research-logs/2026-09-12-stage-19-verification.py",
+    "docs/research-logs/bootstrap-progress.md",
+    "examples/level-1-prov-primer-publication-status/README.md"
+  ],
+  "output_sha256": {
+    "benchmarks/core-vertical/l1-01/README.md": "32a76ff8358de5ca585a7d54350e2a77a9b907b4b5d8f87ebf7b9b5380b71f37",
+    "benchmarks/core-vertical/l1-01/brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+    "benchmarks/core-vertical/l1-01/execution.json": "331ace2bf79d13e308d9648e943011be797081e9c0ba514c3f5687d5b876a97c",
+    "benchmarks/core-vertical/l1-01/fixed-input.json": "edfb9423a41acbb5b2643265beaebe141f6af9d3e62f294fc1dca296d28c84eb",
+    "benchmarks/core-vertical/l1-01/fixtures/audit-table-before-qa.md": "58f738606631596581a0fb0af0795ebee2a01c3285100b5639267e33bdf94f8c",
+    "benchmarks/core-vertical/l1-01/original-review-integrity.json": "73efd7bd9b11922aaa2f913ab75d023cda6bc5dd99f03e48539b050ca203b219",
+    "benchmarks/core-vertical/l1-01/prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+    "benchmarks/core-vertical/l1-01/repair.json": "000942555d86d26d40351cd451809cc7549a0987794bd4c296e3b4d36d259ff8",
+    "benchmarks/core-vertical/l1-01/research/l1-01/evaluation/audit.md": "b1b675a4869c6db91e194f3aa7c5a8e9634604480f34f2ad3da91376b75aea12",
+    "benchmarks/core-vertical/l1-01/research/l1-01/evaluation/review.json": "bad7613bed223f4a469f2713a5baf395c6e9956759b82339072afcb61cfae50c",
+    "benchmarks/core-vertical/l1-01/research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+    "benchmarks/core-vertical/l1-01/result.json": "0708a34ac30115b8f854170831b33998e9e5b9fd58e5cd7c82e28376d6b5407a",
+    "benchmarks/core-vertical/l1-01/review-dispatch.json": "654dd16946b2cb1e7cfb6e2a0a7f19d9b23534f7def8b554da6295f323e11545",
+    "benchmarks/core-vertical/l1-01/review-request.txt": "0080250c27ba4537ff689e1f4d42665d6b5bec157d11ac3d1e5be9bb8e970cf0",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/brief-and-plan.md": "d400271c97b644fe1394de82e5554880e6e1d45ceee630131a4700a00fbb3125",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/execution.json": "1013b421f995ff25fd21aa206d53ac3002fb3437a8757481cd4af1377b8d7403",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/fixed-input.json": "1f88589f649d4dda55669313c4b571e6ede4b54ab044835662ae4938d946d182",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/prompt.txt": "767ae9980659356a0b64c7d5528b62d221df74ad00abe20ea81973789dc89dd9",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/audit.md": "18322bf7a0f459d159ded61067628bfa6584c9ff4a4253ceafe194874cb1745c",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/evaluation/review.json": "03500a034fe0192b6bf2a2b6508b06e2c89f07ca68536ef8a9125106bf2fd97d",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/research/l1-01/research.md": "958d0f4496603d5872f4c03b5e42e9ab9fa68c1bf142ac9306c6ac7c6dbceb2f",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/review-dispatch.json": "a8689dc09774756a1f3c8442993a50db938cf1683054c0ee574156f59f944745",
+    "benchmarks/core-vertical/l1-01/revisions/run-2026-09-12-02/review-request.txt": "10a2fce23920e542939c14926f35b295a546cb2ed7061874126ddea343bc7bd1",
+    "docs/research-logs/2026-09-12-stage-18-publication-receipt.json": "30731653593f26228b4ebd79d1d4d69d05bd1da04616dd99d0ab3353b92814c5",
+    "docs/research-logs/2026-09-12-stage-19-core-vertical.md": "bc13cea8d7e923e61a2d38104a190862dbb913a145df51cf6e2a596865b1520d",
+    "docs/research-logs/2026-09-12-stage-19-public-claims-ledger.md": "9a32d200ce59494870fd6355c6dbabeb424b5fcb5c054508cfe707dde4221588",
+    "docs/research-logs/2026-09-12-stage-19-repair.py": "22986614cb023c70ba8daed528ccd5c5f38d0e0d541d2b657b84ab544c0aef00",
+    "docs/research-logs/2026-09-12-stage-19-verification.py": "6e1efb05fcb8cd54cd6be6d72f00f5ae58fe3a0205007530a624f540d4849256",
+    "docs/research-logs/bootstrap-progress.md": "7ec9211f919777ba267ac82b7b667302883700450c7e181f7b325e7abcea7025",
+    "examples/level-1-prov-primer-publication-status/README.md": "e18069c432a6296e788faaf39fd5c93cb6960704762eb70cafaf5a21c75b96ab"
+  },
+  "hash_scope_note": "This verification file excludes its own recursive content hash; remote publication checks every intended file, including this record.",
+  "limitations": [
+    "Deterministic conformance is separate from semantic source review.",
+    "One source-checkout vertical; no installation, all-example, pack or provider-performance claim.",
+    "No retained original source response bodies or independent human review.",
+    "Remote commit/ref/parent/path/blob verification follows the stage-scoped commit."
+  ]
+}
