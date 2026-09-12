@@ -5,9 +5,9 @@ Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Historical governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
 Future-stage amendment from Stage 16 onward: [README and implementation sequence amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md).
 
-**Current checkpoint: Stage 17 complete. Next: Stage 18 Scaffold Repository and Preserve Public README.**
+**Current checkpoint: Stage 18 content and local verification complete; remote publication gate applies to the containing commit. Next after remote verification: Stage 19 Implement and Prove Core Vertical.**
 
-Repository maturity remains bootstrap workspace. Cross-project review does not establish scaffolded, installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
+The source scaffold has passed Stage 18 structural checks. This does not establish installed, working, benchmarked or mature capability. No merge, release, ready PR or registry promotion is authorised by this index.
 
 ## Accepted stages
 
@@ -32,6 +32,7 @@ Stages 1–14 have content acceptance PASS and remote publication verification P
 | 15 | Public README design | `18376f74db7e10b4a3a6363e8bca9c0c8e2c8977` | Stage 15 log, verifier, result and publication receipt |
 | 16 | Public README conformance repair | `8a7670fe1d9a18bbab6a61330ba15c6be3a2607e` | Stage 16 log, contract, claims ledger and executed structural verifier |
 | 17 | Cross-Project Review | Stage 17 branch commit | Stage 17 cross-project log, review contracts and verification |
+| 18 | Scaffold Repository and Preserve Public README | Containing stage-scoped commit; immutable remote receipt follows | Stage 18 scaffold log, public claims supplement and executed verification |
 
 ## Stage 15 historical record
 
@@ -80,10 +81,27 @@ Durable evidence:
 
 No root README, canonical specification, Stage 16 contract or claims-ledger change was required by the cross-project review.
 
+## Stage 18 content
+
+Status: content and local conformance PASS. Remote commit/ref/parent/path verification is required before Stage 19 starts; its receipt identifies the immutable completion commit.
+
+- Owner selected MIT explicitly; root and each independent skill package retain the licence notice.
+- Three skill packages contain eleven semantic command contracts and fourteen local references.
+- All fifteen accepted primary prompts have stable public example READMEs, expected outputs and evaluation contracts.
+- Root README changes are exactly the fifteen example links plus contribution/licence links.
+- Deterministic checks cover full prompt identity, sections/order, 5 × 3 progression, link/anchor closure, package boundaries, leakage and preservation of 95 accepted files.
+- Twenty-two unittest methods, three skill-format validations and the repository/diff checks were actually executed.
+- No research example, Extension Pack behaviour or installation is represented as executed by this stage.
+
+Evidence:
+
+- [Stage 18 scaffold and conformance](2026-09-12-stage-18-scaffold.md)
+- [Stage 18 actual verification](2026-09-12-stage-18-verification.json)
+- [Stage 18 claims evidence supplement](2026-09-12-stage-18-public-claims-ledger.md)
+
 ## Amended future sequence
 
 ```text
-18 Scaffold Repository and Preserve Public README
 19 Implement and Prove Core Vertical
 20 Expand Progressive Coverage and Extension Packs
 21 Configure Skill Installation
@@ -95,4 +113,4 @@ No root README, canonical specification, Stage 16 contract or claims-ledger chan
 
 The original Stage 14 specifications remain immutable. Any old future stage numbers inside those completed specifications are interpreted through the amendment mapping rather than edited retroactively.
 
-Stage 18 is next.
+Stage 19 is next after the containing Stage 18 commit is remotely verified.

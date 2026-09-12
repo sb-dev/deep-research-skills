@@ -1,0 +1,326 @@
+{
+  "accepted_parent": "5e2a4dcee7b93fb2e65e16149fa1861774640558",
+  "accepted_readme_blob": "122dae53c254c563d7042e2d20539af3774f62c0",
+  "accepted_readme_sha256": "c383753ff4c057cf440621249216f5586576f5d4b3cb0b49f4e5ab203893fd8a",
+  "headings": [
+    "# Deep Research Skills",
+    "## Research capabilities",
+    "## Research effort and evidence control",
+    "## Install",
+    "## Quick start — PROV Primer publication status",
+    "## Learn by researching",
+    "### Level 1 — Find and verify one bounded answer",
+    "### Level 2 — Compare a small evidence set",
+    "### Level 3 — Produce a focused decision-ready report",
+    "### Level 4 — Handle contested, scaled and changing evidence",
+    "### Level 5 — Run a research programme that feeds production",
+    "## Project structure grows with the research",
+    "## Skills",
+    "### `deep-research`",
+    "### `research-evaluate`",
+    "### `research-extension-pack-creator`",
+    "## Extension Packs",
+    "## Execution",
+    "## Evaluation and benchmarks",
+    "## Documentation",
+    "## Project boundary",
+    "## Contributing",
+    "## Licence"
+  ],
+  "examples": [
+    {
+      "id": "L1-01",
+      "level": 1,
+      "title": "PROV Primer publication status",
+      "path": "examples/level-1-prov-primer-publication-status/README.md",
+      "prompt_sha256": "db135db41ddf70fc351eac8b218309b98ad422fef4dad1ab956f48bd6f0fc9ab",
+      "expected_artefacts": [
+        "research/l1-01/research.md"
+      ],
+      "evaluation": "Evaluate source identity, exact status/date support, scope and truthful self-check.",
+      "benchmark": "EX-L1-01",
+      "coverage": "L02/L04/L05; K01/K03/K11",
+      "negative_contract": "Exact official status versus conformance overclaim; FX04/FX10. Producer only, no pack; canonical keyless quick start."
+    },
+    {
+      "id": "L1-02",
+      "level": 1,
+      "title": "Python requirement claim audit",
+      "path": "examples/level-1-python-requirement-claim-audit/README.md",
+      "prompt_sha256": "68ca4f3684214f13c6ac8e2bdb264068c4fdec018120736c8a4d71390fbbc4ce",
+      "expected_artefacts": [
+        "research/l1-02/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate claim scope, source entailment and input preservation.",
+      "benchmark": "EX-L1-02",
+      "coverage": "L01/L04; K05/K12",
+      "negative_contract": "Package/deployment conflation and unchanged audit submission; FX10/AU01. Evaluator only."
+    },
+    {
+      "id": "L1-03",
+      "level": 1,
+      "title": "Repair-data count scope",
+      "path": "examples/level-1-repair-data-count-scope/README.md",
+      "prompt_sha256": "376413ec7dbd780d0510bb890ada8870b94633623e20aae3aba3946be9d88844",
+      "expected_artefacts": [
+        "research/l1-03/research.md"
+      ],
+      "evaluation": "Evaluate unit definition and release/observation/read dates.",
+      "benchmark": "EX-L1-03",
+      "coverage": "L03/L07; K04/K11",
+      "negative_contract": "Count unit and observation versus retrieval date; FX03/TM02. Producer only."
+    },
+    {
+      "id": "L2-01",
+      "level": 2,
+      "title": "Scholarly metadata routes",
+      "path": "examples/level-2-scholarly-metadata-routes/README.md",
+      "prompt_sha256": "bad970be7830f6c768540696f6633b4abf86c59812f132ffca6cf4556a506bdc",
+      "expected_artefacts": [
+        "research/l2-01/research.md",
+        "research/l2-01/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate criteria, currentness, primary authority and metadata/full-text limits.",
+      "benchmark": "EX-L2-01",
+      "coverage": "L02/L03/L04; K02/K05",
+      "negative_contract": "Official API evidence versus wrapper/metadata substitution; FX04/FX07. Producer and evaluator, core only."
+    },
+    {
+      "id": "L2-02",
+      "level": 2,
+      "title": "RULER report versions",
+      "path": "examples/level-2-ruler-report-versions/README.md",
+      "prompt_sha256": "fcc36b05f7b2c3d8cfca4b50b18eac7550aa31aa9ff0b173f8446a74a1308b4e",
+      "expected_artefacts": [
+        "research/l2-02/research.md",
+        "research/l2-02/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate work/report linkage, revised scope and threshold applicability.",
+      "benchmark": "EX-L2-02",
+      "coverage": "L03/L05; K04/K05/K06",
+      "negative_contract": "Work/report/version linkage and changed population; FX06/FX09. Producer and evaluator."
+    },
+    {
+      "id": "L2-03",
+      "level": 2,
+      "title": "Small numeric repair comparison",
+      "path": "examples/level-2-small-numeric-repair-comparison/README.md",
+      "prompt_sha256": "ae91de7bbbdc2d63b03de0e9dde4464d1ba20455c7234132a2dd78fe1ed47397",
+      "expected_artefacts": [
+        "research/l2-03/research.md",
+        "research/l2-03/calculation.py",
+        "research/l2-03/results.csv",
+        "research/l2-03/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate reproducible arithmetic, complete denominators and bounded inference.",
+      "benchmark": "EX-L2-03",
+      "coverage": "L03/L06; K07/K09/K13",
+      "negative_contract": "Complete denominator including Unknown and reproducible calculation; PR01. Producer/evaluator with actual local data execution."
+    },
+    {
+      "id": "L3-01",
+      "level": 3,
+      "title": "Long-context research evidence",
+      "path": "examples/level-3-long-context-research-evidence/README.md",
+      "prompt_sha256": "05de18e0f5fac7547fb557cf9d299b8a47a85f7cf937838ee4679d18637a0fe1",
+      "expected_artefacts": [
+        "research/l3-01/research.md",
+        "research/l3-01/study-report-map.md",
+        "research/l3-01/evaluation-proposal.md",
+        "research/l3-01/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate scholarly appraisal and transfer limits separately from citation syntax.",
+      "benchmark": "EX-L3-01",
+      "coverage": "L02–L05/L08; K05/K08/K10",
+      "negative_contract": "Scholarly unit/status and limited transfer; FX05/FX06/FX09, PD01. Explicit scholarly-evidence."
+    },
+    {
+      "id": "L3-02",
+      "level": 3,
+      "title": "Repair-software opportunity evidence",
+      "path": "examples/level-3-repair-software-opportunity-evidence/README.md",
+      "prompt_sha256": "2eb9a51b001c2e325656fde3f9ca09dab0e41202555f73224f1420614e24e879",
+      "expected_artefacts": [
+        "research/l3-02/research.md",
+        "research/l3-02/opportunity-assumptions.md",
+        "research/l3-02/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate decision relevance without unsupported demand claims.",
+      "benchmark": "EX-L3-02",
+      "coverage": "L03/L05/L09; K01/K05/K15",
+      "negative_contract": "Activity does not prove demand or willingness to pay; FX09/FX11. Core only."
+    },
+    {
+      "id": "L3-03",
+      "level": 3,
+      "title": "Optional research-engine adoption",
+      "path": "examples/level-3-optional-research-engine-adoption/README.md",
+      "prompt_sha256": "0489978576fcb4ff55469bbaefe062b2fb9aa91fd94e4f7a1ba70bec8d5f4f95",
+      "expected_artefacts": [
+        "research/l3-03/research.md",
+        "research/l3-03/eligibility-matrix.md",
+        "research/l3-03/required-tests.md",
+        "research/l3-03/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate pack effects, documentary versus runtime evidence and provider boundaries.",
+      "benchmark": "EX-L3-03",
+      "coverage": "L03/L04/L08; K03/K12/K15",
+      "negative_contract": "Static observations versus actual installation readiness; AU01/FX10, PD02. Explicit open-source-ecosystem."
+    },
+    {
+      "id": "L4-01",
+      "level": 4,
+      "title": "API-policy reconstruction and refresh",
+      "path": "examples/level-4-api-policy-reconstruction-and-refresh/README.md",
+      "prompt_sha256": "c7ae3b52f7517ed911b5b9f013a56952d0f602dc180f9439b565866b4c3c44f6",
+      "expected_artefacts": [
+        "research/l4-01/research.md",
+        "research/l4-01/baseline.md",
+        "research/l4-01/temporal-table.md",
+        "research/l4-01/change-record.md",
+        "research/l4-01/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate temporal semantics and smallest-sufficient refresh.",
+      "benchmark": "EX-L4-01",
+      "coverage": "L06/L07; K11/K16",
+      "negative_contract": "Retrospective versus current policy, announcement and implementation; FX03/TM02/TM03. Producer/evaluator refresh and diagnosis."
+    },
+    {
+      "id": "L4-02",
+      "level": 4,
+      "title": "Longitudinal repair-data reconciliation",
+      "path": "examples/level-4-longitudinal-repair-data-reconciliation/README.md",
+      "prompt_sha256": "77e4e7ded5b5a64153e38e7994fdcd4913c39f5824fe1871f3e36c90520d1d51",
+      "expected_artefacts": [
+        "research/l4-02/research.md",
+        "research/l4-02/input-manifest.json",
+        "research/l4-02/calculation.py",
+        "research/l4-02/results.csv",
+        "research/l4-02/change-record.md",
+        "research/l4-02/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate calculation fidelity, snapshot dependence and repair preservation.",
+      "benchmark": "EX-L4-02",
+      "coverage": "L03/L06/L07; K04/K07/K16",
+      "negative_contract": "Snapshot double counting, schema/denominator repair, preserved calculations; FX06/PR01/TM03. Core, bounded data acquisition."
+    },
+    {
+      "id": "L4-03",
+      "level": 4,
+      "title": "Multi-repository evidence audit",
+      "path": "examples/level-4-multi-repository-evidence-audit/README.md",
+      "prompt_sha256": "857e5919a3a64252bac35562a2ac545b1a733ce015650e1eb8810872f5552a99",
+      "expected_artefacts": [
+        "research/l4-03/research.md",
+        "research/l4-03/ecosystem-map.md",
+        "research/l4-03/claim-audit.md",
+        "research/l4-03/change-record.md",
+        "research/l4-03/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate multi-hop provenance, independence and targeted follow-up at source-set scale.",
+      "benchmark": "EX-L4-03",
+      "coverage": "L02/L03/L06/L08; K02/K06/K16",
+      "negative_contract": "Shared engines, sampled histories, bounded follow-up and locator repair; FX01/FX10/BG02, PD02. OSS pack."
+    },
+    {
+      "id": "L5-01",
+      "level": 5,
+      "title": "Archival-research domain programme",
+      "path": "examples/level-5-archival-research-domain-programme/README.md",
+      "prompt_sha256": "f070705bc81ea560f5103a05684a3c8f505d563d58286f25ee081bb50accd652",
+      "expected_artefacts": [
+        "research/l5-01/research.md",
+        "research/l5-01/programme-map.md",
+        "research/l5-01/pack-qualification.md",
+        "research/l5-01/handoff-software.md",
+        "research/l5-01/handoff-ux.md",
+        "research/l5-01/review-needs.md",
+        "research/l5-01/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate research-before-architecture, catalogue-first qualification and explicit handoff ownership. The creator qualification can also be tested as a selective-install subtask using the explicitly supplied catalogue and programme request.",
+      "benchmark": "EX-L5-01",
+      "coverage": "L05/L08/L09; K01/K15/K16",
+      "negative_contract": "Catalogue-first create-pack qualification and research-before-architecture; FX11/AU01, pack precedence suite. All three skills; creator-only qualification also tested selectively."
+    },
+    {
+      "id": "L5-02",
+      "level": 5,
+      "title": "Watershed system for production",
+      "path": "examples/level-5-watershed-system-for-production/README.md",
+      "prompt_sha256": "09306746cb208f49cb28937da68e971fb52aaa837f4f605465859278996b821b",
+      "expected_artefacts": [
+        "research/l5-02/research.md",
+        "research/l5-02/programme-map.md",
+        "research/l5-02/mechanism-evidence-map.md",
+        "research/l5-02/handoff-game.md",
+        "research/l5-02/handoff-world.md",
+        "research/l5-02/handoff-narrative.md",
+        "research/l5-02/change-record.md",
+        "research/l5-02/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate scientific context, abstraction boundaries and evidence-preserving multi-domain handoff.",
+      "benchmark": "EX-L5-02",
+      "coverage": "L03/L05/L06/L09; K05/K09/K15",
+      "negative_contract": "Scientific units and empirical/model/simulation distinction; FX09/PR01/TM03. Core, three domain handoffs."
+    },
+    {
+      "id": "L5-03",
+      "level": 5,
+      "title": "Evidence-linked briefing opportunity",
+      "path": "examples/level-5-evidence-linked-briefing-opportunity/README.md",
+      "prompt_sha256": "002c65cd72e889c4812c296ee734b9db0f02456e8eab1faa2ff909c2d3739c55",
+      "expected_artefacts": [
+        "research/l5-03/research.md",
+        "research/l5-03/programme-map.md",
+        "research/l5-03/opportunity-assumptions.md",
+        "research/l5-03/handoff-business.md",
+        "research/l5-03/handoff-software.md",
+        "research/l5-03/handoff-editorial.md",
+        "research/l5-03/change-record.md",
+        "research/l5-03/evaluation/audit.md"
+      ],
+      "evaluation": "Evaluate programme consistency, competing constraints, disconfirming evidence and preserved downstream judgement.",
+      "benchmark": "EX-L5-03",
+      "coverage": "L03/L05/L07/L09; K01/K10/K15",
+      "negative_contract": "Conditional opportunity, permitted use and scoped refresh; FX09/FX11/TM03. Core, business/software/editorial handoffs."
+    }
+  ],
+  "skills": {
+    "deep-research": [
+      "frame",
+      "plan",
+      "discover",
+      "extract-evidence",
+      "analyse-evidence",
+      "follow-up-search",
+      "synthesise",
+      "refresh"
+    ],
+    "research-evaluate": [
+      "audit",
+      "diagnose-research-failure"
+    ],
+    "research-extension-pack-creator": [
+      "create-pack"
+    ]
+  },
+  "required_references": {
+    "deep-research": [
+      "evidence-contract",
+      "source-and-execution",
+      "effort-and-repair",
+      "pack-precedence"
+    ],
+    "research-evaluate": [
+      "evidence-contract",
+      "audit-criteria",
+      "repair-diagnosis",
+      "pack-evaluation"
+    ],
+    "research-extension-pack-creator": [
+      "pack-contract",
+      "authoring-and-validation",
+      "evaluation-contract"
+    ]
+  }
+}

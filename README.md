@@ -119,33 +119,33 @@ The five levels increase research responsibility rather than merely output lengt
 
 ### Level 1 — Find and verify one bounded answer
 
-- **L1-01 — PROV Primer publication status** — recover one official-source fact with an exact locator and temporal scope.
-- **L1-02 — Python requirement claim audit** — audit a frozen proposition against package, server and README evidence without rewriting it.
-- **L1-03 — Repair-data count scope** — distinguish the published count, unit, release date and observation period.
+- **L1-01 — [PROV Primer publication status](examples/level-1-prov-primer-publication-status/README.md)** — recover one official-source fact with an exact locator and temporal scope.
+- **L1-02 — [Python requirement claim audit](examples/level-1-python-requirement-claim-audit/README.md)** — audit a frozen proposition against package, server and README evidence without rewriting it.
+- **L1-03 — [Repair-data count scope](examples/level-1-repair-data-count-scope/README.md)** — distinguish the published count, unit, release date and observation period.
 
 ### Level 2 — Compare a small evidence set
 
-- **L2-01 — Scholarly metadata routes** — compare Crossref, OpenAlex and Semantic Scholar against explicit evidence-access criteria.
-- **L2-02 — RULER report versions** — compare revisions of one work without counting them as independent studies.
-- **L2-03 — Small numeric repair comparison** — produce a reproducible descriptive comparison while retaining denominators and sampling limits.
+- **L2-01 — [Scholarly metadata routes](examples/level-2-scholarly-metadata-routes/README.md)** — compare Crossref, OpenAlex and Semantic Scholar against explicit evidence-access criteria.
+- **L2-02 — [RULER report versions](examples/level-2-ruler-report-versions/README.md)** — compare revisions of one work without counting them as independent studies.
+- **L2-03 — [Small numeric repair comparison](examples/level-2-small-numeric-repair-comparison/README.md)** — produce a reproducible descriptive comparison while retaining denominators and sampling limits.
 
 ### Level 3 — Produce a focused decision-ready report
 
-- **L3-01 — Long-context research evidence** — use the `scholarly-evidence` profile to assess what benchmark evidence does and does not justify.
-- **L3-02 — Repair-software opportunity evidence** — separate observed repair activity from untested market demand and willingness to pay.
-- **L3-03 — Optional research-engine adoption** — use the `open-source-ecosystem` profile to distinguish documentary capability, static inspection and tests still required.
+- **L3-01 — [Long-context research evidence](examples/level-3-long-context-research-evidence/README.md)** — use the `scholarly-evidence` profile to assess what benchmark evidence does and does not justify.
+- **L3-02 — [Repair-software opportunity evidence](examples/level-3-repair-software-opportunity-evidence/README.md)** — separate observed repair activity from untested market demand and willingness to pay.
+- **L3-03 — [Optional research-engine adoption](examples/level-3-optional-research-engine-adoption/README.md)** — use the `open-source-ecosystem` profile to distinguish documentary capability, static inspection and tests still required.
 
 ### Level 4 — Handle contested, scaled and changing evidence
 
-- **L4-01 — API-policy reconstruction and refresh** — reconstruct dated policy states and update only affected claims.
-- **L4-02 — Longitudinal repair-data reconciliation** — reconcile large snapshots without double-counting or hiding schema drift.
-- **L4-03 — Multi-repository evidence audit** — trace capability evidence across a bounded repository set and repair only the affected evidence chain.
+- **L4-01 — [API-policy reconstruction and refresh](examples/level-4-api-policy-reconstruction-and-refresh/README.md)** — reconstruct dated policy states and update only affected claims.
+- **L4-02 — [Longitudinal repair-data reconciliation](examples/level-4-longitudinal-repair-data-reconciliation/README.md)** — reconcile large snapshots without double-counting or hiding schema drift.
+- **L4-03 — [Multi-repository evidence audit](examples/level-4-multi-repository-evidence-audit/README.md)** — trace capability evidence across a bounded repository set and repair only the affected evidence chain.
 
 ### Level 5 — Run a research programme that feeds production
 
-- **L5-01 — Archival-research domain programme** — research a new Production Skills domain before architecture design and qualify whether a new Extension Pack is justified.
-- **L5-02 — Watershed system for production** — hand scientific mechanisms to game, world and narrative production without treating simulation as empirical proof.
-- **L5-03 — Evidence-linked briefing opportunity** — combine market, technical and editorial evidence while leaving business, engineering and publication commitments with their owners.
+- **L5-01 — [Archival-research domain programme](examples/level-5-archival-research-domain-programme/README.md)** — research a new Production Skills domain before architecture design and qualify whether a new Extension Pack is justified.
+- **L5-02 — [Watershed system for production](examples/level-5-watershed-system-for-production/README.md)** — hand scientific mechanisms to game, world and narrative production without treating simulation as empirical proof.
+- **L5-03 — [Evidence-linked briefing opportunity](examples/level-5-evidence-linked-briefing-opportunity/README.md)** — combine market, technical and editorial evidence while leaving business, engineering and publication commitments with their owners.
 
 ## Project structure grows with the research
 
@@ -306,8 +306,8 @@ Research can inform these domains. It does not inherit their authority.
 
 ## Contributing
 
-Contributions should preserve source/evidence/claim distinctions, independent evaluation boundaries, temporal validity, explicit authority and smallest-sufficient repair. Repository contribution guidance is defined in `CONTRIBUTING.md`.
+Contributions should preserve source/evidence/claim distinctions, independent evaluation boundaries, temporal validity, explicit authority and smallest-sufficient repair. Repository contribution guidance is defined in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
-The repository licence is declared in `LICENSE`. Source documents, datasets, models, APIs and other third-party material retain their own licences and terms.
+The repository licence is declared in [LICENSE](LICENSE). Source documents, datasets, models, APIs and other third-party material retain their own licences and terms.
