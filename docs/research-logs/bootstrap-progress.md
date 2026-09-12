@@ -5,7 +5,7 @@ Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Historical governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
 Future-stage amendment from Stage 16 onward: [README and implementation sequence amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md).
 
-**Current checkpoint: Stage 19 execution and content conformance PASS; remote publication verification applies to the containing stage-scoped commit. Stage 20 has not started.**
+**Current checkpoint: Stage 19 COMPLETE. Verified content commit: `81b5b556d02c4a2af4314bf7afd8ab04319fb8ef`. Stage 20 is next and has not started.**
 
 The source scaffold and one actual source-checkout producer/evaluator vertical have passed their scoped checks. Installation, the wider progression and pack behaviour retain their distinct gates. No merge, release, ready PR or registry promotion is authorised by this index.
 
@@ -33,7 +33,7 @@ Stages 1–14 have content acceptance PASS and remote publication verification P
 | 16 | Public README conformance repair | `8a7670fe1d9a18bbab6a61330ba15c6be3a2607e` | Stage 16 log, contract, claims ledger and executed structural verifier |
 | 17 | Cross-Project Review | Stage 17 branch commit | Stage 17 cross-project log, review contracts and verification |
 | 18 | Scaffold Repository and Preserve Public README | `0d708a7fee2ec95effb345d10677b2c53f292155` | Stage 18 scaffold, claims, executed verification and remote publication receipt |
-| 19 | Implement and Prove Core Vertical | Containing stage-scoped content commit; remote receipt follows | Actual L1-01 producer, full audit, preserved metadata repair, focused re-audit and verification |
+| 19 | Implement and Prove Core Vertical | `81b5b556d02c4a2af4314bf7afd8ab04319fb8ef` | Actual L1-01 producer, full audit, preserved repair, focused re-audit, verification and publication receipt |
 
 ## Stage 15 historical record
 
@@ -102,7 +102,7 @@ Evidence:
 
 ## Stage 19 content
 
-Status: execution and content conformance PASS; the containing stage-scoped commit requires remote ref/parent/path/blob verification before completion is reported.
+Status: COMPLETE. Execution and content conformance PASS. Remote content commit `81b5b556d02c4a2af4314bf7afd8ab04319fb8ef` has verified parent, tree, all 31 changed paths and all 31 immutable blob identities. See the [publication receipt](2026-09-12-stage-19-publication-receipt.json).
 
 - Exact L1-01 prompt executed through the actual source-checkout producer at the Stage 18 revision.
 - Actual original-source inspection, evidence, claims, synthesis, temporal limits and producer self-check are preserved.
@@ -134,4 +134,4 @@ No installation, all-example performance, pack effect or maturity claim follows 
 
 The original Stage 14 specifications remain immutable. Any old future stage numbers inside those completed specifications are interpreted through the amendment mapping rather than edited retroactively.
 
-Stage 20 is next after Stage 19 remote verification. Under execution contract §17, stop this session at that fully verified boundary; Stage 20 has not started.
+Stage 20 is next. This session stops at fully verified Stage 19 under execution contract §17 (context safety). Stage 20 has not started. Resume from the verified content commit above plus the Stage 19 receipt/progress bookkeeping commit; reconstruct the complete next-stage acceptance contract before execution.
