@@ -1,0 +1,7 @@
+{
+  "wall_seconds": 9.998854675000075,
+  "maximum_rss_kib": 31228,
+  "user_seconds": 9.026979,
+  "system_seconds": 0.997103,
+  "note": "Linux resource.getrusage; SQLite cache capped 8MiB, insertion batches 1000, temp_store FILE; /usr/bin/time unavailable (exit127) so code not started on first attempted invocation"
+}

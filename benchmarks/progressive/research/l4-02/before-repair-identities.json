@@ -1,0 +1,13 @@
+{
+  "research.md": "739e67c9edb9fef90f424f59eba1f4e632b160bb2259a5266699a5f36e5008f1",
+  "calculation.py": "bbf0270d7f4cb65c7a6fb6dcfb6f36fe4d5b187cd525ad6f7334c91066e00476",
+  "results.csv": "082987fcb19339207aa0e7548bfd428bbee90ccfeb236737c5731917ba0be7a2",
+  "observed.json": "be1ccb01091b5593ac9248945298bfae493ac48c46e94dd16163746b0c1465bc",
+  "input-manifest.json": "b8ac231c340c5cc6bd23546d1ccfd2dec74e0aaa4b3a80d79d5db5ee226338af",
+  "coverage.csv": "deb1605a903e2a15004547b7cf9d292dd9798c75ef15fbfa2815ad025f540b71",
+  "category-counts.csv": "bf36d2ba9f171d49a3abf73a5c612bd3b87c5f2462b38223f288705a1de6b497",
+  "category-transitions.csv": "211579d2f5194fd4839d2e59445a89348b46d7dee7399dac8a593c94d837c3f3",
+  "provider-overlap.csv": "2b4a7dd8c6a686ec2444fb2dc3f66b250ad276e87111d462e79c22b805900dbc",
+  "execution-resources.json": "bb23bedbec1c5b64af2c6d333fe34ce5f301061c72fce4940fc8b7198f1ec213",
+  "demonstration-error.csv": "a499008c1c36b06073238902124b242856402e3bbb70103e732b24ad346a996b"
+}

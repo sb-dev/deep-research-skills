@@ -1,0 +1,357 @@
+URL: https://www.crossref.org/blog/announcing-changes-to-rest-api-rate-limits/
+Final URL: https://www.crossref.org/blog/announcing-changes-to-rest-api-rate-limits/
+Retrieved: 2026-09-13
+Representation: full-page HTML parsed to text with script/style removed; not immutable archive
+
+Announcing changes to REST API rate limits - Crossref
+Menu
+Home
+Home
+Join
+Members
+Documentation
+Forum
+Blog
+Contact
+Get involved
+Overview
+Become a member
+Events
+Service providers
+Special programs
+Working for you
+Data citation
+Sponsors program
+Ambassadors
+Working groups
+Code of conduct
+Fees
+API Learning Hub
+Find a service
+Overview
+Content Registration
+Metadata Retrieval
+Metadata Plus
+Grant Linking System (GLS)
+Research Organization Registry (ROR)
+Open Funder Registry (OFR)
+Support for Reference Linking
+Similarity Check
+Cited-by
+Crossmark
+Documentation
+Overview
+Setting up as a member
+The Research Nexus
+Metadata principles and practices
+Register and maintain your records
+Schema library
+Reports
+Crossmark
+Cited-by
+Similarity Check
+Metadata Retrieval
+About us
+Overview
+Operations & sustainability
+Board & governance
+Publications
+Strategic agenda and roadmap
+Our truths
+Our people
+Organisation chart
+Jobs
+Latest blog posts
+2026 August 26
+What does it mean to be a global remote team
+We’ve had a year full of growth and reached a milestone of 60+ team members; let’s take a moment to digest what that means for people operations. Hiring staff in 19+ countries is no easy task, but we are up for it, and I can honestly say it is the main reason why our culture is so great. That might sound biased coming from Crossref’s first
+Head of Human Resources
+, but hear me out.
+...Find out more
+2026 August 20
+Registering rich metadata for books, chapters, reports, dissertations, and updates just got easier
+You can now register rich metadata for a variety of record types in
+Metadata Manager
+using simple, guided workflows. The tool is used by many in our community to register
+grant
+and
+journal article
+records, and it has now been expanded to support books and chapters, reports, dissertations, and
+post-publication updates for journal content
+.
+Metadata Manager makes it easier to capture identifiers for contributors and their affiliations, funding information, references, and more. Thanks to automated reference matching by Crossref, this offers greater visibility for the works, while the affiliations and funding information can serve as important trust signals for the community.
+...Find out more
+2026 August 19
+To go far, go together: reflections from FORCE2026
+This year’s edition of the
+FORCE11
+conference was hosted in June by
+Singapore Management University
+. Its title, “To Go Far, Go Together: Advancing Scholarly Communication Across Boundaries and Disruptions” truly resonates with Crossref’s
+truths
+; it takes a village! Crossref only works as long as the scholarly research community wants to work together globally, across all disciplines, for integrity and openness of the scientific record. The conversations were influenced by a genuinely diverse mix of librarians, researchers, open infrastructures, and service providers, and that mix shaped almost every interaction we had at the conference.
+...Find out more
+2026 August 13
+Fee update: lowering and removing DOI registration fees in January 2027
+We have some rather unusual news to share: Crossref fees are going down again. At its meeting in Paris earlier this month, the Crossref Board approved two further recommendations from the
+Resourcing Crossref for Future Sustainability (RCFS)
+project: effective 1st January 2027, we will reduce the majority of Content Registration fees for all 25,000 members, and remove fees for back-year records altogether.
+Content Registration fees haven’t increased in around 20 years, and this is the first significant change to them in that time—downwards. Since these fees account for the largest share of Crossref’s revenue (around 60%), and since every member registers DOI records, these changes reach further than anything we’ve announced under the RCFS project so far.
+...Find out more
+Menu
+search
+Blog
+Home
+>
+Blog
+>
+Announcing changes to REST API rate limits
+https://doi.org/10.64000/wadve-3tj60
+5 minute read.
+Announcing changes to REST API rate limits
+Martyn Rittman
+,
+Luis Montilla
+– 2025 November 05
+In
+APIs
+Metadata
+Standards
+Our
+REST API
+makes all of the metadata we hold publicly available. It receives the majority of our API traffic, with around 1 billion hits per month. It’s one of the key ways that we fulfil our mission to make research objects easy to find, cite, link, assess, and reuse. From 1 December 2025, we will be revising the rate limits for the public and polite pools of the REST API to ensure that we can maintain a stable and reliable system, and that metadata is freely available to everyone.
+We haven’t changed the rate limits since the REST API was launched in 2013. In the past five years, the number of requests to the REST API has tripled and the number of metadata records has increased by a third, from 120 million to around 180 million. This means an increase in the resources needed to run it, and we’ve seen periods of instability where we haven’t been able to keep the API available for all users. We have decided that it is the right time to revisit rate limits to check that they’re in line with what our technology can provide and what our community needs. As a result, we will apply the following for the public and polite pools:
+Public pool:
+Request type
+Rate limit
+Concurrency limit
+Single record
+5
+1
+List of records (queries, filters, etc.)
+1
+1
+Polite pool:
+Request type
+Rate limit
+Concurrency limit
+Single DOI record
+10
+3
+List of records (queries, filters, etc.)
+3
+3
+The rate limit is the number of total requests that can be made per second. The concurrency limit is how many requests can be running at the same time. This means that for longer-running requests you may need to wait for previous requests to finish before you can make a new one.
+Here are some examples of single records requests:
+https://api.crossref.org/v1/works/10.1002/cphy.cp010129
+https://api.crossref.org/v1/journals/0266-612X&mailto=my@email.com
+The second case here will be directed to the polite pool because an email is included using the ‘mailto’ parameter. And here are examples of requests that return lists of records:
+https://api.crossref.org/v1/works?filter=from-created-date:2025-10-21T16:20,until-created-date:2025-10-21T17:00
+https://api.crossref.org/v1/members/13/works&mailto=my@email.com
+https://api.crossref.org/v1/works?query.bibliographic=linear+dichroism&mailto=my@email.com
+The second and third examples here will use the polite pool.
+Our guiding principle in making these changes is to keep all of the metadata available to everyone, all of the time. These changes to rate limits won’t restrict current users from accessing the metadata they want to retrieve, but it will make it easier for us to maintain the system now and in the future.
+Which use cases do we support?
+Our metadata has a broad range of applications. If you’re someone who uses the REST API, we’re glad that you are part of our community! Our mission includes making it easier to find, reuse, and assess scholarly research outputs. By using metadata, you’re helping us to fulfil that goal.
+The main uses of the REST API fit into several categories. The new rate limits will continue to support these, among many others:
+I have some metadata, what is the DOI?
+I have a DOI, what is its metadata?
+I want all of the metadata, just give me everything.
+Research on a specific topic or subset of metadata, often refreshing the results every few weeks or months.
+Rate limits can encourage responsible usage. The majority of API users make requests at a low rate and will not need to make any changes, however a few send spikes of large numbers of requests in a short space of time, sometimes making it difficult for others to access the service. These can be smoothed out by lower rate limits. Complex requests that search across large numbers of items put more pressure on our systems than requests for a single content item, so we have decided to set different rate limits for different types of request.
+Who will be affected?
+We estimate that the changes might affect around 40 users per week across the public and polite pools, and this is only for some of their requests. In all of the cases we’ve seen, the rate of requests could be slowed down and users would still be able to get the same results. In other words, the aim of these changes is to make the load on the API more predictable, not to reduce the total number of requests or amount of metadata transferred. No changes are being made to the
+Metadata Plus
+service or other APIs, such as the XML API and OAI-PMH endpoint.
+Do I need to change how I use the API?
+If you’re reading this, thank you! It’s clear that you want to be a considerate user of our services. Almost all users can continue to use the REST API in exactly the same way, you won’t need to change anything. Here is some general advice that will help you make the most of the service and ensure that you won’t encounter issues.
+Use a mailto parameter. This gives you access to the polite pool meaning higher rate limits and meaning we can get in touch with you if needed. We’ll only use your address to contact you about your API requests.
+Check the HTTP response status for your requests. This is always good practice and can help you identify malformed requests and where you reach rate limits.
+Cache results to avoid repeatedly making the same requests. Most records don’t change on a regular basis. How often you update the cache will depend on what you are interested in, but most metadata fields rarely change.
+If you are making a very high volume of requests or have very complex analysis to carry out, consider downloading the
+public data file
+which is made available once a year and contains all of our metadata. You can update it with recent additions using the REST API.
+If you are relying on our metadata in a production service,
+Metadata Plus
+can provide more stability, support, and access to monthly snapshots of our entire database.
+We have more
+tips and tricks
+for the REST API in our documentation. If you have questions, please join the conversation on our Community Forum.
+Related reading
+Blog
+2026 public data file now available
+Read more →
+Blog
+2025 public data file now available
+Read more →
+Blog
+2024 public data file now available, featuring new experimental formats
+Read more →
+RSS feed
+Recent blog posts
+What does it mean to be a global remote team
+2026 August 26
+Registering rich metadata for books, chapters, reports, dissertations, and updates just got easier
+2026 August 20
+To go far, go together: reflections from FORCE2026
+2026 August 19
+Fee update: lowering and removing DOI registration fees in January 2027
+2026 August 13
+Topics
+Metadata
+(172)
+Community
+(145)
+Identifiers
+(103)
+Meetings
+(74)
+Member Briefing
+(70)
+Collaboration
+(65)
+Linking
+(51)
+Content Registration
+(49)
+APIs
+(46)
+Citation
+(43)
+Research Nexus
+(43)
+Governance
+(35)
+Event Data
+(34)
+R&D
+(34)
+DOIs
+(33)
+Board
+(31)
+Annual Meeting
+(28)
+Interoperability
+(27)
+Membership
+(27)
+DataCite
+(26)
+Data
+(25)
+Persistence
+(25)
+Elections
+(24)
+ORCID
+(23)
+Research Funders
+(23)
+Search
+(23)
+Publishing
+(21)
+Staff
+(21)
+Grant Linking System
+(20)
+Standards
+(18)
+Strategy
+(18)
+API Case Study
+(17)
+Infrastructure
+(17)
+Linked Data
+(16)
+Preprints
+(16)
+Research Integrity
+(16)
+Schema
+(15)
+Crossmark
+(14)
+Metadata Matching
+(14)
+Wikipedia
+(14)
+XMP
+(14)
+Handle
+(12)
+News Release
+(12)
+Sustainability
+(12)
+ROR
+(11)
+RSS
+(11)
+Citation Formats
+(10)
+Metadata Manager
+(10)
+Archives
+2026
+(40)
+2025
+(51)
+2024
+(37)
+2023
+(31)
+2022
+(31)
+2021
+(25)
+2020
+(34)
+2019
+(37)
+2018
+(55)
+2017
+(41)
+2016
+(50)
+2015
+(23)
+2014
+(4)
+2013
+(2)
+2012
+(5)
+2011
+(6)
+2010
+(9)
+2009
+(34)
+2008
+(56)
+2007
+(91)
+2006
+(21)
+Join the community
+Get email updates
+Membership
+Governance
+Sustainability
+Services
+Documentation
+Status page
+API Learning Hub
+Community forum
+Join
+Contact
+Jobs
+Blog
+The content of this site is licensed under a
+Creative Commons Attribution 4.0 International License
+Accessibility
+Privacy

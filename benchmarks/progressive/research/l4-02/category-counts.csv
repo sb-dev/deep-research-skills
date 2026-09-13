@@ -1,0 +1,636 @@
+snapshot,data_provider,product_category_id,product_category,count
+202407,Fixit Clinic,1,Aircon/dehumidifier,13
+202407,Fixit Clinic,10,Handheld entertainment device,18
+202407,Fixit Clinic,11,Headphones,6
+202407,Fixit Clinic,12,Hi-Fi integrated,6
+202407,Fixit Clinic,13,Hi-Fi separates,35
+202407,Fixit Clinic,14,Kettle,13
+202407,Fixit Clinic,15,Lamp,110
+202407,Fixit Clinic,16,Laptop,43
+202407,Fixit Clinic,17,Large home electrical,45
+202407,Fixit Clinic,19,Mobile,19
+202407,Fixit Clinic,2,Battery/charger/adapter,5
+202407,Fixit Clinic,20,Musical instrument,8
+202407,Fixit Clinic,21,Paper shredder,8
+202407,Fixit Clinic,22,PC accessory,11
+202407,Fixit Clinic,23,Portable radio,28
+202407,Fixit Clinic,24,Power tool,23
+202407,Fixit Clinic,25,Printer/scanner,24
+202407,Fixit Clinic,26,Projector,1
+202407,Fixit Clinic,27,Sewing machine,45
+202407,Fixit Clinic,28,Small home electrical,59
+202407,Fixit Clinic,29,Small kitchen item,71
+202407,Fixit Clinic,3,Decorative or safety lights,20
+202407,Fixit Clinic,30,Tablet,18
+202407,Fixit Clinic,31,Toaster,24
+202407,Fixit Clinic,32,Toy,18
+202407,Fixit Clinic,33,TV and gaming-related accessories,21
+202407,Fixit Clinic,34,Vacuum,31
+202407,Fixit Clinic,35,Watch/clock,34
+202407,Fixit Clinic,36,Coffee maker,17
+202407,Fixit Clinic,37,Food processor,57
+202407,Fixit Clinic,38,Games console,2
+202407,Fixit Clinic,39,Hair dryer,3
+202407,Fixit Clinic,4,Desktop computer,12
+202407,Fixit Clinic,40,Iron,7
+202407,Fixit Clinic,5,Digital compact camera,6
+202407,Fixit Clinic,6,DSLR/video camera,5
+202407,Fixit Clinic,7,Fan,29
+202407,Fixit Clinic,8,Flat screen,10
+202407,Fixit Clinic,9,Hair & beauty item,14
+202407,Repair Cafe Wales,1,Aircon/dehumidifier,103
+202407,Repair Cafe Wales,10,Handheld entertainment device,75
+202407,Repair Cafe Wales,11,Headphones,76
+202407,Repair Cafe Wales,12,Hi-Fi integrated,288
+202407,Repair Cafe Wales,13,Hi-Fi separates,480
+202407,Repair Cafe Wales,14,Kettle,441
+202407,Repair Cafe Wales,15,Lamp,1321
+202407,Repair Cafe Wales,16,Laptop,448
+202407,Repair Cafe Wales,17,Large home electrical,265
+202407,Repair Cafe Wales,18,Misc,17
+202407,Repair Cafe Wales,19,Mobile,116
+202407,Repair Cafe Wales,2,Battery/charger/adapter,179
+202407,Repair Cafe Wales,20,Musical instrument,67
+202407,Repair Cafe Wales,21,Paper shredder,113
+202407,Repair Cafe Wales,22,PC accessory,53
+202407,Repair Cafe Wales,23,Portable radio,700
+202407,Repair Cafe Wales,24,Power tool,854
+202407,Repair Cafe Wales,25,Printer/scanner,200
+202407,Repair Cafe Wales,26,Projector,47
+202407,Repair Cafe Wales,27,Sewing machine,504
+202407,Repair Cafe Wales,28,Small home electrical,2698
+202407,Repair Cafe Wales,29,Small kitchen item,449
+202407,Repair Cafe Wales,3,Decorative or safety lights,205
+202407,Repair Cafe Wales,30,Tablet,136
+202407,Repair Cafe Wales,31,Toaster,496
+202407,Repair Cafe Wales,32,Toy,170
+202407,Repair Cafe Wales,33,TV and gaming-related accessories,231
+202407,Repair Cafe Wales,34,Vacuum,1399
+202407,Repair Cafe Wales,35,Watch/clock,256
+202407,Repair Cafe Wales,36,Coffee maker,196
+202407,Repair Cafe Wales,37,Food processor,415
+202407,Repair Cafe Wales,38,Games console,81
+202407,Repair Cafe Wales,39,Hair dryer,160
+202407,Repair Cafe Wales,4,Desktop computer,64
+202407,Repair Cafe Wales,40,Iron,299
+202407,Repair Cafe Wales,5,Digital compact camera,37
+202407,Repair Cafe Wales,6,DSLR/video camera,40
+202407,Repair Cafe Wales,7,Fan,202
+202407,Repair Cafe Wales,8,Flat screen,121
+202407,Repair Cafe Wales,9,Hair & beauty item,290
+202407,Repair Café Denmark,1,Aircon/dehumidifier,26
+202407,Repair Café Denmark,10,Handheld entertainment device,142
+202407,Repair Café Denmark,11,Headphones,319
+202407,Repair Café Denmark,12,Hi-Fi integrated,197
+202407,Repair Café Denmark,13,Hi-Fi separates,1298
+202407,Repair Café Denmark,14,Kettle,280
+202407,Repair Café Denmark,15,Lamp,1454
+202407,Repair Café Denmark,16,Laptop,227
+202407,Repair Café Denmark,17,Large home electrical,464
+202407,Repair Café Denmark,18,Misc,11
+202407,Repair Café Denmark,19,Mobile,190
+202407,Repair Café Denmark,2,Battery/charger/adapter,431
+202407,Repair Café Denmark,20,Musical instrument,61
+202407,Repair Café Denmark,21,Paper shredder,17
+202407,Repair Café Denmark,22,PC accessory,120
+202407,Repair Café Denmark,23,Portable radio,836
+202407,Repair Café Denmark,24,Power tool,1071
+202407,Repair Café Denmark,25,Printer/scanner,357
+202407,Repair Café Denmark,26,Projector,107
+202407,Repair Café Denmark,27,Sewing machine,1172
+202407,Repair Café Denmark,28,Small home electrical,939
+202407,Repair Café Denmark,29,Small kitchen item,515
+202407,Repair Café Denmark,3,Decorative or safety lights,466
+202407,Repair Café Denmark,30,Tablet,120
+202407,Repair Café Denmark,31,Toaster,333
+202407,Repair Café Denmark,32,Toy,353
+202407,Repair Café Denmark,33,TV and gaming-related accessories,423
+202407,Repair Café Denmark,34,Vacuum,1124
+202407,Repair Café Denmark,35,Watch/clock,639
+202407,Repair Café Denmark,36,Coffee maker,715
+202407,Repair Café Denmark,37,Food processor,1448
+202407,Repair Café Denmark,38,Games console,54
+202407,Repair Café Denmark,39,Hair dryer,178
+202407,Repair Café Denmark,4,Desktop computer,258
+202407,Repair Café Denmark,40,Iron,223
+202407,Repair Café Denmark,5,Digital compact camera,72
+202407,Repair Café Denmark,6,DSLR/video camera,28
+202407,Repair Café Denmark,7,Fan,70
+202407,Repair Café Denmark,8,Flat screen,192
+202407,Repair Café Denmark,9,Hair & beauty item,273
+202407,Repair Café International,1,Aircon/dehumidifier,260
+202407,Repair Café International,10,Handheld entertainment device,250
+202407,Repair Café International,11,Headphones,629
+202407,Repair Café International,12,Hi-Fi integrated,732
+202407,Repair Café International,13,Hi-Fi separates,5982
+202407,Repair Café International,14,Kettle,1658
+202407,Repair Café International,15,Lamp,5068
+202407,Repair Café International,16,Laptop,1501
+202407,Repair Café International,17,Large home electrical,2026
+202407,Repair Café International,19,Mobile,511
+202407,Repair Café International,2,Battery/charger/adapter,1119
+202407,Repair Café International,20,Musical instrument,211
+202407,Repair Café International,21,Paper shredder,493
+202407,Repair Café International,22,PC accessory,355
+202407,Repair Café International,23,Portable radio,2784
+202407,Repair Café International,24,Power tool,4959
+202407,Repair Café International,25,Printer/scanner,1584
+202407,Repair Café International,26,Projector,293
+202407,Repair Café International,27,Sewing machine,2851
+202407,Repair Café International,28,Small home electrical,3679
+202407,Repair Café International,29,Small kitchen item,4451
+202407,Repair Café International,3,Decorative or safety lights,1362
+202407,Repair Café International,30,Tablet,901
+202407,Repair Café International,31,Toaster,1546
+202407,Repair Café International,32,Toy,1412
+202407,Repair Café International,33,TV and gaming-related accessories,2099
+202407,Repair Café International,34,Vacuum,7025
+202407,Repair Café International,35,Watch/clock,3757
+202407,Repair Café International,36,Coffee maker,6931
+202407,Repair Café International,37,Food processor,3101
+202407,Repair Café International,38,Games console,235
+202407,Repair Café International,39,Hair dryer,694
+202407,Repair Café International,4,Desktop computer,552
+202407,Repair Café International,40,Iron,1797
+202407,Repair Café International,5,Digital compact camera,258
+202407,Repair Café International,6,DSLR/video camera,151
+202407,Repair Café International,7,Fan,747
+202407,Repair Café International,8,Flat screen,91
+202407,Repair Café International,9,Hair & beauty item,1197
+202407,Repair Café Toronto,1,Aircon/dehumidifier,58
+202407,Repair Café Toronto,10,Handheld entertainment device,43
+202407,Repair Café Toronto,11,Headphones,138
+202407,Repair Café Toronto,12,Hi-Fi integrated,50
+202407,Repair Café Toronto,13,Hi-Fi separates,291
+202407,Repair Café Toronto,14,Kettle,141
+202407,Repair Café Toronto,15,Lamp,95
+202407,Repair Café Toronto,16,Laptop,445
+202407,Repair Café Toronto,17,Large home electrical,75
+202407,Repair Café Toronto,19,Mobile,115
+202407,Repair Café Toronto,2,Battery/charger/adapter,102
+202407,Repair Café Toronto,20,Musical instrument,3
+202407,Repair Café Toronto,21,Paper shredder,42
+202407,Repair Café Toronto,22,PC accessory,61
+202407,Repair Café Toronto,23,Portable radio,222
+202407,Repair Café Toronto,24,Power tool,127
+202407,Repair Café Toronto,25,Printer/scanner,58
+202407,Repair Café Toronto,26,Projector,12
+202407,Repair Café Toronto,27,Sewing machine,107
+202407,Repair Café Toronto,28,Small home electrical,258
+202407,Repair Café Toronto,29,Small kitchen item,220
+202407,Repair Café Toronto,3,Decorative or safety lights,101
+202407,Repair Café Toronto,30,Tablet,101
+202407,Repair Café Toronto,31,Toaster,125
+202407,Repair Café Toronto,32,Toy,17
+202407,Repair Café Toronto,33,TV and gaming-related accessories,126
+202407,Repair Café Toronto,34,Vacuum,156
+202407,Repair Café Toronto,35,Watch/clock,121
+202407,Repair Café Toronto,36,Coffee maker,82
+202407,Repair Café Toronto,37,Food processor,309
+202407,Repair Café Toronto,38,Games console,10
+202407,Repair Café Toronto,39,Hair dryer,60
+202407,Repair Café Toronto,4,Desktop computer,6
+202407,Repair Café Toronto,40,Iron,56
+202407,Repair Café Toronto,5,Digital compact camera,49
+202407,Repair Café Toronto,6,DSLR/video camera,7
+202407,Repair Café Toronto,7,Fan,121
+202407,Repair Café Toronto,8,Flat screen,40
+202407,Repair Café Toronto,9,Hair & beauty item,127
+202407,Repair Connects,1,Aircon/dehumidifier,14
+202407,Repair Connects,10,Handheld entertainment device,35
+202407,Repair Connects,11,Headphones,52
+202407,Repair Connects,12,Hi-Fi integrated,152
+202407,Repair Connects,13,Hi-Fi separates,109
+202407,Repair Connects,14,Kettle,31
+202407,Repair Connects,15,Lamp,117
+202407,Repair Connects,16,Laptop,75
+202407,Repair Connects,17,Large home electrical,176
+202407,Repair Connects,18,Misc,237
+202407,Repair Connects,19,Mobile,35
+202407,Repair Connects,2,Battery/charger/adapter,20
+202407,Repair Connects,20,Musical instrument,16
+202407,Repair Connects,21,Paper shredder,4
+202407,Repair Connects,22,PC accessory,21
+202407,Repair Connects,23,Portable radio,81
+202407,Repair Connects,24,Power tool,146
+202407,Repair Connects,25,Printer/scanner,104
+202407,Repair Connects,26,Projector,18
+202407,Repair Connects,27,Sewing machine,41
+202407,Repair Connects,29,Small kitchen item,286
+202407,Repair Connects,3,Decorative or safety lights,33
+202407,Repair Connects,30,Tablet,15
+202407,Repair Connects,31,Toaster,63
+202407,Repair Connects,32,Toy,29
+202407,Repair Connects,33,TV and gaming-related accessories,65
+202407,Repair Connects,34,Vacuum,276
+202407,Repair Connects,35,Watch/clock,39
+202407,Repair Connects,36,Coffee maker,236
+202407,Repair Connects,37,Food processor,79
+202407,Repair Connects,38,Games console,12
+202407,Repair Connects,39,Hair dryer,11
+202407,Repair Connects,4,Desktop computer,14
+202407,Repair Connects,40,Iron,65
+202407,Repair Connects,5,Digital compact camera,26
+202407,Repair Connects,6,DSLR/video camera,9
+202407,Repair Connects,7,Fan,28
+202407,Repair Connects,8,Flat screen,76
+202407,Repair Connects,9,Hair & beauty item,39
+202407,The Restart Project,1,Aircon/dehumidifier,378
+202407,The Restart Project,10,Handheld entertainment device,974
+202407,The Restart Project,11,Headphones,1019
+202407,The Restart Project,12,Hi-Fi integrated,1062
+202407,The Restart Project,13,Hi-Fi separates,3262
+202407,The Restart Project,14,Kettle,1499
+202407,The Restart Project,15,Lamp,4382
+202407,The Restart Project,16,Laptop,6206
+202407,The Restart Project,17,Large home electrical,1594
+202407,The Restart Project,18,Misc,328
+202407,The Restart Project,19,Mobile,2653
+202407,The Restart Project,2,Battery/charger/adapter,1176
+202407,The Restart Project,20,Musical instrument,302
+202407,The Restart Project,21,Paper shredder,409
+202407,The Restart Project,22,PC accessory,639
+202407,The Restart Project,23,Portable radio,3687
+202407,The Restart Project,24,Power tool,4561
+202407,The Restart Project,25,Printer/scanner,1293
+202407,The Restart Project,26,Projector,242
+202407,The Restart Project,27,Sewing machine,2052
+202407,The Restart Project,28,Small home electrical,2984
+202407,The Restart Project,29,Small kitchen item,3372
+202407,The Restart Project,3,Decorative or safety lights,1727
+202407,The Restart Project,30,Tablet,1343
+202407,The Restart Project,31,Toaster,2162
+202407,The Restart Project,32,Toy,1673
+202407,The Restart Project,33,TV and gaming-related accessories,1373
+202407,The Restart Project,34,Vacuum,4790
+202407,The Restart Project,35,Watch/clock,1519
+202407,The Restart Project,36,Coffee maker,3071
+202407,The Restart Project,37,Food processor,3381
+202407,The Restart Project,38,Games console,288
+202407,The Restart Project,39,Hair dryer,726
+202407,The Restart Project,4,Desktop computer,626
+202407,The Restart Project,40,Iron,1874
+202407,The Restart Project,5,Digital compact camera,400
+202407,The Restart Project,6,DSLR/video camera,182
+202407,The Restart Project,7,Fan,654
+202407,The Restart Project,8,Flat screen,942
+202407,The Restart Project,9,Hair & beauty item,1489
+202407,anstiftung,1,Aircon/dehumidifier,45
+202407,anstiftung,10,Handheld entertainment device,589
+202407,anstiftung,11,Headphones,270
+202407,anstiftung,12,Hi-Fi integrated,591
+202407,anstiftung,13,Hi-Fi separates,1143
+202407,anstiftung,14,Kettle,469
+202407,anstiftung,15,Lamp,1235
+202407,anstiftung,16,Laptop,787
+202407,anstiftung,17,Large home electrical,286
+202407,anstiftung,18,Misc,67
+202407,anstiftung,19,Mobile,629
+202407,anstiftung,2,Battery/charger/adapter,369
+202407,anstiftung,20,Musical instrument,119
+202407,anstiftung,21,Paper shredder,119
+202407,anstiftung,22,PC accessory,174
+202407,anstiftung,23,Portable radio,1287
+202407,anstiftung,24,Power tool,1068
+202407,anstiftung,25,Printer/scanner,493
+202407,anstiftung,26,Projector,114
+202407,anstiftung,27,Sewing machine,801
+202407,anstiftung,28,Small home electrical,1392
+202407,anstiftung,29,Small kitchen item,925
+202407,anstiftung,3,Decorative or safety lights,593
+202407,anstiftung,30,Tablet,229
+202407,anstiftung,31,Toaster,484
+202407,anstiftung,32,Toy,382
+202407,anstiftung,33,TV and gaming-related accessories,499
+202407,anstiftung,34,Vacuum,1255
+202407,anstiftung,35,Watch/clock,509
+202407,anstiftung,36,Coffee maker,1178
+202407,anstiftung,37,Food processor,1287
+202407,anstiftung,38,Games console,41
+202407,anstiftung,39,Hair dryer,301
+202407,anstiftung,4,Desktop computer,123
+202407,anstiftung,40,Iron,218
+202407,anstiftung,5,Digital compact camera,151
+202407,anstiftung,6,DSLR/video camera,173
+202407,anstiftung,7,Fan,68
+202407,anstiftung,8,Flat screen,394
+202407,anstiftung,9,Hair & beauty item,512
+202507,Fixit Clinic,1,Aircon/dehumidifier,14
+202507,Fixit Clinic,10,Handheld entertainment device,17
+202507,Fixit Clinic,11,Headphones,6
+202507,Fixit Clinic,12,Hi-Fi integrated,8
+202507,Fixit Clinic,13,Hi-Fi separates,38
+202507,Fixit Clinic,14,Kettle,19
+202507,Fixit Clinic,15,Lamp,121
+202507,Fixit Clinic,16,Laptop,47
+202507,Fixit Clinic,17,Large home electrical,50
+202507,Fixit Clinic,18,Misc,1
+202507,Fixit Clinic,19,Mobile,21
+202507,Fixit Clinic,2,Battery/charger/adapter,6
+202507,Fixit Clinic,20,Musical instrument,9
+202507,Fixit Clinic,21,Paper shredder,8
+202507,Fixit Clinic,22,PC accessory,14
+202507,Fixit Clinic,23,Portable radio,31
+202507,Fixit Clinic,24,Power tool,28
+202507,Fixit Clinic,25,Printer/scanner,28
+202507,Fixit Clinic,26,Projector,1
+202507,Fixit Clinic,27,Sewing machine,49
+202507,Fixit Clinic,28,Small home electrical,62
+202507,Fixit Clinic,29,Small kitchen item,77
+202507,Fixit Clinic,3,Decorative or safety lights,24
+202507,Fixit Clinic,30,Tablet,18
+202507,Fixit Clinic,31,Toaster,27
+202507,Fixit Clinic,32,Toy,23
+202507,Fixit Clinic,33,TV and gaming-related accessories,22
+202507,Fixit Clinic,34,Vacuum,36
+202507,Fixit Clinic,35,Watch/clock,39
+202507,Fixit Clinic,36,Coffee maker,22
+202507,Fixit Clinic,37,Food processor,66
+202507,Fixit Clinic,38,Games console,2
+202507,Fixit Clinic,39,Hair dryer,7
+202507,Fixit Clinic,4,Desktop computer,13
+202507,Fixit Clinic,40,Iron,9
+202507,Fixit Clinic,5,Digital compact camera,7
+202507,Fixit Clinic,6,DSLR/video camera,6
+202507,Fixit Clinic,7,Fan,32
+202507,Fixit Clinic,8,Flat screen,11
+202507,Fixit Clinic,9,Hair & beauty item,14
+202507,Repair Cafe Wales,1,Aircon/dehumidifier,159
+202507,Repair Cafe Wales,10,Handheld entertainment device,105
+202507,Repair Cafe Wales,11,Headphones,110
+202507,Repair Cafe Wales,12,Hi-Fi integrated,421
+202507,Repair Cafe Wales,13,Hi-Fi separates,638
+202507,Repair Cafe Wales,14,Kettle,644
+202507,Repair Cafe Wales,15,Lamp,1874
+202507,Repair Cafe Wales,16,Laptop,613
+202507,Repair Cafe Wales,17,Large home electrical,420
+202507,Repair Cafe Wales,18,Misc,17
+202507,Repair Cafe Wales,19,Mobile,154
+202507,Repair Cafe Wales,2,Battery/charger/adapter,266
+202507,Repair Cafe Wales,20,Musical instrument,102
+202507,Repair Cafe Wales,21,Paper shredder,164
+202507,Repair Cafe Wales,22,PC accessory,70
+202507,Repair Cafe Wales,23,Portable radio,973
+202507,Repair Cafe Wales,24,Power tool,1279
+202507,Repair Cafe Wales,25,Printer/scanner,273
+202507,Repair Cafe Wales,26,Projector,64
+202507,Repair Cafe Wales,27,Sewing machine,738
+202507,Repair Cafe Wales,28,Small home electrical,3669
+202507,Repair Cafe Wales,29,Small kitchen item,696
+202507,Repair Cafe Wales,3,Decorative or safety lights,292
+202507,Repair Cafe Wales,30,Tablet,181
+202507,Repair Cafe Wales,31,Toaster,693
+202507,Repair Cafe Wales,32,Toy,243
+202507,Repair Cafe Wales,33,TV and gaming-related accessories,342
+202507,Repair Cafe Wales,34,Vacuum,2035
+202507,Repair Cafe Wales,35,Watch/clock,332
+202507,Repair Cafe Wales,36,Coffee maker,299
+202507,Repair Cafe Wales,37,Food processor,541
+202507,Repair Cafe Wales,38,Games console,109
+202507,Repair Cafe Wales,39,Hair dryer,225
+202507,Repair Cafe Wales,4,Desktop computer,82
+202507,Repair Cafe Wales,40,Iron,422
+202507,Repair Cafe Wales,5,Digital compact camera,46
+202507,Repair Cafe Wales,6,DSLR/video camera,52
+202507,Repair Cafe Wales,7,Fan,296
+202507,Repair Cafe Wales,8,Flat screen,144
+202507,Repair Cafe Wales,9,Hair & beauty item,407
+202507,Repair Café Denmark,1,Aircon/dehumidifier,45
+202507,Repair Café Denmark,10,Handheld entertainment device,205
+202507,Repair Café Denmark,11,Headphones,510
+202507,Repair Café Denmark,12,Hi-Fi integrated,364
+202507,Repair Café Denmark,13,Hi-Fi separates,2080
+202507,Repair Café Denmark,14,Kettle,525
+202507,Repair Café Denmark,15,Lamp,2684
+202507,Repair Café Denmark,16,Laptop,362
+202507,Repair Café Denmark,17,Large home electrical,789
+202507,Repair Café Denmark,18,Misc,17
+202507,Repair Café Denmark,19,Mobile,287
+202507,Repair Café Denmark,2,Battery/charger/adapter,779
+202507,Repair Café Denmark,20,Musical instrument,84
+202507,Repair Café Denmark,21,Paper shredder,31
+202507,Repair Café Denmark,22,PC accessory,189
+202507,Repair Café Denmark,23,Portable radio,1368
+202507,Repair Café Denmark,24,Power tool,2014
+202507,Repair Café Denmark,25,Printer/scanner,556
+202507,Repair Café Denmark,26,Projector,178
+202507,Repair Café Denmark,27,Sewing machine,2186
+202507,Repair Café Denmark,28,Small home electrical,1578
+202507,Repair Café Denmark,29,Small kitchen item,823
+202507,Repair Café Denmark,3,Decorative or safety lights,798
+202507,Repair Café Denmark,30,Tablet,185
+202507,Repair Café Denmark,31,Toaster,578
+202507,Repair Café Denmark,32,Toy,618
+202507,Repair Café Denmark,33,TV and gaming-related accessories,755
+202507,Repair Café Denmark,34,Vacuum,2160
+202507,Repair Café Denmark,35,Watch/clock,1121
+202507,Repair Café Denmark,36,Coffee maker,1341
+202507,Repair Café Denmark,37,Food processor,2505
+202507,Repair Café Denmark,38,Games console,83
+202507,Repair Café Denmark,39,Hair dryer,332
+202507,Repair Café Denmark,4,Desktop computer,404
+202507,Repair Café Denmark,40,Iron,327
+202507,Repair Café Denmark,5,Digital compact camera,132
+202507,Repair Café Denmark,6,DSLR/video camera,49
+202507,Repair Café Denmark,7,Fan,113
+202507,Repair Café Denmark,8,Flat screen,293
+202507,Repair Café Denmark,9,Hair & beauty item,481
+202507,Repair Café International,1,Aircon/dehumidifier,407
+202507,Repair Café International,10,Handheld entertainment device,434
+202507,Repair Café International,11,Headphones,861
+202507,Repair Café International,12,Hi-Fi integrated,1021
+202507,Repair Café International,13,Hi-Fi separates,7943
+202507,Repair Café International,14,Kettle,2266
+202507,Repair Café International,15,Lamp,7091
+202507,Repair Café International,16,Laptop,2007
+202507,Repair Café International,17,Large home electrical,2915
+202507,Repair Café International,18,Misc,2
+202507,Repair Café International,19,Mobile,700
+202507,Repair Café International,2,Battery/charger/adapter,1690
+202507,Repair Café International,20,Musical instrument,298
+202507,Repair Café International,21,Paper shredder,674
+202507,Repair Café International,22,PC accessory,478
+202507,Repair Café International,23,Portable radio,3859
+202507,Repair Café International,24,Power tool,7961
+202507,Repair Café International,25,Printer/scanner,2073
+202507,Repair Café International,26,Projector,397
+202507,Repair Café International,27,Sewing machine,3957
+202507,Repair Café International,28,Small home electrical,5193
+202507,Repair Café International,29,Small kitchen item,5694
+202507,Repair Café International,3,Decorative or safety lights,1893
+202507,Repair Café International,30,Tablet,1167
+202507,Repair Café International,31,Toaster,2276
+202507,Repair Café International,32,Toy,2088
+202507,Repair Café International,33,TV and gaming-related accessories,1699
+202507,Repair Café International,34,Vacuum,10337
+202507,Repair Café International,35,Watch/clock,5270
+202507,Repair Café International,36,Coffee maker,9320
+202507,Repair Café International,37,Food processor,4370
+202507,Repair Café International,38,Games console,330
+202507,Repair Café International,39,Hair dryer,1024
+202507,Repair Café International,4,Desktop computer,723
+202507,Repair Café International,40,Iron,2438
+202507,Repair Café International,5,Digital compact camera,371
+202507,Repair Café International,6,DSLR/video camera,198
+202507,Repair Café International,7,Fan,1054
+202507,Repair Café International,8,Flat screen,1235
+202507,Repair Café International,9,Hair & beauty item,1771
+202507,Repair Café Toronto,1,Aircon/dehumidifier,66
+202507,Repair Café Toronto,10,Handheld entertainment device,43
+202507,Repair Café Toronto,11,Headphones,152
+202507,Repair Café Toronto,12,Hi-Fi integrated,54
+202507,Repair Café Toronto,13,Hi-Fi separates,321
+202507,Repair Café Toronto,14,Kettle,172
+202507,Repair Café Toronto,15,Lamp,415
+202507,Repair Café Toronto,16,Laptop,322
+202507,Repair Café Toronto,17,Large home electrical,82
+202507,Repair Café Toronto,18,Misc,1
+202507,Repair Café Toronto,19,Mobile,126
+202507,Repair Café Toronto,2,Battery/charger/adapter,113
+202507,Repair Café Toronto,20,Musical instrument,3
+202507,Repair Café Toronto,21,Paper shredder,47
+202507,Repair Café Toronto,22,PC accessory,69
+202507,Repair Café Toronto,23,Portable radio,248
+202507,Repair Café Toronto,24,Power tool,150
+202507,Repair Café Toronto,25,Printer/scanner,65
+202507,Repair Café Toronto,26,Projector,13
+202507,Repair Café Toronto,27,Sewing machine,139
+202507,Repair Café Toronto,28,Small home electrical,314
+202507,Repair Café Toronto,29,Small kitchen item,251
+202507,Repair Café Toronto,3,Decorative or safety lights,125
+202507,Repair Café Toronto,30,Tablet,109
+202507,Repair Café Toronto,31,Toaster,140
+202507,Repair Café Toronto,32,Toy,23
+202507,Repair Café Toronto,33,TV and gaming-related accessories,139
+202507,Repair Café Toronto,34,Vacuum,182
+202507,Repair Café Toronto,35,Watch/clock,493
+202507,Repair Café Toronto,36,Coffee maker,96
+202507,Repair Café Toronto,37,Food processor,376
+202507,Repair Café Toronto,38,Games console,11
+202507,Repair Café Toronto,39,Hair dryer,69
+202507,Repair Café Toronto,4,Desktop computer,166
+202507,Repair Café Toronto,40,Iron,62
+202507,Repair Café Toronto,5,Digital compact camera,51
+202507,Repair Café Toronto,6,DSLR/video camera,8
+202507,Repair Café Toronto,7,Fan,161
+202507,Repair Café Toronto,8,Flat screen,40
+202507,Repair Café Toronto,9,Hair & beauty item,150
+202507,Repair Connects,1,Aircon/dehumidifier,14
+202507,Repair Connects,10,Handheld entertainment device,35
+202507,Repair Connects,11,Headphones,52
+202507,Repair Connects,12,Hi-Fi integrated,152
+202507,Repair Connects,13,Hi-Fi separates,109
+202507,Repair Connects,14,Kettle,31
+202507,Repair Connects,15,Lamp,117
+202507,Repair Connects,16,Laptop,75
+202507,Repair Connects,17,Large home electrical,176
+202507,Repair Connects,18,Misc,237
+202507,Repair Connects,19,Mobile,35
+202507,Repair Connects,2,Battery/charger/adapter,20
+202507,Repair Connects,20,Musical instrument,16
+202507,Repair Connects,21,Paper shredder,4
+202507,Repair Connects,22,PC accessory,21
+202507,Repair Connects,23,Portable radio,81
+202507,Repair Connects,24,Power tool,146
+202507,Repair Connects,25,Printer/scanner,104
+202507,Repair Connects,26,Projector,18
+202507,Repair Connects,27,Sewing machine,41
+202507,Repair Connects,29,Small kitchen item,286
+202507,Repair Connects,3,Decorative or safety lights,33
+202507,Repair Connects,30,Tablet,15
+202507,Repair Connects,31,Toaster,63
+202507,Repair Connects,32,Toy,29
+202507,Repair Connects,33,TV and gaming-related accessories,65
+202507,Repair Connects,34,Vacuum,276
+202507,Repair Connects,35,Watch/clock,39
+202507,Repair Connects,36,Coffee maker,236
+202507,Repair Connects,37,Food processor,79
+202507,Repair Connects,38,Games console,12
+202507,Repair Connects,39,Hair dryer,11
+202507,Repair Connects,4,Desktop computer,14
+202507,Repair Connects,40,Iron,65
+202507,Repair Connects,5,Digital compact camera,26
+202507,Repair Connects,6,DSLR/video camera,9
+202507,Repair Connects,7,Fan,28
+202507,Repair Connects,8,Flat screen,76
+202507,Repair Connects,9,Hair & beauty item,39
+202507,The Restart Project,1,Aircon/dehumidifier,610
+202507,The Restart Project,10,Handheld entertainment device,1306
+202507,The Restart Project,11,Headphones,1441
+202507,The Restart Project,12,Hi-Fi integrated,1605
+202507,The Restart Project,13,Hi-Fi separates,4693
+202507,The Restart Project,14,Kettle,2257
+202507,The Restart Project,15,Lamp,6784
+202507,The Restart Project,16,Laptop,7746
+202507,The Restart Project,17,Large home electrical,2715
+202507,The Restart Project,18,Misc,412
+202507,The Restart Project,19,Mobile,2982
+202507,The Restart Project,2,Battery/charger/adapter,1967
+202507,The Restart Project,20,Musical instrument,429
+202507,The Restart Project,21,Paper shredder,601
+202507,The Restart Project,22,PC accessory,846
+202507,The Restart Project,23,Portable radio,5407
+202507,The Restart Project,24,Power tool,7170
+202507,The Restart Project,25,Printer/scanner,1808
+202507,The Restart Project,26,Projector,367
+202507,The Restart Project,27,Sewing machine,3253
+202507,The Restart Project,28,Small home electrical,4856
+202507,The Restart Project,29,Small kitchen item,5305
+202507,The Restart Project,3,Decorative or safety lights,2701
+202507,The Restart Project,30,Tablet,1706
+202507,The Restart Project,31,Toaster,3272
+202507,The Restart Project,32,Toy,2600
+202507,The Restart Project,33,TV and gaming-related accessories,1989
+202507,The Restart Project,34,Vacuum,7807
+202507,The Restart Project,35,Watch/clock,2485
+202507,The Restart Project,36,Coffee maker,4944
+202507,The Restart Project,37,Food processor,5231
+202507,The Restart Project,38,Games console,437
+202507,The Restart Project,39,Hair dryer,1150
+202507,The Restart Project,4,Desktop computer,802
+202507,The Restart Project,40,Iron,2896
+202507,The Restart Project,5,Digital compact camera,511
+202507,The Restart Project,6,DSLR/video camera,261
+202507,The Restart Project,7,Fan,946
+202507,The Restart Project,8,Flat screen,1382
+202507,The Restart Project,9,Hair & beauty item,2156
+202507,anstiftung,1,Aircon/dehumidifier,54
+202507,anstiftung,10,Handheld entertainment device,542
+202507,anstiftung,11,Headphones,394
+202507,anstiftung,12,Hi-Fi integrated,599
+202507,anstiftung,13,Hi-Fi separates,2458
+202507,anstiftung,14,Kettle,704
+202507,anstiftung,15,Lamp,1916
+202507,anstiftung,16,Laptop,1132
+202507,anstiftung,17,Large home electrical,674
+202507,anstiftung,18,Misc,70
+202507,anstiftung,19,Mobile,883
+202507,anstiftung,2,Battery/charger/adapter,620
+202507,anstiftung,20,Musical instrument,173
+202507,anstiftung,21,Paper shredder,185
+202507,anstiftung,22,PC accessory,241
+202507,anstiftung,23,Portable radio,1893
+202507,anstiftung,24,Power tool,1854
+202507,anstiftung,25,Printer/scanner,723
+202507,anstiftung,26,Projector,158
+202507,anstiftung,27,Sewing machine,1256
+202507,anstiftung,28,Small home electrical,1395
+202507,anstiftung,29,Small kitchen item,1409
+202507,anstiftung,3,Decorative or safety lights,1064
+202507,anstiftung,30,Tablet,368
+202507,anstiftung,31,Toaster,712
+202507,anstiftung,32,Toy,589
+202507,anstiftung,33,TV and gaming-related accessories,592
+202507,anstiftung,34,Vacuum,2273
+202507,anstiftung,35,Watch/clock,811
+202507,anstiftung,36,Coffee maker,1858
+202507,anstiftung,37,Food processor,1973
+202507,anstiftung,38,Games console,52
+202507,anstiftung,39,Hair dryer,453
+202507,anstiftung,4,Desktop computer,167
+202507,anstiftung,40,Iron,552
+202507,anstiftung,5,Digital compact camera,208
+202507,anstiftung,6,DSLR/video camera,251
+202507,anstiftung,7,Fan,122
+202507,anstiftung,8,Flat screen,573
+202507,anstiftung,9,Hair & beauty item,773

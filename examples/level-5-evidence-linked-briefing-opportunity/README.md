@@ -38,3 +38,7 @@ Conditional opportunity, permitted use and scoped refresh; FX09/FX11/TM03. Core,
 Review the actual source access, evidence and claim support, temporal scope, uncertainty, resource bounds and preservation required by the prompt. Distinguish producer self-checks from fixed-input independent evaluation. A passing structural check does not establish research quality.
 
 Benchmark mapping: `EX-L5-03`; L03/L05/L07/L09; K01/K10/K15. See the [evaluation layers and quality dimensions](../../docs/04-testing-and-benchmark-spec.md).
+
+## Recorded execution
+
+[Progressive run](../../benchmarks/progressive/research/l5-03/research.md) contains the actual source-checkout output and its stated support and access limits. See the [separate review](../../benchmarks/progressive/research/l5-03/evaluation/audit.md) for assessed claims and remaining gaps.

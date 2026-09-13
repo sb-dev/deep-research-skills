@@ -1,0 +1,27 @@
+snapshot,coverage,data_provider,attempt_count,unit
+202407,powered,ALL,208491,individual rows
+202407,powered,Fixit Clinic,919,individual rows
+202407,powered,Repair Cafe Wales,14292,individual rows
+202407,powered,Repair Café Denmark,17203,individual rows
+202407,powered,Repair Café International,75252,individual rows
+202407,powered,Repair Café Toronto,4277,individual rows
+202407,powered,Repair Connects,2885,individual rows
+202407,powered,The Restart Project,72294,individual rows
+202407,powered,anstiftung,21369,individual rows
+202507,powered,ALL,305649,individual rows
+202507,powered,Fixit Clinic,1033,individual rows
+202507,powered,Repair Cafe Wales,20190,individual rows
+202507,powered,Repair Café Denmark,29929,individual rows
+202507,powered,Repair Café International,105485,individual rows
+202507,powered,Repair Café Toronto,5567,individual rows
+202507,powered,Repair Connects,2885,individual rows
+202507,powered,The Restart Project,107836,individual rows
+202507,powered,anstiftung,32724,individual rows
+202507,unpowered-summary,ALL,135419,sum(total)
+202507,unpowered-summary,Fixit Clinic,316,sum(total)
+202507,unpowered-summary,Repair Cafe Wales,17207,sum(total)
+202507,unpowered-summary,Repair Café Denmark,7494,sum(total)
+202507,unpowered-summary,Repair Café International,42773,sum(total)
+202507,unpowered-summary,Repair Café Toronto,4435,sum(total)
+202507,unpowered-summary,The Restart Project,56972,sum(total)
+202507,unpowered-summary,anstiftung,6222,sum(total)

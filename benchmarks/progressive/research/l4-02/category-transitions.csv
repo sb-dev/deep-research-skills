@@ -1,0 +1,1373 @@
+data_provider,old_category_id,old_category,new_category_id,new_category,shared_record_count
+Fixit Clinic,1,Aircon/dehumidifier,28,Small home electrical,2
+Fixit Clinic,10,Handheld entertainment device,28,Small home electrical,1
+Fixit Clinic,15,Lamp,3,Decorative or safety lights,1
+Fixit Clinic,17,Large home electrical,24,Power tool,2
+Fixit Clinic,17,Large home electrical,28,Small home electrical,1
+Fixit Clinic,17,Large home electrical,8,Flat screen,1
+Fixit Clinic,28,Small home electrical,17,Large home electrical,1
+Fixit Clinic,28,Small home electrical,19,Mobile,1
+Fixit Clinic,28,Small home electrical,35,Watch/clock,1
+Fixit Clinic,29,Small kitchen item,17,Large home electrical,1
+Fixit Clinic,29,Small kitchen item,28,Small home electrical,1
+Fixit Clinic,29,Small kitchen item,36,Coffee maker,4
+Fixit Clinic,29,Small kitchen item,37,Food processor,1
+Fixit Clinic,33,TV and gaming-related accessories,13,Hi-Fi separates,1
+Fixit Clinic,9,Hair & beauty item,39,Hair dryer,3
+Repair Cafe Wales,13,Hi-Fi separates,10,Handheld entertainment device,6
+Repair Cafe Wales,22,PC accessory,2,Battery/charger/adapter,1
+Repair Cafe Wales,23,Portable radio,13,Hi-Fi separates,2
+Repair Cafe Wales,28,Small home electrical,17,Large home electrical,1
+Repair Cafe Wales,28,Small home electrical,32,Toy,1
+Repair Cafe Wales,29,Small kitchen item,14,Kettle,3
+Repair Cafe Wales,29,Small kitchen item,28,Small home electrical,1
+Repair Cafe Wales,29,Small kitchen item,37,Food processor,2
+Repair Cafe Wales,3,Decorative or safety lights,15,Lamp,1
+Repair Cafe Wales,30,Tablet,28,Small home electrical,6
+Repair Cafe Wales,31,Toaster,33,TV and gaming-related accessories,1
+Repair Cafe Wales,32,Toy,10,Handheld entertainment device,1
+Repair Cafe Wales,7,Fan,28,Small home electrical,1
+Repair Café Denmark,1,Aircon/dehumidifier,13,Hi-Fi separates,1
+Repair Café Denmark,1,Aircon/dehumidifier,19,Mobile,1
+Repair Café Denmark,1,Aircon/dehumidifier,2,Battery/charger/adapter,1
+Repair Café Denmark,1,Aircon/dehumidifier,23,Portable radio,3
+Repair Café Denmark,1,Aircon/dehumidifier,24,Power tool,1
+Repair Café Denmark,1,Aircon/dehumidifier,27,Sewing machine,1
+Repair Café Denmark,1,Aircon/dehumidifier,28,Small home electrical,1
+Repair Café Denmark,1,Aircon/dehumidifier,3,Decorative or safety lights,1
+Repair Café Denmark,1,Aircon/dehumidifier,32,Toy,1
+Repair Café Denmark,1,Aircon/dehumidifier,34,Vacuum,2
+Repair Café Denmark,1,Aircon/dehumidifier,35,Watch/clock,1
+Repair Café Denmark,1,Aircon/dehumidifier,37,Food processor,2
+Repair Café Denmark,1,Aircon/dehumidifier,38,Games console,1
+Repair Café Denmark,10,Handheld entertainment device,13,Hi-Fi separates,6
+Repair Café Denmark,10,Handheld entertainment device,15,Lamp,13
+Repair Café Denmark,10,Handheld entertainment device,17,Large home electrical,1
+Repair Café Denmark,10,Handheld entertainment device,18,Misc,1
+Repair Café Denmark,10,Handheld entertainment device,23,Portable radio,3
+Repair Café Denmark,10,Handheld entertainment device,24,Power tool,7
+Repair Café Denmark,10,Handheld entertainment device,25,Printer/scanner,1
+Repair Café Denmark,10,Handheld entertainment device,27,Sewing machine,13
+Repair Café Denmark,10,Handheld entertainment device,28,Small home electrical,6
+Repair Café Denmark,10,Handheld entertainment device,29,Small kitchen item,3
+Repair Café Denmark,10,Handheld entertainment device,30,Tablet,1
+Repair Café Denmark,10,Handheld entertainment device,31,Toaster,3
+Repair Café Denmark,10,Handheld entertainment device,33,TV and gaming-related accessories,1
+Repair Café Denmark,10,Handheld entertainment device,34,Vacuum,6
+Repair Café Denmark,10,Handheld entertainment device,35,Watch/clock,3
+Repair Café Denmark,10,Handheld entertainment device,36,Coffee maker,4
+Repair Café Denmark,10,Handheld entertainment device,37,Food processor,7
+Repair Café Denmark,10,Handheld entertainment device,39,Hair dryer,2
+Repair Café Denmark,10,Handheld entertainment device,4,Desktop computer,1
+Repair Café Denmark,10,Handheld entertainment device,5,Digital compact camera,1
+Repair Café Denmark,10,Handheld entertainment device,8,Flat screen,2
+Repair Café Denmark,10,Handheld entertainment device,9,Hair & beauty item,2
+Repair Café Denmark,11,Headphones,12,Hi-Fi integrated,3
+Repair Café Denmark,11,Headphones,13,Hi-Fi separates,7
+Repair Café Denmark,11,Headphones,14,Kettle,1
+Repair Café Denmark,11,Headphones,15,Lamp,21
+Repair Café Denmark,11,Headphones,17,Large home electrical,9
+Repair Café Denmark,11,Headphones,19,Mobile,1
+Repair Café Denmark,11,Headphones,2,Battery/charger/adapter,3
+Repair Café Denmark,11,Headphones,23,Portable radio,11
+Repair Café Denmark,11,Headphones,24,Power tool,14
+Repair Café Denmark,11,Headphones,25,Printer/scanner,3
+Repair Café Denmark,11,Headphones,27,Sewing machine,13
+Repair Café Denmark,11,Headphones,28,Small home electrical,12
+Repair Café Denmark,11,Headphones,29,Small kitchen item,6
+Repair Café Denmark,11,Headphones,3,Decorative or safety lights,5
+Repair Café Denmark,11,Headphones,30,Tablet,1
+Repair Café Denmark,11,Headphones,31,Toaster,5
+Repair Café Denmark,11,Headphones,32,Toy,3
+Repair Café Denmark,11,Headphones,33,TV and gaming-related accessories,4
+Repair Café Denmark,11,Headphones,34,Vacuum,17
+Repair Café Denmark,11,Headphones,35,Watch/clock,7
+Repair Café Denmark,11,Headphones,36,Coffee maker,14
+Repair Café Denmark,11,Headphones,37,Food processor,18
+Repair Café Denmark,11,Headphones,39,Hair dryer,2
+Repair Café Denmark,11,Headphones,4,Desktop computer,3
+Repair Café Denmark,11,Headphones,5,Digital compact camera,1
+Repair Café Denmark,11,Headphones,8,Flat screen,2
+Repair Café Denmark,11,Headphones,9,Hair & beauty item,4
+Repair Café Denmark,12,Hi-Fi integrated,11,Headphones,3
+Repair Café Denmark,12,Hi-Fi integrated,13,Hi-Fi separates,8
+Repair Café Denmark,12,Hi-Fi integrated,14,Kettle,1
+Repair Café Denmark,12,Hi-Fi integrated,15,Lamp,8
+Repair Café Denmark,12,Hi-Fi integrated,16,Laptop,1
+Repair Café Denmark,12,Hi-Fi integrated,17,Large home electrical,1
+Repair Café Denmark,12,Hi-Fi integrated,19,Mobile,1
+Repair Café Denmark,12,Hi-Fi integrated,2,Battery/charger/adapter,5
+Repair Café Denmark,12,Hi-Fi integrated,20,Musical instrument,1
+Repair Café Denmark,12,Hi-Fi integrated,23,Portable radio,16
+Repair Café Denmark,12,Hi-Fi integrated,24,Power tool,5
+Repair Café Denmark,12,Hi-Fi integrated,25,Printer/scanner,2
+Repair Café Denmark,12,Hi-Fi integrated,27,Sewing machine,7
+Repair Café Denmark,12,Hi-Fi integrated,28,Small home electrical,5
+Repair Café Denmark,12,Hi-Fi integrated,3,Decorative or safety lights,4
+Repair Café Denmark,12,Hi-Fi integrated,30,Tablet,2
+Repair Café Denmark,12,Hi-Fi integrated,31,Toaster,1
+Repair Café Denmark,12,Hi-Fi integrated,32,Toy,1
+Repair Café Denmark,12,Hi-Fi integrated,33,TV and gaming-related accessories,4
+Repair Café Denmark,12,Hi-Fi integrated,34,Vacuum,7
+Repair Café Denmark,12,Hi-Fi integrated,35,Watch/clock,4
+Repair Café Denmark,12,Hi-Fi integrated,36,Coffee maker,7
+Repair Café Denmark,12,Hi-Fi integrated,37,Food processor,8
+Repair Café Denmark,12,Hi-Fi integrated,38,Games console,2
+Repair Café Denmark,12,Hi-Fi integrated,39,Hair dryer,2
+Repair Café Denmark,12,Hi-Fi integrated,4,Desktop computer,2
+Repair Café Denmark,12,Hi-Fi integrated,40,Iron,2
+Repair Café Denmark,12,Hi-Fi integrated,5,Digital compact camera,2
+Repair Café Denmark,12,Hi-Fi integrated,6,DSLR/video camera,1
+Repair Café Denmark,12,Hi-Fi integrated,8,Flat screen,2
+Repair Café Denmark,12,Hi-Fi integrated,9,Hair & beauty item,2
+Repair Café Denmark,13,Hi-Fi separates,1,Aircon/dehumidifier,2
+Repair Café Denmark,13,Hi-Fi separates,10,Handheld entertainment device,6
+Repair Café Denmark,13,Hi-Fi separates,11,Headphones,11
+Repair Café Denmark,13,Hi-Fi separates,12,Hi-Fi integrated,16
+Repair Café Denmark,13,Hi-Fi separates,14,Kettle,15
+Repair Café Denmark,13,Hi-Fi separates,15,Lamp,75
+Repair Café Denmark,13,Hi-Fi separates,16,Laptop,11
+Repair Café Denmark,13,Hi-Fi separates,17,Large home electrical,19
+Repair Café Denmark,13,Hi-Fi separates,19,Mobile,3
+Repair Café Denmark,13,Hi-Fi separates,2,Battery/charger/adapter,15
+Repair Café Denmark,13,Hi-Fi separates,20,Musical instrument,4
+Repair Café Denmark,13,Hi-Fi separates,22,PC accessory,3
+Repair Café Denmark,13,Hi-Fi separates,23,Portable radio,34
+Repair Café Denmark,13,Hi-Fi separates,24,Power tool,55
+Repair Café Denmark,13,Hi-Fi separates,25,Printer/scanner,16
+Repair Café Denmark,13,Hi-Fi separates,26,Projector,2
+Repair Café Denmark,13,Hi-Fi separates,27,Sewing machine,64
+Repair Café Denmark,13,Hi-Fi separates,28,Small home electrical,41
+Repair Café Denmark,13,Hi-Fi separates,29,Small kitchen item,18
+Repair Café Denmark,13,Hi-Fi separates,3,Decorative or safety lights,16
+Repair Café Denmark,13,Hi-Fi separates,30,Tablet,9
+Repair Café Denmark,13,Hi-Fi separates,31,Toaster,13
+Repair Café Denmark,13,Hi-Fi separates,32,Toy,16
+Repair Café Denmark,13,Hi-Fi separates,33,TV and gaming-related accessories,20
+Repair Café Denmark,13,Hi-Fi separates,34,Vacuum,44
+Repair Café Denmark,13,Hi-Fi separates,35,Watch/clock,31
+Repair Café Denmark,13,Hi-Fi separates,36,Coffee maker,31
+Repair Café Denmark,13,Hi-Fi separates,37,Food processor,51
+Repair Café Denmark,13,Hi-Fi separates,38,Games console,2
+Repair Café Denmark,13,Hi-Fi separates,39,Hair dryer,5
+Repair Café Denmark,13,Hi-Fi separates,4,Desktop computer,9
+Repair Café Denmark,13,Hi-Fi separates,40,Iron,6
+Repair Café Denmark,13,Hi-Fi separates,5,Digital compact camera,5
+Repair Café Denmark,13,Hi-Fi separates,6,DSLR/video camera,3
+Repair Café Denmark,13,Hi-Fi separates,7,Fan,1
+Repair Café Denmark,13,Hi-Fi separates,8,Flat screen,12
+Repair Café Denmark,13,Hi-Fi separates,9,Hair & beauty item,10
+Repair Café Denmark,14,Kettle,10,Handheld entertainment device,2
+Repair Café Denmark,14,Kettle,11,Headphones,1
+Repair Café Denmark,14,Kettle,12,Hi-Fi integrated,1
+Repair Café Denmark,14,Kettle,13,Hi-Fi separates,18
+Repair Café Denmark,14,Kettle,15,Lamp,16
+Repair Café Denmark,14,Kettle,16,Laptop,1
+Repair Café Denmark,14,Kettle,17,Large home electrical,1
+Repair Café Denmark,14,Kettle,2,Battery/charger/adapter,2
+Repair Café Denmark,14,Kettle,21,Paper shredder,1
+Repair Café Denmark,14,Kettle,23,Portable radio,6
+Repair Café Denmark,14,Kettle,24,Power tool,8
+Repair Café Denmark,14,Kettle,25,Printer/scanner,4
+Repair Café Denmark,14,Kettle,27,Sewing machine,15
+Repair Café Denmark,14,Kettle,28,Small home electrical,9
+Repair Café Denmark,14,Kettle,29,Small kitchen item,2
+Repair Café Denmark,14,Kettle,3,Decorative or safety lights,8
+Repair Café Denmark,14,Kettle,30,Tablet,1
+Repair Café Denmark,14,Kettle,31,Toaster,7
+Repair Café Denmark,14,Kettle,32,Toy,5
+Repair Café Denmark,14,Kettle,33,TV and gaming-related accessories,6
+Repair Café Denmark,14,Kettle,34,Vacuum,10
+Repair Café Denmark,14,Kettle,35,Watch/clock,5
+Repair Café Denmark,14,Kettle,36,Coffee maker,9
+Repair Café Denmark,14,Kettle,37,Food processor,13
+Repair Café Denmark,14,Kettle,39,Hair dryer,4
+Repair Café Denmark,14,Kettle,4,Desktop computer,2
+Repair Café Denmark,14,Kettle,40,Iron,1
+Repair Café Denmark,14,Kettle,5,Digital compact camera,1
+Repair Café Denmark,14,Kettle,8,Flat screen,3
+Repair Café Denmark,14,Kettle,9,Hair & beauty item,2
+Repair Café Denmark,15,Lamp,1,Aircon/dehumidifier,3
+Repair Café Denmark,15,Lamp,10,Handheld entertainment device,7
+Repair Café Denmark,15,Lamp,11,Headphones,13
+Repair Café Denmark,15,Lamp,12,Hi-Fi integrated,8
+Repair Café Denmark,15,Lamp,13,Hi-Fi separates,70
+Repair Café Denmark,15,Lamp,14,Kettle,12
+Repair Café Denmark,15,Lamp,16,Laptop,6
+Repair Café Denmark,15,Lamp,17,Large home electrical,20
+Repair Café Denmark,15,Lamp,18,Misc,1
+Repair Café Denmark,15,Lamp,19,Mobile,6
+Repair Café Denmark,15,Lamp,2,Battery/charger/adapter,18
+Repair Café Denmark,15,Lamp,20,Musical instrument,2
+Repair Café Denmark,15,Lamp,22,PC accessory,6
+Repair Café Denmark,15,Lamp,23,Portable radio,41
+Repair Café Denmark,15,Lamp,24,Power tool,51
+Repair Café Denmark,15,Lamp,25,Printer/scanner,13
+Repair Café Denmark,15,Lamp,26,Projector,6
+Repair Café Denmark,15,Lamp,27,Sewing machine,69
+Repair Café Denmark,15,Lamp,28,Small home electrical,48
+Repair Café Denmark,15,Lamp,29,Small kitchen item,23
+Repair Café Denmark,15,Lamp,3,Decorative or safety lights,20
+Repair Café Denmark,15,Lamp,30,Tablet,4
+Repair Café Denmark,15,Lamp,31,Toaster,16
+Repair Café Denmark,15,Lamp,32,Toy,18
+Repair Café Denmark,15,Lamp,33,TV and gaming-related accessories,23
+Repair Café Denmark,15,Lamp,34,Vacuum,61
+Repair Café Denmark,15,Lamp,35,Watch/clock,32
+Repair Café Denmark,15,Lamp,36,Coffee maker,52
+Repair Café Denmark,15,Lamp,37,Food processor,79
+Repair Café Denmark,15,Lamp,38,Games console,4
+Repair Café Denmark,15,Lamp,39,Hair dryer,15
+Repair Café Denmark,15,Lamp,4,Desktop computer,12
+Repair Café Denmark,15,Lamp,40,Iron,5
+Repair Café Denmark,15,Lamp,5,Digital compact camera,4
+Repair Café Denmark,15,Lamp,7,Fan,4
+Repair Café Denmark,15,Lamp,8,Flat screen,13
+Repair Café Denmark,15,Lamp,9,Hair & beauty item,13
+Repair Café Denmark,16,Laptop,11,Headphones,2
+Repair Café Denmark,16,Laptop,12,Hi-Fi integrated,2
+Repair Café Denmark,16,Laptop,13,Hi-Fi separates,10
+Repair Café Denmark,16,Laptop,14,Kettle,4
+Repair Café Denmark,16,Laptop,15,Lamp,16
+Repair Café Denmark,16,Laptop,17,Large home electrical,6
+Repair Café Denmark,16,Laptop,2,Battery/charger/adapter,1
+Repair Café Denmark,16,Laptop,20,Musical instrument,1
+Repair Café Denmark,16,Laptop,22,PC accessory,2
+Repair Café Denmark,16,Laptop,23,Portable radio,9
+Repair Café Denmark,16,Laptop,24,Power tool,6
+Repair Café Denmark,16,Laptop,25,Printer/scanner,1
+Repair Café Denmark,16,Laptop,27,Sewing machine,11
+Repair Café Denmark,16,Laptop,28,Small home electrical,5
+Repair Café Denmark,16,Laptop,29,Small kitchen item,7
+Repair Café Denmark,16,Laptop,3,Decorative or safety lights,5
+Repair Café Denmark,16,Laptop,32,Toy,5
+Repair Café Denmark,16,Laptop,33,TV and gaming-related accessories,8
+Repair Café Denmark,16,Laptop,34,Vacuum,9
+Repair Café Denmark,16,Laptop,35,Watch/clock,4
+Repair Café Denmark,16,Laptop,36,Coffee maker,11
+Repair Café Denmark,16,Laptop,37,Food processor,15
+Repair Café Denmark,16,Laptop,39,Hair dryer,5
+Repair Café Denmark,16,Laptop,4,Desktop computer,1
+Repair Café Denmark,16,Laptop,40,Iron,1
+Repair Café Denmark,16,Laptop,9,Hair & beauty item,1
+Repair Café Denmark,17,Large home electrical,10,Handheld entertainment device,3
+Repair Café Denmark,17,Large home electrical,11,Headphones,3
+Repair Café Denmark,17,Large home electrical,12,Hi-Fi integrated,4
+Repair Café Denmark,17,Large home electrical,13,Hi-Fi separates,19
+Repair Café Denmark,17,Large home electrical,14,Kettle,3
+Repair Café Denmark,17,Large home electrical,15,Lamp,28
+Repair Café Denmark,17,Large home electrical,16,Laptop,5
+Repair Café Denmark,17,Large home electrical,19,Mobile,2
+Repair Café Denmark,17,Large home electrical,2,Battery/charger/adapter,5
+Repair Café Denmark,17,Large home electrical,20,Musical instrument,1
+Repair Café Denmark,17,Large home electrical,22,PC accessory,2
+Repair Café Denmark,17,Large home electrical,23,Portable radio,13
+Repair Café Denmark,17,Large home electrical,24,Power tool,21
+Repair Café Denmark,17,Large home electrical,25,Printer/scanner,8
+Repair Café Denmark,17,Large home electrical,26,Projector,1
+Repair Café Denmark,17,Large home electrical,27,Sewing machine,17
+Repair Café Denmark,17,Large home electrical,28,Small home electrical,14
+Repair Café Denmark,17,Large home electrical,29,Small kitchen item,13
+Repair Café Denmark,17,Large home electrical,3,Decorative or safety lights,6
+Repair Café Denmark,17,Large home electrical,30,Tablet,4
+Repair Café Denmark,17,Large home electrical,31,Toaster,3
+Repair Café Denmark,17,Large home electrical,32,Toy,5
+Repair Café Denmark,17,Large home electrical,33,TV and gaming-related accessories,9
+Repair Café Denmark,17,Large home electrical,34,Vacuum,26
+Repair Café Denmark,17,Large home electrical,35,Watch/clock,8
+Repair Café Denmark,17,Large home electrical,36,Coffee maker,17
+Repair Café Denmark,17,Large home electrical,37,Food processor,15
+Repair Café Denmark,17,Large home electrical,38,Games console,1
+Repair Café Denmark,17,Large home electrical,39,Hair dryer,4
+Repair Café Denmark,17,Large home electrical,4,Desktop computer,5
+Repair Café Denmark,17,Large home electrical,40,Iron,2
+Repair Café Denmark,17,Large home electrical,8,Flat screen,2
+Repair Café Denmark,17,Large home electrical,9,Hair & beauty item,1
+Repair Café Denmark,18,Misc,12,Hi-Fi integrated,1
+Repair Café Denmark,18,Misc,13,Hi-Fi separates,1
+Repair Café Denmark,18,Misc,19,Mobile,1
+Repair Café Denmark,18,Misc,28,Small home electrical,1
+Repair Café Denmark,18,Misc,29,Small kitchen item,1
+Repair Café Denmark,19,Mobile,11,Headphones,2
+Repair Café Denmark,19,Mobile,12,Hi-Fi integrated,3
+Repair Café Denmark,19,Mobile,13,Hi-Fi separates,5
+Repair Café Denmark,19,Mobile,14,Kettle,3
+Repair Café Denmark,19,Mobile,15,Lamp,10
+Repair Café Denmark,19,Mobile,16,Laptop,1
+Repair Café Denmark,19,Mobile,17,Large home electrical,2
+Repair Café Denmark,19,Mobile,2,Battery/charger/adapter,5
+Repair Café Denmark,19,Mobile,23,Portable radio,6
+Repair Café Denmark,19,Mobile,24,Power tool,6
+Repair Café Denmark,19,Mobile,25,Printer/scanner,1
+Repair Café Denmark,19,Mobile,27,Sewing machine,6
+Repair Café Denmark,19,Mobile,28,Small home electrical,4
+Repair Café Denmark,19,Mobile,29,Small kitchen item,2
+Repair Café Denmark,19,Mobile,3,Decorative or safety lights,4
+Repair Café Denmark,19,Mobile,31,Toaster,1
+Repair Café Denmark,19,Mobile,32,Toy,3
+Repair Café Denmark,19,Mobile,33,TV and gaming-related accessories,1
+Repair Café Denmark,19,Mobile,34,Vacuum,9
+Repair Café Denmark,19,Mobile,35,Watch/clock,5
+Repair Café Denmark,19,Mobile,36,Coffee maker,8
+Repair Café Denmark,19,Mobile,37,Food processor,10
+Repair Café Denmark,19,Mobile,4,Desktop computer,1
+Repair Café Denmark,19,Mobile,40,Iron,1
+Repair Café Denmark,19,Mobile,8,Flat screen,3
+Repair Café Denmark,19,Mobile,9,Hair & beauty item,1
+Repair Café Denmark,2,Battery/charger/adapter,1,Aircon/dehumidifier,1
+Repair Café Denmark,2,Battery/charger/adapter,10,Handheld entertainment device,3
+Repair Café Denmark,2,Battery/charger/adapter,11,Headphones,7
+Repair Café Denmark,2,Battery/charger/adapter,12,Hi-Fi integrated,1
+Repair Café Denmark,2,Battery/charger/adapter,13,Hi-Fi separates,16
+Repair Café Denmark,2,Battery/charger/adapter,14,Kettle,2
+Repair Café Denmark,2,Battery/charger/adapter,15,Lamp,22
+Repair Café Denmark,2,Battery/charger/adapter,16,Laptop,2
+Repair Café Denmark,2,Battery/charger/adapter,17,Large home electrical,3
+Repair Café Denmark,2,Battery/charger/adapter,19,Mobile,2
+Repair Café Denmark,2,Battery/charger/adapter,22,PC accessory,4
+Repair Café Denmark,2,Battery/charger/adapter,23,Portable radio,12
+Repair Café Denmark,2,Battery/charger/adapter,24,Power tool,17
+Repair Café Denmark,2,Battery/charger/adapter,25,Printer/scanner,4
+Repair Café Denmark,2,Battery/charger/adapter,26,Projector,2
+Repair Café Denmark,2,Battery/charger/adapter,27,Sewing machine,31
+Repair Café Denmark,2,Battery/charger/adapter,28,Small home electrical,22
+Repair Café Denmark,2,Battery/charger/adapter,29,Small kitchen item,8
+Repair Café Denmark,2,Battery/charger/adapter,3,Decorative or safety lights,3
+Repair Café Denmark,2,Battery/charger/adapter,30,Tablet,1
+Repair Café Denmark,2,Battery/charger/adapter,31,Toaster,3
+Repair Café Denmark,2,Battery/charger/adapter,32,Toy,6
+Repair Café Denmark,2,Battery/charger/adapter,33,TV and gaming-related accessories,9
+Repair Café Denmark,2,Battery/charger/adapter,34,Vacuum,19
+Repair Café Denmark,2,Battery/charger/adapter,35,Watch/clock,5
+Repair Café Denmark,2,Battery/charger/adapter,36,Coffee maker,12
+Repair Café Denmark,2,Battery/charger/adapter,37,Food processor,33
+Repair Café Denmark,2,Battery/charger/adapter,38,Games console,2
+Repair Café Denmark,2,Battery/charger/adapter,39,Hair dryer,4
+Repair Café Denmark,2,Battery/charger/adapter,4,Desktop computer,4
+Repair Café Denmark,2,Battery/charger/adapter,40,Iron,3
+Repair Café Denmark,2,Battery/charger/adapter,5,Digital compact camera,1
+Repair Café Denmark,2,Battery/charger/adapter,7,Fan,1
+Repair Café Denmark,20,Musical instrument,13,Hi-Fi separates,2
+Repair Café Denmark,20,Musical instrument,14,Kettle,2
+Repair Café Denmark,20,Musical instrument,15,Lamp,1
+Repair Café Denmark,20,Musical instrument,19,Mobile,1
+Repair Café Denmark,20,Musical instrument,23,Portable radio,2
+Repair Café Denmark,20,Musical instrument,24,Power tool,3
+Repair Café Denmark,20,Musical instrument,25,Printer/scanner,4
+Repair Café Denmark,20,Musical instrument,27,Sewing machine,2
+Repair Café Denmark,20,Musical instrument,28,Small home electrical,3
+Repair Café Denmark,20,Musical instrument,3,Decorative or safety lights,3
+Repair Café Denmark,20,Musical instrument,31,Toaster,2
+Repair Café Denmark,20,Musical instrument,32,Toy,2
+Repair Café Denmark,20,Musical instrument,34,Vacuum,1
+Repair Café Denmark,20,Musical instrument,35,Watch/clock,2
+Repair Café Denmark,20,Musical instrument,36,Coffee maker,1
+Repair Café Denmark,20,Musical instrument,37,Food processor,3
+Repair Café Denmark,20,Musical instrument,9,Hair & beauty item,1
+Repair Café Denmark,21,Paper shredder,10,Handheld entertainment device,1
+Repair Café Denmark,21,Paper shredder,13,Hi-Fi separates,1
+Repair Café Denmark,21,Paper shredder,15,Lamp,3
+Repair Café Denmark,21,Paper shredder,2,Battery/charger/adapter,1
+Repair Café Denmark,21,Paper shredder,24,Power tool,1
+Repair Café Denmark,21,Paper shredder,28,Small home electrical,1
+Repair Café Denmark,21,Paper shredder,34,Vacuum,1
+Repair Café Denmark,21,Paper shredder,35,Watch/clock,1
+Repair Café Denmark,22,PC accessory,10,Handheld entertainment device,1
+Repair Café Denmark,22,PC accessory,11,Headphones,1
+Repair Café Denmark,22,PC accessory,12,Hi-Fi integrated,1
+Repair Café Denmark,22,PC accessory,13,Hi-Fi separates,5
+Repair Café Denmark,22,PC accessory,15,Lamp,8
+Repair Café Denmark,22,PC accessory,16,Laptop,1
+Repair Café Denmark,22,PC accessory,17,Large home electrical,2
+Repair Café Denmark,22,PC accessory,19,Mobile,1
+Repair Café Denmark,22,PC accessory,2,Battery/charger/adapter,1
+Repair Café Denmark,22,PC accessory,23,Portable radio,2
+Repair Café Denmark,22,PC accessory,24,Power tool,4
+Repair Café Denmark,22,PC accessory,25,Printer/scanner,4
+Repair Café Denmark,22,PC accessory,27,Sewing machine,5
+Repair Café Denmark,22,PC accessory,28,Small home electrical,6
+Repair Café Denmark,22,PC accessory,29,Small kitchen item,2
+Repair Café Denmark,22,PC accessory,3,Decorative or safety lights,1
+Repair Café Denmark,22,PC accessory,31,Toaster,5
+Repair Café Denmark,22,PC accessory,32,Toy,1
+Repair Café Denmark,22,PC accessory,33,TV and gaming-related accessories,2
+Repair Café Denmark,22,PC accessory,34,Vacuum,4
+Repair Café Denmark,22,PC accessory,35,Watch/clock,3
+Repair Café Denmark,22,PC accessory,37,Food processor,6
+Repair Café Denmark,22,PC accessory,38,Games console,1
+Repair Café Denmark,22,PC accessory,39,Hair dryer,1
+Repair Café Denmark,22,PC accessory,4,Desktop computer,3
+Repair Café Denmark,22,PC accessory,5,Digital compact camera,2
+Repair Café Denmark,22,PC accessory,7,Fan,1
+Repair Café Denmark,22,PC accessory,9,Hair & beauty item,1
+Repair Café Denmark,23,Portable radio,1,Aircon/dehumidifier,2
+Repair Café Denmark,23,Portable radio,10,Handheld entertainment device,4
+Repair Café Denmark,23,Portable radio,11,Headphones,4
+Repair Café Denmark,23,Portable radio,12,Hi-Fi integrated,4
+Repair Café Denmark,23,Portable radio,13,Hi-Fi separates,25
+Repair Café Denmark,23,Portable radio,14,Kettle,9
+Repair Café Denmark,23,Portable radio,15,Lamp,42
+Repair Café Denmark,23,Portable radio,16,Laptop,4
+Repair Café Denmark,23,Portable radio,17,Large home electrical,9
+Repair Café Denmark,23,Portable radio,18,Misc,1
+Repair Café Denmark,23,Portable radio,19,Mobile,5
+Repair Café Denmark,23,Portable radio,2,Battery/charger/adapter,7
+Repair Café Denmark,23,Portable radio,20,Musical instrument,3
+Repair Café Denmark,23,Portable radio,22,PC accessory,3
+Repair Café Denmark,23,Portable radio,24,Power tool,30
+Repair Café Denmark,23,Portable radio,25,Printer/scanner,7
+Repair Café Denmark,23,Portable radio,26,Projector,1
+Repair Café Denmark,23,Portable radio,27,Sewing machine,49
+Repair Café Denmark,23,Portable radio,28,Small home electrical,21
+Repair Café Denmark,23,Portable radio,29,Small kitchen item,16
+Repair Café Denmark,23,Portable radio,3,Decorative or safety lights,20
+Repair Café Denmark,23,Portable radio,31,Toaster,7
+Repair Café Denmark,23,Portable radio,32,Toy,11
+Repair Café Denmark,23,Portable radio,33,TV and gaming-related accessories,16
+Repair Café Denmark,23,Portable radio,34,Vacuum,39
+Repair Café Denmark,23,Portable radio,35,Watch/clock,12
+Repair Café Denmark,23,Portable radio,36,Coffee maker,37
+Repair Café Denmark,23,Portable radio,37,Food processor,44
+Repair Café Denmark,23,Portable radio,38,Games console,1
+Repair Café Denmark,23,Portable radio,39,Hair dryer,8
+Repair Café Denmark,23,Portable radio,4,Desktop computer,4
+Repair Café Denmark,23,Portable radio,40,Iron,4
+Repair Café Denmark,23,Portable radio,5,Digital compact camera,2
+Repair Café Denmark,23,Portable radio,6,DSLR/video camera,1
+Repair Café Denmark,23,Portable radio,7,Fan,1
+Repair Café Denmark,23,Portable radio,8,Flat screen,3
+Repair Café Denmark,23,Portable radio,9,Hair & beauty item,12
+Repair Café Denmark,24,Power tool,1,Aircon/dehumidifier,2
+Repair Café Denmark,24,Power tool,10,Handheld entertainment device,2
+Repair Café Denmark,24,Power tool,11,Headphones,8
+Repair Café Denmark,24,Power tool,12,Hi-Fi integrated,6
+Repair Café Denmark,24,Power tool,13,Hi-Fi separates,57
+Repair Café Denmark,24,Power tool,14,Kettle,10
+Repair Café Denmark,24,Power tool,15,Lamp,65
+Repair Café Denmark,24,Power tool,16,Laptop,7
+Repair Café Denmark,24,Power tool,17,Large home electrical,20
+Repair Café Denmark,24,Power tool,19,Mobile,7
+Repair Café Denmark,24,Power tool,2,Battery/charger/adapter,26
+Repair Café Denmark,24,Power tool,20,Musical instrument,1
+Repair Café Denmark,24,Power tool,21,Paper shredder,1
+Repair Café Denmark,24,Power tool,22,PC accessory,4
+Repair Café Denmark,24,Power tool,23,Portable radio,30
+Repair Café Denmark,24,Power tool,25,Printer/scanner,12
+Repair Café Denmark,24,Power tool,26,Projector,5
+Repair Café Denmark,24,Power tool,27,Sewing machine,43
+Repair Café Denmark,24,Power tool,28,Small home electrical,36
+Repair Café Denmark,24,Power tool,29,Small kitchen item,15
+Repair Café Denmark,24,Power tool,3,Decorative or safety lights,13
+Repair Café Denmark,24,Power tool,30,Tablet,5
+Repair Café Denmark,24,Power tool,31,Toaster,14
+Repair Café Denmark,24,Power tool,32,Toy,19
+Repair Café Denmark,24,Power tool,33,TV and gaming-related accessories,14
+Repair Café Denmark,24,Power tool,34,Vacuum,54
+Repair Café Denmark,24,Power tool,35,Watch/clock,24
+Repair Café Denmark,24,Power tool,36,Coffee maker,29
+Repair Café Denmark,24,Power tool,37,Food processor,55
+Repair Café Denmark,24,Power tool,38,Games console,1
+Repair Café Denmark,24,Power tool,39,Hair dryer,7
+Repair Café Denmark,24,Power tool,4,Desktop computer,9
+Repair Café Denmark,24,Power tool,40,Iron,8
+Repair Café Denmark,24,Power tool,5,Digital compact camera,1
+Repair Café Denmark,24,Power tool,6,DSLR/video camera,3
+Repair Café Denmark,24,Power tool,7,Fan,1
+Repair Café Denmark,24,Power tool,8,Flat screen,5
+Repair Café Denmark,24,Power tool,9,Hair & beauty item,10
+Repair Café Denmark,25,Printer/scanner,10,Handheld entertainment device,1
+Repair Café Denmark,25,Printer/scanner,11,Headphones,4
+Repair Café Denmark,25,Printer/scanner,12,Hi-Fi integrated,3
+Repair Café Denmark,25,Printer/scanner,13,Hi-Fi separates,16
+Repair Café Denmark,25,Printer/scanner,14,Kettle,4
+Repair Café Denmark,25,Printer/scanner,15,Lamp,23
+Repair Café Denmark,25,Printer/scanner,16,Laptop,1
+Repair Café Denmark,25,Printer/scanner,17,Large home electrical,4
+Repair Café Denmark,25,Printer/scanner,19,Mobile,4
+Repair Café Denmark,25,Printer/scanner,2,Battery/charger/adapter,6
+Repair Café Denmark,25,Printer/scanner,22,PC accessory,3
+Repair Café Denmark,25,Printer/scanner,23,Portable radio,10
+Repair Café Denmark,25,Printer/scanner,24,Power tool,20
+Repair Café Denmark,25,Printer/scanner,26,Projector,2
+Repair Café Denmark,25,Printer/scanner,27,Sewing machine,17
+Repair Café Denmark,25,Printer/scanner,28,Small home electrical,19
+Repair Café Denmark,25,Printer/scanner,29,Small kitchen item,4
+Repair Café Denmark,25,Printer/scanner,3,Decorative or safety lights,5
+Repair Café Denmark,25,Printer/scanner,30,Tablet,1
+Repair Café Denmark,25,Printer/scanner,31,Toaster,5
+Repair Café Denmark,25,Printer/scanner,32,Toy,6
+Repair Café Denmark,25,Printer/scanner,33,TV and gaming-related accessories,7
+Repair Café Denmark,25,Printer/scanner,34,Vacuum,10
+Repair Café Denmark,25,Printer/scanner,35,Watch/clock,10
+Repair Café Denmark,25,Printer/scanner,36,Coffee maker,8
+Repair Café Denmark,25,Printer/scanner,37,Food processor,15
+Repair Café Denmark,25,Printer/scanner,38,Games console,1
+Repair Café Denmark,25,Printer/scanner,39,Hair dryer,3
+Repair Café Denmark,25,Printer/scanner,4,Desktop computer,6
+Repair Café Denmark,25,Printer/scanner,40,Iron,4
+Repair Café Denmark,25,Printer/scanner,7,Fan,1
+Repair Café Denmark,25,Printer/scanner,8,Flat screen,3
+Repair Café Denmark,25,Printer/scanner,9,Hair & beauty item,2
+Repair Café Denmark,26,Projector,10,Handheld entertainment device,1
+Repair Café Denmark,26,Projector,11,Headphones,1
+Repair Café Denmark,26,Projector,13,Hi-Fi separates,6
+Repair Café Denmark,26,Projector,15,Lamp,6
+Repair Café Denmark,26,Projector,17,Large home electrical,1
+Repair Café Denmark,26,Projector,2,Battery/charger/adapter,2
+Repair Café Denmark,26,Projector,23,Portable radio,2
+Repair Café Denmark,26,Projector,24,Power tool,2
+Repair Café Denmark,26,Projector,25,Printer/scanner,1
+Repair Café Denmark,26,Projector,27,Sewing machine,2
+Repair Café Denmark,26,Projector,28,Small home electrical,5
+Repair Café Denmark,26,Projector,29,Small kitchen item,4
+Repair Café Denmark,26,Projector,3,Decorative or safety lights,4
+Repair Café Denmark,26,Projector,33,TV and gaming-related accessories,3
+Repair Café Denmark,26,Projector,34,Vacuum,2
+Repair Café Denmark,26,Projector,35,Watch/clock,1
+Repair Café Denmark,26,Projector,36,Coffee maker,4
+Repair Café Denmark,26,Projector,37,Food processor,5
+Repair Café Denmark,26,Projector,5,Digital compact camera,1
+Repair Café Denmark,26,Projector,8,Flat screen,1
+Repair Café Denmark,27,Sewing machine,10,Handheld entertainment device,6
+Repair Café Denmark,27,Sewing machine,11,Headphones,9
+Repair Café Denmark,27,Sewing machine,12,Hi-Fi integrated,3
+Repair Café Denmark,27,Sewing machine,13,Hi-Fi separates,41
+Repair Café Denmark,27,Sewing machine,14,Kettle,13
+Repair Café Denmark,27,Sewing machine,15,Lamp,69
+Repair Café Denmark,27,Sewing machine,16,Laptop,6
+Repair Café Denmark,27,Sewing machine,17,Large home electrical,20
+Repair Café Denmark,27,Sewing machine,19,Mobile,5
+Repair Café Denmark,27,Sewing machine,2,Battery/charger/adapter,14
+Repair Café Denmark,27,Sewing machine,20,Musical instrument,3
+Repair Café Denmark,27,Sewing machine,22,PC accessory,8
+Repair Café Denmark,27,Sewing machine,23,Portable radio,42
+Repair Café Denmark,27,Sewing machine,24,Power tool,36
+Repair Café Denmark,27,Sewing machine,25,Printer/scanner,17
+Repair Café Denmark,27,Sewing machine,26,Projector,2
+Repair Café Denmark,27,Sewing machine,28,Small home electrical,34
+Repair Café Denmark,27,Sewing machine,29,Small kitchen item,24
+Repair Café Denmark,27,Sewing machine,3,Decorative or safety lights,11
+Repair Café Denmark,27,Sewing machine,30,Tablet,4
+Repair Café Denmark,27,Sewing machine,31,Toaster,8
+Repair Café Denmark,27,Sewing machine,32,Toy,18
+Repair Café Denmark,27,Sewing machine,33,TV and gaming-related accessories,25
+Repair Café Denmark,27,Sewing machine,34,Vacuum,52
+Repair Café Denmark,27,Sewing machine,35,Watch/clock,25
+Repair Café Denmark,27,Sewing machine,36,Coffee maker,41
+Repair Café Denmark,27,Sewing machine,37,Food processor,57
+Repair Café Denmark,27,Sewing machine,39,Hair dryer,7
+Repair Café Denmark,27,Sewing machine,4,Desktop computer,3
+Repair Café Denmark,27,Sewing machine,40,Iron,7
+Repair Café Denmark,27,Sewing machine,5,Digital compact camera,3
+Repair Café Denmark,27,Sewing machine,7,Fan,1
+Repair Café Denmark,27,Sewing machine,8,Flat screen,11
+Repair Café Denmark,27,Sewing machine,9,Hair & beauty item,10
+Repair Café Denmark,28,Small home electrical,1,Aircon/dehumidifier,1
+Repair Café Denmark,28,Small home electrical,10,Handheld entertainment device,3
+Repair Café Denmark,28,Small home electrical,11,Headphones,5
+Repair Café Denmark,28,Small home electrical,12,Hi-Fi integrated,7
+Repair Café Denmark,28,Small home electrical,13,Hi-Fi separates,35
+Repair Café Denmark,28,Small home electrical,14,Kettle,8
+Repair Café Denmark,28,Small home electrical,15,Lamp,56
+Repair Café Denmark,28,Small home electrical,16,Laptop,10
+Repair Café Denmark,28,Small home electrical,17,Large home electrical,14
+Repair Café Denmark,28,Small home electrical,19,Mobile,4
+Repair Café Denmark,28,Small home electrical,2,Battery/charger/adapter,17
+Repair Café Denmark,28,Small home electrical,21,Paper shredder,1
+Repair Café Denmark,28,Small home electrical,22,PC accessory,2
+Repair Café Denmark,28,Small home electrical,23,Portable radio,23
+Repair Café Denmark,28,Small home electrical,24,Power tool,33
+Repair Café Denmark,28,Small home electrical,25,Printer/scanner,16
+Repair Café Denmark,28,Small home electrical,26,Projector,3
+Repair Café Denmark,28,Small home electrical,27,Sewing machine,42
+Repair Café Denmark,28,Small home electrical,29,Small kitchen item,7
+Repair Café Denmark,28,Small home electrical,3,Decorative or safety lights,15
+Repair Café Denmark,28,Small home electrical,30,Tablet,4
+Repair Café Denmark,28,Small home electrical,31,Toaster,2
+Repair Café Denmark,28,Small home electrical,32,Toy,11
+Repair Café Denmark,28,Small home electrical,33,TV and gaming-related accessories,13
+Repair Café Denmark,28,Small home electrical,34,Vacuum,36
+Repair Café Denmark,28,Small home electrical,35,Watch/clock,24
+Repair Café Denmark,28,Small home electrical,36,Coffee maker,31
+Repair Café Denmark,28,Small home electrical,37,Food processor,42
+Repair Café Denmark,28,Small home electrical,38,Games console,3
+Repair Café Denmark,28,Small home electrical,39,Hair dryer,6
+Repair Café Denmark,28,Small home electrical,4,Desktop computer,3
+Repair Café Denmark,28,Small home electrical,40,Iron,4
+Repair Café Denmark,28,Small home electrical,5,Digital compact camera,1
+Repair Café Denmark,28,Small home electrical,7,Fan,2
+Repair Café Denmark,28,Small home electrical,8,Flat screen,8
+Repair Café Denmark,28,Small home electrical,9,Hair & beauty item,8
+Repair Café Denmark,29,Small kitchen item,11,Headphones,3
+Repair Café Denmark,29,Small kitchen item,12,Hi-Fi integrated,6
+Repair Café Denmark,29,Small kitchen item,13,Hi-Fi separates,23
+Repair Café Denmark,29,Small kitchen item,14,Kettle,6
+Repair Café Denmark,29,Small kitchen item,15,Lamp,39
+Repair Café Denmark,29,Small kitchen item,16,Laptop,1
+Repair Café Denmark,29,Small kitchen item,17,Large home electrical,4
+Repair Café Denmark,29,Small kitchen item,19,Mobile,3
+Repair Café Denmark,29,Small kitchen item,2,Battery/charger/adapter,7
+Repair Café Denmark,29,Small kitchen item,23,Portable radio,19
+Repair Café Denmark,29,Small kitchen item,24,Power tool,20
+Repair Café Denmark,29,Small kitchen item,25,Printer/scanner,7
+Repair Café Denmark,29,Small kitchen item,26,Projector,3
+Repair Café Denmark,29,Small kitchen item,27,Sewing machine,23
+Repair Café Denmark,29,Small kitchen item,28,Small home electrical,15
+Repair Café Denmark,29,Small kitchen item,3,Decorative or safety lights,4
+Repair Café Denmark,29,Small kitchen item,31,Toaster,7
+Repair Café Denmark,29,Small kitchen item,32,Toy,2
+Repair Café Denmark,29,Small kitchen item,33,TV and gaming-related accessories,9
+Repair Café Denmark,29,Small kitchen item,34,Vacuum,25
+Repair Café Denmark,29,Small kitchen item,35,Watch/clock,15
+Repair Café Denmark,29,Small kitchen item,36,Coffee maker,11
+Repair Café Denmark,29,Small kitchen item,37,Food processor,20
+Repair Café Denmark,29,Small kitchen item,39,Hair dryer,5
+Repair Café Denmark,29,Small kitchen item,4,Desktop computer,5
+Repair Café Denmark,29,Small kitchen item,40,Iron,1
+Repair Café Denmark,29,Small kitchen item,5,Digital compact camera,1
+Repair Café Denmark,29,Small kitchen item,7,Fan,1
+Repair Café Denmark,29,Small kitchen item,8,Flat screen,2
+Repair Café Denmark,29,Small kitchen item,9,Hair & beauty item,5
+Repair Café Denmark,3,Decorative or safety lights,11,Headphones,4
+Repair Café Denmark,3,Decorative or safety lights,13,Hi-Fi separates,14
+Repair Café Denmark,3,Decorative or safety lights,14,Kettle,4
+Repair Café Denmark,3,Decorative or safety lights,15,Lamp,25
+Repair Café Denmark,3,Decorative or safety lights,16,Laptop,1
+Repair Café Denmark,3,Decorative or safety lights,17,Large home electrical,4
+Repair Café Denmark,3,Decorative or safety lights,19,Mobile,1
+Repair Café Denmark,3,Decorative or safety lights,2,Battery/charger/adapter,4
+Repair Café Denmark,3,Decorative or safety lights,21,Paper shredder,1
+Repair Café Denmark,3,Decorative or safety lights,22,PC accessory,1
+Repair Café Denmark,3,Decorative or safety lights,23,Portable radio,15
+Repair Café Denmark,3,Decorative or safety lights,24,Power tool,22
+Repair Café Denmark,3,Decorative or safety lights,25,Printer/scanner,5
+Repair Café Denmark,3,Decorative or safety lights,26,Projector,1
+Repair Café Denmark,3,Decorative or safety lights,27,Sewing machine,21
+Repair Café Denmark,3,Decorative or safety lights,28,Small home electrical,14
+Repair Café Denmark,3,Decorative or safety lights,29,Small kitchen item,12
+Repair Café Denmark,3,Decorative or safety lights,31,Toaster,12
+Repair Café Denmark,3,Decorative or safety lights,32,Toy,4
+Repair Café Denmark,3,Decorative or safety lights,33,TV and gaming-related accessories,7
+Repair Café Denmark,3,Decorative or safety lights,34,Vacuum,27
+Repair Café Denmark,3,Decorative or safety lights,35,Watch/clock,11
+Repair Café Denmark,3,Decorative or safety lights,36,Coffee maker,8
+Repair Café Denmark,3,Decorative or safety lights,37,Food processor,32
+Repair Café Denmark,3,Decorative or safety lights,38,Games console,1
+Repair Café Denmark,3,Decorative or safety lights,39,Hair dryer,4
+Repair Café Denmark,3,Decorative or safety lights,4,Desktop computer,3
+Repair Café Denmark,3,Decorative or safety lights,40,Iron,5
+Repair Café Denmark,3,Decorative or safety lights,6,DSLR/video camera,1
+Repair Café Denmark,3,Decorative or safety lights,8,Flat screen,3
+Repair Café Denmark,3,Decorative or safety lights,9,Hair & beauty item,5
+Repair Café Denmark,30,Tablet,11,Headphones,1
+Repair Café Denmark,30,Tablet,12,Hi-Fi integrated,2
+Repair Café Denmark,30,Tablet,13,Hi-Fi separates,4
+Repair Café Denmark,30,Tablet,14,Kettle,5
+Repair Café Denmark,30,Tablet,15,Lamp,7
+Repair Café Denmark,30,Tablet,17,Large home electrical,4
+Repair Café Denmark,30,Tablet,19,Mobile,2
+Repair Café Denmark,30,Tablet,2,Battery/charger/adapter,4
+Repair Café Denmark,30,Tablet,20,Musical instrument,1
+Repair Café Denmark,30,Tablet,23,Portable radio,2
+Repair Café Denmark,30,Tablet,24,Power tool,3
+Repair Café Denmark,30,Tablet,25,Printer/scanner,2
+Repair Café Denmark,30,Tablet,26,Projector,1
+Repair Café Denmark,30,Tablet,27,Sewing machine,2
+Repair Café Denmark,30,Tablet,28,Small home electrical,4
+Repair Café Denmark,30,Tablet,29,Small kitchen item,4
+Repair Café Denmark,30,Tablet,3,Decorative or safety lights,1
+Repair Café Denmark,30,Tablet,31,Toaster,1
+Repair Café Denmark,30,Tablet,32,Toy,2
+Repair Café Denmark,30,Tablet,33,TV and gaming-related accessories,4
+Repair Café Denmark,30,Tablet,34,Vacuum,8
+Repair Café Denmark,30,Tablet,35,Watch/clock,2
+Repair Café Denmark,30,Tablet,36,Coffee maker,2
+Repair Café Denmark,30,Tablet,37,Food processor,5
+Repair Café Denmark,30,Tablet,39,Hair dryer,3
+Repair Café Denmark,30,Tablet,4,Desktop computer,1
+Repair Café Denmark,30,Tablet,40,Iron,1
+Repair Café Denmark,30,Tablet,5,Digital compact camera,1
+Repair Café Denmark,30,Tablet,8,Flat screen,2
+Repair Café Denmark,30,Tablet,9,Hair & beauty item,1
+Repair Café Denmark,31,Toaster,11,Headphones,5
+Repair Café Denmark,31,Toaster,12,Hi-Fi integrated,1
+Repair Café Denmark,31,Toaster,13,Hi-Fi separates,14
+Repair Café Denmark,31,Toaster,14,Kettle,2
+Repair Café Denmark,31,Toaster,15,Lamp,20
+Repair Café Denmark,31,Toaster,16,Laptop,1
+Repair Café Denmark,31,Toaster,17,Large home electrical,5
+Repair Café Denmark,31,Toaster,18,Misc,1
+Repair Café Denmark,31,Toaster,19,Mobile,1
+Repair Café Denmark,31,Toaster,2,Battery/charger/adapter,8
+Repair Café Denmark,31,Toaster,21,Paper shredder,2
+Repair Café Denmark,31,Toaster,23,Portable radio,9
+Repair Café Denmark,31,Toaster,24,Power tool,13
+Repair Café Denmark,31,Toaster,25,Printer/scanner,3
+Repair Café Denmark,31,Toaster,26,Projector,5
+Repair Café Denmark,31,Toaster,27,Sewing machine,11
+Repair Café Denmark,31,Toaster,28,Small home electrical,11
+Repair Café Denmark,31,Toaster,29,Small kitchen item,1
+Repair Café Denmark,31,Toaster,3,Decorative or safety lights,7
+Repair Café Denmark,31,Toaster,30,Tablet,2
+Repair Café Denmark,31,Toaster,32,Toy,3
+Repair Café Denmark,31,Toaster,33,TV and gaming-related accessories,2
+Repair Café Denmark,31,Toaster,34,Vacuum,21
+Repair Café Denmark,31,Toaster,35,Watch/clock,7
+Repair Café Denmark,31,Toaster,36,Coffee maker,18
+Repair Café Denmark,31,Toaster,37,Food processor,24
+Repair Café Denmark,31,Toaster,39,Hair dryer,2
+Repair Café Denmark,31,Toaster,40,Iron,2
+Repair Café Denmark,31,Toaster,5,Digital compact camera,2
+Repair Café Denmark,31,Toaster,6,DSLR/video camera,1
+Repair Café Denmark,31,Toaster,7,Fan,1
+Repair Café Denmark,31,Toaster,9,Hair & beauty item,1
+Repair Café Denmark,32,Toy,10,Handheld entertainment device,1
+Repair Café Denmark,32,Toy,11,Headphones,5
+Repair Café Denmark,32,Toy,12,Hi-Fi integrated,1
+Repair Café Denmark,32,Toy,13,Hi-Fi separates,23
+Repair Café Denmark,32,Toy,14,Kettle,4
+Repair Café Denmark,32,Toy,15,Lamp,16
+Repair Café Denmark,32,Toy,16,Laptop,3
+Repair Café Denmark,32,Toy,17,Large home electrical,4
+Repair Café Denmark,32,Toy,19,Mobile,1
+Repair Café Denmark,32,Toy,2,Battery/charger/adapter,6
+Repair Café Denmark,32,Toy,20,Musical instrument,1
+Repair Café Denmark,32,Toy,21,Paper shredder,1
+Repair Café Denmark,32,Toy,22,PC accessory,1
+Repair Café Denmark,32,Toy,23,Portable radio,12
+Repair Café Denmark,32,Toy,24,Power tool,13
+Repair Café Denmark,32,Toy,25,Printer/scanner,4
+Repair Café Denmark,32,Toy,26,Projector,3
+Repair Café Denmark,32,Toy,27,Sewing machine,19
+Repair Café Denmark,32,Toy,28,Small home electrical,12
+Repair Café Denmark,32,Toy,29,Small kitchen item,3
+Repair Café Denmark,32,Toy,3,Decorative or safety lights,2
+Repair Café Denmark,32,Toy,31,Toaster,9
+Repair Café Denmark,32,Toy,33,TV and gaming-related accessories,6
+Repair Café Denmark,32,Toy,34,Vacuum,11
+Repair Café Denmark,32,Toy,35,Watch/clock,5
+Repair Café Denmark,32,Toy,36,Coffee maker,9
+Repair Café Denmark,32,Toy,37,Food processor,11
+Repair Café Denmark,32,Toy,38,Games console,1
+Repair Café Denmark,32,Toy,4,Desktop computer,1
+Repair Café Denmark,32,Toy,40,Iron,2
+Repair Café Denmark,32,Toy,7,Fan,1
+Repair Café Denmark,32,Toy,8,Flat screen,1
+Repair Café Denmark,32,Toy,9,Hair & beauty item,6
+Repair Café Denmark,33,TV and gaming-related accessories,10,Handheld entertainment device,2
+Repair Café Denmark,33,TV and gaming-related accessories,11,Headphones,1
+Repair Café Denmark,33,TV and gaming-related accessories,12,Hi-Fi integrated,5
+Repair Café Denmark,33,TV and gaming-related accessories,13,Hi-Fi separates,18
+Repair Café Denmark,33,TV and gaming-related accessories,14,Kettle,5
+Repair Café Denmark,33,TV and gaming-related accessories,15,Lamp,29
+Repair Café Denmark,33,TV and gaming-related accessories,16,Laptop,3
+Repair Café Denmark,33,TV and gaming-related accessories,17,Large home electrical,11
+Repair Café Denmark,33,TV and gaming-related accessories,19,Mobile,3
+Repair Café Denmark,33,TV and gaming-related accessories,2,Battery/charger/adapter,10
+Repair Café Denmark,33,TV and gaming-related accessories,21,Paper shredder,1
+Repair Café Denmark,33,TV and gaming-related accessories,22,PC accessory,3
+Repair Café Denmark,33,TV and gaming-related accessories,23,Portable radio,4
+Repair Café Denmark,33,TV and gaming-related accessories,24,Power tool,10
+Repair Café Denmark,33,TV and gaming-related accessories,25,Printer/scanner,5
+Repair Café Denmark,33,TV and gaming-related accessories,27,Sewing machine,9
+Repair Café Denmark,33,TV and gaming-related accessories,28,Small home electrical,14
+Repair Café Denmark,33,TV and gaming-related accessories,29,Small kitchen item,4
+Repair Café Denmark,33,TV and gaming-related accessories,3,Decorative or safety lights,7
+Repair Café Denmark,33,TV and gaming-related accessories,31,Toaster,7
+Repair Café Denmark,33,TV and gaming-related accessories,32,Toy,11
+Repair Café Denmark,33,TV and gaming-related accessories,34,Vacuum,19
+Repair Café Denmark,33,TV and gaming-related accessories,35,Watch/clock,11
+Repair Café Denmark,33,TV and gaming-related accessories,36,Coffee maker,11
+Repair Café Denmark,33,TV and gaming-related accessories,37,Food processor,19
+Repair Café Denmark,33,TV and gaming-related accessories,38,Games console,2
+Repair Café Denmark,33,TV and gaming-related accessories,39,Hair dryer,6
+Repair Café Denmark,33,TV and gaming-related accessories,4,Desktop computer,5
+Repair Café Denmark,33,TV and gaming-related accessories,40,Iron,2
+Repair Café Denmark,33,TV and gaming-related accessories,6,DSLR/video camera,1
+Repair Café Denmark,33,TV and gaming-related accessories,7,Fan,2
+Repair Café Denmark,33,TV and gaming-related accessories,8,Flat screen,2
+Repair Café Denmark,33,TV and gaming-related accessories,9,Hair & beauty item,5
+Repair Café Denmark,34,Vacuum,1,Aircon/dehumidifier,2
+Repair Café Denmark,34,Vacuum,10,Handheld entertainment device,3
+Repair Café Denmark,34,Vacuum,11,Headphones,10
+Repair Café Denmark,34,Vacuum,12,Hi-Fi integrated,11
+Repair Café Denmark,34,Vacuum,13,Hi-Fi separates,48
+Repair Café Denmark,34,Vacuum,14,Kettle,18
+Repair Café Denmark,34,Vacuum,15,Lamp,70
+Repair Café Denmark,34,Vacuum,16,Laptop,7
+Repair Café Denmark,34,Vacuum,17,Large home electrical,16
+Repair Café Denmark,34,Vacuum,19,Mobile,3
+Repair Café Denmark,34,Vacuum,2,Battery/charger/adapter,11
+Repair Café Denmark,34,Vacuum,20,Musical instrument,1
+Repair Café Denmark,34,Vacuum,21,Paper shredder,1
+Repair Café Denmark,34,Vacuum,22,PC accessory,5
+Repair Café Denmark,34,Vacuum,23,Portable radio,29
+Repair Café Denmark,34,Vacuum,24,Power tool,47
+Repair Café Denmark,34,Vacuum,25,Printer/scanner,11
+Repair Café Denmark,34,Vacuum,26,Projector,3
+Repair Café Denmark,34,Vacuum,27,Sewing machine,47
+Repair Café Denmark,34,Vacuum,28,Small home electrical,23
+Repair Café Denmark,34,Vacuum,29,Small kitchen item,11
+Repair Café Denmark,34,Vacuum,3,Decorative or safety lights,10
+Repair Café Denmark,34,Vacuum,30,Tablet,3
+Repair Café Denmark,34,Vacuum,31,Toaster,14
+Repair Café Denmark,34,Vacuum,32,Toy,17
+Repair Café Denmark,34,Vacuum,33,TV and gaming-related accessories,23
+Repair Café Denmark,34,Vacuum,35,Watch/clock,27
+Repair Café Denmark,34,Vacuum,36,Coffee maker,33
+Repair Café Denmark,34,Vacuum,37,Food processor,72
+Repair Café Denmark,34,Vacuum,38,Games console,2
+Repair Café Denmark,34,Vacuum,39,Hair dryer,7
+Repair Café Denmark,34,Vacuum,4,Desktop computer,9
+Repair Café Denmark,34,Vacuum,40,Iron,12
+Repair Café Denmark,34,Vacuum,5,Digital compact camera,5
+Repair Café Denmark,34,Vacuum,6,DSLR/video camera,3
+Repair Café Denmark,34,Vacuum,7,Fan,1
+Repair Café Denmark,34,Vacuum,8,Flat screen,9
+Repair Café Denmark,34,Vacuum,9,Hair & beauty item,13
+Repair Café Denmark,35,Watch/clock,10,Handheld entertainment device,4
+Repair Café Denmark,35,Watch/clock,11,Headphones,4
+Repair Café Denmark,35,Watch/clock,12,Hi-Fi integrated,6
+Repair Café Denmark,35,Watch/clock,13,Hi-Fi separates,34
+Repair Café Denmark,35,Watch/clock,14,Kettle,6
+Repair Café Denmark,35,Watch/clock,15,Lamp,28
+Repair Café Denmark,35,Watch/clock,16,Laptop,2
+Repair Café Denmark,35,Watch/clock,17,Large home electrical,12
+Repair Café Denmark,35,Watch/clock,19,Mobile,2
+Repair Café Denmark,35,Watch/clock,2,Battery/charger/adapter,5
+Repair Café Denmark,35,Watch/clock,20,Musical instrument,1
+Repair Café Denmark,35,Watch/clock,23,Portable radio,12
+Repair Café Denmark,35,Watch/clock,24,Power tool,27
+Repair Café Denmark,35,Watch/clock,25,Printer/scanner,9
+Repair Café Denmark,35,Watch/clock,26,Projector,1
+Repair Café Denmark,35,Watch/clock,27,Sewing machine,34
+Repair Café Denmark,35,Watch/clock,28,Small home electrical,19
+Repair Café Denmark,35,Watch/clock,29,Small kitchen item,13
+Repair Café Denmark,35,Watch/clock,3,Decorative or safety lights,7
+Repair Café Denmark,35,Watch/clock,30,Tablet,4
+Repair Café Denmark,35,Watch/clock,31,Toaster,6
+Repair Café Denmark,35,Watch/clock,32,Toy,10
+Repair Café Denmark,35,Watch/clock,33,TV and gaming-related accessories,18
+Repair Café Denmark,35,Watch/clock,34,Vacuum,24
+Repair Café Denmark,35,Watch/clock,36,Coffee maker,16
+Repair Café Denmark,35,Watch/clock,37,Food processor,33
+Repair Café Denmark,35,Watch/clock,38,Games console,1
+Repair Café Denmark,35,Watch/clock,39,Hair dryer,4
+Repair Café Denmark,35,Watch/clock,4,Desktop computer,4
+Repair Café Denmark,35,Watch/clock,40,Iron,3
+Repair Café Denmark,35,Watch/clock,5,Digital compact camera,2
+Repair Café Denmark,35,Watch/clock,6,DSLR/video camera,1
+Repair Café Denmark,35,Watch/clock,7,Fan,2
+Repair Café Denmark,35,Watch/clock,8,Flat screen,2
+Repair Café Denmark,35,Watch/clock,9,Hair & beauty item,5
+Repair Café Denmark,36,Coffee maker,1,Aircon/dehumidifier,1
+Repair Café Denmark,36,Coffee maker,10,Handheld entertainment device,4
+Repair Café Denmark,36,Coffee maker,11,Headphones,8
+Repair Café Denmark,36,Coffee maker,12,Hi-Fi integrated,3
+Repair Café Denmark,36,Coffee maker,13,Hi-Fi separates,40
+Repair Café Denmark,36,Coffee maker,14,Kettle,4
+Repair Café Denmark,36,Coffee maker,15,Lamp,44
+Repair Café Denmark,36,Coffee maker,16,Laptop,3
+Repair Café Denmark,36,Coffee maker,17,Large home electrical,7
+Repair Café Denmark,36,Coffee maker,18,Misc,1
+Repair Café Denmark,36,Coffee maker,19,Mobile,2
+Repair Café Denmark,36,Coffee maker,2,Battery/charger/adapter,12
+Repair Café Denmark,36,Coffee maker,22,PC accessory,7
+Repair Café Denmark,36,Coffee maker,23,Portable radio,20
+Repair Café Denmark,36,Coffee maker,24,Power tool,29
+Repair Café Denmark,36,Coffee maker,25,Printer/scanner,7
+Repair Café Denmark,36,Coffee maker,26,Projector,2
+Repair Café Denmark,36,Coffee maker,27,Sewing machine,30
+Repair Café Denmark,36,Coffee maker,28,Small home electrical,21
+Repair Café Denmark,36,Coffee maker,29,Small kitchen item,10
+Repair Café Denmark,36,Coffee maker,3,Decorative or safety lights,12
+Repair Café Denmark,36,Coffee maker,30,Tablet,2
+Repair Café Denmark,36,Coffee maker,31,Toaster,8
+Repair Café Denmark,36,Coffee maker,32,Toy,10
+Repair Café Denmark,36,Coffee maker,33,TV and gaming-related accessories,13
+Repair Café Denmark,36,Coffee maker,34,Vacuum,31
+Repair Café Denmark,36,Coffee maker,35,Watch/clock,17
+Repair Café Denmark,36,Coffee maker,37,Food processor,30
+Repair Café Denmark,36,Coffee maker,38,Games console,3
+Repair Café Denmark,36,Coffee maker,39,Hair dryer,1
+Repair Café Denmark,36,Coffee maker,4,Desktop computer,8
+Repair Café Denmark,36,Coffee maker,40,Iron,5
+Repair Café Denmark,36,Coffee maker,6,DSLR/video camera,3
+Repair Café Denmark,36,Coffee maker,7,Fan,1
+Repair Café Denmark,36,Coffee maker,8,Flat screen,7
+Repair Café Denmark,36,Coffee maker,9,Hair & beauty item,7
+Repair Café Denmark,37,Food processor,1,Aircon/dehumidifier,1
+Repair Café Denmark,37,Food processor,10,Handheld entertainment device,7
+Repair Café Denmark,37,Food processor,11,Headphones,10
+Repair Café Denmark,37,Food processor,12,Hi-Fi integrated,8
+Repair Café Denmark,37,Food processor,13,Hi-Fi separates,58
+Repair Café Denmark,37,Food processor,14,Kettle,20
+Repair Café Denmark,37,Food processor,15,Lamp,68
+Repair Café Denmark,37,Food processor,16,Laptop,11
+Repair Café Denmark,37,Food processor,17,Large home electrical,28
+Repair Café Denmark,37,Food processor,19,Mobile,7
+Repair Café Denmark,37,Food processor,2,Battery/charger/adapter,14
+Repair Café Denmark,37,Food processor,20,Musical instrument,2
+Repair Café Denmark,37,Food processor,21,Paper shredder,5
+Repair Café Denmark,37,Food processor,22,PC accessory,3
+Repair Café Denmark,37,Food processor,23,Portable radio,46
+Repair Café Denmark,37,Food processor,24,Power tool,57
+Repair Café Denmark,37,Food processor,25,Printer/scanner,19
+Repair Café Denmark,37,Food processor,26,Projector,3
+Repair Café Denmark,37,Food processor,27,Sewing machine,68
+Repair Café Denmark,37,Food processor,28,Small home electrical,31
+Repair Café Denmark,37,Food processor,29,Small kitchen item,26
+Repair Café Denmark,37,Food processor,3,Decorative or safety lights,18
+Repair Café Denmark,37,Food processor,30,Tablet,6
+Repair Café Denmark,37,Food processor,31,Toaster,18
+Repair Café Denmark,37,Food processor,32,Toy,19
+Repair Café Denmark,37,Food processor,33,TV and gaming-related accessories,26
+Repair Café Denmark,37,Food processor,34,Vacuum,68
+Repair Café Denmark,37,Food processor,35,Watch/clock,25
+Repair Café Denmark,37,Food processor,36,Coffee maker,35
+Repair Café Denmark,37,Food processor,38,Games console,2
+Repair Café Denmark,37,Food processor,39,Hair dryer,15
+Repair Café Denmark,37,Food processor,4,Desktop computer,17
+Repair Café Denmark,37,Food processor,40,Iron,13
+Repair Café Denmark,37,Food processor,5,Digital compact camera,3
+Repair Café Denmark,37,Food processor,7,Fan,3
+Repair Café Denmark,37,Food processor,8,Flat screen,8
+Repair Café Denmark,37,Food processor,9,Hair & beauty item,19
+Repair Café Denmark,38,Games console,12,Hi-Fi integrated,3
+Repair Café Denmark,38,Games console,13,Hi-Fi separates,4
+Repair Café Denmark,38,Games console,15,Lamp,3
+Repair Café Denmark,38,Games console,24,Power tool,2
+Repair Café Denmark,38,Games console,25,Printer/scanner,1
+Repair Café Denmark,38,Games console,27,Sewing machine,1
+Repair Café Denmark,38,Games console,28,Small home electrical,3
+Repair Café Denmark,38,Games console,3,Decorative or safety lights,1
+Repair Café Denmark,38,Games console,32,Toy,3
+Repair Café Denmark,38,Games console,34,Vacuum,1
+Repair Café Denmark,38,Games console,36,Coffee maker,2
+Repair Café Denmark,38,Games console,37,Food processor,2
+Repair Café Denmark,38,Games console,39,Hair dryer,2
+Repair Café Denmark,38,Games console,5,Digital compact camera,1
+Repair Café Denmark,38,Games console,7,Fan,1
+Repair Café Denmark,38,Games console,8,Flat screen,1
+Repair Café Denmark,39,Hair dryer,13,Hi-Fi separates,7
+Repair Café Denmark,39,Hair dryer,15,Lamp,22
+Repair Café Denmark,39,Hair dryer,17,Large home electrical,2
+Repair Café Denmark,39,Hair dryer,2,Battery/charger/adapter,1
+Repair Café Denmark,39,Hair dryer,23,Portable radio,7
+Repair Café Denmark,39,Hair dryer,24,Power tool,6
+Repair Café Denmark,39,Hair dryer,25,Printer/scanner,1
+Repair Café Denmark,39,Hair dryer,26,Projector,2
+Repair Café Denmark,39,Hair dryer,27,Sewing machine,5
+Repair Café Denmark,39,Hair dryer,28,Small home electrical,7
+Repair Café Denmark,39,Hair dryer,29,Small kitchen item,1
+Repair Café Denmark,39,Hair dryer,3,Decorative or safety lights,2
+Repair Café Denmark,39,Hair dryer,31,Toaster,1
+Repair Café Denmark,39,Hair dryer,32,Toy,3
+Repair Café Denmark,39,Hair dryer,33,TV and gaming-related accessories,3
+Repair Café Denmark,39,Hair dryer,34,Vacuum,10
+Repair Café Denmark,39,Hair dryer,35,Watch/clock,5
+Repair Café Denmark,39,Hair dryer,36,Coffee maker,6
+Repair Café Denmark,39,Hair dryer,37,Food processor,6
+Repair Café Denmark,39,Hair dryer,4,Desktop computer,5
+Repair Café Denmark,39,Hair dryer,40,Iron,1
+Repair Café Denmark,39,Hair dryer,5,Digital compact camera,1
+Repair Café Denmark,39,Hair dryer,6,DSLR/video camera,1
+Repair Café Denmark,39,Hair dryer,7,Fan,1
+Repair Café Denmark,4,Desktop computer,11,Headphones,2
+Repair Café Denmark,4,Desktop computer,13,Hi-Fi separates,13
+Repair Café Denmark,4,Desktop computer,14,Kettle,1
+Repair Café Denmark,4,Desktop computer,15,Lamp,13
+Repair Café Denmark,4,Desktop computer,16,Laptop,2
+Repair Café Denmark,4,Desktop computer,17,Large home electrical,10
+Repair Café Denmark,4,Desktop computer,19,Mobile,3
+Repair Café Denmark,4,Desktop computer,2,Battery/charger/adapter,1
+Repair Café Denmark,4,Desktop computer,20,Musical instrument,1
+Repair Café Denmark,4,Desktop computer,21,Paper shredder,1
+Repair Café Denmark,4,Desktop computer,22,PC accessory,1
+Repair Café Denmark,4,Desktop computer,23,Portable radio,7
+Repair Café Denmark,4,Desktop computer,24,Power tool,8
+Repair Café Denmark,4,Desktop computer,25,Printer/scanner,3
+Repair Café Denmark,4,Desktop computer,27,Sewing machine,10
+Repair Café Denmark,4,Desktop computer,28,Small home electrical,2
+Repair Café Denmark,4,Desktop computer,29,Small kitchen item,2
+Repair Café Denmark,4,Desktop computer,3,Decorative or safety lights,4
+Repair Café Denmark,4,Desktop computer,30,Tablet,2
+Repair Café Denmark,4,Desktop computer,31,Toaster,6
+Repair Café Denmark,4,Desktop computer,32,Toy,2
+Repair Café Denmark,4,Desktop computer,33,TV and gaming-related accessories,3
+Repair Café Denmark,4,Desktop computer,34,Vacuum,18
+Repair Café Denmark,4,Desktop computer,35,Watch/clock,6
+Repair Café Denmark,4,Desktop computer,36,Coffee maker,10
+Repair Café Denmark,4,Desktop computer,37,Food processor,16
+Repair Café Denmark,4,Desktop computer,39,Hair dryer,2
+Repair Café Denmark,4,Desktop computer,40,Iron,2
+Repair Café Denmark,4,Desktop computer,7,Fan,2
+Repair Café Denmark,4,Desktop computer,8,Flat screen,1
+Repair Café Denmark,4,Desktop computer,9,Hair & beauty item,4
+Repair Café Denmark,40,Iron,1,Aircon/dehumidifier,1
+Repair Café Denmark,40,Iron,10,Handheld entertainment device,1
+Repair Café Denmark,40,Iron,11,Headphones,1
+Repair Café Denmark,40,Iron,12,Hi-Fi integrated,4
+Repair Café Denmark,40,Iron,13,Hi-Fi separates,16
+Repair Café Denmark,40,Iron,14,Kettle,3
+Repair Café Denmark,40,Iron,15,Lamp,9
+Repair Café Denmark,40,Iron,16,Laptop,2
+Repair Café Denmark,40,Iron,17,Large home electrical,5
+Repair Café Denmark,40,Iron,19,Mobile,2
+Repair Café Denmark,40,Iron,2,Battery/charger/adapter,5
+Repair Café Denmark,40,Iron,23,Portable radio,4
+Repair Café Denmark,40,Iron,24,Power tool,7
+Repair Café Denmark,40,Iron,25,Printer/scanner,7
+Repair Café Denmark,40,Iron,26,Projector,1
+Repair Café Denmark,40,Iron,27,Sewing machine,11
+Repair Café Denmark,40,Iron,28,Small home electrical,9
+Repair Café Denmark,40,Iron,29,Small kitchen item,3
+Repair Café Denmark,40,Iron,3,Decorative or safety lights,1
+Repair Café Denmark,40,Iron,30,Tablet,2
+Repair Café Denmark,40,Iron,31,Toaster,2
+Repair Café Denmark,40,Iron,33,TV and gaming-related accessories,3
+Repair Café Denmark,40,Iron,34,Vacuum,4
+Repair Café Denmark,40,Iron,35,Watch/clock,3
+Repair Café Denmark,40,Iron,36,Coffee maker,7
+Repair Café Denmark,40,Iron,37,Food processor,8
+Repair Café Denmark,40,Iron,39,Hair dryer,1
+Repair Café Denmark,40,Iron,4,Desktop computer,4
+Repair Café Denmark,40,Iron,7,Fan,1
+Repair Café Denmark,40,Iron,8,Flat screen,2
+Repair Café Denmark,5,Digital compact camera,11,Headphones,2
+Repair Café Denmark,5,Digital compact camera,13,Hi-Fi separates,1
+Repair Café Denmark,5,Digital compact camera,14,Kettle,3
+Repair Café Denmark,5,Digital compact camera,15,Lamp,3
+Repair Café Denmark,5,Digital compact camera,19,Mobile,1
+Repair Café Denmark,5,Digital compact camera,21,Paper shredder,1
+Repair Café Denmark,5,Digital compact camera,22,PC accessory,1
+Repair Café Denmark,5,Digital compact camera,23,Portable radio,1
+Repair Café Denmark,5,Digital compact camera,24,Power tool,6
+Repair Café Denmark,5,Digital compact camera,25,Printer/scanner,3
+Repair Café Denmark,5,Digital compact camera,27,Sewing machine,2
+Repair Café Denmark,5,Digital compact camera,29,Small kitchen item,1
+Repair Café Denmark,5,Digital compact camera,31,Toaster,1
+Repair Café Denmark,5,Digital compact camera,32,Toy,3
+Repair Café Denmark,5,Digital compact camera,33,TV and gaming-related accessories,1
+Repair Café Denmark,5,Digital compact camera,34,Vacuum,1
+Repair Café Denmark,5,Digital compact camera,35,Watch/clock,1
+Repair Café Denmark,5,Digital compact camera,36,Coffee maker,4
+Repair Café Denmark,5,Digital compact camera,37,Food processor,4
+Repair Café Denmark,6,DSLR/video camera,1,Aircon/dehumidifier,1
+Repair Café Denmark,6,DSLR/video camera,12,Hi-Fi integrated,1
+Repair Café Denmark,6,DSLR/video camera,15,Lamp,1
+Repair Café Denmark,6,DSLR/video camera,17,Large home electrical,1
+Repair Café Denmark,6,DSLR/video camera,23,Portable radio,1
+Repair Café Denmark,6,DSLR/video camera,24,Power tool,1
+Repair Café Denmark,6,DSLR/video camera,26,Projector,1
+Repair Café Denmark,6,DSLR/video camera,27,Sewing machine,1
+Repair Café Denmark,6,DSLR/video camera,28,Small home electrical,2
+Repair Café Denmark,6,DSLR/video camera,32,Toy,2
+Repair Café Denmark,6,DSLR/video camera,34,Vacuum,2
+Repair Café Denmark,6,DSLR/video camera,37,Food processor,2
+Repair Café Denmark,6,DSLR/video camera,4,Desktop computer,1
+Repair Café Denmark,6,DSLR/video camera,5,Digital compact camera,1
+Repair Café Denmark,7,Fan,1,Aircon/dehumidifier,1
+Repair Café Denmark,7,Fan,11,Headphones,1
+Repair Café Denmark,7,Fan,13,Hi-Fi separates,3
+Repair Café Denmark,7,Fan,15,Lamp,4
+Repair Café Denmark,7,Fan,2,Battery/charger/adapter,2
+Repair Café Denmark,7,Fan,23,Portable radio,1
+Repair Café Denmark,7,Fan,24,Power tool,4
+Repair Café Denmark,7,Fan,25,Printer/scanner,4
+Repair Café Denmark,7,Fan,27,Sewing machine,6
+Repair Café Denmark,7,Fan,28,Small home electrical,3
+Repair Café Denmark,7,Fan,29,Small kitchen item,1
+Repair Café Denmark,7,Fan,3,Decorative or safety lights,2
+Repair Café Denmark,7,Fan,31,Toaster,3
+Repair Café Denmark,7,Fan,33,TV and gaming-related accessories,1
+Repair Café Denmark,7,Fan,36,Coffee maker,2
+Repair Café Denmark,7,Fan,37,Food processor,4
+Repair Café Denmark,8,Flat screen,10,Handheld entertainment device,3
+Repair Café Denmark,8,Flat screen,11,Headphones,3
+Repair Café Denmark,8,Flat screen,12,Hi-Fi integrated,1
+Repair Café Denmark,8,Flat screen,13,Hi-Fi separates,10
+Repair Café Denmark,8,Flat screen,14,Kettle,4
+Repair Café Denmark,8,Flat screen,15,Lamp,21
+Repair Café Denmark,8,Flat screen,16,Laptop,1
+Repair Café Denmark,8,Flat screen,17,Large home electrical,2
+Repair Café Denmark,8,Flat screen,19,Mobile,1
+Repair Café Denmark,8,Flat screen,22,PC accessory,1
+Repair Café Denmark,8,Flat screen,23,Portable radio,3
+Repair Café Denmark,8,Flat screen,24,Power tool,8
+Repair Café Denmark,8,Flat screen,25,Printer/scanner,2
+Repair Café Denmark,8,Flat screen,26,Projector,1
+Repair Café Denmark,8,Flat screen,27,Sewing machine,10
+Repair Café Denmark,8,Flat screen,28,Small home electrical,5
+Repair Café Denmark,8,Flat screen,29,Small kitchen item,1
+Repair Café Denmark,8,Flat screen,3,Decorative or safety lights,4
+Repair Café Denmark,8,Flat screen,30,Tablet,1
+Repair Café Denmark,8,Flat screen,31,Toaster,1
+Repair Café Denmark,8,Flat screen,32,Toy,1
+Repair Café Denmark,8,Flat screen,33,TV and gaming-related accessories,2
+Repair Café Denmark,8,Flat screen,34,Vacuum,10
+Repair Café Denmark,8,Flat screen,35,Watch/clock,2
+Repair Café Denmark,8,Flat screen,36,Coffee maker,2
+Repair Café Denmark,8,Flat screen,37,Food processor,8
+Repair Café Denmark,8,Flat screen,39,Hair dryer,1
+Repair Café Denmark,8,Flat screen,6,DSLR/video camera,1
+Repair Café Denmark,8,Flat screen,9,Hair & beauty item,1
+Repair Café Denmark,9,Hair & beauty item,1,Aircon/dehumidifier,1
+Repair Café Denmark,9,Hair & beauty item,11,Headphones,2
+Repair Café Denmark,9,Hair & beauty item,12,Hi-Fi integrated,7
+Repair Café Denmark,9,Hair & beauty item,13,Hi-Fi separates,13
+Repair Café Denmark,9,Hair & beauty item,14,Kettle,3
+Repair Café Denmark,9,Hair & beauty item,15,Lamp,12
+Repair Café Denmark,9,Hair & beauty item,16,Laptop,2
+Repair Café Denmark,9,Hair & beauty item,17,Large home electrical,3
+Repair Café Denmark,9,Hair & beauty item,2,Battery/charger/adapter,2
+Repair Café Denmark,9,Hair & beauty item,20,Musical instrument,1
+Repair Café Denmark,9,Hair & beauty item,22,PC accessory,2
+Repair Café Denmark,9,Hair & beauty item,23,Portable radio,7
+Repair Café Denmark,9,Hair & beauty item,24,Power tool,8
+Repair Café Denmark,9,Hair & beauty item,25,Printer/scanner,1
+Repair Café Denmark,9,Hair & beauty item,26,Projector,2
+Repair Café Denmark,9,Hair & beauty item,27,Sewing machine,12
+Repair Café Denmark,9,Hair & beauty item,28,Small home electrical,8
+Repair Café Denmark,9,Hair & beauty item,29,Small kitchen item,7
+Repair Café Denmark,9,Hair & beauty item,3,Decorative or safety lights,2
+Repair Café Denmark,9,Hair & beauty item,31,Toaster,3
+Repair Café Denmark,9,Hair & beauty item,32,Toy,1
+Repair Café Denmark,9,Hair & beauty item,33,TV and gaming-related accessories,5
+Repair Café Denmark,9,Hair & beauty item,34,Vacuum,16
+Repair Café Denmark,9,Hair & beauty item,35,Watch/clock,7
+Repair Café Denmark,9,Hair & beauty item,36,Coffee maker,8
+Repair Café Denmark,9,Hair & beauty item,37,Food processor,15
+Repair Café Denmark,9,Hair & beauty item,39,Hair dryer,4
+Repair Café Denmark,9,Hair & beauty item,4,Desktop computer,1
+Repair Café Denmark,9,Hair & beauty item,40,Iron,2
+Repair Café Denmark,9,Hair & beauty item,5,Digital compact camera,1
+Repair Café Denmark,9,Hair & beauty item,7,Fan,2
+Repair Café Denmark,9,Hair & beauty item,8,Flat screen,1
+Repair Café International,10,Handheld entertainment device,28,Small home electrical,3
+Repair Café International,13,Hi-Fi separates,10,Handheld entertainment device,9
+Repair Café International,13,Hi-Fi separates,12,Hi-Fi integrated,33
+Repair Café International,13,Hi-Fi separates,23,Portable radio,6
+Repair Café International,15,Lamp,28,Small home electrical,7
+Repair Café International,15,Lamp,3,Decorative or safety lights,13
+Repair Café International,17,Large home electrical,24,Power tool,330
+Repair Café International,17,Large home electrical,28,Small home electrical,2
+Repair Café International,17,Large home electrical,29,Small kitchen item,7
+Repair Café International,17,Large home electrical,32,Toy,3
+Repair Café International,19,Mobile,28,Small home electrical,6
+Repair Café International,2,Battery/charger/adapter,22,PC accessory,1
+Repair Café International,2,Battery/charger/adapter,28,Small home electrical,2
+Repair Café International,22,PC accessory,2,Battery/charger/adapter,15
+Repair Café International,22,PC accessory,30,Tablet,1
+Repair Café International,22,PC accessory,33,TV and gaming-related accessories,6
+Repair Café International,24,Power tool,10,Handheld entertainment device,1
+Repair Café International,24,Power tool,17,Large home electrical,13
+Repair Café International,24,Power tool,2,Battery/charger/adapter,1
+Repair Café International,24,Power tool,28,Small home electrical,16
+Repair Café International,24,Power tool,3,Decorative or safety lights,1
+Repair Café International,24,Power tool,34,Vacuum,143
+Repair Café International,24,Power tool,39,Hair dryer,4
+Repair Café International,24,Power tool,9,Hair & beauty item,4
+Repair Café International,25,Printer/scanner,28,Small home electrical,4
+Repair Café International,28,Small home electrical,15,Lamp,1
+Repair Café International,28,Small home electrical,17,Large home electrical,16
+Repair Café International,28,Small home electrical,19,Mobile,24
+Repair Café International,28,Small home electrical,2,Battery/charger/adapter,3
+Repair Café International,28,Small home electrical,21,Paper shredder,1
+Repair Café International,28,Small home electrical,23,Portable radio,1
+Repair Café International,28,Small home electrical,24,Power tool,292
+Repair Café International,28,Small home electrical,27,Sewing machine,2
+Repair Café International,28,Small home electrical,29,Small kitchen item,8
+Repair Café International,28,Small home electrical,3,Decorative or safety lights,34
+Repair Café International,28,Small home electrical,32,Toy,1
+Repair Café International,28,Small home electrical,33,TV and gaming-related accessories,1
+Repair Café International,28,Small home electrical,35,Watch/clock,2
+Repair Café International,28,Small home electrical,37,Food processor,1
+Repair Café International,28,Small home electrical,40,Iron,5
+Repair Café International,29,Small kitchen item,14,Kettle,17
+Repair Café International,29,Small kitchen item,17,Large home electrical,267
+Repair Café International,29,Small kitchen item,28,Small home electrical,225
+Repair Café International,29,Small kitchen item,34,Vacuum,60
+Repair Café International,29,Small kitchen item,37,Food processor,25
+Repair Café International,3,Decorative or safety lights,15,Lamp,118
+Repair Café International,3,Decorative or safety lights,32,Toy,1
+Repair Café International,30,Tablet,10,Handheld entertainment device,1
+Repair Café International,30,Tablet,32,Toy,5
+Repair Café International,32,Toy,10,Handheld entertainment device,35
+Repair Café International,32,Toy,13,Hi-Fi separates,1
+Repair Café International,32,Toy,15,Lamp,9
+Repair Café International,32,Toy,17,Large home electrical,2
+Repair Café International,32,Toy,28,Small home electrical,12
+Repair Café International,32,Toy,3,Decorative or safety lights,17
+Repair Café International,32,Toy,33,TV and gaming-related accessories,1
+Repair Café International,33,TV and gaming-related accessories,8,Flat screen,876
+Repair Café International,34,Vacuum,24,Power tool,44
+Repair Café International,35,Watch/clock,23,Portable radio,2
+Repair Café International,35,Watch/clock,28,Small home electrical,2
+Repair Café International,37,Food processor,14,Kettle,5
+Repair Café International,37,Food processor,17,Large home electrical,22
+Repair Café International,38,Games console,10,Handheld entertainment device,1
+Repair Café International,38,Games console,33,TV and gaming-related accessories,2
+Repair Café International,7,Fan,15,Lamp,1
+Repair Café Toronto,10,Handheld entertainment device,33,TV and gaming-related accessories,1
+Repair Café Toronto,16,Laptop,2,Battery/charger/adapter,1
+Repair Café Toronto,16,Laptop,4,Desktop computer,145
+Repair Café Toronto,24,Power tool,28,Small home electrical,2
+Repair Café Toronto,28,Small home electrical,12,Hi-Fi integrated,1
+Repair Café Toronto,28,Small home electrical,2,Battery/charger/adapter,1
+Repair Café Toronto,28,Small home electrical,33,TV and gaming-related accessories,3
+Repair Café Toronto,28,Small home electrical,37,Food processor,1
+Repair Café Toronto,29,Small kitchen item,28,Small home electrical,2
+Repair Café Toronto,29,Small kitchen item,37,Food processor,1
+Repair Café Toronto,30,Tablet,6,DSLR/video camera,1
+Repair Café Toronto,33,TV and gaming-related accessories,22,PC accessory,1
+Repair Café Toronto,9,Hair & beauty item,24,Power tool,1
+Repair Café Toronto,9,Hair & beauty item,28,Small home electrical,3
+The Restart Project,1,Aircon/dehumidifier,17,Large home electrical,1
+The Restart Project,1,Aircon/dehumidifier,7,Fan,1
+The Restart Project,10,Handheld entertainment device,13,Hi-Fi separates,4
+The Restart Project,10,Handheld entertainment device,2,Battery/charger/adapter,1
+The Restart Project,10,Handheld entertainment device,28,Small home electrical,2
+The Restart Project,10,Handheld entertainment device,3,Decorative or safety lights,1
+The Restart Project,10,Handheld entertainment device,30,Tablet,35
+The Restart Project,10,Handheld entertainment device,32,Toy,3
+The Restart Project,10,Handheld entertainment device,33,TV and gaming-related accessories,8
+The Restart Project,10,Handheld entertainment device,6,DSLR/video camera,8
+The Restart Project,11,Headphones,10,Handheld entertainment device,1
+The Restart Project,12,Hi-Fi integrated,10,Handheld entertainment device,2
+The Restart Project,12,Hi-Fi integrated,13,Hi-Fi separates,22
+The Restart Project,13,Hi-Fi separates,10,Handheld entertainment device,10
+The Restart Project,13,Hi-Fi separates,11,Headphones,1
+The Restart Project,13,Hi-Fi separates,12,Hi-Fi integrated,7
+The Restart Project,13,Hi-Fi separates,2,Battery/charger/adapter,1
+The Restart Project,13,Hi-Fi separates,33,TV and gaming-related accessories,31
+The Restart Project,14,Kettle,28,Small home electrical,1
+The Restart Project,15,Lamp,3,Decorative or safety lights,24
+The Restart Project,17,Large home electrical,24,Power tool,12
+The Restart Project,17,Large home electrical,28,Small home electrical,6
+The Restart Project,17,Large home electrical,32,Toy,2
+The Restart Project,17,Large home electrical,33,TV and gaming-related accessories,1
+The Restart Project,18,Misc,28,Small home electrical,4
+The Restart Project,2,Battery/charger/adapter,13,Hi-Fi separates,1
+The Restart Project,2,Battery/charger/adapter,17,Large home electrical,1
+The Restart Project,2,Battery/charger/adapter,28,Small home electrical,1
+The Restart Project,20,Musical instrument,21,Paper shredder,2
+The Restart Project,20,Musical instrument,22,PC accessory,1
+The Restart Project,22,PC accessory,10,Handheld entertainment device,3
+The Restart Project,22,PC accessory,2,Battery/charger/adapter,1
+The Restart Project,22,PC accessory,20,Musical instrument,1
+The Restart Project,22,PC accessory,28,Small home electrical,3
+The Restart Project,22,PC accessory,30,Tablet,1
+The Restart Project,22,PC accessory,4,Desktop computer,10
+The Restart Project,23,Portable radio,10,Handheld entertainment device,1
+The Restart Project,23,Portable radio,12,Hi-Fi integrated,25
+The Restart Project,23,Portable radio,13,Hi-Fi separates,3
+The Restart Project,24,Power tool,17,Large home electrical,45
+The Restart Project,24,Power tool,2,Battery/charger/adapter,2
+The Restart Project,24,Power tool,27,Sewing machine,1
+The Restart Project,24,Power tool,28,Small home electrical,22
+The Restart Project,24,Power tool,29,Small kitchen item,9
+The Restart Project,24,Power tool,34,Vacuum,4
+The Restart Project,24,Power tool,35,Watch/clock,9
+The Restart Project,24,Power tool,40,Iron,3
+The Restart Project,27,Sewing machine,2,Battery/charger/adapter,1
+The Restart Project,28,Small home electrical,10,Handheld entertainment device,4
+The Restart Project,28,Small home electrical,17,Large home electrical,58
+The Restart Project,28,Small home electrical,18,Misc,1
+The Restart Project,28,Small home electrical,19,Mobile,1
+The Restart Project,28,Small home electrical,2,Battery/charger/adapter,39
+The Restart Project,28,Small home electrical,24,Power tool,6
+The Restart Project,28,Small home electrical,29,Small kitchen item,12
+The Restart Project,28,Small home electrical,3,Decorative or safety lights,3
+The Restart Project,28,Small home electrical,32,Toy,2
+The Restart Project,28,Small home electrical,35,Watch/clock,3
+The Restart Project,28,Small home electrical,37,Food processor,5
+The Restart Project,28,Small home electrical,39,Hair dryer,1
+The Restart Project,28,Small home electrical,5,Digital compact camera,1
+The Restart Project,28,Small home electrical,7,Fan,1
+The Restart Project,28,Small home electrical,8,Flat screen,2
+The Restart Project,29,Small kitchen item,17,Large home electrical,17
+The Restart Project,29,Small kitchen item,24,Power tool,8
+The Restart Project,29,Small kitchen item,28,Small home electrical,11
+The Restart Project,29,Small kitchen item,31,Toaster,13
+The Restart Project,29,Small kitchen item,32,Toy,1
+The Restart Project,29,Small kitchen item,37,Food processor,25
+The Restart Project,29,Small kitchen item,40,Iron,27
+The Restart Project,3,Decorative or safety lights,15,Lamp,6
+The Restart Project,3,Decorative or safety lights,2,Battery/charger/adapter,2
+The Restart Project,3,Decorative or safety lights,26,Projector,1
+The Restart Project,3,Decorative or safety lights,29,Small kitchen item,2
+The Restart Project,3,Decorative or safety lights,32,Toy,1
+The Restart Project,30,Tablet,10,Handheld entertainment device,1
+The Restart Project,30,Tablet,16,Laptop,1
+The Restart Project,32,Toy,10,Handheld entertainment device,3
+The Restart Project,32,Toy,12,Hi-Fi integrated,1
+The Restart Project,32,Toy,15,Lamp,1
+The Restart Project,32,Toy,17,Large home electrical,2
+The Restart Project,32,Toy,28,Small home electrical,8
+The Restart Project,32,Toy,3,Decorative or safety lights,3
+The Restart Project,32,Toy,30,Tablet,2
+The Restart Project,33,TV and gaming-related accessories,10,Handheld entertainment device,1
+The Restart Project,33,TV and gaming-related accessories,11,Headphones,2
+The Restart Project,33,TV and gaming-related accessories,2,Battery/charger/adapter,4
+The Restart Project,34,Vacuum,16,Laptop,1
+The Restart Project,34,Vacuum,17,Large home electrical,1
+The Restart Project,34,Vacuum,24,Power tool,4
+The Restart Project,34,Vacuum,37,Food processor,2
+The Restart Project,35,Watch/clock,15,Lamp,1
+The Restart Project,35,Watch/clock,23,Portable radio,5
+The Restart Project,36,Coffee maker,29,Small kitchen item,3
+The Restart Project,36,Coffee maker,37,Food processor,2
+The Restart Project,36,Coffee maker,8,Flat screen,1
+The Restart Project,37,Food processor,28,Small home electrical,1
+The Restart Project,37,Food processor,29,Small kitchen item,9
+The Restart Project,38,Games console,10,Handheld entertainment device,2
+The Restart Project,38,Games console,33,TV and gaming-related accessories,1
+The Restart Project,4,Desktop computer,22,PC accessory,1
+The Restart Project,40,Iron,24,Power tool,2
+The Restart Project,40,Iron,29,Small kitchen item,2
+The Restart Project,5,Digital compact camera,28,Small home electrical,5
+The Restart Project,7,Fan,28,Small home electrical,1
+The Restart Project,8,Flat screen,16,Laptop,1
+The Restart Project,8,Flat screen,18,Misc,1
+The Restart Project,8,Flat screen,33,TV and gaming-related accessories,3
+The Restart Project,9,Hair & beauty item,17,Large home electrical,1
+The Restart Project,9,Hair & beauty item,28,Small home electrical,39
+anstiftung,1,Aircon/dehumidifier,28,Small home electrical,14
+anstiftung,10,Handheld entertainment device,13,Hi-Fi separates,484
+anstiftung,10,Handheld entertainment device,28,Small home electrical,15
+anstiftung,12,Hi-Fi integrated,10,Handheld entertainment device,67
+anstiftung,12,Hi-Fi integrated,13,Hi-Fi separates,105
+anstiftung,12,Hi-Fi integrated,23,Portable radio,4
+anstiftung,13,Hi-Fi separates,10,Handheld entertainment device,240
+anstiftung,13,Hi-Fi separates,33,TV and gaming-related accessories,23
+anstiftung,17,Large home electrical,1,Aircon/dehumidifier,6
+anstiftung,17,Large home electrical,2,Battery/charger/adapter,2
+anstiftung,17,Large home electrical,29,Small kitchen item,34
+anstiftung,22,PC accessory,13,Hi-Fi separates,1
+anstiftung,22,PC accessory,28,Small home electrical,6
+anstiftung,22,PC accessory,6,DSLR/video camera,2
+anstiftung,23,Portable radio,13,Hi-Fi separates,29
+anstiftung,24,Power tool,17,Large home electrical,2
+anstiftung,24,Power tool,2,Battery/charger/adapter,12
+anstiftung,25,Printer/scanner,17,Large home electrical,1
+anstiftung,28,Small home electrical,17,Large home electrical,136
+anstiftung,28,Small home electrical,2,Battery/charger/adapter,4
+anstiftung,28,Small home electrical,24,Power tool,132
+anstiftung,28,Small home electrical,27,Sewing machine,1
+anstiftung,28,Small home electrical,29,Small kitchen item,17
+anstiftung,28,Small home electrical,3,Decorative or safety lights,4
+anstiftung,28,Small home electrical,30,Tablet,32
+anstiftung,28,Small home electrical,34,Vacuum,104
+anstiftung,28,Small home electrical,37,Food processor,3
+anstiftung,28,Small home electrical,40,Iron,131
+anstiftung,29,Small kitchen item,17,Large home electrical,1
+anstiftung,29,Small kitchen item,28,Small home electrical,38
+anstiftung,29,Small kitchen item,35,Watch/clock,10
+anstiftung,29,Small kitchen item,36,Coffee maker,4
+anstiftung,29,Small kitchen item,37,Food processor,32
+anstiftung,3,Decorative or safety lights,15,Lamp,48
+anstiftung,30,Tablet,22,PC accessory,2
+anstiftung,33,TV and gaming-related accessories,10,Handheld entertainment device,6
+anstiftung,33,TV and gaming-related accessories,13,Hi-Fi separates,121
+anstiftung,33,TV and gaming-related accessories,32,Toy,11

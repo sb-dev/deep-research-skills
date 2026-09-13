@@ -35,3 +35,5 @@ Benchmark mapping: `EX-L1-01`; L02/L04/L05; K01/K03/K11. See the [evaluation lay
 ## Recorded execution
 
 The [L1-01 run](../../benchmarks/core-vertical/l1-01/README.md) contains the actual research report, source trail, fixed-input audit and preserved provenance correction. Its execution record identifies the source-checkout environment and review scope.
+
+[Progressive run](../../benchmarks/progressive/research/l1-01/research.md) contains the actual source-checkout output and its stated support and access limits. Review scope is labelled in the output.

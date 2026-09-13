@@ -1,0 +1,57 @@
+[
+  {
+    "local": "sources/data-README.md",
+    "url": "https://github.com/openrepair/data/blob/90eba80740506b4fa283288780d34e9e7e01deef/README.md",
+    "git_blob": "e09c07daffbce5c13fe2b37a208d16927105c4ce",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "local": "sources/aggregated-README.md",
+    "url": "https://github.com/openrepair/data/blob/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/README.md",
+    "git_blob": "6dc282a54c9770fb241b1ff46d58faf75c3aefba",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "local": "sources/tableschema-202507.json",
+    "url": "https://github.com/openrepair/data/blob/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202507/tableschema.json",
+    "git_blob": "23fe8abb50bec716198266af0b4751ab927ce17a",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "local": "sources/tableschema-202407.json",
+    "url": "https://github.com/openrepair/data/blob/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202407/tableschema.json",
+    "git_blob": "be2ffd9ed94706507508263450a3fa014e05a93b",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "local": "sources/categories.csv",
+    "url": "https://github.com/openrepair/data/blob/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202507/OpenRepairData_v0.3_Product_Categories.csv",
+    "git_blob": "7dccfc83b37ad210cafc2eb429e0f6072d69b2d7",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "local": "sources/standard.rst",
+    "url": "https://github.com/openrepair/datastandard/blob/c1a1f2979937a3a481782d3afbde1b62f9b24b58/standard.rst",
+    "git_blob": "888fefbec1cbf0515eca74aa740bb51a2baaef5b",
+    "access": "complete text via GitHub file tool; local copy normalized CRLF to LF",
+    "retrieved_at": "2026-09-13"
+  },
+  {
+    "url": "https://openrepair.org/open-data/downloads/",
+    "access": "web text lines 29-54,88-90 inspected",
+    "retrieved_at": "2026-09-13",
+    "evidence": "ORA repair group records; row-by-row EEE and summary non-EEE; 305649 EEE rows; October 2025 publication includes data to July 2025; ORDS v0.3; CC BY-SA 4.0"
+  },
+  {
+    "url": "https://openrepair.org/repair-data/open-repair-alliance-repair-data-for-2025-over-400000-items-logged/",
+    "publication_date": "2025-10-16",
+    "retrieved_at": "2026-09-13",
+    "access": "web text lines29-64 inspected",
+    "evidence": "Cumulative since-records-began scope; 208491 versus305649 powered counts; experimental first non-EEE aggregate summary introduced; not row-by-row unpowered data."
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "headers": {
+    "202407": [
+      "id",
+      "data_provider",
+      "country",
+      "partner_product_category",
+      "product_category",
+      "product_category_id",
+      "brand",
+      "year_of_manufacture",
+      "product_age",
+      "repair_status",
+      "repair_barrier_if_end_of_life",
+      "group_identifier",
+      "event_date",
+      "problem"
+    ],
+    "202507": [
+      "id",
+      "data_provider",
+      "country",
+      "partner_product_category",
+      "product_category",
+      "product_category_id",
+      "brand",
+      "year_of_manufacture",
+      "product_age",
+      "repair_status",
+      "repair_barrier_if_end_of_life",
+      "group_identifier",
+      "event_date",
+      "problem"
+    ]
+  },
+  "event_date_range": {
+    "202407": [
+      "2012-06-12",
+      "2024-07-31"
+    ],
+    "202507": [
+      "2012-06-12",
+      "2025-07-31"
+    ]
+  },
+  "mapping_mismatches": {
+    "202407": 0,
+    "202507": 0
+  },
+  "missing_keys": {
+    "202407": 0,
+    "202507": 0
+  },
+  "input_hashes": {
+    "aggregated/202407/OpenRepairData_v0.3_aggregate_202407.csv": "f2c04a26b4e490893ecab559dea08a684b7f9198b1ac03072ac1b094e5cc6b6e",
+    "aggregated/202507/OpenRepairData_v0.3_aggregate_202507.csv": "364d741b39b40ce955a5a9f83adf9776b3f40f2f857cc2cd96b6ae1818aabe82",
+    "aggregated/202507/OpenRepairData_v0.3_unpowered_202507.csv": "0a27af4cfb5187059f68efe11e21df5fbe66f99050e0520c96eeb1dc38f660aa"
+  },
+  "unpowered_summary_cells": 156,
+  "duplicate_keys": {
+    "202407": [
+      0,
+      0
+    ],
+    "202507": [
+      0,
+      0
+    ]
+  },
+  "shared_unambiguous_keys": 201201,
+  "identical_full_rows": 165311,
+  "changed_full_rows": 35890,
+  "changed_status": 5277,
+  "changed_category": 15364,
+  "only_202407_keys": 7290,
+  "only_202507_keys": 104448,
+  "powered_schema_fields_equal": true,
+  "resource_names": {
+    "202407": [
+      "OpenRepairData_v0.3_aggregate_202407.csv",
+      "OpenRepairData_v0.3_Product_Categories.csv"
+    ],
+    "202507": [
+      "OpenRepairData_v0.3_aggregate_202507.csv",
+      "OpenRepairData_v0.3_Product_Categories.csv",
+      "OpenRepairData_v0.3_unpowered_202507.csv"
+    ]
+  },
+  "category_codelist_same_git_blob": "7dccfc83b37ad210cafc2eb429e0f6072d69b2d7"
+}

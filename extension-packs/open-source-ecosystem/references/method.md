@@ -1,0 +1,18 @@
+# Open-source evidence method
+
+Use repository/revision/file as the documentary unit; keep package, deployment configuration, source code, release and executed result distinct. Pin a meaningful repository revision before consequential claims. Reconcile README setup with package constraints and deployment settings at that revision. Inspect the code/configuration behind at least one consequential capability or failure-handling claim. If a path looks risky, name the trigger, possible consequence and smallest discriminating test; do not label the risk an observed failure.
+
+Use a bounded maintenance/history sample when relevant and state what was sampled. A commit, badge or star count cannot establish operational suitability. Distinguish the repository's top-level licence from dependency, model, dataset and hosted-service terms; unresolved terms remain review work. No automatic installation, external execution or legal clearance follows from this method.
+
+Return conditional adoption criteria: documented capability, inspected implementation, actually executed check (if authorised), unknown, and the test needed to resolve it. Refresh only claims dependent on changed files or validation. Audit source identity, cross-file agreement, licence scope and static/executed wording separately.
+
+Method basis: [OpenSSF Scorecard README, What is Scorecard / Project Non-Goals](https://github.com/ossf/scorecard/blob/main/README.md), actual GitHub read 2026-09-13. The maintainers describe security checks as heuristics with false positives and false negatives, and explain why an aggregate score does not identify individual repository behaviours. This supports claim-specific inspection rather than a universal assurance score. Pinning, cross-file reconciliation and risk-to-test mapping here are explicit research-method choices; no Scorecard scan or runtime test is claimed.
+
+
+## Configurable limits and failure boundaries
+
+When adoption depends on a configurable limit or failure-handling promise, follow the relevant value from documented/default setting through input selection, conversion/validation and its consuming branch. Compare the units actually counted (requests, batches, iterations or retries) and whether enforcement happens before or after work. A UI range or type annotation alone does not establish enforcement.
+
+Use boundary-value analysis to turn the consequential uncertainty into a small discriminating test design. Select representative values around the actual branch boundary, including omitted or false-valued input when the loader treats it differently, and competing input channels when precedence matters. Derive the expected branch and observable effect from inspected expressions; separate that static prediction from the behaviour the consumer requires. Specify the test input, observation point and rejection condition. This should expose which result would disprove a claimed limit, not merely say to test it. Do not enumerate every setting: follow the one or two paths that matter to the adoption decision, within the existing source/read budget. Unseen conversion, state or helper behaviour stays unresolved; no execution authority is added.
+
+Method basis for this addition: Dobslaw, Feldt and de Oliveira Neto, [Automated Black-Box Boundary Value Detection, arXiv:2207.09065v1](https://arxiv.org/abs/2207.09065v1), abstract inspected 2026-09-13. The authors motivate selecting nearby inputs across behavioural boundaries. This pack applies that general testing principle to manual static inspection and unexecuted test design; it does not implement or claim validation of their AutoBVA algorithm. The input-channel and counter-tracing guidance is a reusable authoring choice for repository adoption research.

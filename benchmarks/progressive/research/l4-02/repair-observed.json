@@ -1,0 +1,37 @@
+{
+  "target": [
+    "202507",
+    "powered",
+    "ALL",
+    "Fixed"
+  ],
+  "before": {
+    "snapshot": "202507",
+    "coverage": "powered",
+    "data_provider": "ALL",
+    "repair_status": "Fixed",
+    "count": "165144",
+    "denominator_all_statuses": "296902",
+    "share": "0.556223939212"
+  },
+  "after": {
+    "snapshot": "202507",
+    "coverage": "powered",
+    "data_provider": "ALL",
+    "repair_status": "Fixed",
+    "count": "165144",
+    "denominator_all_statuses": "305649",
+    "share": "0.540306037317"
+  },
+  "changed_fields": [
+    "denominator_all_statuses",
+    "share"
+  ],
+  "changed_rows": 1,
+  "unaffected_rows": 103,
+  "before_sha256": "a499008c1c36b06073238902124b242856402e3bbb70103e732b24ad346a996b",
+  "after_sha256": "082987fcb19339207aa0e7548bfd428bbee90ccfeb236737c5731917ba0be7a2",
+  "equals_unmodified_original": true,
+  "inputs_reacquired": false,
+  "original_calculation_rerun": false
+}

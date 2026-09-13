@@ -1,0 +1,608 @@
+URL: https://www.crossref.org/blog/highlights-of-a-very-busy-year-our-2025-annual-report/
+Final URL: https://www.crossref.org/blog/highlights-of-a-very-busy-year-our-2025-annual-report/
+Retrieved: 2026-09-13
+Representation: full-page HTML parsed to text with script/style removed; not immutable archive
+
+Highlights of a very busy year: our 2025 annual report - Crossref
+Menu
+Home
+Home
+Join
+Members
+Documentation
+Forum
+Blog
+Contact
+Get involved
+Overview
+Become a member
+Events
+Service providers
+Special programs
+Working for you
+Data citation
+Sponsors program
+Ambassadors
+Working groups
+Code of conduct
+Fees
+API Learning Hub
+Find a service
+Overview
+Content Registration
+Metadata Retrieval
+Metadata Plus
+Grant Linking System (GLS)
+Research Organization Registry (ROR)
+Open Funder Registry (OFR)
+Support for Reference Linking
+Similarity Check
+Cited-by
+Crossmark
+Documentation
+Overview
+Setting up as a member
+The Research Nexus
+Metadata principles and practices
+Register and maintain your records
+Schema library
+Reports
+Crossmark
+Cited-by
+Similarity Check
+Metadata Retrieval
+About us
+Overview
+Operations & sustainability
+Board & governance
+Publications
+Strategic agenda and roadmap
+Our truths
+Our people
+Organisation chart
+Jobs
+Latest blog posts
+2026 August 26
+What does it mean to be a global remote team
+We’ve had a year full of growth and reached a milestone of 60+ team members; let’s take a moment to digest what that means for people operations. Hiring staff in 19+ countries is no easy task, but we are up for it, and I can honestly say it is the main reason why our culture is so great. That might sound biased coming from Crossref’s first
+Head of Human Resources
+, but hear me out.
+...Find out more
+2026 August 20
+Registering rich metadata for books, chapters, reports, dissertations, and updates just got easier
+You can now register rich metadata for a variety of record types in
+Metadata Manager
+using simple, guided workflows. The tool is used by many in our community to register
+grant
+and
+journal article
+records, and it has now been expanded to support books and chapters, reports, dissertations, and
+post-publication updates for journal content
+.
+Metadata Manager makes it easier to capture identifiers for contributors and their affiliations, funding information, references, and more. Thanks to automated reference matching by Crossref, this offers greater visibility for the works, while the affiliations and funding information can serve as important trust signals for the community.
+...Find out more
+2026 August 19
+To go far, go together: reflections from FORCE2026
+This year’s edition of the
+FORCE11
+conference was hosted in June by
+Singapore Management University
+. Its title, “To Go Far, Go Together: Advancing Scholarly Communication Across Boundaries and Disruptions” truly resonates with Crossref’s
+truths
+; it takes a village! Crossref only works as long as the scholarly research community wants to work together globally, across all disciplines, for integrity and openness of the scientific record. The conversations were influenced by a genuinely diverse mix of librarians, researchers, open infrastructures, and service providers, and that mix shaped almost every interaction we had at the conference.
+...Find out more
+2026 August 13
+Fee update: lowering and removing DOI registration fees in January 2027
+We have some rather unusual news to share: Crossref fees are going down again. At its meeting in Paris earlier this month, the Crossref Board approved two further recommendations from the
+Resourcing Crossref for Future Sustainability (RCFS)
+project: effective 1st January 2027, we will reduce the majority of Content Registration fees for all 25,000 members, and remove fees for back-year records altogether.
+Content Registration fees haven’t increased in around 20 years, and this is the first significant change to them in that time—downwards. Since these fees account for the largest share of Crossref’s revenue (around 60%), and since every member registers DOI records, these changes reach further than anything we’ve announced under the RCFS project so far.
+...Find out more
+Menu
+search
+Blog
+Home
+>
+Blog
+>
+Highlights of a very busy year: our 2025 annual report
+https://doi.org/10.64000/hsdpk-8cm70
+22 minute read.
+Highlights of a very busy year: our 2025 annual report
+Ginny Hendricks
+,
+Amanda Bartell
+,
+Helena Cousijn
+,
+Kornelia Korzec
+,
+Ryan McFall
+,
+Lucy Ofiesh
+,
+Ed Pentz
+,
+Dominika Tkaczyk
+– 2025 December 18
+In
+Annual Report
+Collaboration
+Community
+Finance
+Sustainability
+Membership
+Metadata
+Research Nexus
+Staff
+Strategy
+As we finish
+celebrating our 25th anniversary
+, we can look back on a truly transformational year, defined by the successful delivery of several long-planned, foundational projects—as well as updates to our teams, services, and fees—that position Crossref for success over the next quarter century as essential open scholarly infrastructure. In our
+update at the end of 2024
+, we highlighted that we had restructured our leadership team and paused some projects. The changes made in 2024 positioned us for a year of getting things done in 2025. We launched cross-functional programs, modernised our systems, strengthened connections with our growing global community, and streamlined a bunch of technical and business operations while continuing to grow our staff, members, content, relationships, and community connections.
+Read on for the highlights of a very busy year, grouped around our
+four strategic themes
+.
+Strategic theme 1: Contribute to an environment where the community identifies and co-creates solutions for broad benefit
+Enhanced tools and services
+In October, we released an
+enhanced Participation Reports dashboard
+that shows metadata coverage across all 180 million records and provides individual member organisations with actionable gap reports to guide them to improve metadata completeness. The new tool provides more complete coverage of all members and resource types, now including funders and grants, with up to 11 best-practice metadata elements publicly tracked.
+We launched support for journal articles in the
+New Metadata Manager record registration form
+(initially only for grants), which includes built-in reference and relationships deposit capabilities. In the New Metadata Manager, it’s now also possible to search for previously registered DOIs to edit your metadata records. In the coming years, we are planning to expand the new Metadata Manager to support all the many different content types that you can register with Crossref DOIs.
+After a long break between regular updates, we have fixed our process for and
+just released v.1.63 of the Open Funder registry
+. With the updated process, we’re now able to resume more frequent updates to the registry (while of course still working towards the transition to ROR for funders).
+Throughout 2025, we conducted a website information architecture review to improve the information we provide to our members and the wider community. Based on the recommendations from this review, we will be renewing our website and documentation in 2026.
+Deprecations and modernisation
+‘Old’ Metadata Manager is to be
+retired at the end of 2025
+, with users transitioning to the ‘New’ version or to our other helper tools for registering and updating DOIs. All users have been contacted during 2025 and received
+training on how to use the New Metadata Manager
+.
+We also
+announced the deprecation of Co-access
+, which will end in 2026, bringing an end to the service that allowed duplicate DOIs for book content. Users of co-access have been informed and are in the process of transitioning to
+multiple resolution
+.
+Together with Turnitin and our members, we are working to transition all subscribers to our Similarity Check service to a new version of iThenticate 2.0. We are happy to report that all platforms with integrations with us transitioned to 2.0 during 2025, and we will continue working with our members to get everyone transitioned during 2026.
+Eating our own DOI dogfood
+In June this year, we were particularly pleased to finally
+support the registration of DOIs for our own content, this very blog
+, through partnering with Rogue Scholar. Blogs are a growing format for scholarly discourse and our own blog is no different as it’s the main way that we share guidelines and best practices, as well as news and stories from the scholarly community. With a Crossref DOI for all blogs going back to 2006, we’re setting ourselves up to ensure better future preservation of the discussion and information about Crossref.
+Community connections
+We delivered 29 metadata health-check webinars over the course of the year, in French, Indonesian, Spanish, and English, reaching 2,166 participants with practical advice on identifying gaps in journal metadata using
+Participation Reports
+.
+Crossref Accra
+took place in March as our first in-person event in a
+GEM
+country. We also held similar events in Ecuador and Türkiye with
+Crossref Quito
+in September and
+Crossref Ankara
+in November. At these three events, we welcomed key figures from each country’s library, government, publishing, and academic communities and we learned so much about the thriving communities there, and also that even more dedicated workshops on the specifics of metadata quality improvements would be appreciated.
+Our
+metadata sprint in Madrid
+in April brought together community members to tackle specific problems collaboratively, with teams exploring coding, documentation, translation, and research using our open metadata. We’re already planning our
+next sprint in São Paulo
+for March 2026, and it will be held in three languages: Portuguese, Spanish, and English.
+A strategic goal for Crossref is to grow research funders’ adoption of the
+Grant Linking System
+, and we produced the first in a series of interviews with funder members this year to highlight how and why Crossref DOIs are fulfilling goals to assess the reach and return of their research support for
+FWF
+(Austria),
+NWO
+(Netherlands),
+FCCN|FCT
+(Portugal), and
+Wellcome
+. This year, we welcomed more funders including Fonds de recherche du Québec (Canada) and Independent Research Fund Denmark as part of their national research platform NORA; we look forward to reporting on their experiences and outcomes next year and others as they work towards Crossref Grant DOI adoption.
+We continued working closely with PKP and
+renewed our partnership to help drive better experience for OJS users
+registering metadata with Crossref. We also delivered a proportion of the metadata health-checks together to maximise the learning opportunities for our members using OJS; and we joined PKP’s Sprint in Oslo to help make improvements to OJS and OMP.
+Crossref staff members serve on almost 50 committees, boards, and other community bodies alongside our own direct work. These include in the areas of research integrity, metascience, metadata and PID standards, open science policy or monitoring, development of new models (such as Diamond OA), editorial production, library and institutional publishing, and citation and other metadata analyses. We also work with other DOI Registration Agencies and support the sustainability of the DOI Foundation with an additional annual subsidy. Many DOI RAs are also Crossref Sponsors so that their members can access our unique reference matching service. While we often might advise, we also learn a huge amount from collaborating with the numerous systems and initiatives that make up the wider research community.
+Our involvement with developing the
+Barcelona Declaration on Open Research Information
+led us to become the fiscal host and to participate in most of the working groups on open metadata. Of particular note this year was the Funding Metadata Working Group round table about
+moving forward the state of funding metadata
+, which we co-hosted with Barcelona Declaration colleagues, and three funding bodies, NWO (Netherlands), FWF (Austria), and ANR (France) as we heard from publishers and their vendors about challenges and how to overcome them to increase the quantity and quality of available open funding metadata.
+All our community engagement activities have been enthusiastically supported and enriched by our indispensable
+Ambassadors
+and our group of now 130
+Sponsors
+, organisations that help thousands of Crossref members with local language and technical support and lower cost access to our membership.
+Strategic theme 2: A sustainable source of complete, open, and global scholarly metadata and relationships
+Schema developments
+The
+grant schema version 0.2.0 was released in January
+, adding support for ROR identifiers to identify funders and new funding types for in our taxonomy, including APC, BPC, and infrastructure. All of these funding types can be specified in the metadata of our grant-giving members alongside the existing types such as use of facilities or salary/training awards, etc.
+Version
+5.4 of our publications schema was released in March
+, marking our first update in many years and a great opportunity to learn how to do this and make the process more efficient. This release introduced typed references to denote the type of object referenced (dataset, blog, software, etc.), preprint status indicators, and version numbering.
+Just last week, we also added a dedicated field for
+grant DOIs to our publications schema
+. This means it’s now possible to indicate in an article’s metadata which grant(s) funded the research using the persistent identifier. This is an essential step toward better alignment between grant funding and research, enriching the Research Nexus.
+We also launched our new
+Metadata Advisory Group
+and they have already devised sub-working groups in three focus topic areas:
+Multilingual metadata
+Subjects and keywords
+Relationships
+Public data file
+We released the
+2025 public data file
+in March, containing metadata for (at the time) over 165 million research outputs from more than 22,000 organisations.
+Inaugural Metadata Awards
+In May, we launched the
+first-ever Metadata Awards
+to recognise members demonstrating excellence in metadata completeness and enrichment. Winners included
+Noyam Publishers
+(Ghana),
+GigaScience Press
+(Hong Kong),
+eLife
+(UK),
+American Society for Microbiology
+(USA),
+Universidad La Salle Arequipa
+(Peru), and
+Instituto Geologico y Minero de España
+(Spain). The awards will be held biennially going forward.
+Metadata Matching project
+In April, we launched the
+metadata matching
+project with the aim of building a more complete picture of
+the research nexus
+over time by automatically identifying missing relationships between entities across the scholarly record. The project’s goal is to modernise Crossref’s enrichment workflows by rebuilding them using modern software development and data science practices.
+We are in the throws of developing a consolidated matching workflow that will eventually replace all existing production matching processes, with results exposed through the REST API. All new matching strategies will be rigorously evaluated, and the resulting data will be accompanied by clear provenance information. This project covers six matching tasks:
+bibliographic reference matching
+funder name matching
+preprint matching
+affiliation matching
+grant matching
+title matching
+In the meantime, while work continues on integrating matching results into the REST API, we’ve been releasing standalone matching datasets for separate download and analysis. These include
+relationships between preprints and journal articles
+,
+relationships involving research organisations
+, and
+relationships between grants and research outputs
+.
+Data infrastructure and Research Nexus participation dashboard
+Staying on the data science front, we’ve established an internal data environment that combines all relevant data sources (scholarly metadata, logs and usage data, and external datasets) in their raw forms into a single place. This environment is supported by a suite of modern tools and data processing techniques, enabling data science experiments and analytics pipelines to run effectively at scale.
+Building on this foundation, we plan to develop a series of dashboards to monitor the state of the scholarly record over time. These dashboards will feature both work-level and member-level statistics (for example, how many works of a given type have been registered, or how many members are registering grant IDs) as well as more detailed insights at the relationship level (for example, how many bibliographic references have been automatically matched, or how many times ROR IDs are included in funder assertions). Some of these
+statistics are already available
+in a public spreadsheet for now, pending the dashboard.
+Retraction Watch integration
+In 2023, Crossref
+acquired the Retraction Watch database
+to make it open data. Initially, this was done through sharing simple CSV files, but this year we have set up a pipeline to feed this information into our REST API, which means that Retraction Watch data is now fully available through the REST API, integrated with Crossref member-supplied retraction and correction metadata. This is the first example of Crossref integrating third-party metadata, and we’re learning a lot about how to best incorporate other datasets in future.
+Metadata API and services improvements
+From 1 December 2025, we
+revised rate limits for the REST API
+to ensure system stability whilst maintaining free access to metadata for everyone. Changes were made to the rate limits for our ‘public’ and ‘polite’ APIs, while the limits for our Metadata Plus users stayed the same. We continue to make all metadata openly available to the whole community.
+We also improved how information from our content system feeds into the REST API. A tool we call ‘pusher’—because it pushes information from the content system to the REST API—was rebuilt so that we now have a more reliable transfer of information between our two systems.
+While adding to technical improvements, we’ve also worked to better understand the use of and streamline the service offering for paid options. We’ll share more about this year’s Metadata Plus consultation soon. And based on feedback, we have already retired the ‘Query Affiliate’ service, where a handful of organisations still paid us a fee to access our XML API, whereas no credentials have been required for some time.
+Strategic theme 3: Manage Crossref openly and sustainably, modernising and making transparent all operations so that we are accountable to the communities that govern us
+Infrastructure modernisation
+One of our biggest projects of 2025—if not
+the
+biggest—was the move from our data centre into the cloud (AWS). For 25 years, Crossref had been running a physical data centre in Massachusetts, USA, but as part of modernising our systems, it was high time to move everything into the cloud. The move to AWS took several months, but
+we successfully completed this move to the cloud
+in July this year. We’re spending these last weeks of 2025 fully decommissioning our data centre, which means that we are removing all the equipment we had there and locking the door for the last time.
+A part of the move to AWS included moving onto an open-source database solution, PostgreSQL. This reduced our reliance on closed, costly licensed solutions, while also aligning with our POSI commitment to open-source. Running our entire system in AWS provides a more stable, modern approach to our infrastructure, but it also is expensive. We expect to spend about 2 million USD on AWS fees next year, with the majority of this cost coming from REST API usage. Some of the improvements described above will help us manage those costs and better observe traffic patterns.
+Our new cloud infrastructure is a bittersweet milestone: while we are happy to not have to rely on a physical presence to support a 24/7 global infrastructure, we also say a sad farewell to our much-loved and long-suffering Sys Admin,
+Tim Pickard
+, who has been with Crossref since 2002, and has contributed significantly and unwaveringly to keeping our system up and running in the data centre. Tim will be leaving Crossref at the end of the year; we’re grateful to Tim for all his years of dedication, and we will greatly miss his impressive Hawaiian shirt game on our all-staff calls.
+After 25 years, it was also time to get serious about modernising our core content system, because even though it serves our community well, an older system with legacy code is a constant risk and frustration. We’ve therefore embarked on a multi-year modernisation project where we are replacing our old code piece by piece. We no longer want to have one big content system (a monolith), but are planning to identify different pieces of functionality and rebuild these as separate services (a modular, flexible, and robust approach). This year, we already managed to reconstruct some smaller pieces (for example, the ‘pusher’ mentioned above), and next year we will tackle larger projects, such as Metadata Matching and Authentication.
+We continue to prioritise open, timely communication for planned or unplanned service interruptions and encourage everyone to monitor our status page at
+status.crossref.org
+. We’ll further hone our incident response processes in 2026, including openly posting incident reviews, and we’ll also centre system maintenance and documentation clarity in everything we do.
+RCFS Projects
+The
+Resourcing Crossref for Future Sustainability projects (RCFS)
+and the work of our
+Membership & Fees Committee
+resulted in deciding not to change some things (such as the
+basis
+for annual membership fees), but to
+change three things about our fees, as reported in July
+:
+A new lower membership fee tier of 200 USD for members with annual revenues/expenses of under 1000 USD - so far, this includes around 3000 members.
+See below
+for more info.
+A removal of volume discounts to reduce complexity in our billing code; they were little used, and those who did use these were fine with the loss of the discount.
+A removal of the rule that only publishers of a title could register peer review reports (including comments and annotations) at the lower 0.25 USD fee for the first review; this lower fee is now available to any member to register any reviews of any other members’ works.
+A new late-breaking addition to these fee decisions is the
+reduction of fees for members registering grants
+. As of January 1st 2026, there will be no fee for back-year (BY) grant registration, to encourage the faster adoption of older grants, which are more likely to have research outputs to be matched. This will be a two-year pilot to trial how a reduced fee incentivises adoption and boosts metadata connections, and could be extended to other record types as we monitor its success and sustainability. In addition, the 2 USD fee per current-year (CY) grant record is being reduced to 1 USD in line with the next-nearest fee, this is a permanent change for the foreseeable future.
+Membership growth, efficiencies, and accessibility
+In March, the board voted to
+update membership terms and bylaws
+to clarify processes for suspending and revoking membership, and to be more explicit about
+member practices that preserve the integrity of the scholarly record
+. A short-term
+Member Practices Working Group
+will be meeting in the first half of 2026 to draft these.
+Crossref now serves 23,600 members across 164 countries, with continued growth particularly in Asia and Latin America. We’ve continued our ongoing member onboarding activities to support new members joining the community. We see around 230 new members join each month, and have welcomed 2,700 this year so far. We recently reported on how the
+shape of membership has evolved over our 25 years
+of operation.
+From January 2026, we’re introducing a
+new lower membership fee tier
+of 200 USD for organisations with annual revenue or expenses of 1,000 USD or less, making membership more accessible to low-resourced organisations. Already, over 3000 members have been eligible to move into or join under that fee, and the idea is to monitor how this affects Crossref’s financial sustainability and potentially adjust the 200 USD annual fee down again in future years.
+From 1 January 2026, the
+GEM program, which offers fee-free membership and content registration for all members from certain countries
+, will expand to include 18 additional countries, further reducing financial barriers to participation in the scholarly record, so we expect several hundred further members to join the existing 600 organisations in this category.
+More information about the GEM program expansion here
+.
+As our membership base continues to grow, the Membership and Finance teams are constantly exploring ways to make shared processes more efficient. A key component in this work has been the efforts to automate several tasks within both teams to help us manage the additional work caused by our growth and allow our teams to focus more on providing the best quality service we can.
+Our membership team continues to support our members, sponsors, service providers, metadata users and the wider community by email and through our
+community forum
+. The membership team includes staff members who focus on member support, and staff members who focus on technical support. During 2025 so far, we’ve received 36.8k member enquiries through our support system, a 17% increase from last year. This includes 22.6k inquiries related to general membership and 13k technical support enquiries. We’ve received 3.8k membership applications, and welcomed 2.7k new members.
+Growth by the numbers
+Crossref continues its steady revenue growth in 2025 due to the expansion of our membership base. With the addition of new members and the general growth of Crossref, comes an increase in the transaction-based tasks our Finance team handles.
+So far in 2025 we have issued 14,833 invoices, which is a 9% increase since last year. We’ve seen an 11% increase in the number of payments received and applied, and a 12% increase in the amount of credit and debit memos applied over the same time last year. We have also seen a 42% increase in the number of billing-related tickets, totalling 20,723. A large segment of these tickets are related to fee updates associated with the new $200 membership tier.
+Not all transactional work in Finance has increased as steadily, with increased revenue of 8% we have also seen a 14% increase in operating expenses. Through the strategic consolidation of vendors and use of financial tools, we have only seen a 1% increase in Accounts Payable invoices processed.
+Organisational sustainability
+Finance-wise, we’re doing well. We’re projecting to finish this year with revenue of 14,200,000 USD and expect revenue next year of 14,500,000 USD. We’re budgeting 2% growth in overall revenue, accounting for some of the changes to fees that will reduce our earnings on membership dues, but anticipating continued growth of content registration revenue.
+Revenue and expenses trends
+About 67% of our expenses come from personnel costs, and the other 33% include non-personnel costs like AWS, travel, legal fees, etc. As we continue to build out the team, we have ten new positions planned for the next year (recruitment for many of these is already underway or done). With additional staff roles and AWS expenses, we’re expecting expense growth of 16%. We post our financial statements and Form 990 filings on the
+financials page on our website
+.
+Revenue per member size (by tier)
+As the chart above shows, we still see ’the long tail’ of smaller members in the lowest fee category (275 USD) contributing more revenue than those in the largest category (50,000 USD) at 5.8 million USD versus 5 million USD.
+Another aspect of sustainability is our impact on the world around us. And this year we were able to publish a second
+report on Crossref’s carbon footprint
+, having monitored and controlled for several carbon-heavy activities, primarily staff travel. Our reported emissions went up 40% from 2023 to 2024, due to more travel given our growth in staff and members, better recording our emissions (for example, with hotel stays), and including travel that we support for our partners, ambassadors and board members. In terms of travel spending, we are still well below 2019 when we were smaller, demonstrating that we are following through on not going back to the pre-pandemic norm.
+We were one of the first open infrastructure organisations to adopt the POSI Principles and now have a few years’ experience in trying to meet them. Together with other adopters, we
+proposed updates and additions to the principles
+, based on real-world practice, and gathered a lot of community comment, resulting in the group
+publishing POSI v2
+in October. We conduct a
+self-assessment
+every other year and we’ll be involving all our staff in the next self-assessment, due later in 2026.
+Open governance through board election and annual meeting
+We continued our commitment to being member-led and community-driven. This year’s
+anniversary Annual Meeting
+in October brought together members to discuss strategy, metadata developments, and hear the results of their voting in our board election. It comprised two half-days of online conferencing and several in-person satellite meetings spread across five continents, gathering close to 500 members of our community. It was a platform to reflect together on the past quarter of the century of building community infrastructure and connections underpinning the progress of scholarship, and to share plans for the future.
+Each member has one vote, and together they elected the following organisations to serve a three-year term alongside the
+rest of the board
+:
+Tier 1 candidates (electing one seat):
+Rebecca Wambua, Distance, Open and e-Learning Practitioners’ Association of Kenya
+Tier 2 candidates (electing four seats):
+Damian Bird, CABI
+Rose L’Huillier, Elsevier*
+Anjalie Nawaratne, Springer Nature*
+Nick Lindsay, The MIT Press*
+*returning board member
+Congratulations to the remaining and incoming board members as we start their new term in January 2026. Have a look at
+all the outputs from our Annual Meeting
+.
+Strategic theme 4: Foster a strong team—because reliable infrastructure needs committed people who contribute to and realise the vision, and thrive doing it
+Team structure
+We reorganised the team heading into 2025 because we had ambitious goals that required a more structured, collaborative approach. We reorganised the work around three strategic, mission-driven areas of focus described above. This was our first full year with the
+cross-functional program groups
+in place, and the activities reported here make it evident that our team members, both existing and new, are firing on all cylinders.
+New staff and new roles
+We welcomed eight new team members in 2025. In February, we welcomed our new Director of Programs & Services,
+Helena Cousijn
+, and a new member of the Technical Support team,
+Arley Soto
+. In March, we welcomed our new Community Manager for funders,
+Rocío Gaudioso Pedraza
+. In April, we
+launched our new Data Science team
+by welcoming
+Jason Portenoy
+and
+Alex Bédard-Vallée
+. In November, we welcomed our new DevOps Engineer,
+Thelma Laryea,
+and our new Program Technical Lead for the OSO program,
+Bharath Govindarajan.
+In December, we welcomed another member of the Technical Support team,
+Natali Giorgobiani
+.
+We also had team members step up into new roles.
+Dominika Tkaczyk
+completed the new leadership team by taking on the Director of Technology role,
+Paul Davis
+has started his new role as Product Manager, and
+Michelle Cancel
+has taken on the Head of Human Resources role. And there’s more to come! As next year begins, two team members will step into Program Technical Lead roles:
+Carlos del Ojo Elias
+for the CRN program and
+Patrick Vale
+for the CCT program. Together with the Program Technical Lead for the OSO program and the Head of Infrastructure Services, these roles will complete the new structure of the technology team. This structure is more closely aligned with how our work is organised and will enable stronger coordination both within and across cross-functional programs.
+Supporting a thriving global culture
+As our team grows in different aspects within our new
+org structure
+to meet the needs of the community, we remain committed to supporting a thriving culture through training, conducting regular temperature checks, and organising our annual staff retreat. This year, we continued our work on psychological safety and introduced workshops on giving and receiving feedback and on consensus building. We were able to put some of this training into practice at our in-person all-staff event in Split, Croatia, where we all came together to
+build our roadmap
+.
+We are ending the year with 51 staff in 14 countries and look forward to diversifying and evolving even further as a team in 2026—we’re currently hiring in UX, Communications, and Membership—and keep an eye on our
+jobs
+page for forthcoming opportunities in Software, DevOps, Metadata, and Operations!
+Thank you to our community of members, partners, board, ambassadors, sponsors, metadata users, service providers, integrators—and of course our team—for making 2025 such a productive year. Together, we’re building a richer, more connected research ecosystem for the benefit of society. We can’t wait to continue the work together in 2026.
+Related reading
+Blog
+Fee update: lowering and removing DOI registration fees in January 2027
+Read more →
+Position paper
+Position paper: persistent identifiers in research infrastructure policy
+Read more →
+Blog
+Why PID strategies need more than PIDs: our first position paper
+Read more →
+RSS feed
+Recent blog posts
+What does it mean to be a global remote team
+2026 August 26
+Registering rich metadata for books, chapters, reports, dissertations, and updates just got easier
+2026 August 20
+To go far, go together: reflections from FORCE2026
+2026 August 19
+Fee update: lowering and removing DOI registration fees in January 2027
+2026 August 13
+Topics
+Metadata
+(172)
+Community
+(145)
+Identifiers
+(103)
+Meetings
+(74)
+Member Briefing
+(70)
+Collaboration
+(65)
+Linking
+(51)
+Content Registration
+(49)
+APIs
+(46)
+Citation
+(43)
+Research Nexus
+(43)
+Governance
+(35)
+Event Data
+(34)
+R&D
+(34)
+DOIs
+(33)
+Board
+(31)
+Annual Meeting
+(28)
+Interoperability
+(27)
+Membership
+(27)
+DataCite
+(26)
+Data
+(25)
+Persistence
+(25)
+Elections
+(24)
+ORCID
+(23)
+Research Funders
+(23)
+Search
+(23)
+Publishing
+(21)
+Staff
+(21)
+Grant Linking System
+(20)
+Standards
+(18)
+Strategy
+(18)
+API Case Study
+(17)
+Infrastructure
+(17)
+Linked Data
+(16)
+Preprints
+(16)
+Research Integrity
+(16)
+Schema
+(15)
+Crossmark
+(14)
+Metadata Matching
+(14)
+Wikipedia
+(14)
+XMP
+(14)
+Handle
+(12)
+News Release
+(12)
+Sustainability
+(12)
+ROR
+(11)
+RSS
+(11)
+Citation Formats
+(10)
+Metadata Manager
+(10)
+Archives
+2026
+(40)
+2025
+(51)
+2024
+(37)
+2023
+(31)
+2022
+(31)
+2021
+(25)
+2020
+(34)
+2019
+(37)
+2018
+(55)
+2017
+(41)
+2016
+(50)
+2015
+(23)
+2014
+(4)
+2013
+(2)
+2012
+(5)
+2011
+(6)
+2010
+(9)
+2009
+(34)
+2008
+(56)
+2007
+(91)
+2006
+(21)
+Join the community
+Get email updates
+Membership
+Governance
+Sustainability
+Services
+Documentation
+Status page
+API Learning Hub
+Community forum
+Join
+Contact
+Jobs
+Blog
+The content of this site is licensed under a
+Creative Commons Attribution 4.0 International License
+Accessibility
+Privacy

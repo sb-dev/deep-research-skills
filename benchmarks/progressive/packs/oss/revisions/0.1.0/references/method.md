@@ -1,0 +1,9 @@
+# Open-source evidence method
+
+Use repository/revision/file as the documentary unit; keep package, deployment configuration, source code, release and executed result distinct. Pin a meaningful repository revision before consequential claims. Reconcile README setup with package constraints and deployment settings at that revision. Inspect the code/configuration behind at least one consequential capability or failure-handling claim. If a path looks risky, name the trigger, possible consequence and smallest discriminating test; do not label the risk an observed failure.
+
+Use a bounded maintenance/history sample when relevant and state what was sampled. A commit, badge or star count cannot establish operational suitability. Distinguish the repository's top-level licence from dependency, model, dataset and hosted-service terms; unresolved terms remain review work. No automatic installation, external execution or legal clearance follows from this method.
+
+Return conditional adoption criteria: documented capability, inspected implementation, actually executed check (if authorised), unknown, and the test needed to resolve it. Refresh only claims dependent on changed files or validation. Audit source identity, cross-file agreement, licence scope and static/executed wording separately.
+
+Method basis: [OpenSSF Scorecard README, What is Scorecard / Project Non-Goals](https://github.com/ossf/scorecard/blob/main/README.md), actual GitHub read 2026-09-13. The maintainers describe security checks as heuristics with false positives and false negatives, and explain why an aggregate score does not identify individual repository behaviours. This supports claim-specific inspection rather than a universal assurance score. Pinning, cross-file reconciliation and risk-to-test mapping here are explicit research-method choices; no Scorecard scan or runtime test is claimed.

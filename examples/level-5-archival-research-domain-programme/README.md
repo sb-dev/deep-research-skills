@@ -37,3 +37,7 @@ Catalogue-first create-pack qualification and research-before-architecture; FX11
 Review the actual source access, evidence and claim support, temporal scope, uncertainty, resource bounds and preservation required by the prompt. Distinguish producer self-checks from fixed-input independent evaluation. A passing structural check does not establish research quality.
 
 Benchmark mapping: `EX-L5-01`; L05/L08/L09; K01/K15/K16. See the [evaluation layers and quality dimensions](../../docs/04-testing-and-benchmark-spec.md).
+
+## Recorded execution
+
+[Progressive run](../../benchmarks/progressive/research/l5-01/research.md) contains the actual source-checkout output and its stated support and access limits. See the [separate review](../../benchmarks/progressive/research/l5-01/evaluation/audit.md) for assessed claims and remaining gaps.

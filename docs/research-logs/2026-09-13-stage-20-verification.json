@@ -1,0 +1,70 @@
+{
+  "stage": 20,
+  "date": "2026-09-13",
+  "source_core": "b9d262b4bd2ffa73d35b520f98629e7eae0b7da7",
+  "publication_parent": "d91625916c183ee810c4f7f303bd54b055fb6a14",
+  "repository_check": {
+    "command": "python tests/check_repository.py",
+    "result": "PASS",
+    "primary_examples": 15,
+    "skills": 3,
+    "commands": 11,
+    "preserved_files": 95,
+    "scope": "Structure, exact prompts, package/reference closure, public surface and preservation; not research quality or installation."
+  },
+  "existing_negative_tests": {
+    "command": "python -m unittest discover -s tests -p 'test_*.py' -q",
+    "tests": 22,
+    "result": "PASS"
+  },
+  "pack_structure": {
+    "result": "PASS",
+    "method": "Loaded both pack.json files; checked eight dimensions, seven effects, sixteen cases, no dependencies, contained existing entry paths, MIT bytes and Markdown link closure using existing repository link helper.",
+    "versions": {
+      "scholarly-evidence": "0.1.0",
+      "open-source-ecosystem": "0.1.1"
+    }
+  },
+  "required_case_outputs": {
+    "count": 15,
+    "missing": [],
+    "result": "PASS",
+    "scope": "All declared output paths; substantive execution and limits remain in separate case reports/audits."
+  },
+  "controls": {
+    "original_responses": 32,
+    "original_result": "PASS",
+    "affected_revision_responses": 8,
+    "affected_result": "PASS",
+    "scope": "Separate agent producer/evaluator semantic controls; no runtime loader or installed proof."
+  },
+  "differentials": {
+    "scholarly_0.1.0": "PASS",
+    "open_source_0.1.0": "FAIL",
+    "open_source_0.1.1": "PASS"
+  },
+  "whitespace": {
+    "command": "git diff --check",
+    "result": "PASS",
+    "scope": "Tracked implementation/public edits before staging.",
+    "staged_snapshot_scan": {
+      "result": "FAIL",
+      "diagnostics": {
+        "new_blank_line_at_eof": 14,
+        "trailing_whitespace": 4540
+      },
+      "files": 28,
+      "disposition": "Formatting-only diagnostics in literal first-party source snapshots, CSV CRLF records and previously fixed/audited research report bytes. Preserve exact evidence bytes and audit identities; do not normalize them for a style check. No validator or Git whitespace rule changed."
+    }
+  },
+  "limits": [
+    "Individual unsupported conclusions and inherited discovery-trace gaps remain explicit.",
+    "No installation or research-engine/model execution.",
+    "One development rerun cannot establish a stable effect or global pack superiority."
+  ],
+  "exit": "PASS: Stage 20 content and conformance; publication requires verification of the resulting commit and remote ref",
+  "links": {
+    "result": "PASS",
+    "scope": "Current public examples, all progressive Markdown, stage records and contained production pack links."
+  }
+}

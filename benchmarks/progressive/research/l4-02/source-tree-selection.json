@@ -1,0 +1,78 @@
+{
+  "url": "https://api.github.com/repos/openrepair/data/git/trees/90eba80740506b4fa283288780d34e9e7e01deef?recursive=1",
+  "retrieved_at": "2026-09-13",
+  "full_tree_truncated": false,
+  "selection": "All aggregated/202407 and aggregated/202507 entries from complete response. Metadata only, not extra body acquisition.",
+  "entries": [
+    {
+      "mode": "040000",
+      "path": "aggregated/202407",
+      "sha": "216c188b7a297fa3e86c74740026f9619ae5c91b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/openrepair/data/git/trees/216c188b7a297fa3e86c74740026f9619ae5c91b"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202407/OpenRepairData_v0.3_Product_Categories.csv",
+      "sha": "7dccfc83b37ad210cafc2eb429e0f6072d69b2d7",
+      "size": 725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/7dccfc83b37ad210cafc2eb429e0f6072d69b2d7"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202407/OpenRepairData_v0.3_aggregate_202407.csv",
+      "sha": "196b2350d6e05480a4c0c03b85c0ef39ec87d3fd",
+      "size": 40282065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/196b2350d6e05480a4c0c03b85c0ef39ec87d3fd"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202407/tableschema.json",
+      "sha": "be2ffd9ed94706507508263450a3fa014e05a93b",
+      "size": 6368,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/be2ffd9ed94706507508263450a3fa014e05a93b"
+    },
+    {
+      "mode": "040000",
+      "path": "aggregated/202507",
+      "sha": "aeb0e40251336676f72bfa7f15fc798061a464b6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/openrepair/data/git/trees/aeb0e40251336676f72bfa7f15fc798061a464b6"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202507/OpenRepairData_v0.3_Product_Categories.csv",
+      "sha": "7dccfc83b37ad210cafc2eb429e0f6072d69b2d7",
+      "size": 725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/7dccfc83b37ad210cafc2eb429e0f6072d69b2d7"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202507/OpenRepairData_v0.3_aggregate_202507.csv",
+      "sha": "74c911c383dd69c8be532283cd39de88db4a55a4",
+      "size": 58453790,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/74c911c383dd69c8be532283cd39de88db4a55a4"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202507/OpenRepairData_v0.3_unpowered_202507.csv",
+      "sha": "6e070cdff8ec12089038c0eb27035d308aebd70d",
+      "size": 8129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/6e070cdff8ec12089038c0eb27035d308aebd70d"
+    },
+    {
+      "mode": "100644",
+      "path": "aggregated/202507/tableschema.json",
+      "sha": "23fe8abb50bec716198266af0b4751ab927ce17a",
+      "size": 9922,
+      "type": "blob",
+      "url": "https://api.github.com/repos/openrepair/data/git/blobs/23fe8abb50bec716198266af0b4751ab927ce17a"
+    }
+  ]
+}

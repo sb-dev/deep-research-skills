@@ -31,3 +31,7 @@ Package/deployment conflation and unchanged audit submission; FX10/AU01. Evaluat
 Review the actual source access, evidence and claim support, temporal scope, uncertainty, resource bounds and preservation required by the prompt. Distinguish producer self-checks from fixed-input independent evaluation. A passing structural check does not establish research quality.
 
 Benchmark mapping: `EX-L1-02`; L01/L04; K05/K12. See the [evaluation layers and quality dimensions](../../docs/04-testing-and-benchmark-spec.md).
+
+## Recorded execution
+
+[Progressive run](../../benchmarks/progressive/research/l1-02/evaluation/audit.md) contains the actual source-checkout output and its stated support and access limits. Review scope is labelled in the output.

@@ -1,0 +1,145 @@
+{
+  "format_version": "0.1",
+  "core_contract": "0.1",
+  "version": "0.1.0",
+  "status": {
+    "designed": true,
+    "procedure_demonstrated": false,
+    "installed_tested": false,
+    "behaviourally_evaluated": false
+  },
+  "activation": "explicit selection by the consuming project only",
+  "precedence": [
+    "explicit research instructions",
+    "approved / locked research decisions",
+    "selected Extension Pack",
+    "core Deep Research defaults"
+  ],
+  "preserved": [
+    "question and consumer authority",
+    "permitted source and processor boundary",
+    "evidence/claim separation",
+    "bounded effort and outstanding liabilities",
+    "qualified uncertainty",
+    "verified evidence and revision history",
+    "required independent or human review"
+  ],
+  "affected_skills": [
+    "deep-research",
+    "research-evaluate"
+  ],
+  "authoring_skill": "research-extension-pack-creator",
+  "authoring_command": "create-pack",
+  "composition": "one selected profile per investigation; distinct subinvestigations may use different profiles with explicit handoffs",
+  "external_execution": "optional existing authorised tools only; no automatic install, network call or job",
+  "pack_root_rules": [
+    "relative paths resolve inside the selected pack root",
+    "reject absolute paths, traversal and external symlinks",
+    "no load-time scripts",
+    "do not include private project evidence"
+  ],
+  "id": "open-source-ecosystem",
+  "purpose": "Assess open-source adoption evidence using revision, licence, code, package, maintenance and actually executed validation as distinct evidence.",
+  "method_sources": [
+    {
+      "url": "https://github.com/ossf/scorecard/blob/main/README.md",
+      "local_guidance": "references/method.md",
+      "accessed": "2026-09-13",
+      "scope": "Method principles and limits; no automatic external acquisition."
+    }
+  ],
+  "dimensions": {
+    "source ecology": {
+      "state": "changed",
+      "rationale": "Use repository files, commits, release and issue records when relevant; distinguish maintainer statements from code and execution evidence."
+    },
+    "search strategy": {
+      "state": "changed",
+      "rationale": "Resolve immutable revisions and source paths first; bound any history/issues sample and never imply exhaustive maintenance review."
+    },
+    "inclusion / exclusion rules": {
+      "state": "changed",
+      "rationale": "Choose projects against the stated need and licences; popularity is a discovery signal, not suitability or exclusion evidence."
+    },
+    "source appraisal": {
+      "state": "changed",
+      "rationale": "Assess ownership, actual maintenance evidence, licence scope and test relevance separately; a green check does not cover all runtime paths."
+    },
+    "research methods": {
+      "state": "changed",
+      "rationale": "Compare README, package and deployment facts at the same revision; classify static observations versus executed smoke/failure tests."
+    },
+    "synthesis structure": {
+      "state": "changed",
+      "rationale": "Return a revision-bound suitability assessment with environment requirements, evidence kinds, missing tests and bounded adoption conditions."
+    },
+    "quality criteria": {
+      "state": "changed",
+      "rationale": "Check code-to-claim traceability, maintenance inference, dependency boundaries and truthful installation/failure status."
+    },
+    "reporting conventions": {
+      "state": "changed",
+      "rationale": "Cite file/ref/line or immutable item; label documented, inspected, executed and unknown rather than promoting stars or badges to assurance."
+    }
+  },
+  "effects": [
+    {
+      "command": "plan",
+      "change": "Set task-fit criteria, pinned revision, allowed repository evidence and execution authority.",
+      "observable": "Static-only work cannot acquire install/run authority."
+    },
+    {
+      "command": "discover",
+      "change": "Inspect native repository evidence and relevant history/issue samples at declared bounds.",
+      "observable": "Collection completeness and sampling limits remain explicit."
+    },
+    {
+      "command": "extract-evidence",
+      "change": "Capture source path/ref/locator and evidence kind, including exact setup and licence scope.",
+      "observable": "README, package declarations and observed execution remain distinct."
+    },
+    {
+      "command": "analyse-evidence",
+      "change": "Reconcile configuration differences and bind code risks to specific missing tests.",
+      "observable": "A suspicious branch is recorded as a static finding, not a measured failure rate."
+    },
+    {
+      "command": "synthesise",
+      "change": "Present evidence-qualified reuse conditions rather than a universal repository ranking.",
+      "observable": "Transitive rights, environment and runtime gaps remain visible."
+    },
+    {
+      "command": "refresh",
+      "change": "Compare changed revision/files and only reopen affected claims and validations.",
+      "observable": "A documentation change does not erase unrelated source checks."
+    },
+    {
+      "command": "audit",
+      "change": "Check revision identity, licence scope, maintenance/sample inference and static-versus-executed wording.",
+      "observable": "An unexecuted installation cannot pass as operational readiness."
+    }
+  ],
+  "not_for": [
+    "security certification",
+    "licence/legal advice",
+    "unrequested code changes",
+    "automatic dependencies or cloud deployment",
+    "popularity-based approval"
+  ],
+  "showcase": {
+    "prompt_location": "examples/showcase.md",
+    "evaluation_status": "pending actual comparison",
+    "expected_change": "Cross-file environment reconciliation and evidence-to-test conditions, retaining all known baseline cautions."
+  },
+  "evaluation": {
+    "cases": "evals/cases.json",
+    "required": "Core invariants and all applicable specialist criteria; actual bounded core/pack pair and negative behaviour checks."
+  },
+  "entry_points": {
+    "procedure": "PACK.md",
+    "method": "references/method.md",
+    "showcase": "examples/showcase.md",
+    "evaluation": "evals/cases.json"
+  },
+  "dependencies": []
+}

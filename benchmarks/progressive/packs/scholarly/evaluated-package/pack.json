@@ -1,0 +1,144 @@
+{
+  "format_version": "0.1",
+  "core_contract": "0.1",
+  "version": "0.1.0",
+  "status": {
+    "designed": true,
+    "procedure_demonstrated": false,
+    "installed_tested": false,
+    "behaviourally_evaluated": false
+  },
+  "activation": "explicit selection by the consuming project only",
+  "precedence": [
+    "explicit research instructions",
+    "approved / locked research decisions",
+    "selected Extension Pack",
+    "core Deep Research defaults"
+  ],
+  "preserved": [
+    "question and consumer authority",
+    "permitted source and processor boundary",
+    "evidence/claim separation",
+    "bounded effort and outstanding liabilities",
+    "qualified uncertainty",
+    "verified evidence and revision history",
+    "required independent or human review"
+  ],
+  "affected_skills": [
+    "deep-research",
+    "research-evaluate"
+  ],
+  "authoring_skill": "research-extension-pack-creator",
+  "authoring_command": "create-pack",
+  "composition": "one selected profile per investigation; distinct subinvestigations may use different profiles with explicit handoffs",
+  "external_execution": "optional existing authorised tools only; no automatic install, network call or job",
+  "pack_root_rules": [
+    "relative paths resolve inside the selected pack root",
+    "reject absolute paths, traversal and external symlinks",
+    "no load-time scripts",
+    "do not include private project evidence"
+  ],
+  "id": "scholarly-evidence",
+  "purpose": "Research a bounded scholarly question with explicit work/report/version units and method-specific appraisal.",
+  "method_sources": [
+    {
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04",
+      "local_guidance": "references/method.md",
+      "accessed": "2026-09-13",
+      "scope": "Method principles and limits; no automatic external acquisition."
+    }
+  ],
+  "dimensions": {
+    "source ecology": {
+      "state": "changed",
+      "rationale": "Use appropriate scholarly identifiers, author/publisher originals and available status records; a supplied-paper task need not search every database."
+    },
+    "search strategy": {
+      "state": "changed",
+      "rationale": "Expand terms and citation paths only within the brief; record search coverage and distinguish a focused check from systematic conduct."
+    },
+    "inclusion / exclusion rules": {
+      "state": "changed",
+      "rationale": "Declare eligibility by question and study/design; retain eligible adverse/null findings and separate unavailable full text from exclusion."
+    },
+    "source appraisal": {
+      "state": "changed",
+      "rationale": "Appraise the actual design, metrics and transfer limits. Do not apply clinical risk-of-bias tools indiscriminately to computing benchmarks."
+    },
+    "research methods": {
+      "state": "changed",
+      "rationale": "Link reports/versions to the underlying work or study and reconcile changed populations/configurations before synthesis."
+    },
+    "synthesis structure": {
+      "state": "changed",
+      "rationale": "Present question-to-finding support with unit linkage, method limits and unresolved applicability separately."
+    },
+    "quality criteria": {
+      "state": "changed",
+      "rationale": "Check support, status, report linkage, appropriate counting, uncertainty and claims about completeness; no universal score."
+    },
+    "reporting conventions": {
+      "state": "changed",
+      "rationale": "Use exact work/version locators and identify the review type actually performed. Reporting checklists cannot certify unperformed conduct."
+    }
+  },
+  "effects": [
+    {
+      "command": "plan",
+      "change": "Specify scholarly units, eligibility and an appropriate appraisal method before retrieval.",
+      "observable": "Plan states which report/study/version is counted and which inference is authorised."
+    },
+    {
+      "command": "discover",
+      "change": "Resolve relevant scholarly identities and status within the allowed corpus.",
+      "observable": "Search/selection record differentiates candidate, eligible, unavailable and superseded representation."
+    },
+    {
+      "command": "extract-evidence",
+      "change": "Capture method, task/population, measure, units and locators needed for the finding.",
+      "observable": "No abstract-only record supplies unseen methods."
+    },
+    {
+      "command": "analyse-evidence",
+      "change": "Link multiple reports and revisions before counting or comparing; appraise threshold transfer.",
+      "observable": "A revised paper cannot become another independent experiment."
+    },
+    {
+      "command": "synthesise",
+      "change": "Expose design limits and study/report structure; keep implications conditional.",
+      "observable": "A benchmark threshold is not rendered as universal application acceptance."
+    },
+    {
+      "command": "refresh",
+      "change": "Check the relevant correction/revision and repair affected claims without silently repointing historical evidence.",
+      "observable": "Unchanged prior findings retain their basis."
+    },
+    {
+      "command": "audit",
+      "change": "Add report-linkage, status-boundary and method-transfer checks to applicable core dimensions.",
+      "observable": "Bibliographic validity and substantive support receive separate verdicts."
+    }
+  ],
+  "not_for": [
+    "automatic systematic-review certification",
+    "clinical or professional advice",
+    "unperformed dual screening",
+    "generalised calibrated model accuracy"
+  ],
+  "showcase": {
+    "prompt_location": "examples/showcase.md",
+    "evaluation_status": "pending actual comparison",
+    "expected_change": "Version-linked unit counting and design-specific threshold applicability, with preserved core findings."
+  },
+  "evaluation": {
+    "cases": "evals/cases.json",
+    "required": "Core invariants and all applicable specialist criteria; actual bounded core/pack pair and negative behaviour checks."
+  },
+  "entry_points": {
+    "procedure": "PACK.md",
+    "method": "references/method.md",
+    "showcase": "examples/showcase.md",
+    "evaluation": "evals/cases.json"
+  },
+  "dependencies": []
+}

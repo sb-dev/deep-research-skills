@@ -5,9 +5,9 @@ Approved clean baseline: `main` at `80b209968b366662c01a8ded5ecb6c30bb6beb0b`.
 Historical governing specification: [Deep Research bootstrap](2026-09-07-deep-research-skills-new-project-bootstrap-process.md).  
 Future-stage amendment from Stage 16 onward: [README and implementation sequence amendment](2026-09-11-deep-research-bootstrap-stage-amendment.md).
 
-**Current checkpoint: Stage 19 COMPLETE. Verified content commit: `81b5b556d02c4a2af4314bf7afd8ab04319fb8ef`. Stage 20 is next and has not started.**
+**Current checkpoint: Stage 20 COMPLETE. See the Stage 20 completion commit containing this record, descending from `d91625916c183ee810c4f7f303bd54b055fb6a14`. Stage 21 is next and has not started.**
 
-The source scaffold and one actual source-checkout producer/evaluator vertical have passed their scoped checks. Installation, the wider progression and pack behaviour retain their distinct gates. No merge, release, ready PR or registry promotion is authorised by this index.
+The source scaffold, core vertical, fifteen-example progression and both bounded pack comparisons have execution evidence. Individual research-support and replay limits remain explicit; installation retains its separate gate. No merge, release, ready PR or registry promotion is authorised by this index.
 
 ## Accepted stages
 
@@ -34,6 +34,7 @@ Stages 1–14 have content acceptance PASS and remote publication verification P
 | 17 | Cross-Project Review | Stage 17 branch commit | Stage 17 cross-project log, review contracts and verification |
 | 18 | Scaffold Repository and Preserve Public README | `0d708a7fee2ec95effb345d10677b2c53f292155` | Stage 18 scaffold, claims, executed verification and remote publication receipt |
 | 19 | Implement and Prove Core Vertical | `81b5b556d02c4a2af4314bf7afd8ab04319fb8ef` | Actual L1-01 producer, full audit, preserved repair, focused re-audit, verification and publication receipt |
+| 20 | Expand Progressive Coverage and Extension Packs | Completion commit containing this record | Fifteen actual cases, required reviews/repairs, two pack comparisons, retained initial OSS failure and passing 0.1.1 repair |
 
 ## Stage 15 historical record
 
@@ -121,10 +122,19 @@ Evidence:
 
 No installation, all-example performance, pack effect or maturity claim follows from this one source-checkout run.
 
+## Stage 20 content
+
+Status: COMPLETE within the source-checkout execution scope. The [execution and conformance record](2026-09-13-stage-20-execution.md), [actual results and reviews](../../benchmarks/progressive/README.md), [verification](2026-09-13-stage-20-verification.json) and [claims supplement](2026-09-13-stage-20-public-claims-ledger.md) preserve the evidence.
+
+- All fifteen exact primary cases were executed, with required self-checks or separate reviews. Incomplete support and inherited replay limits remain visible.
+- Scholarly 0.1.0 passed its bounded differential. Open-source 0.1.0 failed; its preserved failure led to a scoped 0.1.1 method repair and one passing fresh comparison.
+- Creator revision/reuse/rejection decisions, thirty-two original controls and eight affected controls were actually exercised.
+- Existing repository checks and all 22 existing tests passed. The only preservation-fixture update recognises the already-published upstream bootstrap restoration at d916259.
+- Both packs retain installed_tested=false. No deployment, clean installation, engine/model benchmark or registry promotion is claimed.
+
 ## Amended future sequence
 
 ```text
-20 Expand Progressive Coverage and Extension Packs
 21 Configure Skill Installation
 22 Local Validation and Public README Conformance
 23 Publish + Clean External Install Smoke Test + Claims Reconciliation
@@ -134,4 +144,4 @@ No installation, all-example performance, pack effect or maturity claim follows 
 
 The original Stage 14 specifications remain immutable. Any old future stage numbers inside those completed specifications are interpreted through the amendment mapping rather than edited retroactively.
 
-Stage 20 is next. This session stops at fully verified Stage 19 under execution contract §17 (context safety). Stage 20 has not started. Resume from the verified content commit above plus the Stage 19 receipt/progress bookkeeping commit; reconstruct the complete next-stage acceptance contract before execution.
+Stage 21 is next. Resume from the Stage 20 completion commit and reconstruct the installation acceptance contract before executing that stage. Preserve the bounded research findings and their limitations.

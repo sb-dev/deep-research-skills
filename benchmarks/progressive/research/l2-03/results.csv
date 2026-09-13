@@ -1,0 +1,9 @@
+data_provider,repair_status,count,denominator_all_statuses,share
+Fixit Clinic,End of life,12,316,0.037974683544
+Fixit Clinic,Fixed,178,316,0.563291139241
+Fixit Clinic,Repairable,82,316,0.259493670886
+Fixit Clinic,Unknown,44,316,0.139240506329
+Repair Cafe Wales,End of life,781,17207,0.045388504678
+Repair Cafe Wales,Fixed,13659,17207,0.793804846865
+Repair Cafe Wales,Repairable,2084,17207,0.121113500320
+Repair Cafe Wales,Unknown,683,17207,0.039693148137

@@ -1,0 +1,17 @@
+URL: https://community.crossref.org/t/refining-rest-api-limits-for-improved-stability-and-reliability/16137.json
+Retrieved: 2026-09-13
+Topic: Refining REST API limits for improved stability and reliability
+Author: mrittman
+Created: 2026-07-21T08:34:42.861Z
+Updated: 2026-07-21T08:34:42.861Z
+Original forum cooked HTML:
+<p>From today, 21 July 2026, we will be implementing changes to REST API limits to better reflect different types of REST API requests. This is a continuation of <a href="https://community.crossref.org/t/updates-to-rest-api-rate-limits/14872">changes we started late last year</a>.</p>
+<p>Many downstream systems and repositories rely on our metadata to function and service their clients. These changes are being made to maintain the stability of our system, to keep the REST API reliable as usage and volume of metadata continue to grow.</p>
+<p>These changes will affect a small number of users who make large volumes of complex requests using multiple IP addresses. Most users will not notice the changes.</p>
+<p><strong>Rate limiting based on the type of request</strong></p>
+<p>Going forward, rate limits will be based on the type of request. Single-record requests, such as looking up one DOI, retain higher limits because they’re lightweight; whereas multi-record requests, such as those using queries and filters,  will have lower limits because they are more resource-intensive. The limits depend on the <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/">API pool</a>.</p>
+<p>Requests for a single record remain unchanged at 5 requests per second for the public pool and 10 requests per second for the polite pool. Requests that return lists of records are limited to 1 request per second for the public pool and 3 requests per second for the polite pool.</p>
+<p>Rate limits appear in the response headers: <code>x-rate-limit-limit</code>, <code>x-rate-limit-interval</code>, and a new header to indicate the type of request, <code>x-rate-limit-type</code>. We strongly encourage users to check response headers for the rate limit and the HTTP response codes. A 429 response code indicates rate limiting. If you see this response, take a pause then send requests at a lower rate.</p>
+<p><strong>Rate limiting based on email address</strong></p>
+<p>We encourage users to provide a valid email address using the <code>mailto</code> parameter so that we can contact you in case of issues. This gives access to the polite pool and higher rate limits. In order to ensure that users are not using multiple IP addresses to bypass rate limits, we will rate-limit by email address.</p>
+<p>Note that this may affect users who are part of a group using a default email address in requests (such as <a href="mailto:info@example.com">info@example.com</a>), because all such users will be rate limited together. We don’t currently ask for validation of email addresses and rely on users to provide a functioning address via which we can contact them. Repeated use of invalid email addresses could lead to your API access being blocked if we aren’t able to contact you in case of a problem.</p>

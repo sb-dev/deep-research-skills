@@ -1,0 +1,105 @@
+snapshot,coverage,data_provider,repair_status,count,denominator_all_statuses,share
+202407,powered,ALL,End of life,52266,208491,0.250687080018
+202407,powered,ALL,Fixed,110731,208491,0.531106858330
+202407,powered,ALL,Repairable,38226,208491,0.183346043714
+202407,powered,ALL,Unknown,7268,208491,0.034860017938
+202407,powered,Fixit Clinic,End of life,111,919,0.120783460283
+202407,powered,Fixit Clinic,Fixed,362,919,0.393906420022
+202407,powered,Fixit Clinic,Repairable,245,919,0.266594124048
+202407,powered,Fixit Clinic,Unknown,201,919,0.218715995647
+202407,powered,Repair Cafe Wales,End of life,2890,14292,0.202211027148
+202407,powered,Repair Cafe Wales,Fixed,7269,14292,0.508606213266
+202407,powered,Repair Cafe Wales,Repairable,2767,14292,0.193604813882
+202407,powered,Repair Cafe Wales,Unknown,1366,14292,0.095577945704
+202407,powered,Repair Café Denmark,End of life,4584,17203,0.266465151427
+202407,powered,Repair Café Denmark,Fixed,10710,17203,0.622565831541
+202407,powered,Repair Café Denmark,Repairable,320,17203,0.018601406731
+202407,powered,Repair Café Denmark,Unknown,1589,17203,0.092367610301
+202407,powered,Repair Café International,End of life,23551,75252,0.312961781747
+202407,powered,Repair Café International,Fixed,39760,75252,0.528358050284
+202407,powered,Repair Café International,Repairable,11940,75252,0.158666879286
+202407,powered,Repair Café International,Unknown,1,75252,0.000013288683
+202407,powered,Repair Café Toronto,End of life,377,4277,0.088145896657
+202407,powered,Repair Café Toronto,Fixed,773,4277,0.180734159458
+202407,powered,Repair Café Toronto,Repairable,171,4277,0.039981295300
+202407,powered,Repair Café Toronto,Unknown,2956,4277,0.691138648585
+202407,powered,Repair Connects,End of life,433,2885,0.150086655113
+202407,powered,Repair Connects,Fixed,1592,2885,0.551819757366
+202407,powered,Repair Connects,Repairable,860,2885,0.298093587522
+202407,powered,Repair Connects,Unknown,0,2885,0.000000000000
+202407,powered,The Restart Project,End of life,15311,72294,0.211787976872
+202407,powered,The Restart Project,Fixed,38201,72294,0.528411763079
+202407,powered,The Restart Project,Repairable,18225,72294,0.252095609594
+202407,powered,The Restart Project,Unknown,557,72294,0.007704650455
+202407,powered,anstiftung,End of life,5009,21369,0.234404979175
+202407,powered,anstiftung,Fixed,12064,21369,0.564556132716
+202407,powered,anstiftung,Repairable,3698,21369,0.173054424634
+202407,powered,anstiftung,Unknown,598,21369,0.027984463475
+202507,powered,ALL,End of life,77709,305649,0.254242611623
+202507,powered,ALL,Fixed,165144,296902,0.556223939212
+202507,powered,ALL,Repairable,54049,305649,0.176833557447
+202507,powered,ALL,Unknown,8747,305649,0.028617793613
+202507,powered,Fixit Clinic,End of life,121,1033,0.117134559535
+202507,powered,Fixit Clinic,Fixed,413,1033,0.399806389158
+202507,powered,Fixit Clinic,Repairable,267,1033,0.258470474347
+202507,powered,Fixit Clinic,Unknown,232,1033,0.224588576960
+202507,powered,Repair Cafe Wales,End of life,4001,20190,0.198167409609
+202507,powered,Repair Cafe Wales,Fixed,10474,20190,0.518771669143
+202507,powered,Repair Cafe Wales,Repairable,3808,20190,0.188608221892
+202507,powered,Repair Cafe Wales,Unknown,1907,20190,0.094452699356
+202507,powered,Repair Café Denmark,End of life,9096,29929,0.303919275619
+202507,powered,Repair Café Denmark,Fixed,19638,29929,0.656152895185
+202507,powered,Repair Café Denmark,Repairable,2,29929,0.000066824819
+202507,powered,Repair Café Denmark,Unknown,1193,29929,0.039861004377
+202507,powered,Repair Café International,End of life,33018,105485,0.313011328625
+202507,powered,Repair Café International,Fixed,56158,105485,0.532379011234
+202507,powered,Repair Café International,Repairable,16308,105485,0.154600180120
+202507,powered,Repair Café International,Unknown,1,105485,0.000009480021
+202507,powered,Repair Café Toronto,End of life,469,5567,0.084246452308
+202507,powered,Repair Café Toronto,Fixed,1132,5567,0.203341117298
+202507,powered,Repair Café Toronto,Repairable,227,5567,0.040776001437
+202507,powered,Repair Café Toronto,Unknown,3739,5567,0.671636428956
+202507,powered,Repair Connects,End of life,433,2885,0.150086655113
+202507,powered,Repair Connects,Fixed,1592,2885,0.551819757366
+202507,powered,Repair Connects,Repairable,860,2885,0.298093587522
+202507,powered,Repair Connects,Unknown,0,2885,0.000000000000
+202507,powered,The Restart Project,End of life,22960,107836,0.212915909344
+202507,powered,The Restart Project,Fixed,56964,107836,0.528246596684
+202507,powered,The Restart Project,Repairable,27109,107836,0.251391001150
+202507,powered,The Restart Project,Unknown,803,107836,0.007446492822
+202507,powered,anstiftung,End of life,7611,32724,0.232581591492
+202507,powered,anstiftung,Fixed,18773,32724,0.573676812126
+202507,powered,anstiftung,Repairable,5468,32724,0.167094487227
+202507,powered,anstiftung,Unknown,872,32724,0.026647109155
+202507,unpowered-summary,ALL,End of life,7165,135419,0.052909857553
+202507,unpowered-summary,ALL,Fixed,112474,135419,0.830562919531
+202507,unpowered-summary,ALL,Repairable,11512,135419,0.085010227516
+202507,unpowered-summary,ALL,Unknown,4268,135419,0.031516995399
+202507,unpowered-summary,Fixit Clinic,End of life,12,316,0.037974683544
+202507,unpowered-summary,Fixit Clinic,Fixed,178,316,0.563291139241
+202507,unpowered-summary,Fixit Clinic,Repairable,82,316,0.259493670886
+202507,unpowered-summary,Fixit Clinic,Unknown,44,316,0.139240506329
+202507,unpowered-summary,Repair Cafe Wales,End of life,781,17207,0.045388504678
+202507,unpowered-summary,Repair Cafe Wales,Fixed,13659,17207,0.793804846865
+202507,unpowered-summary,Repair Cafe Wales,Repairable,2084,17207,0.121113500320
+202507,unpowered-summary,Repair Cafe Wales,Unknown,683,17207,0.039693148137
+202507,unpowered-summary,Repair Café Denmark,End of life,990,7494,0.132105684548
+202507,unpowered-summary,Repair Café Denmark,Fixed,6277,7494,0.837603416066
+202507,unpowered-summary,Repair Café Denmark,Repairable,0,7494,0.000000000000
+202507,unpowered-summary,Repair Café Denmark,Unknown,227,7494,0.030290899386
+202507,unpowered-summary,Repair Café International,End of life,3216,42773,0.075187618357
+202507,unpowered-summary,Repair Café International,Fixed,36615,42773,0.856030673556
+202507,unpowered-summary,Repair Café International,Repairable,2940,42773,0.068734949618
+202507,unpowered-summary,Repair Café International,Unknown,2,42773,0.000046758469
+202507,unpowered-summary,Repair Café Toronto,End of life,143,4435,0.032243517475
+202507,unpowered-summary,Repair Café Toronto,Fixed,1267,4435,0.285682074408
+202507,unpowered-summary,Repair Café Toronto,Repairable,97,4435,0.021871476888
+202507,unpowered-summary,Repair Café Toronto,Unknown,2928,4435,0.660202931229
+202507,unpowered-summary,The Restart Project,End of life,1694,56972,0.029733904374
+202507,unpowered-summary,The Restart Project,Fixed,49059,56972,0.861107210560
+202507,unpowered-summary,The Restart Project,Repairable,5879,56972,0.103191041213
+202507,unpowered-summary,The Restart Project,Unknown,340,56972,0.005967843853
+202507,unpowered-summary,anstiftung,End of life,329,6222,0.052876888460
+202507,unpowered-summary,anstiftung,Fixed,5419,6222,0.870941819351
+202507,unpowered-summary,anstiftung,Repairable,430,6222,0.069109611058
+202507,unpowered-summary,anstiftung,Unknown,44,6222,0.007071681131

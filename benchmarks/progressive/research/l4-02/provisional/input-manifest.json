@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/openrepair/data",
+  "commit": "90eba80740506b4fa283288780d34e9e7e01deef",
+  "data_cap_bytes": 150000000,
+  "total_acquired_data_bytes": 98743984,
+  "inputs": [
+    {
+      "snapshot": "202407",
+      "coverage": "powered",
+      "path": "aggregated/202407/OpenRepairData_v0.3_aggregate_202407.csv",
+      "local_path": "/workspace/scratch/b99193148918/openrepair-inputs/OpenRepairData_v0.3_aggregate_202407.csv",
+      "url": "https://raw.githubusercontent.com/openrepair/data/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202407/OpenRepairData_v0.3_aggregate_202407.csv",
+      "git_blob": "196b2350d6e05480a4c0c03b85c0ef39ec87d3fd",
+      "bytes": 40282065,
+      "sha256": "f2c04a26b4e490893ecab559dea08a684b7f9198b1ac03072ac1b094e5cc6b6e",
+      "access": "complete CSV; streaming read",
+      "retrieved_at": "2026-09-13"
+    },
+    {
+      "snapshot": "202507",
+      "coverage": "powered",
+      "path": "aggregated/202507/OpenRepairData_v0.3_aggregate_202507.csv",
+      "local_path": "/workspace/scratch/b99193148918/openrepair-inputs/OpenRepairData_v0.3_aggregate_202507.csv",
+      "url": "https://raw.githubusercontent.com/openrepair/data/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202507/OpenRepairData_v0.3_aggregate_202507.csv",
+      "git_blob": "74c911c383dd69c8be532283cd39de88db4a55a4",
+      "bytes": 58453790,
+      "sha256": "364d741b39b40ce955a5a9f83adf9776b3f40f2f857cc2cd96b6ae1818aabe82",
+      "access": "complete CSV; streaming read",
+      "retrieved_at": "2026-09-13"
+    },
+    {
+      "snapshot": "202507",
+      "coverage": "unpowered-summary",
+      "path": "aggregated/202507/OpenRepairData_v0.3_unpowered_202507.csv",
+      "local_path": "/workspace/scratch/b99193148918/deep-research-skills/benchmarks/progressive/research/l4-02/sources/OpenRepairData_v0.3_unpowered_202507.csv",
+      "url": "https://raw.githubusercontent.com/openrepair/data/90eba80740506b4fa283288780d34e9e7e01deef/aggregated/202507/OpenRepairData_v0.3_unpowered_202507.csv",
+      "git_blob": "6e070cdff8ec12089038c0eb27035d308aebd70d",
+      "bytes": 8129,
+      "sha256": "0a27af4cfb5187059f68efe11e21df5fbe66f99050e0520c96eeb1dc38f660aa",
+      "access": "complete CSV; streaming read",
+      "retrieved_at": "2026-09-13"
+    }
+  ],
+  "unpowered_202407": "not present in inspected release tree or schema; unavailable, never zero",
+  "licence": "CC BY-SA 4.0; Open Repair Alliance and contributing providers"
+}
